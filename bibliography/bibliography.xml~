@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliography version="5.0" xmlns="http://docbook.org/ns/docbook"
+		 xmlns:xlink="http://www.w3.org/1999/xlink"
+		 xmlns:xi="http://www.w3.org/2001/XInclude"
+		 xmlns:svg="http://www.w3.org/2000/svg"
+		 xmlns:m="http://www.w3.org/1998/Math/MathML"
+		 xmlns:html="http://www.w3.org/1999/xhtml"
+		 xmlns:db="http://docbook.org/ns/docbook">
+	<title>List of supplied manuals</title>
+
+	<biblioentry>
+		<abbrev>abel1</abbrev>
+		<publisher><publishername/>Abeltronics</publisher>
+		<title>Low voltage dual output PWM dimmer modules</title>
+    </biblioentry>
+
+	<biblioentry>
+		<abbrev>acti1</abbrev>
+		<publisher><publishername/>Active Research Ltd</publisher>
+		<title>Actisense quick network block QNB-1-B</title>
+        <subtitle>User manual</subtitle>
+    </biblioentry>
+
+	<biblioentry>
+		<abbrev>acti2</abbrev>
+		<publisher><publishername/>Active Research Ltd</publisher>
+		<title>Actisense quick network block QNB-1-B</title>
+        <subtitle>User manual</subtitle>
+    </biblioentry>
+
+	<biblioentry>
+		<abbrev>afri1</abbrev>
+		<publisher><publishername/>Afriso Euro-Index</publisher>
+		<title>Automatisher Heizolentlufter mit integriertem Filter</title>
+        <subtitle>Betriebsanleitung</subtitle>
+    </biblioentry>
+
+	<biblioentry>
+	    <abbrev>anco1</abbrev>
+		<publisher><publishername/>Ancor srl</publisher>
+		<title>Pre-filter Gasoil PFG14...</title>
+        <subtitle>Instruction's Guide</subtitle>
+	</biblioentry>
+
+	<biblioentry>
+	    <abbrev>axon1</abbrev>
+		<publisher><publishername/>Axon Components Ltd</publisher>
+		<title>AX-500 12V Battery Switch</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>beta1</abbrev>
+		<publisher><publishername/>Beta Marine Ltd</publisher>
+		<title>Wiring schematic for C-panel (deluxe) after May 2011</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>blok1</abbrev>
+		<publisher><publishername/>Blokland non-ferro bv</publisher>
+		<title>Mounting instruction fixed stuffing boxes</title>
+        <date>17 Jan 2013</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>blok2</abbrev>
+		<publisher><publishername/>Blokland non-ferro bv</publisher>
+		<title>Installatie en onderhoudswoorschriften vor BLOKLAND U-bundelkoelers</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>come1</abbrev>
+		<publisher><publishername/>Comeup Industries</publisher>
+		<title>Heavy Duty Hoist GDT-2200</title>
+        <subtitle>Instruction manual</subtitle>
+        <date>Oct 2015</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>deut1</abbrev>
+		<publisher><publishername/>Deutz AG</publisher>
+		<title>Installation guide for diesel engines - Ship segment BFM1 1013M</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>grun1</abbrev>
+		<publisher><publishername/>Grundfos Holding</publisher>
+		<title>Alpha 1 / Alpha 2L</title>
+        <subtitle>Instructions</subtitle>
+        <date>20 Apr 2016</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>hone1</abbrev>
+		<publisher><publishername/>Honeywell Security</publisher>
+		<title>Accenta/Optima Engineer's Manual</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>hone2</abbrev>
+		<publisher><publishername/>Honeywell</publisher>
+		<title>3-way Balanced Valves</title>
+        <subtitle>Mounting instructions</subtitle>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>hone2</abbrev>
+		<publisher><publishername/>Honeywell Security</publisher>
+		<title>Accenta/Optima User Guide</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>iwak1</abbrev>
+		<publisher><publishername/>Iwaki Pumps</publisher>
+		<title>Iwaki Magnetic Drive Pump MD-R (M) type</title>
+        <subtitle>Instruction Manual</subtitle>
+        <date>Sep 2010</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>kobe1</abbrev>
+		<publisher><publishername/>Kobelt</publisher>
+		<title>Installation instructions for single lever controls</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>prm1</abbrev>
+		<publisher><publishername/>PRM Marine Gearboxes</publisher>
+		<title>Owner's handbook</title>
+	</biblioentry>
+
+    <biblioentry>
+		<abbrev>prm2</abbrev>
+		<publisher><publishername/>PRM Marine Gearboxes</publisher>
+		<title>Gebruikershandleiding</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>pyth1</abbrev>
+		<publisher><publishername/>www.pythondrive.com</publisher>
+		<title>Python-Drive</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>sani1</abbrev>
+		<publisher><publishername/>Saniflo Ltd</publisher>
+		<title>SaniCondens Pro</title>
+        <subtitle>Installation instructions</subtitle>
+        <date>Feb 2015</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>sani2</abbrev>
+		<publisher><publishername/>Saniflo Ltd</publisher>
+		<title>Pump 3</title>
+        <subtitle>Important additional information</subtitle>
+        <date>Jan 2015</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>sani3</abbrev>
+		<publisher><publishername/>Saniflo Ltd</publisher>
+		<title>Access Pump 453</title>
+        <subtitle>Important additional information</subtitle>
+        <date>Jan 2015</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>sani4</abbrev>
+		<publisher><publishername/>Saniflo Ltd</publisher>
+		<title>Compact</title>
+        <subtitle>Important additional information</subtitle>
+        <date>Dec 2015</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>sani5</abbrev>
+		<publisher><publishername/>Saniflo Ltd</publisher>
+		<title>Douche flat / Shower flat</title>
+        <subtitle>Installation instructions</subtitle>
+        <date>Feb 2015</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>spec1</abbrev>
+		<publisher><publishername/>Speck-Kolbenpumpenfabrik</publisher>
+		<title>SPECK-Pumpmeister und Pumpwerke</title>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>vict1</abbrev>
+		<publisher><publishername/>Victron Energy</publisher>
+		<title>Battery monitor BMV-700 &amp; BMV-702</title>
+        <subtitle>Quick-installation guide</subtitle>
+        <date>01 Jan 2014</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>vict2</abbrev>
+		<publisher><publishername/>Victron Energy</publisher>
+		<title>Quattro</title>
+        <subtitle>Manual</subtitle>
+        <date>11 Feb 2014</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>vict3</abbrev>
+		<publisher><publishername/>Victron Energy</publisher>
+		<title>Orion DC-DC converters, not isolated</title>
+        <date>23 Nov 2012</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>vict4</abbrev>
+		<publisher><publishername/>Victron Energy</publisher>
+		<title>Orion DC-DC converters, not isolated</title>
+        <date>23 Nov 2012</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>vict5</abbrev>
+		<publisher><publishername/>Victron Energy</publisher>
+		<title>Battery monitor MV-700...</title>
+        <subtitle>Manual</subtitle>
+        <date>10 Feb 2016</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>vict6</abbrev>
+		<publisher><publishername/>Victron Energy</publisher>
+		<title>Blue power IP22 charger</title>
+        <subtitle>Manual</subtitle>
+        <date>20 Mar 2015</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>vict7</abbrev>
+		<publisher><publishername/>Victron Energy</publisher>
+		<title>Blue power IP22 charger</title>
+        <subtitle>Manual</subtitle>
+        <date>02 Mar 2016</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>vict8</abbrev>
+		<publisher><publishername/>Victron Energy</publisher>
+		<title>Isolation transformer 7000W</title>
+        <subtitle>Manual</subtitle>
+        <date>05 Oct 2010</date>
+	</biblioentry>
+
+	<biblioentry>
+		<abbrev>vict9</abbrev>
+		<publisher><publishername/>Victron Energy</publisher>
+		<title>Digital Multi Control GX Panel</title>
+        <subtitle>Manual</subtitle>
+        <date>19 Nov 2010</date>
+	</biblioentry>
+
+  </bibliography>
+
+

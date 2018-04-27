@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>LPG system</title>
+
+  <mediaobject>
+    <imageobject>
+      <imagedata align="center" contentwidth="15cm"
+                 fileref="resources/propane-system.png"/>
+    </imageobject>
+  </mediaobject>
+
+  <para>The LPG system consists of a storage facility in the ship's
+  fore-locker connected by rigid, low-pressure, pipework to distribution
+  manifold located in the galley. A remote isolator valve located close the
+  cylinders in the fore-locker is operated by a switch in the galley.</para>
+
+  <para>An LPG gas sensor is located in the galley bilge with an alarm
+  annunciator in the galley itself.</para>
+
+  <section>
+    <title>Cylinders and cylinder locker</title>
+
+    <para>A maximum of two 11kg LPG gas cylinders may be installed in twin gas
+    lockers located in the ship's fore-locker. The gas lockers are vented to
+    the outside of the vessel at the bow. </para>
+  </section>
+
+  <section>
+    <title>Pressure regulator</title>
+
+    <para>Gas regulators are fitted directly to each gas bottle with
+    low-pressure flexible connections to service valves located outside the
+    gas locker.</para>
+  </section>
+
+  <section>
+    <title>Oven and hob</title>
+
+    <para/>
+  </section>
+
+  <section>
+    <title>Advice for LPG systems on-board</title>
+
+    <para/>
+  </section>
+</section>

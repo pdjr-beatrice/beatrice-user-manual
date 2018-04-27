@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Hydraulics</title>
+
+  <para>The ship's hydraulic system is powered by a permanently engaged pump
+  connected to the main engine gearbox power take-off port.</para>
+
+  <para>Pressurised oil is pumped to the adjacent reservoir and distribution
+  unit. The distribution unit valve block includes an 'orbitrol' system for
+  assisted steering and two electrically operated load-sense valves, one
+  high-pressure, one low-pressure, which feed fluid to a subsidiary valve
+  block located in the fore-locker which in turn operates the anchor windlass
+  motor, mast hydraulic cylinder and bow-thruster motor.</para>
+
+  <para><inlinemediaobject>
+      <imageobject>
+        <imagedata contentwidth="1cm"
+                   fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+      </imageobject>
+    </inlinemediaobject> Do not alter any of the system settings</para>
+
+  <para><inlinemediaobject>
+      <imageobject>
+        <imagedata contentwidth="1cm"
+                   fileref="RESOURCES/images/DIN_4844-2/mandatory/M000_general.svg"/>
+      </imageobject>
+    </inlinemediaobject> Do ensure that the oil level in the reservoir remains
+  topped up</para>
+
+  <para><inlinemediaobject>
+      <imageobject>
+        <imagedata contentwidth="1cm"
+                   fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+      </imageobject>
+    </inlinemediaobject> </para>
+</section>

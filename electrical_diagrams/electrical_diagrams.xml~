@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Electrical diagrams</title>
+
+  <para>This section includes circuit diagrams for all the vessel's
+  distribution cabinets and panels.</para>
+
+  <informaltable>
+    <tgroup cols="4">
+      <thead>
+        <row>
+          <entry>Distribution cabinet</entry>
+
+          <entry>Type</entry>
+
+          <entry>Location</entry>
+
+          <entry>Function</entry>
+        </row>
+      </thead>
+
+      <tbody>
+        <row>
+          <entry>C0</entry>
+
+          <entry>24VDC</entry>
+
+          <entry>Battery compartment (galley)</entry>
+
+          <entry>Main DC distribution cabinet. Battery power to all shipboard
+          consumers.</entry>
+        </row>
+
+        <row>
+          <entry>C1</entry>
+
+          <entry>230VAC</entry>
+
+          <entry>Lower deck lobby</entry>
+
+          <entry>Main AC distribution cabinet. Power circuits for guest cabin,
+          office, day head, lobby and galley.</entry>
+        </row>
+
+        <row>
+          <entry>C2</entry>
+
+          <entry>230VAC</entry>
+
+          <entry>Lower deck lobby</entry>
+
+          <entry>Lighting circuits for guest cabin, office, day head, lobby
+          and galley. Intruder alarm.</entry>
+        </row>
+
+        <row>
+          <entry>C3</entry>
+
+          <entry>24VDC</entry>
+
+          <entry>Master cabin</entry>
+
+          <entry>NMEA interface. Fore-locker and mast equipment.</entry>
+        </row>
+
+        <row>
+          <entry>C4</entry>
+
+          <entry>230VAC</entry>
+
+          <entry>Saloon</entry>
+
+          <entry>Lighting and power circuits for master cabin, en-suite and
+          saloon.</entry>
+        </row>
+
+        <row>
+          <entry>C5a</entry>
+
+          <entry>230VAC</entry>
+
+          <entry>Engine room</entry>
+
+          <entry>Engine room equipment AC supplies.</entry>
+        </row>
+
+        <row>
+          <entry>C5b</entry>
+
+          <entry>230VAC</entry>
+
+          <entry>Engine room</entry>
+
+          <entry>Engine room equipment AC control interface.</entry>
+        </row>
+
+        <row>
+          <entry>C5c</entry>
+
+          <entry>24VDC</entry>
+
+          <entry>Engine room</entry>
+
+          <entry>NMEA interface. Engine room DC services.</entry>
+        </row>
+
+        <row>
+          <entry>C6</entry>
+
+          <entry>230VAC</entry>
+
+          <entry>Fore locker</entry>
+
+          <entry>Lighting and power for fore locker.</entry>
+        </row>
+
+        <row>
+          <entry>Main engine interface</entry>
+
+          <entry>24VDC</entry>
+
+          <entry>Engine room</entry>
+
+          <entry>Engine - helm control panel connection.</entry>
+        </row>
+
+        <row>
+          <entry>Thermal store interface</entry>
+
+          <entry>230VAC</entry>
+
+          <entry>Engine room</entry>
+
+          <entry>Thermostat, heat exchanger and boiler control.</entry>
+        </row>
+
+        <row>
+          <entry>Domestic panel</entry>
+
+          <entry>24VDC</entry>
+
+          <entry>Lower companionway</entry>
+
+          <entry>Ship's master panel</entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </informaltable>
+
+  <section>
+    <title>Distribution cabinet C0</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="17cm"
+                   fileref="resources/dc_main.png"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Distribution cabinet C1</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="15cm"
+                   fileref="resources/ac-c1.png"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Distribution cabinet C2</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="15cm"
+                   fileref="resources/ac-c2.png"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Distribution cabinet C3</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="17cm"
+                   fileref="resources/dc-c3.png"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Distribution cabinet C4</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="15cm"
+                   fileref="resources/dc-c4.png"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Distribution cabinet C5C</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="17cm"
+                   fileref="resources/dc-c5c.png"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Domestic panel</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="17cm"
+                   fileref="resources/dc-domestic.png"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Main engine interface</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="17cm"
+                   fileref="resources/dc-c5d.png"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Thermal store interface</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="17cm"
+                   fileref="resources/dc-c5e.png"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+</chapter>

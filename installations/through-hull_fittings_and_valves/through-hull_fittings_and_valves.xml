@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Through-hull fittings and valves</title>
+
+  <figure>
+    <title>Through-hull penetrations</title>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" contentwidth="15cm"
+                   fileref="resources/through_hull_penetrations.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para>There are four below-waterline hull penetrations and two penetrations
+  for heat exchanger coils which are just above the waterline at normal
+  trim.</para>
+
+  <informaltable>
+    <tgroup cols="2">
+      <thead>
+        <row>
+          <entry>Penetration</entry>
+
+          <entry>Access</entry>
+        </row>
+      </thead>
+
+      <tbody>
+        <row>
+          <entry>Sea cock (waste discharge)</entry>
+
+          <entry>Floor hatch in master cabin (starboard side).</entry>
+        </row>
+
+        <row>
+          <entry>Sea cock (chiller cooling water intake)</entry>
+
+          <entry>Engine room (port side)</entry>
+        </row>
+
+        <row>
+          <entry>Sea cock (chiller cooling water outlet)</entry>
+
+          <entry>Engine room (port side)</entry>
+        </row>
+
+        <row>
+          <entry>Heat-exchanger (generator)</entry>
+
+          <entry>Engine room (port side)</entry>
+        </row>
+
+        <row>
+          <entry>Heat-exchanger (main engine)</entry>
+
+          <entry>Engine room (port side)</entry>
+        </row>
+
+        <row>
+          <entry>Sensor (depth/log sensor)</entry>
+
+          <entry>Floor hatch in master cabin (below bed)</entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </informaltable>
+
+  <section>
+    <title>Hull penetrating sensors</title>
+
+    <para>The hull is penetrated by a single combined depth/log/temperature
+    sensor installed in the main compartment hull.</para>
+  </section>
+
+  <section>
+    <title>Hull ports and sea-cocks</title>
+
+    <para/>
+  </section>
+</section>

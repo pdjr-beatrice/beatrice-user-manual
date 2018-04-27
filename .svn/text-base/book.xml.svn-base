@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:m="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info>
+    <title>The Last of Her Line</title>
+
+    <author>
+      <personname><firstname>Diane</firstname><surname>Reeve</surname></personname>
+    </author>
+
+    <pubdate>tbc</pubdate>
+
+    <copyright>
+      <year>2012</year>
+
+      <holder>Diane Reeve</holder>
+    </copyright>
+
+    <legalnotice>
+      <para>Diane Reeve asserts her moral right to be identified as the author
+      of this work.</para>
+    </legalnotice>
+  </info>
+
+  <xi:include href="chapter01.xml" xpointer="element(/1)" />
+
+  <xi:include href="chapter02.xml" xpointer="element(/1)" />
+
+  <xi:include href="chapter03.xml" xpointer="element(/1)" />
+
+  <xi:include href="chapter04.xml" xpointer="element(/1)" />
+</book>

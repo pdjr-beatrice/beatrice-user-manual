@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Fire prevention and fire fighting systems</title>
+
+  <section>
+    <title>Fire detection and alarm system</title>
+
+    <para>The vessel is equipped with a central fire detection and alarm
+    system which covers all compartments of the vessel and all living spaces
+    in the main compartment. Operation of the alarm system is fully documented
+    in the manufacturer's manual.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Detectors are tailored to the space in which they
+    are installed and in the event of failure must be replaced with a detector
+    with a similar scope of application.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+        </imageobject>
+      </inlinemediaobject> Operation of the alarm system is fully documented
+    in the manufacturer's manual.</para>
+  </section>
+
+  <section>
+    <title>Manual fire-fighting equipment</title>
+
+    <para>Manual fire extinguishers are installed in clearly visible locations
+    in the wheelhouse, saloon and lower deck lobby. A fire blanket is
+    installed in the galley.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Have extinguishers checked at the calendar
+    intervals indicated on the equipment.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Replace expired or discharged extinguishers with
+    devices of identical or greater fire fighting capacity.</para>
+  </section>
+
+  <section>
+    <title>Automatic fire-fighting equipment</title>
+
+    <para>Automatic fire extinguishing systems are installed in the engine
+    room and fore-locker. Both systems use Firetrace&amp;reg; tubing as the
+    distribution, detection and discharge medium and deploy Novec 1230 as the
+    fire suppressant.</para>
+
+    <para>The engine-room system is configured to givel local coverage of
+    flash-points including the interior of the generator casing. In the event
+    of a discharge in the engine room, an automatic switch disables the engine
+    room ventilation system to prevent fire suppressant being evacuated by the
+    engine room extractor fans.</para>
+
+    <para>The fore-locker system is designed to flood the entire locker
+    space.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Novec 1230 is an environmentally neutral,
+    non-toxic, halon replacement, but it can still cause asphyxiation - do not
+    enter the protected space after a system discharge without allowing the
+    suppressant to disperse.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+        </imageobject>
+      </inlinemediaobject> FILL ME IN</para>
+  </section>
+
+  <section>
+    <title>Fire prevention responsibilities</title>
+
+    <para>It is the responsibility of the skipper of the ship to:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>have fire-fighting equipment checked at the intervals indicated
+        on the equipment;</para>
+      </listitem>
+
+      <listitem>
+        <para>replace fire fighting equipment, if expired or discharged, by
+        devices of identical or greater fire fighting capacity;</para>
+      </listitem>
+
+      <listitem>
+        <para>inform members of the crew about:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>the location and operation of fire fighting
+            equipment;</para>
+          </listitem>
+
+          <listitem>
+            <para>the operation of the automatic extinguisher system and the
+            hazards it presents;</para>
+          </listitem>
+
+          <listitem>
+            <para>the location of escape hatches.</para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para>ensure that fire fighting equipment is readily accessible when
+        the vessel is occupied.</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+</section>

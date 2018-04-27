@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Control panels and infrastructure</title>
+
+  <para>Operation of the vessel is supported by two principal control panels
+  and a data communications infrastructure which allows
+  <emphasis>inter-alia</emphasis> controls to operate remote devices and
+  instruments to gather data from remote sensors.</para>
+
+  <para>The vessel uses the NMEA 2000 standard network architecture for data
+  communication between critical systems and notably for operation of remote
+  equipment via NMEA 2000 'switchbank' protocols.</para>
+
+  <para>Ethernet networks, both wired and wireless, are used to support
+  technical, domestic and entertainment activities and proprietary network
+  systems are used to interconnect components when there is no open or generic
+  alternative.</para>
+
+  <para>The vessel supports wide-area communication and control via SMS, email
+  and some proprietary protocols.</para>
+
+  <sect1>
+    <title>Infrastructure</title>
+
+    <sect2>
+      <title>NMEA 2000</title>
+
+      <para>The vessel is equipped with two NMEA 2000 buses and a dedicated
+      industrial PC responsible for operation of NMEA related features.</para>
+
+      <variablelist>
+        <varlistentry>
+          <term>NMEA BUS 0 ('domestic bus')</term>
+
+          <listitem>
+            <para>NMEA bus 0 supports instrumentation and control of the
+            ship's domestic or 'house' systems.</para>
+
+            <para>If this bus is not permanently enabled then very few of the
+            ship's systems can be operated.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>NMEA BUS 1 ('navigation bus')</term>
+
+          <listitem>
+            <para>NMEA bus 1 supports instrumentation and control related to
+            navigation of the vessel.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+
+      <para>The two networks are bridged at the helm so that communication on
+      one is visible on the other, but are powered separately. When navigation
+      instrumentation and control is not required then NMEA bus 1 should be
+      switched off at the domestic panel to conserve battery charge.</para>
+
+      <para>Most non-local switching activities on the ship are mediated over
+      NMEA 2000 and operating a switch at the helm will cause a signal to be
+      sent over the NMEA 2000 network which causes a relay in a remote part of
+      the vessel to change state. The relationship between switch operation
+      and relay state change is mapped through a programmable NMEA controller
+      which also supports some automatic convenience functions: for example,
+      the controller can monitor waste tank levels and issue SMS or email
+      alerts or initiate an automatic waste-discharge if a tank overflow is
+      imminent. The controller PC is accessible at
+      http://192.168.1.120:2000/.</para>
+    </sect2>
+
+    <sect2>
+      <title>Ethernet</title>
+
+      <para>The ship uses Ethernet as its default communication system for
+      non-critical data communications. In addition to a conventional file
+      server, a DLNA server distributes music and video and real-time TV from
+      satellite and terrestrial receivers over ipTV.</para>
+
+      <para>Some ship systems are available on the local Ethernet and some
+      more widely available.</para>
+
+      <sect3>
+        <title>Wired ethernet</title>
+
+        <para>A wired Ethernet network reaches all parts of the living
+        accommodation. An intelligent switch with QoS ensures that bandwidth
+        is managed in favour of critical services.</para>
+      </sect3>
+
+      <sect3>
+        <title>WiFi</title>
+
+        <para>The ship supports two physical WiFi networks and three virtual
+        networks. An on-board network (SSID=BEATRICE) is simply an extension
+        of the ship's wired Ethernet. An external WiFi network, switchable at
+        the helm, supports deck communications over VoIP (SSID=BEATRICE-VOIP)
+        and a public presence (SSID=BEATRICE-GUEST) as well as providing a
+        high-gain connection for access to remote wireless hubs.</para>
+      </sect3>
+
+      <sect3>
+        <title>WAN connectivity</title>
+
+        <para>The ship supports access to the Internet by both WiFi and
+        cellular connections.</para>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title>Email and SMS interfaces</title>
+
+      <para>The ship's NMEA controller offers some services over email and
+      SMS. Alerts for certain conditions can be selected for email or SMS
+      notification and some controls can be operated by SMS and/or
+      email.</para>
+    </sect2>
+
+    <sect2>
+      <title>Proprietary networks</title>
+
+      <para>The only proprietary netwoks on the vessel are the Victron VE-bus
+      which is used for communication between the charger-inverter and various
+      control panels and the Webasto network supporting the chiller and space
+      environmental controls.</para>
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>Control panels</title>
+
+    <sect2>
+      <title>Domestic panel</title>
+
+      <para>See <xref linkend="domestic-panel-schematic"/> for an electrical
+      schematic.</para>
+
+      <para>The domestic panel, located in the lower companionway, is the
+      ship's primary control panel bringigng together all of the ship's 'house
+      management' functions and providing controls for enabling and disabling
+      most of vessel's systems.</para>
+
+      <para>For most switches to actually do anything NMEA BUS 0 must be
+      enabled.</para>
+
+      <para><figure xml:id="domestic-panel-layout">
+          <title>Domestic panel layout</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata align="center" contentwidth="15cm"
+                         fileref="resources/domestic_panel.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure></para>
+
+      <sect3>
+        <title>Instruments and control panels</title>
+
+        <para>The domestic panel incorporates three sub-panels concerned
+        primarily with the ship's domestic battery bank and associated
+        systems.<footnote>
+            <para>The Color Control GX is also able to display tank level
+            information.</para>
+          </footnote></para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata contentwidth="1cm"
+                         fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+            </imageobject>
+          </inlinemediaobject> Refer to the manufacturer's user manuals for
+        information on the operation of these devices.</para>
+      </sect3>
+
+      <sect3>
+        <title>Indicator and switch controls</title>
+
+        <sect4>
+          <title>Indicators</title>
+
+          <para>All indicators on the domestic panel reflect the state of helm
+          alarm system channels.</para>
+
+          <variablelist>
+            <varlistentry>
+              <term>FIRE</term>
+
+              <listitem>
+                <para>Illuminates to indicate that a fire alarm signal is
+                active. Consult the fire alarm panel to determine the source
+                of the alarm.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>BILGE</term>
+
+              <listitem>
+                <para>The left-hand indicator Illuminates when the engine room
+                bilge pump is running. The right-hand indicator illuminates
+                when the main compartment bilge pump is running.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>BATTERY</term>
+
+              <listitem>
+                <para>Illuminates when the battery management system reports
+                low voltage on the domestic battery bank.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>INTRUDER</term>
+
+              <listitem>
+                <para>Illuminates when the intruder alarm is triggered.
+                Consult the intruder alarm panel to determine the source of
+                the alarm.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </sect4>
+
+        <sect4>
+          <title>Switch controls</title>
+
+          <variablelist>
+            <varlistentry>
+              <term>PANEL LIGHT (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the domestic panel backlighting. The
+                backlighting can be dimmed at the helm.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>COURTESY LIGHTS (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the side-deck courtesy lights.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>DECK LIGHTS (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the fore-deck work lights.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>ANCHOR LIGHT (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the anchor light.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>NAVIGATION LIGHTS (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the port-side, starboard-side, stern and
+                steaming lights.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>HYDROPHORE (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the pressurised water system.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>HOT WATER LOOP (OFF-ON)</term>
+
+              <listitem>
+                <para>Enables the hot-water loop. The hot-water loop is
+                operated by an intelligent pump and once enabled will take
+                some time to learn the domestic hot-water usage
+                pattern.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>GREY WATER SYSTEM (OFF-ON)</term>
+
+              <listitem>
+                <para>(unused)</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>BLACK WATER SYSTEM (OFF-ON)</term>
+
+              <listitem>
+                <para>(unused)</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>REFRIGERATION (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the refrigerator and freezer.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>AV SERVICES (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the satellite receiver and DLNA file
+                server.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>NETWORK SERVICES (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the network switch, file server and mapping
+                system.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>GENERATOR (2 SWITCHES (OFF-ON))</term>
+
+              <listitem>
+                <para>These controls are only active if the generator control
+                panel is in AUTO mode. In which case:</para>
+
+                <para>The left-hand switch starts the generator. The
+                right-hand switch transfers generator control to the Victron
+                Color Control GX battery management system so that a
+                low-voltage alarm will automatically start the
+                generator.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>NMEA 2000 BUS 0 (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the NMEA 2000 BUS 0 power supply. BUS 0 is the
+                ship's 'domestic bus' and must be on for the operation of most
+                domestic controls, instrumentation and services.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>NMEA 2000 BUS 1 (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the NMEA 2000 BUS 1 power supply. BUS 1 is the
+                ship's 'navigation bus' and must be on for the operation of
+                most navigation controls, instrumentation and services.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>VHF (OFF-ON)</term>
+
+              <listitem>
+                <para>Enables the ship's VHF services which include the main
+                VHF and AIS transceivers.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>HELM (OFF-ON)</term>
+
+              <listitem>
+                <para>Enables the ship's helm panel. Most helm controls will
+                only operate if this switch is ON.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>THERMAL STORE (OFF-ON)</term>
+
+              <listitem>
+                <para>Enables the ship's domestic hot water system.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>BOILER (OFF-ON)</term>
+
+              <listitem>
+                <para>Enables the ship's diesel boiler. Note that the boiler
+                will only operate if channel 1 (space heating) or channel 2
+                (hot water) of the galley timer control are ON.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>CHILLER (OFF-ON)</term>
+
+              <listitem>
+                <para>Enables the ship's chiller system. Note that the chiller
+                will only operate if the galley chiller control panel is set
+                appropriately.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>IMMERSION 1KW (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the thermal stores upper immersion
+                heater.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>IMMERSION 2KW (OFF-ON)</term>
+
+              <listitem>
+                <para>Operates the thermal stores lower immersion
+                heater.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>SILENCE ALARM (OFF-(CANCEL))</term>
+
+              <listitem>
+                <para>Cancels the audible component of the helm alarm system
+                annunciator. The visual component of the alarm annunciator
+                will continue to operate until the alarm condition is
+                cleared.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term>24VDC ISOL (OFF-(OPERATE))</term>
+
+              <listitem>
+                <para>Operates the change-over solenoid on the DC system
+                non-essential services master switch.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </sect4>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title>Helm panel</title>
+
+      <para>The helm panel (see <xref linkend="helm-panel-layout"/>) brings
+      together important controls and instrumentation mainly concerned with
+      navigation of the vessel.</para>
+
+      <para>The helm panel is enabled from the domestic panel,
+      <keycap>HELM</keycap>, <keycap>NMEA BUS 0</keycap><footnote>
+          <para>Only required for access to tank level data</para>
+        </footnote>, <keycap>NMEA BUS 1</keycap> and
+      <keycap>VHF</keycap><footnote>
+          <para>Required for VHF radio and AIS operation</para>
+        </footnote> controls must be switched ON for the helm panel to be
+      fully functional.</para>
+
+      <para>Non-navigation and safety features (including a multi-channel
+      alarm system which alerts a range of critical operating conditions) of
+      the helm panel are available at all times irrespective of the state of
+      domestic panel controls.</para>
+
+      <figure xml:id="helm-panel-layout">
+        <title>Helm panel</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata align="center" contentwidth="15cm"
+                       fileref="resources/helm-panel.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+
+      <sect3>
+        <title>Helm alarm system</title>
+
+        <para>The alarm system has ten input channels. A signal on any channel
+        will trigger an audible and visual signals at the alarm annunciator;
+        the audible component of an alarm can be cancelled by operating the
+        <guibutton>SILENCE</guibutton> control (the visual alarm component
+        will remain active until the fault or safety condition which triggered
+        the alarm is removed).</para>
+
+        <informaltable>
+          <tgroup cols="3">
+            <thead>
+              <row>
+                <entry>Channel</entry>
+
+                <entry>Name</entry>
+
+                <entry>Meaning</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>1</entry>
+
+                <entry>Engine compartment bilge emergency level</entry>
+
+                <entry>Either the bilge pump is switched off or inundation is
+                beyond the capacity of the bilge pump.</entry>
+              </row>
+
+              <row>
+                <entry>2</entry>
+
+                <entry>Main compartment bilge emergency level</entry>
+
+                <entry>Either the bilge pump is switched off or inundation is
+                beyond the capacity of the bilge pump.</entry>
+              </row>
+
+              <row>
+                <entry>3</entry>
+
+                <entry>Engine compartment bilge pump operating</entry>
+
+                <entry>The bilge pump has been started either by the float
+                switch or by manual operation of the helm control.</entry>
+              </row>
+
+              <row>
+                <entry>4</entry>
+
+                <entry>Main compartment bilge pump failure</entry>
+
+                <entry>The bilge pump has been started either by the float
+                switch or by manual operation of the helm control.</entry>
+              </row>
+
+              <row>
+                <entry>5</entry>
+
+                <entry>Waste discharge pump operating</entry>
+
+                <entry>The waste discharge pump has been started either
+                automatically or by manual operation of the helm
+                control.</entry>
+              </row>
+
+              <row>
+                <entry>6</entry>
+
+                <entry>Domestic battery bank low</entry>
+
+                <entry>The battery controller at the domestic panel has
+                signalled a low-voltage alarm for the domestic battery bank.
+                This alarm signal may be accompanied by an automatic generator
+                start.</entry>
+              </row>
+
+              <row>
+                <entry>7</entry>
+
+                <entry>Fire alarm active</entry>
+
+                <entry>The fire alarm system has been triggered.</entry>
+              </row>
+
+              <row>
+                <entry>8</entry>
+
+                <entry>Intruder alarm active</entry>
+
+                <entry>The intruder alarm system has been triggered.</entry>
+              </row>
+
+              <row>
+                <entry>9</entry>
+
+                <entry>(unused)</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>10</entry>
+
+                <entry>(unused)</entry>
+
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+      </sect3>
+
+      <sect3>
+        <title>Instruments and control panels</title>
+
+        <para>The ship's helm panel is the primary location for navigation
+        instrumentation and control and incorporates switches, indicators
+        (both described below) and the following discrete instruments and
+        control panels.</para>
+
+        <informaltable>
+          <tgroup cols="6">
+            <thead>
+              <row>
+                <entry>Ref</entry>
+
+                <entry>Instrument</entry>
+
+                <entry>Type</entry>
+
+                <entry>Domestic panel control dependency</entry>
+
+                <entry>Data connections</entry>
+
+                <entry>Default configuration</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>1</entry>
+
+                <entry>Tablet induction charger</entry>
+
+                <entry/>
+
+                <entry>None</entry>
+
+                <entry/>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>2</entry>
+
+                <entry>Multi display</entry>
+
+                <entry>Simrad IS40</entry>
+
+                <entry>HELM, NMEA BUS 1, NMEA BUS 0 (optional)</entry>
+
+                <entry>NMEA 2000</entry>
+
+                <entry>Depth/log/temperature</entry>
+              </row>
+
+              <row>
+                <entry>3</entry>
+
+                <entry>Multi display</entry>
+
+                <entry>Simrad IS40</entry>
+
+                <entry>HELM, NMEA BUS 1, NMEA BUS 0 (optional)</entry>
+
+                <entry>NMEA 2000</entry>
+
+                <entry>Compass</entry>
+              </row>
+
+              <row>
+                <entry>4</entry>
+
+                <entry>VHF transceiver</entry>
+
+                <entry>Icom M506</entry>
+
+                <entry>When VHF enabled</entry>
+
+                <entry>NMEA 2000</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>5</entry>
+
+                <entry>Generator control</entry>
+
+                <entry>DSE 4510</entry>
+
+                <entry>Always</entry>
+
+                <entry>Ethernet</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>6</entry>
+
+                <entry>Multi display</entry>
+
+                <entry>Simrad IS35</entry>
+
+                <entry>HELM, NMEA BUS 1, NMEA BUS 0 (optional)</entry>
+
+                <entry>NMEA 2000</entry>
+
+                <entry>Tank levels</entry>
+              </row>
+
+              <row>
+                <entry>7</entry>
+
+                <entry>Multi display</entry>
+
+                <entry>Simrad IS40</entry>
+
+                <entry>HELM, NMEA BUS 1, NMEA BUS 0 (optional)</entry>
+
+                <entry>NMEA 2000</entry>
+
+                <entry>Rudder</entry>
+              </row>
+
+              <row>
+                <entry>8</entry>
+
+                <entry>Multi display</entry>
+
+                <entry>Simrad IS35</entry>
+
+                <entry>HELM, NMEA BUS 1, NMEA BUS 0 (optional)</entry>
+
+                <entry>NMEA 2000</entry>
+
+                <entry>Autopilot auxilliary</entry>
+              </row>
+
+              <row>
+                <entry>9</entry>
+
+                <entry>Autopilot control</entry>
+
+                <entry>Simrad AP60</entry>
+
+                <entry>HELM, NMEA BUS 1, NMEA BUS 0 (optional)</entry>
+
+                <entry>NMEA 2000</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>10</entry>
+
+                <entry>Engine control</entry>
+
+                <entry>Beta Marine 'C'</entry>
+
+                <entry>Always</entry>
+
+                <entry>(none)</entry>
+
+                <entry/>
+              </row>
+
+              <row>
+                <entry>11</entry>
+
+                <entry>Spud control</entry>
+
+                <entry/>
+
+                <entry>Always</entry>
+
+                <entry>(none)</entry>
+
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+        <para>Refer to the manufacturer's user manuals for information on the
+        operation of these devices.</para>
+      </sect3>
+
+      <sect3>
+        <title>Indicator and switch controls</title>
+
+        <para>The helm panel indicators and switches are water resistant,
+        mult-function, industrial devices rated for 24VDC operation at up to
+        30A. Background and function illumination is by LED.</para>
+
+        <para>Some of the panel switches handle operating currents (for
+        example the windscreen-wiper switch), but the majority switch a signal
+        in the mA range sufficient to operate an NMEA 2000 switch bank
+        interface or, occasionally, a remote relay.</para>
+
+        <sect4>
+          <title>Indicators</title>
+
+          <para>Carling VP series, two-segment, LED indicators are used
+          throughout.</para>
+
+          <variablelist>
+            <varlistentry>
+              <term><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentdepth="1cm"
+                               fileref="resources/helmindicators/nmea0-nmea1.png"/>
+                  </imageobject>
+                </inlinemediaobject> NMEA0 / NMEA1</term>
+
+              <listitem>
+                <para>The upper indicator segment illuminates when NMEA BUS 0
+                is powered.</para>
+
+                <para>The lower indicator segment illuminates when NMEA BUS 1
+                is powered.</para>
+
+                <para>The ship's NMEA busses are switched at the domestic
+                panel and for navigational use of the helm use both indicator
+                segments should be lit.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentdepth="1cm"
+                               fileref="resources/helmindicators/vhf-helm.png"/>
+                  </imageobject>
+                </inlinemediaobject> VHF / HELM</term>
+
+              <listitem>
+                <para>The upper indicator segment illuminates when VHF systems
+                are enabled (this includes the ship's primary maritime VHF
+                transceiver and the vessel's AIS transponder).</para>
+
+                <para>The lower indicator segment illuminates when the helm
+                panel is enabled.</para>
+
+                <para>The ship's VHF sytems and the helm panel are switched at
+                the domestic panel and for navigational use of the helm both
+                indicator segments should be lit.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentdepth="1cm"
+                               fileref="resources/helmindicators/bilge1-bilge2.png"/>
+                  </imageobject>
+                </inlinemediaobject> BILGE 1 (ER) / BILGE 2 (MS)</term>
+
+              <listitem>
+                <para>The upper indicator segment illuminates when either the
+                engine compartment bilge system is disabled or the engine room
+                bilge pump is running.</para>
+
+                <para>The lower indicator segment illuminates when either the
+                main compartment bilge system is disabled or the main
+                compartment bilge pump is running.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentdepth="1cm"
+                               fileref="resources/helmindicators/temper-tempbc.png"/>
+                  </imageobject>
+                </inlinemediaobject> TEMP (ER) / TEMP (BC)</term>
+
+              <listitem>
+                <para>The upper indicator segment illuminates when the engine
+                compartment temperature exceeds 30C.</para>
+
+                <para>The lower indicator segment illuminates when the battery
+                compartment temperature exceeds 30C.</para>
+              </listitem>
+            </varlistentry>
+
+            <varlistentry>
+              <term><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentdepth="1cm"
+                               fileref="resources/helmindicators/waste-null.png"/>
+                  </imageobject>
+                </inlinemediaobject> WASTE PUMP / (not used)</term>
+
+              <listitem>
+                <para>The upper indicator segment illuminates when the waste
+                discharge pump is running.</para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </sect4>
+
+        <sect4>
+          <title>Switches</title>
+
+          <para>Carling L series switches are used throughout.</para>
+
+          <para>The switches used in the helm panel are either two-state
+          (single-throw) or three-state (double throw). Two state switches
+          adopt the European convention that the 'up' position is the 'off'
+          state and the other position signals some type of 'on'-ness. Three
+          position switches adopt the 'up is off' convention where possible,
+          but there are a number of situations where this principle cannot
+          apply.</para>
+
+          <para>The notation used in this section to describe a two position
+          switch is
+          (<emphasis>upState</emphasis>-<emphasis>downState</emphasis>) and a
+          three position switch
+          (<emphasis>upState</emphasis>-<emphasis>midState</emphasis>-<emphasis>downState</emphasis>).
+          If a switch position is momentary (i.e. the switch must be held in
+          position by finger pressure), then this position is indicated in
+          parentheses: for example
+          (<emphasis>upState</emphasis>-(<emphasis>downState</emphasis>)).</para>
+
+          <sect5>
+            <title>Deck equipment &amp; transmission group</title>
+
+            <para>These controls are concerned with heavy equipment under
+            hydraulic operation and with change of transmission mode of
+            operation.</para>
+
+            <para>For safety reasons, the <keycap>ENABLE</keycap> control must
+            be switched on before other controls in this group will
+            operate.</para>
+
+            <para>All of the controls in this group with the exception of the
+            bow-thruster joystick are avaialable on a hand-held deck remote
+            control.</para>
+
+            <variablelist>
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/anchor.png"/>
+                    </imageobject>
+                  </inlinemediaobject> ANCHOR ((UP)-STOP-(DOWN))</term>
+
+                <listitem>
+                  <para>Raises and lowers the anchor. The anchor must be
+                  released and the winch engaged before operating this
+                  control.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/enable.png"/>
+                    </imageobject>
+                  </inlinemediaobject> ENABLE (OFF-ENABLE)</term>
+
+                <listitem>
+                  <para>In the ON position the other controls in this group
+                  together with the bow-thruster joystick are enabled.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/hatch.png"/>
+                    </imageobject>
+                  </inlinemediaobject> HATCH ((OPEN)-STOP-(CLOSE))</term>
+
+                <listitem>
+                  <para>Opens and closes the fore-deck hatch. The hatch must
+                  be unlocked before operating this control.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/mast.png"/>
+                    </imageobject>
+                  </inlinemediaobject> MAST ((UP)-STOP-(DOWN))</term>
+
+                <listitem>
+                  <para>Raises and lowers the mast. The mast guys must be
+                  released before operating this control.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/troll.png"/>
+                    </imageobject>
+                  </inlinemediaobject> TROLL (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the transmission is switched to
+                  trolling mode, restricting the propellor revolutions for
+                  slow speed manoevering.</para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </sect5>
+
+          <sect5>
+            <title>Domestic group</title>
+
+            <para>These controls are concerned with operation of some domestic
+            systems.</para>
+
+            <variablelist>
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/deckwash.png"/>
+                    </imageobject>
+                  </inlinemediaobject> D.WASH (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the aft deck-wash connection will
+                  supply raw water rather than the normal potable water from
+                  the ship's tank. Note that the forward deck wash connection
+                  always supplies potable water.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/flush.png"/>
+                    </imageobject>
+                  </inlinemediaobject> FLUSH (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the sewage holding tank will be
+                  automatically flushed with raw water when waste discharge
+                  completes.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/waste.png"/>
+                    </imageobject>
+                  </inlinemediaobject> WASTE (OFF-AUTO-ON)</term>
+
+                <listitem>
+                  <para>In the AUTO position the sewage holding tank will be
+                  automatically discharged when it reaches 90% capacity. If
+                  this mode is selected then the holding tank discharge valve
+                  and sea-cock must be left open.</para>
+
+                  <para>In the ON position the sewage discharge pump will
+                  operate. Before selecting this mode, the holding tank
+                  discharge valve and sea-cock must be open.</para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </sect5>
+
+          <sect5>
+            <title>Electronics group</title>
+
+            <para>These controls operate auxilliary electronic equipment
+            supporting navigation.</para>
+
+            <variablelist>
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/ais.png"/>
+                    </imageobject>
+                  </inlinemediaobject> AIS (OFF-RECV-TRANSMIT)</term>
+
+                <listitem>
+                  <para>In the RECV position the ship's AIS transceiver will
+                  receive data from other stations, but will not broadcast
+                  this ship's position.</para>
+
+                  <para>In the TRANSMIT position the transceiver will both
+                  receive and transmit AIS data.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/radar.png"/>
+                    </imageobject>
+                  </inlinemediaobject> RADAR (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the ship's radar is powered
+                  up.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/wifi.png"/>
+                    </imageobject>
+                  </inlinemediaobject> WIFI (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the ship's external WiFi station is
+                  powered up. This provides a high-gain antenna for accessing
+                  external wireless hotspots and a local wireless hub which
+                  supports, amongst other things, VoIP communication amongst
+                  crew.</para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </sect5>
+
+          <sect5>
+            <title>Lighting group</title>
+
+            <para>These controls are concerned with operation of lights
+            associated with navigation.</para>
+
+            <variablelist>
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/navlights.png"/>
+                    </imageobject>
+                  </inlinemediaobject> NAV (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the ship's navigation lights
+                  (steaming light, stern light, port and starboard lights) are
+                  illuminated.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/anchorlight.png"/>
+                    </imageobject>
+                  </inlinemediaobject> ANCHOR (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the ship's anchor light is
+                  illuminated.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/worklight.png"/>
+                    </imageobject>
+                  </inlinemediaobject> WORK (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the ship's work lights (covering
+                  the foredeck) are illuminated.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/searchlight.png"/>
+                    </imageobject>
+                  </inlinemediaobject> SEARCH (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the ship's searchlight connection
+                  socket is powered.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/decklights.png"/>
+                    </imageobject>
+                  </inlinemediaobject> DECK (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the ship's courtesy lights are
+                  illuminated.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/nightlights.png"/>
+                    </imageobject>
+                  </inlinemediaobject> NIGHT (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the ship's red wheelhouse night
+                  lighting is illuminated.</para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </sect5>
+
+          <sect5>
+            <title>Navigation group</title>
+
+            <para/>
+
+            <variablelist>
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/wiper.png"/>
+                    </imageobject>
+                  </inlinemediaobject> WIPER (OFF-ON-(MODE))</term>
+
+                <listitem>
+                  <para>In the ON position the windscreen wiper(s) operate.
+                  The operating speed and the screen wash are selected by the
+                  MODE position. Refer to the windscreen wiper controller
+                  manual for more information.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/board.png"/>
+                    </imageobject>
+                  </inlinemediaobject> BOARD (OFF-ON)</term>
+
+                <listitem>
+                  <para>In the ON position the ship's blue board is displayed
+                  (moved to its vertical position); in the OFF psoition the
+                  board is restored to its horizontal parking position.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/horn.png"/>
+                    </imageobject>
+                  </inlinemediaobject> HORN (OFF-(ON))</term>
+
+                <listitem>
+                  <para>In the ON position the ship's horn sounds for the
+                  duration the switch is operated.</para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </sect5>
+
+          <sect5>
+            <title>Panel control group</title>
+
+            <para>These controls are concerned with modifying the operation of
+            the helm panel itself.</para>
+
+            <variablelist>
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/panel.png"/>
+                    </imageobject>
+                  </inlinemediaobject> PANEL ((UP)-OFF-(DOWN)</term>
+
+                <listitem>
+                  <para>In the UP position panel background illumination is
+                  increased; in the DOWN position panel illumination is
+                  decreased.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/silence.png"/>
+                    </imageobject>
+                  </inlinemediaobject> SILENCE (OFF-(SILENCE))</term>
+
+                <listitem>
+                  <para>The SILENCE position cancels the audible component of
+                  any active alarm conditions. Note that the alarm indicator
+                  lamp will remain illuminated until the cause of the alarm
+                  condition is cleared and that any new alarm conditions will
+                  cause the audible alarm to sound again).</para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </sect5>
+
+          <sect5>
+            <title>Safety group</title>
+
+            <para>These controls are concerned with operation of environmental
+            safety systems.</para>
+
+            <variablelist>
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/bilge1.png"/>
+                    </imageobject>
+                  </inlinemediaobject> BILGE 1 (OFF-AUTO-ON)</term>
+
+                <listitem>
+                  <para>This control operates the engine compartment bilge
+                  system and should normally be left in the AUTO position. The
+                  bilge system is integrated into the ship's helm alarm system
+                  and operation of this control may trigger an alert.</para>
+
+                  <para>In the AUTO position the engine compartment bilge pump
+                  will be operated by the system float switch.</para>
+
+                  <para>In the ON position the engine compartment bilge pump
+                  will run continuously.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/bilge2.png"/>
+                    </imageobject>
+                  </inlinemediaobject> BILGE 2 (OFF-AUTO-ON)</term>
+
+                <listitem>
+                  <para>This control operates the main compartment bilge
+                  system and should normally be left in the AUTO position. The
+                  bilge system is integrated into the ship's helm alarm system
+                  and operation of this control may trigger an alert.</para>
+
+                  <para>In the AUTO position the main compartment bilge pump
+                  will be operated by the system float switch.</para>
+
+                  <para>In the ON position the main compartment bilge pump
+                  will run continuously.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/eroom.png"/>
+                    </imageobject>
+                  </inlinemediaobject> E.ROOM (OFF-AUTO-ON)</term>
+
+                <listitem>
+                  <para>This control operates the engine room ventilation
+                  system and should normally be left in the AUTO
+                  position.</para>
+
+                  <para>In the AUTO position the engine room ventilation
+                  system will operate when the engine room temperature exceeds
+                  the set point on the engine room thermostat.</para>
+
+                  <para>In the ON position the engine room ventilation system
+                  will run continuously.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term><inlinemediaobject>
+                    <imageobject>
+                      <imagedata contentdepth="1cm"
+                                 fileref="resources/helmswitches/bcomp.png"/>
+                    </imageobject>
+                  </inlinemediaobject> B.COMP (OFF-AUTO-ON)</term>
+
+                <listitem>
+                  <para>This control operates the battery compartment
+                  ventilation system and should normally be left in the AUTO
+                  position.</para>
+
+                  <para>In the AUTO position the battery compartment
+                  ventilation system will operate when the battery compartment
+                  temperature exceeds the set point on the battery compartment
+                  thermostat.</para>
+
+                  <para>In the ON position the battery compartment ventilation
+                  system will run continuously.</para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </sect5>
+        </sect4>
+      </sect3>
+    </sect2>
+  </sect1>
+</chapter>

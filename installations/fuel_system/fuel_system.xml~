@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Fuel system</title>
+
+  <para>Refer to <xref linkend="fluid-storage-and-handling"/> for a system
+  overview.</para>
+
+  <para>Twin steel storage tanks are integrated into the vessel's hull
+  midships. Fuel from the port-side tank is used exclusively for main-engine
+  propulsion whilst fuel from the starboard tank is used exclusively for
+  domestic heating and electricity generation. The two storage tanks are not
+  interconnected, but barbs and valves are provided which would allow tank
+  interconnection in an emergency.</para>
+
+  <para>Fuel filling, distribution, return and tank venting is through
+  metallic pipes and non-metallic hoses of sturdy construction. All
+  connections to (moving) machinery is made with flexible hoses.</para>
+
+  <para>Water separators and filters are placed in front of each fuel
+  consumer. The generator fuel supply line is assisted by a lift pump mounted
+  inside the generator cabinet.</para>
+
+  <section>
+    <title>Filling the tanks</title>
+
+    <para>Two filling points clearly marked "DIESEL" are located in a recess
+    on the starboard side of the vessel just forwards of the wheelhouse. The
+    left-hand filler connects to the domestic fuel tank; the right-hand filler
+    connects to the propulsion fuel tank.</para>
+
+    <para>In some regulatory authorities it is permissible to use reduced tax
+    fuel ('red diesel' in Europe) for domestic purposes. DO NOT fill the
+    vessel's propulsion tank with red-diesel. The procedure for filling a tank
+    is:</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Determine the type of fuel to be taken on (red or white diesel)
+        and so identify the associated tank and filler location.</para>
+      </listitem>
+
+      <listitem>
+        <para>Check the appropriate tank level using one of the vessel's
+        display gauges and so determine how much fuel can be taken on.</para>
+      </listitem>
+
+      <listitem>
+        <para>Open the correct filler cap.</para>
+      </listitem>
+
+      <listitem>
+        <para>Start filling the tank: begin with a steady to moderate
+        flow.</para>
+      </listitem>
+
+      <listitem>
+        <para>Check the tank level by monitoring a display gauge.</para>
+      </listitem>
+
+      <listitem>
+        <para>Do not fill the tank to its maximum: gauges are not exactly
+        accurate and room should be left for expansion of the fuel and
+        contraction of the tank. Filling to 90% capacity is sensible.</para>
+      </listitem>
+
+      <listitem>
+        <para>Replace and close the filler cap.</para>
+      </listitem>
+
+      <listitem>
+        <para>Clean up any spills</para>
+      </listitem>
+
+      <listitem>
+        <para>Make an entry in the ship's log.</para>
+      </listitem>
+    </orderedlist>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Diesel oil must be treated as chemical waste and an
+    absorbant cloth should be to hand when filling the ship's tanks.</para>
+  </section>
+
+  <section>
+    <title>Water separators and filters</title>
+
+    <para>Water separators and filters are located in the engine
+    compartment.</para>
+
+    <para>The main engine is served by two water separators: the separator in
+    use is selected by a valve which allows a changeover should one separator
+    become clogged or require service. The generator and boiler each have
+    single water separators. Any water collected by the separators should be
+    regularly drained.</para>
+
+    <para>Fuel filters are located adjacent to or mounted on the main engine,
+    generator and boiler.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Water separator and fuel filter elements must be
+    regularly changed.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+        </imageobject>
+      </inlinemediaobject> FILL ME IN</para>
+  </section>
+
+  <section>
+    <title>Tank level monitoring</title>
+
+    <para>Each tank is equipped with an electronic tank level monitoring
+    system consisting of a hydrostatic tank level sender which broadcasts
+    messages onto the ship's domestic NMEA 2000 bus. Tank level data can be
+    displayed on screens located at the helm, domestic panel and
+    elsewhere.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Variations in tank level readings are possible due
+    to conditions of trim, list, seaway and callibration.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Tank level readings require <guilabel>NMEA BUS
+    0</guilabel> to be enabled on the ship's domestic panel.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="1cm"
+                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+        </imageobject>
+      </inlinemediaobject> <citation>mare1</citation></para>
+  </section>
+</section>
