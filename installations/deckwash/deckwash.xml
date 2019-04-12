@@ -8,19 +8,58 @@
          xmlns:db="http://docbook.org/ns/docbook">
   <title>Deckwash</title>
 
-  <para>The ship's deckwash system serves two hose connector outlets located
-  on the aft-deck and fore-deck lockers.</para>
+  <para>The ship's deckwash system serves two auto-stop hose connector outlets
+  located on the aft-deck and fore-deck lockers.</para>
 
-  <para>The deckwash system is normally fed by fresh water from the ship's
-  pressurised domestic water system, but the <keycap>D.WASH</keycap> control
-  at the helm can be used to feed the aft outlet with raw water pumped from a
-  through-hull inlet in the engine room.</para>
+  <para>Both outlets are fed with fresh water from the ship's pressurised
+  domestic water system, but the aft outlet can be reconfigured to supply raw
+  water.</para>
+
+  <section>
+    <title>Using raw water at the aft deckwash outlet</title>
+
+    <para>To use raw water at the aft deckwash outlet:</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Close the freshwater shut-off valve located on the engine-room
+        deckhead just aft of the engine-room hatch.</para>
+      </listitem>
+
+      <listitem>
+        <para>Open the through-hull sea cock supplying the chiller unit raw
+        water intake. </para>
+      </listitem>
+
+      <listitem>
+        <para>Open the deckwash pump supply valve on the output side of the
+        raw water intake filter. </para>
+      </listitem>
+
+      <listitem>
+        <para>Switch on the <keycap>D.WASH</keycap> switch at the helm to
+        enable the deckwash pump.</para>
+      </listitem>
+    </orderedlist>
+
+    <para>The deckwash pump is self-priming and will operate automatically to
+    maintain pressure at the deckwash aft outlet.</para>
+
+    <para>To avoid the possibility of leak you should switch off the deckwash
+    pump when it is not in use.</para>
+
+    <para>To avoid the possibility of raw water contaminating the ship's
+    freshwater system you must ensure that freshwater shut-off valve is closed
+    when the raw water pump is in use. An automatic double-check valve
+    provides a passive fallback, but it is best not to rely on this as the
+    primary means of isolation. </para>
+  </section>
 
   <section>
     <title>Winterisation</title>
 
     <para>In freezing weather, the above deck pipework should be drained down
     through the bleed and isolation valves located in the engine room and the
-    master cabin wardrobe. </para>
+    master cabin wardrobe.</para>
   </section>
 </section>
