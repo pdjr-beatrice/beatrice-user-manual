@@ -1,7 +1,9 @@
 # beatrice-user-manual
 
-User manual for MV Beatrice as a Docbook 5 document.
+This Docbook 5 project implements a user manual for the motor vessel "Beatrice of Hull".
 
-The manual source is DocBook 5 (book) compliant XML.
+The src/ directory contains the XML source in Docbook 5 "book" format.
 
-Renderings of the document in various formats are available in the pub folder.
+The pub/ directory contains renderings of the user manual in various formats.
+
+The status of this work is DRAFT.
