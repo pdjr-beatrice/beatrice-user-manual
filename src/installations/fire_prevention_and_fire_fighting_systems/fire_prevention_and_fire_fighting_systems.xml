@@ -22,7 +22,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Detectors are tailored to the space in which they
     are installed and in the event of failure must be replaced with a detector
@@ -31,7 +31,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> Operation of the alarm system is fully documented
     in the manufacturer's manual.</para>
@@ -47,7 +47,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Have extinguishers checked at the calendar
     intervals indicated on the equipment.</para>
@@ -55,7 +55,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Replace expired or discharged extinguishers with
     devices of identical or greater fire fighting capacity.</para>
@@ -81,7 +81,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Novec 1230 is an environmentally neutral,
     non-toxic, halon replacement, but it can still cause asphyxiation - do not
@@ -91,7 +91,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> FILL ME IN</para>
   </section>

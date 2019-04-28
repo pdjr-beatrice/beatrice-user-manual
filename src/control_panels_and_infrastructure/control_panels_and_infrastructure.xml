@@ -154,7 +154,7 @@
           <mediaobject>
             <imageobject>
               <imagedata align="center" contentwidth="15cm"
-                         fileref="resources/domestic_panel.png"/>
+                         fileref="RESOURCES/domestic_panel.png"/>
             </imageobject>
           </mediaobject>
         </figure></para>
@@ -172,7 +172,7 @@
         <para><inlinemediaobject>
             <imageobject>
               <imagedata contentwidth="1cm"
-                         fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                         fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
             </imageobject>
           </inlinemediaobject> Refer to the manufacturer's user manuals for
         information on the operation of these devices.</para>
@@ -486,7 +486,7 @@
         <mediaobject>
           <imageobject>
             <imagedata align="center" contentwidth="15cm"
-                       fileref="resources/helm-panel.png"/>
+                       fileref="RESOURCES/helm-panel.png"/>
           </imageobject>
         </mediaobject>
       </figure>
@@ -818,7 +818,7 @@
               <term><inlinemediaobject>
                   <imageobject>
                     <imagedata contentdepth="1cm"
-                               fileref="resources/helmindicators/nmea0-nmea1.png"/>
+                               fileref="RESOURCES/helmindicators/nmea0-nmea1.png"/>
                   </imageobject>
                 </inlinemediaobject> NMEA0 / NMEA1</term>
 
@@ -839,7 +839,7 @@
               <term><inlinemediaobject>
                   <imageobject>
                     <imagedata contentdepth="1cm"
-                               fileref="resources/helmindicators/vhf-helm.png"/>
+                               fileref="RESOURCES/helmindicators/vhf-helm.png"/>
                   </imageobject>
                 </inlinemediaobject> VHF / HELM</term>
 
@@ -861,7 +861,7 @@
               <term><inlinemediaobject>
                   <imageobject>
                     <imagedata contentdepth="1cm"
-                               fileref="resources/helmindicators/bilge1-bilge2.png"/>
+                               fileref="RESOURCES/helmindicators/bilge1-bilge2.png"/>
                   </imageobject>
                 </inlinemediaobject> BILGE 1 (ER) / BILGE 2 (MS)</term>
 
@@ -880,7 +880,7 @@
               <term><inlinemediaobject>
                   <imageobject>
                     <imagedata contentdepth="1cm"
-                               fileref="resources/helmindicators/temper-tempbc.png"/>
+                               fileref="RESOURCES/helmindicators/temper-tempbc.png"/>
                   </imageobject>
                 </inlinemediaobject> TEMP (ER) / TEMP (BC)</term>
 
@@ -897,7 +897,7 @@
               <term><inlinemediaobject>
                   <imageobject>
                     <imagedata contentdepth="1cm"
-                               fileref="resources/helmindicators/waste-null.png"/>
+                               fileref="RESOURCES/helmindicators/waste-null.png"/>
                   </imageobject>
                 </inlinemediaobject> WASTE PUMP / (not used)</term>
 
@@ -952,7 +952,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/anchor.png"/>
+                                 fileref="RESOURCES/helmswitches/anchor.png"/>
                     </imageobject>
                   </inlinemediaobject> ANCHOR ((UP)-STOP-(DOWN))</term>
 
@@ -967,7 +967,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/enable.png"/>
+                                 fileref="RESOURCES/helmswitches/enable.png"/>
                     </imageobject>
                   </inlinemediaobject> ENABLE (OFF-ENABLE)</term>
 
@@ -981,7 +981,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/hatch.png"/>
+                                 fileref="RESOURCES/helmswitches/hatch.png"/>
                     </imageobject>
                   </inlinemediaobject> HATCH ((OPEN)-STOP-(CLOSE))</term>
 
@@ -995,7 +995,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/mast.png"/>
+                                 fileref="RESOURCES/helmswitches/mast.png"/>
                     </imageobject>
                   </inlinemediaobject> MAST ((UP)-STOP-(DOWN))</term>
 
@@ -1009,7 +1009,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/troll.png"/>
+                                 fileref="RESOURCES/helmswitches/troll.png"/>
                     </imageobject>
                   </inlinemediaobject> TROLL (OFF-ON)</term>
 
@@ -1033,7 +1033,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/deckwash.png"/>
+                                 fileref="RESOURCES/helmswitches/deckwash.png"/>
                     </imageobject>
                   </inlinemediaobject> D.WASH (OFF-ON)</term>
 
@@ -1049,7 +1049,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/flush.png"/>
+                                 fileref="RESOURCES/helmswitches/flush.png"/>
                     </imageobject>
                   </inlinemediaobject> FLUSH (OFF-ON)</term>
 
@@ -1064,7 +1064,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/waste.png"/>
+                                 fileref="RESOURCES/helmswitches/waste.png"/>
                     </imageobject>
                   </inlinemediaobject> WASTE (OFF-AUTO-ON)</term>
 
@@ -1093,7 +1093,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/ais.png"/>
+                                 fileref="RESOURCES/helmswitches/ais.png"/>
                     </imageobject>
                   </inlinemediaobject> AIS (OFF-RECV-TRANSMIT)</term>
 
@@ -1111,7 +1111,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/radar.png"/>
+                                 fileref="RESOURCES/helmswitches/radar.png"/>
                     </imageobject>
                   </inlinemediaobject> RADAR (OFF-ON)</term>
 
@@ -1125,7 +1125,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/wifi.png"/>
+                                 fileref="RESOURCES/helmswitches/wifi.png"/>
                     </imageobject>
                   </inlinemediaobject> WIFI (OFF-ON)</term>
 
@@ -1151,7 +1151,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/navlights.png"/>
+                                 fileref="RESOURCES/helmswitches/navlights.png"/>
                     </imageobject>
                   </inlinemediaobject> NAV (OFF-ON)</term>
 
@@ -1166,7 +1166,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/anchorlight.png"/>
+                                 fileref="RESOURCES/helmswitches/anchorlight.png"/>
                     </imageobject>
                   </inlinemediaobject> ANCHOR (OFF-ON)</term>
 
@@ -1180,7 +1180,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/worklight.png"/>
+                                 fileref="RESOURCES/helmswitches/worklight.png"/>
                     </imageobject>
                   </inlinemediaobject> WORK (OFF-ON)</term>
 
@@ -1194,7 +1194,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/searchlight.png"/>
+                                 fileref="RESOURCES/helmswitches/searchlight.png"/>
                     </imageobject>
                   </inlinemediaobject> SEARCH (OFF-ON)</term>
 
@@ -1208,7 +1208,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/decklights.png"/>
+                                 fileref="RESOURCES/helmswitches/decklights.png"/>
                     </imageobject>
                   </inlinemediaobject> DECK (OFF-ON)</term>
 
@@ -1222,7 +1222,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/nightlights.png"/>
+                                 fileref="RESOURCES/helmswitches/nightlights.png"/>
                     </imageobject>
                   </inlinemediaobject> NIGHT (OFF-ON)</term>
 
@@ -1244,7 +1244,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/wiper.png"/>
+                                 fileref="RESOURCES/helmswitches/wiper.png"/>
                     </imageobject>
                   </inlinemediaobject> WIPER (OFF-ON-(MODE))</term>
 
@@ -1260,7 +1260,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/board.png"/>
+                                 fileref="RESOURCES/helmswitches/board.png"/>
                     </imageobject>
                   </inlinemediaobject> BOARD (OFF-ON)</term>
 
@@ -1275,7 +1275,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/horn.png"/>
+                                 fileref="RESOURCES/helmswitches/horn.png"/>
                     </imageobject>
                   </inlinemediaobject> HORN (OFF-(ON))</term>
 
@@ -1298,7 +1298,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/panel.png"/>
+                                 fileref="RESOURCES/helmswitches/panel.png"/>
                     </imageobject>
                   </inlinemediaobject> PANEL ((UP)-OFF-(DOWN)</term>
 
@@ -1313,7 +1313,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/silence.png"/>
+                                 fileref="RESOURCES/helmswitches/silence.png"/>
                     </imageobject>
                   </inlinemediaobject> SILENCE (OFF-(SILENCE))</term>
 
@@ -1339,7 +1339,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/bilge1.png"/>
+                                 fileref="RESOURCES/helmswitches/bilge1.png"/>
                     </imageobject>
                   </inlinemediaobject> BILGE 1 (OFF-AUTO-ON)</term>
 
@@ -1361,7 +1361,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/bilge2.png"/>
+                                 fileref="RESOURCES/helmswitches/bilge2.png"/>
                     </imageobject>
                   </inlinemediaobject> BILGE 2 (OFF-AUTO-ON)</term>
 
@@ -1383,7 +1383,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/eroom.png"/>
+                                 fileref="RESOURCES/helmswitches/eroom.png"/>
                     </imageobject>
                   </inlinemediaobject> E.ROOM (OFF-AUTO-ON)</term>
 
@@ -1405,7 +1405,7 @@
                 <term><inlinemediaobject>
                     <imageobject>
                       <imagedata contentdepth="1cm"
-                                 fileref="resources/helmswitches/bcomp.png"/>
+                                 fileref="RESOURCES/helmswitches/bcomp.png"/>
                     </imageobject>
                   </inlinemediaobject> B.COMP (OFF-AUTO-ON)</term>
 

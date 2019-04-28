@@ -21,14 +21,14 @@
   <para><inlinemediaobject>
       <imageobject>
         <imagedata contentwidth="1cm"
-                   fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                   fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
       </imageobject>
     </inlinemediaobject> Do not alter any of the system settings</para>
 
   <para><inlinemediaobject>
       <imageobject>
         <imagedata contentwidth="1cm"
-                   fileref="RESOURCES/images/DIN_4844-2/mandatory/M000_general.svg"/>
+                   fileref="resources/images/DIN_4844-2/mandatory/M000_general.svg"/>
       </imageobject>
     </inlinemediaobject> Do ensure that the oil level in the reservoir remains
   topped up</para>
@@ -36,7 +36,7 @@
   <para><inlinemediaobject>
       <imageobject>
         <imagedata contentwidth="1cm"
-                   fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                   fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
       </imageobject>
     </inlinemediaobject> </para>
 </section>

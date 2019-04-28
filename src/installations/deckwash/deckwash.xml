@@ -36,7 +36,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject>Operate the <keycap>D.WASH</keycap> switch at the
     helm to disable the raw water deck wash pump when its service is not
@@ -119,7 +119,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                       fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject>Ensure that fresh water shut-off valve is kept
       closed when the raw water pump is in use. An automatic double-check

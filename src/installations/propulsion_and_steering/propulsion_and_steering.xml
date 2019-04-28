@@ -412,7 +412,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                       fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> The stuffing material requires periodic
       replacement.</para>

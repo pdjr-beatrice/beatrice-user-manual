@@ -159,7 +159,7 @@
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="17cm"
-                   fileref="resources/dc_main.png"/>
+                   fileref="RESOURCES/dc_main.png"/>
       </imageobject>
     </mediaobject>
   </section>
@@ -170,7 +170,7 @@
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="15cm"
-                   fileref="resources/ac-c1.png"/>
+                   fileref="RESOURCES/ac-c1.png"/>
       </imageobject>
     </mediaobject>
   </section>
@@ -181,7 +181,7 @@
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="15cm"
-                   fileref="resources/ac-c2.png"/>
+                   fileref="RESOURCES/ac-c2.png"/>
       </imageobject>
     </mediaobject>
   </section>
@@ -192,7 +192,7 @@
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="17cm"
-                   fileref="resources/dc-c3.png"/>
+                   fileref="RESOURCES/dc-c3.png"/>
       </imageobject>
     </mediaobject>
   </section>
@@ -203,7 +203,7 @@
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="15cm"
-                   fileref="resources/dc-c4.png"/>
+                   fileref="RESOURCES/dc-c4.png"/>
       </imageobject>
     </mediaobject>
   </section>
@@ -214,7 +214,7 @@
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="17cm"
-                   fileref="resources/dc-c5c.png"/>
+                   fileref="RESOURCES/dc-c5c.png"/>
       </imageobject>
     </mediaobject>
   </section>
@@ -225,7 +225,7 @@
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="17cm"
-                   fileref="resources/dc-domestic.png"/>
+                   fileref="RESOURCES/dc-domestic.png"/>
       </imageobject>
     </mediaobject>
   </section>
@@ -236,7 +236,7 @@
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="17cm"
-                   fileref="resources/dc-c5d.png"/>
+                   fileref="RESOURCES/dc-c5d.png"/>
       </imageobject>
     </mediaobject>
   </section>
@@ -247,7 +247,7 @@
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="17cm"
-                   fileref="resources/dc-c5e.png"/>
+                   fileref="RESOURCES/dc-c5e.png"/>
       </imageobject>
     </mediaobject>
   </section>
