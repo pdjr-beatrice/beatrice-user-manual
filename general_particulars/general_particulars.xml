@@ -73,7 +73,7 @@
           <row>
             <entry>Fresh water tank capacity (l)</entry>
 
-            <entry>4000</entry>
+            <entry>3600</entry>
 
             <entry>In two tanks</entry>
           </row>
@@ -81,7 +81,7 @@
           <row>
             <entry>Diesel oil tank capacity (propulsion) (l)</entry>
 
-            <entry>1100</entry>
+            <entry>1800</entry>
 
             <entry>Port side tank</entry>
           </row>
@@ -89,7 +89,7 @@
           <row>
             <entry>Diesel oil tank capacity (domestic) (l)</entry>
 
-            <entry>1100</entry>
+            <entry>1800</entry>
 
             <entry>Starboard side tank</entry>
           </row>
@@ -97,7 +97,7 @@
           <row>
             <entry>Sewage tank capacity (l)</entry>
 
-            <entry>1500</entry>
+            <entry>1350</entry>
 
             <entry/>
           </row>
@@ -113,7 +113,7 @@
           <row>
             <entry>Maximum number of persons</entry>
 
-            <entry/>
+            <entry>8</entry>
 
             <entry/>
           </row>
@@ -169,9 +169,8 @@
   <section>
     <title>Ballast</title>
 
-    <para>The vessel has approximately seven tonnes of painted iron ballast:
-    two-and-a-half tonnes in the fore-locker, with the remainder in the main
-    compartment bilge.</para>
+    <para>The vessel has approximately seven tonnes of painted iron ballast
+    distributed between the fore-locker and the main compartment bilge.</para>
   </section>
 
   <section>
@@ -180,8 +179,8 @@
     <para>Thermal insulation is provided by by 5-7cm of spray foam applied
     over the entire inner-surface of the steelwork to a point just below the
     cabin soles. Internal bulkheads and floor spaces are insulated with
-    high-density fibreglass mat for thermal isolation and acoustic damping.
-    </para>
+    high-density fibreglass mat for thermal isolation and acoustic
+    damping.</para>
   </section>
 
   <section>

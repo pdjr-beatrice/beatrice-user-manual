@@ -190,13 +190,13 @@
 
       <para>The main engine operates at 24VDC. Twin 120Ah 12VDC cranking
       batteries are installed on the port side of the engine room with an
-      adjacent battery isolator switch, split-charge module and a dedicated
+      adjacent battery isolator switch, split-charge module and dedicated
       24VDC battery charger which is energised only when the ship is connected
       to shore or generator supply.</para>
 
       <para>The main engine alternator provides up to 140A of charging current
       to both the engine starter batteries and the domestic battery bank
-      through a split charge system.</para>
+      through the split charge system.</para>
     </section>
 
     <section>
@@ -281,7 +281,7 @@
             <row>
               <entry>Reduction ration</entry>
 
-              <entry/>
+              <entry>2:1</entry>
 
               <entry/>
             </row>
@@ -297,7 +297,8 @@
             <row>
               <entry>Gearbox controls</entry>
 
-              <entry>Cable (fwd/rev) and electrical (troll)</entry>
+              <entry>Cable (fwd/rev/troll) and electrical (troll
+              enable)</entry>
 
               <entry/>
             </row>
@@ -334,7 +335,8 @@
     <para>The output of the vessel's gearbox is coupled to the propellor shaft
     by a flexible coupling which reduces vibration and eliminates the need for
     precise engine alignment. The propellor shaft exits the vessel through a
-    conventional stuffing-box with automatic shaft lubrication.</para>
+    conventional stuffing-box with continuous automatic shaft
+    lubrication.</para>
 
     <section>
       <title>Anti-vibration coupling</title>
@@ -427,7 +429,7 @@
         <tgroup cols="3">
           <tbody>
             <row>
-              <entry/>
+              <entry>Make</entry>
 
               <entry/>
 
@@ -435,11 +437,15 @@
             </row>
 
             <row>
-              <entry/>
+              <entry>Type</entry>
 
               <entry/>
 
               <entry/>
+            </row>
+
+            <row>
+              <entry>Grease</entry>
             </row>
           </tbody>
         </tgroup>

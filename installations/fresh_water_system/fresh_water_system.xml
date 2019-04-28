@@ -8,9 +8,9 @@
          xmlns:db="http://docbook.org/ns/docbook">
   <title>Fresh water system</title>
 
-  <para>The fresh water system on board the vessel consists of two 1680 litre
-  stainless-steel fixed tanks, a hydrophore with a 230VAC electrical pump and
-  an on-demand (plate heat-exchange based) warm water generator.</para>
+  <para>The fresh water system consists of two 1680 litre stainless-steel
+  fixed storage tanks, a hydrophore with a 230VAC electrical pump and an
+  on-demand, plate heat-exchanger based, hot water generator.</para>
 
   <para>Refer to <xref linkend="fluid-storage-and-handling"/> for a system
   overview.</para>
@@ -85,7 +85,7 @@
           <imagedata contentwidth="1cm"
                      fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
-      </inlinemediaobject> Tank level readings require <guilabel>NMEA BUS
+      </inlinemediaobject> Tank level sensing requires <guilabel>NMEA BUS
     0</guilabel> to be enabled on the ship's domestic panel.</para>
 
     <para><inlinemediaobject>
@@ -154,7 +154,7 @@
     engine-room. When a hot-water tap is opened fluid from the ship's thermal
     buffer is pumped through the heat exchanger primary circuit and used to
     heat cold water, delivered by the hydrophore, in the heat exchanger
-    secondary circuit..</para>
+    secondary circuit.</para>
 
     <para>An independent pumped hot-water loop attempts to predict demand for
     hot water and ensure that, under most circumstances, pre-heated water is

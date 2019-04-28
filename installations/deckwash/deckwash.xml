@@ -6,60 +6,169 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Deckwash</title>
+  <title>Deck wash</title>
 
-  <para>The ship's deckwash system serves two auto-stop hose connector outlets
-  located on the aft-deck and fore-deck lockers.</para>
-
-  <para>Both outlets are fed with fresh water from the ship's pressurised
-  domestic water system, but the aft outlet can be reconfigured to supply raw
-  water.</para>
+  <para>The ship's deck wash system serves auto-stop bayonet-style hose
+  connector outlets located on the aft-deck and fore-deck.</para>
 
   <section>
-    <title>Using raw water at the aft deckwash outlet</title>
+    <title>Forward deck wash outlet</title>
 
-    <para>To use raw water at the aft deckwash outlet:</para>
+    <para>The forward deck wash outlet is supplied with fresh water from the
+    ship's pressurised domestic water system.</para>
 
-    <orderedlist>
-      <listitem>
-        <para>Close the freshwater shut-off valve located on the engine-room
-        deckhead just aft of the engine-room hatch.</para>
-      </listitem>
-
-      <listitem>
-        <para>Open the through-hull sea cock supplying the chiller unit raw
-        water intake. </para>
-      </listitem>
-
-      <listitem>
-        <para>Open the deckwash pump supply valve on the output side of the
-        raw water intake filter. </para>
-      </listitem>
-
-      <listitem>
-        <para>Switch on the <keycap>D.WASH</keycap> switch at the helm to
-        enable the deckwash pump.</para>
-      </listitem>
-    </orderedlist>
-
-    <para>The deckwash pump is self-priming and will operate automatically to
-    maintain pressure at the deckwash aft outlet.</para>
-
-    <para>To avoid the possibility of leak you should switch off the deckwash
-    pump when it is not in use.</para>
-
-    <para>To avoid the possibility of raw water contaminating the ship's
-    freshwater system you must ensure that freshwater shut-off valve is closed
-    when the raw water pump is in use. An automatic double-check valve
-    provides a passive fallback, but it is best not to rely on this as the
-    primary means of isolation. </para>
+    <para>The outlet and it's associated above-deck pipework can be isolated
+    and drained via a combined stop/drain cock located behind an access panel
+    at the back of the master cabin hanging locker.</para>
   </section>
 
   <section>
-    <title>Winterisation</title>
+    <title>Aft deck wash outlet</title>
 
-    <para>In freezing weather, the above deck pipework should be drained down
-    through the bleed and isolation valves located in the engine room and the
-    master cabin wardrobe.</para>
+    <para>The aft deck wash outlet can be configured to supply either fresh
+    water from the ship's pressurised domestic water system or raw water from
+    the environment.</para>
+
+    <para>The outlet and it's associated above-deck pipework can be isolated
+    and drained via a combined stop/drain cock located on the engine room deck
+    head just aft of the engine room hatch.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject>Operate the <keycap>D.WASH</keycap> switch at the
+    helm to disable the raw water deck wash pump when its service is not
+    required.</para>
+
+    <section>
+      <title>Changing the supplied water type</title>
+
+      <para>The source of water for the aft deck wash outlet is changed by
+      opening and closing two valves in the engine room: The fresh water
+      shut-off valve is located on the deck head just aft of the engine room
+      hatch; the raw water pump isolating valve is located on the chiller unit
+      raw-water intake manifold.</para>
+
+      <para>To select fresh water supply:</para>
+
+      <orderedlist>
+        <listitem>
+          <para>Connect a hosepipe to the desk wash outlet and allow water to
+          flow freely away.</para>
+        </listitem>
+
+        <listitem>
+          <para>Operate the <keycap>D.WASH</keycap> switch at the helm to
+          disable the raw water deck wash pump.</para>
+        </listitem>
+
+        <listitem>
+          <para>Close the raw water pump isolating valve.</para>
+        </listitem>
+
+        <listitem>
+          <para>Open the fresh water shut-off valve.</para>
+        </listitem>
+
+        <listitem>
+          <para>Disconnect the hosepipe from the desk wash outlet as soon as a
+          fresh water flow has been established.</para>
+        </listitem>
+      </orderedlist>
+
+      <para>To select raw water supply:</para>
+
+      <orderedlist>
+        <listitem>
+          <para>Connect a hosepipe to the desk wash outlet and allow water to
+          flow freely away.</para>
+        </listitem>
+
+        <listitem>
+          <para>Close the fresh water shut-off valve.</para>
+        </listitem>
+
+        <listitem>
+          <para>Open the raw water pump isolating valve.</para>
+        </listitem>
+
+        <listitem>
+          <para>Ensure that the raw water through-hull sea cock supplying the
+          chiller unit raw water intake is open.</para>
+        </listitem>
+
+        <listitem>
+          <para>Operate the <keycap>D.WASH</keycap> switch at the helm to
+          enable the raw water deck wash pump.</para>
+        </listitem>
+
+        <listitem>
+          <para>Disconnect the hosepipe from the desk wash outlet as soon as a
+          raw water flow has been established. The deck wash pump will stop
+          automatically.</para>
+        </listitem>
+
+        <listitem>
+          <para>Operate the <keycap>D.WASH</keycap> switch at the helm to
+          disable the raw water deck wash pump.</para>
+        </listitem>
+      </orderedlist>
+
+      <para><inlinemediaobject>
+          <imageobject>
+            <imagedata contentwidth="0.5cm"
+                       fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          </imageobject>
+        </inlinemediaobject>Ensure that fresh water shut-off valve is kept
+      closed when the raw water pump is in use. An automatic double-check
+      valve provides passive protection against cross-contamination of the
+      fresh water system with raw water, but it is best not to rely on this as
+      the sole means of system isolation.</para>
+    </section>
+  </section>
+
+  <section>
+    <title>Regular maintenance</title>
+
+    <variablelist>
+      <varlistentry>
+        <term>WEEKLY</term>
+
+        <listitem>
+          <orderedlist>
+            <listitem>
+              <para>Check the security of all raw water deck wash pump hose
+              connections.</para>
+            </listitem>
+
+            <listitem>
+              <para>Check the condition of the raw water deck wash pump
+              flexible hoses, replacing any which show signs of wear or
+              failure.</para>
+            </listitem>
+          </orderedlist>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>IN FREEZING CONDITIONS</term>
+
+        <listitem>
+          <orderedlist>
+            <listitem>
+              <para>Isolate and drain down the fresh water supply to the
+              forward deck wash outlet.</para>
+            </listitem>
+
+            <listitem>
+              <para>Isolate both the fresh water and raw water supplies to the
+              aft deck wash outlet and drain down the outlet.</para>
+            </listitem>
+          </orderedlist>
+        </listitem>
+      </varlistentry>
+    </variablelist>
   </section>
 </section>
