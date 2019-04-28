@@ -21,7 +21,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M000_general.svg"/>
+                     fileref="resources/images/DIN_4844-2/mandatory/M000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Do not alter, remove or damage the CIN.</para>
   </section>
@@ -39,7 +39,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M000_general.svg"/>
+                     fileref="resources/images/DIN_4844-2/mandatory/M000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Do not alter, remove or damage the builder's
     plate.</para>

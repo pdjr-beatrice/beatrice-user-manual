@@ -76,7 +76,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Take care to perform the necessary routine
     maintenance.</para>
@@ -84,7 +84,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
         </imageobject>
       </inlinemediaobject> Remove the key from the helm engine panel before
     working on the engine.</para>
@@ -92,7 +92,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
         </imageobject>
       </inlinemediaobject> The engine becomes hot during operation and remains
     hot afterwards.</para>
@@ -100,7 +100,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="../resources//images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                     fileref="resources//images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>deut1</citation></para>
 
@@ -182,7 +182,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                       fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject>To avoid damage to the engine alternator never
       stop the engine by simply turning the ignition key to position 0.</para>
@@ -216,7 +216,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="RESOURCES/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
+                       fileref="resources/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
           </imageobject>
         </inlinemediaobject> The exhaust system is thoroughly insulated
       against heat loss, but caution must be exercised when moving around the
@@ -241,7 +241,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="RESOURCES/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
+                       fileref="resources/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
           </imageobject>
         </inlinemediaobject> The exposed cooling circuit pipework becomes hot
       during engine operation.</para>
@@ -249,7 +249,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="../resources//images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                       fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
           </imageobject>
         </inlinemediaobject> <citation>blok2</citation></para>
     </section>
@@ -315,7 +315,7 @@
       </informaltable> <inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Take care to perform the necessary routine
     maintenance.</para>
@@ -323,7 +323,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
+                     fileref="resources/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
         </imageobject>
       </inlinemediaobject> Remove the key from the helm engine panel before
     working on the engine.</para>
@@ -331,7 +331,7 @@
     <para><inlinemediaobject>
         <imageobject>
           <imagedata contentwidth="0.5cm"
-                     fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>prm1</citation>
     <citation>prm2</citation></para>
@@ -376,7 +376,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                       fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
           </imageobject>
         </inlinemediaobject> <citation>pyth1</citation></para>
     </section>
@@ -420,7 +420,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                       fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
           </imageobject>
         </inlinemediaobject> <citation>blok1</citation></para>
     </section>
@@ -462,7 +462,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                       fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> Regularly check grease levels and top-up as
       necessary.</para>
@@ -470,7 +470,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                       fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
           </imageobject>
         </inlinemediaobject> MANUAL NOT SUPPLIED</para>
     </section>
@@ -562,7 +562,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                       fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> Steering using the tiller is only possible at low
       speeds - one person should operate the tiller and another the engine
@@ -571,7 +571,7 @@
       <para><inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+                       fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> Keep the locker housing the tiller and rudder
       shaft clear of obstructions so that in an emergency the tiller can be

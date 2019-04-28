@@ -25,7 +25,7 @@
       <mediaobject>
         <imageobject>
           <imagedata align="center" contentwidth="15cm"
-                     fileref="resources/safety_above_deck.png"/>
+                     fileref="RESOURCES/safety_above_deck.png"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -36,7 +36,7 @@
       <mediaobject>
         <imageobject>
           <imagedata align="center" contentwidth="15cm"
-                     fileref="resources/safety_below_deck.png"/>
+                     fileref="RESOURCES/safety_below_deck.png"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -53,7 +53,7 @@
       <mediaobject>
         <imageobject>
           <imagedata align="center" contentwidth="15cm"
-                     fileref="resources/electrical_below_deck.png"/>
+                     fileref="RESOURCES/electrical_below_deck.png"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -64,7 +64,7 @@
       <mediaobject>
         <imageobject>
           <imagedata align="center" contentwidth="15cm"
-                     fileref="resources/electrical_above_deck.png"/>
+                     fileref="RESOURCES/electrical_above_deck.png"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -87,7 +87,7 @@
       <mediaobject>
         <imageobject>
           <imagedata align="center" contentwidth="15cm"
-                     fileref="resources/fluid-storage-and-handling.png"/>
+                     fileref="RESOURCES/fluid-storage-and-handling.png"/>
         </imageobject>
       </mediaobject>
     </figure>
@@ -113,7 +113,7 @@
         <mediaobject>
           <imageobject>
             <imagedata align="center" contentwidth="15cm"
-                       fileref="resources/deck_equipment.png"/>
+                       fileref="RESOURCES/deck_equipment.png"/>
           </imageobject>
         </mediaobject>
       </figure></para>

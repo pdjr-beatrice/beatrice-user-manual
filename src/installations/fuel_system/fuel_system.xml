@@ -84,8 +84,8 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Diesel oil must be treated as chemical waste and an
     absorbant cloth should be to hand when filling the ship's tanks.</para>
@@ -108,16 +108,16 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Water separator and fuel filter elements must be
     regularly changed.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> FILL ME IN</para>
   </section>
@@ -133,24 +133,24 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Variations in tank level readings are possible due
     to conditions of trim, list, seaway and callibration.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Tank level readings require <guilabel>NMEA BUS
     0</guilabel> to be enabled on the ship's domestic panel.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>mare1</citation></para>
   </section>
