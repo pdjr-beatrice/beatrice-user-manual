@@ -20,7 +20,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="RESOURCES/images/DIN_4844-2/mandatory/M000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Do not alter, remove or damage the CIN.</para>
@@ -38,7 +38,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="RESOURCES/images/DIN_4844-2/mandatory/M000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Do not alter, remove or damage the builder's

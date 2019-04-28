@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-                "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % myents SYSTEM "entities.ent" >
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % myents SYSTEM "entities.ent">
 %myents;
 ]>
-
-<book version="5.0" xmlns="http://docbook.org/ns/docbook"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      xmlns:xi="http://www.w3.org/2001/XInclude"
-      xmlns:svg="http://www.w3.org/2000/svg"
-      xmlns:m="http://www.w3.org/1998/Math/MathML"
-      xmlns:html="http://www.w3.org/1999/xhtml"
-      xmlns:db="http://docbook.org/ns/docbook">
+<book version="5.0" xmlns="http://docbook.org/ns/docbook">
   <info>
     <title>&boattype; &boatname;</title>
 
@@ -20,19 +13,18 @@
     <pubdate>tbc</pubdate>
 
     <legalnotice>
-      <para>Changes in specifications can be made without prior notice.
-      </para>
+      <para>Changes in specifications can be made without prior notice.</para>
 
-      <para>No rights can be obtained from this manual. </para>
+      <para>No rights can be obtained from this manual.</para>
 
       <para>Changes in specifications may be made without due notice, parts of
       this manual may describe options or systems that may be different to
       those fitted to your boat, despite the name of your boat showing on this
-      manual. </para>
+      manual.</para>
 
       <para>The producer will not accept responsibility for damages, direct
       and indirect that result from the wordly text of this manual, when
-      reason and common sense should prevail. </para>
+      reason and common sense should prevail.</para>
 
       <para>All rights reserved. No part of this manual may be reproduced or
       transmitted in any form or by any means, electronic or mechanical,
@@ -43,34 +35,82 @@
     </legalnotice>
   </info>
 
-<?hard-pagebreak?>
-  <xi:include href="introduction/introduction.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="vessel_type_and_identification/vessel_type_and_identification.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="general_particulars/general_particulars.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="installations/installations.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="control_panels_and_infrastructure/control_panels_and_infrastructure.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="sailing/sailing.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="maintenance/maintenance.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="receipt_of_documents/receipt_of_documents.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="declaration_of_conformity/declaration_of_conformity.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="copy_certificates/copy_certificates.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="warranty_conditions/warranty_conditions.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="electrical_diagrams/electrical_diagrams.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="heating_diagrams/heating_diagrams.xml" xpointer="element(/1)"/>
-<?hard-pagebreak?>
-  <xi:include href="bibliography/bibliography.xml" xpointer="element(/1)"/>
+  <?hard-pagebreak ?>
 
+  <xi:include href="introduction/introduction.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+  <?hard-pagebreak ?>
+
+  <xi:include href="vessel_type_and_identification/vessel_type_and_identification.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="general_particulars/general_particulars.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="installations/installations.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="control_panels_and_infrastructure/control_panels_and_infrastructure.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="sailing/sailing.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="maintenance/maintenance.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="receipt_of_documents/receipt_of_documents.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="declaration_of_conformity/declaration_of_conformity.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="copy_certificates/copy_certificates.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="warranty_conditions/warranty_conditions.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="electrical_diagrams/electrical_diagrams.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="heating_diagrams/heating_diagrams.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <?hard-pagebreak ?>
+
+  <xi:include href="bibliography/bibliography.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </book>

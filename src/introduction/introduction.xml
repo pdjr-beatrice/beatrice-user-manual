@@ -141,8 +141,8 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
-                               fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                    <imagedata contentwidth="0.5cm"
+                               fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
 
@@ -152,7 +152,7 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
+                    <imagedata contentwidth="0.5cm"
                                fileref="../resources/images/DIN_4844-2/rescue/E010_escape_route_right.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
@@ -163,7 +163,7 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
+                    <imagedata contentwidth="0.5cm"
                                fileref="../resources/images/DIN_4844-2/prohibition/P002_no_naked_flames.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
@@ -174,7 +174,7 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
+                    <imagedata contentwidth="0.5cm"
                                fileref="../resources/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
@@ -185,7 +185,7 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
+                    <imagedata contentwidth="0.5cm"
                                fileref="../resources/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
@@ -196,7 +196,7 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
+                    <imagedata contentwidth="0.5cm"
                                fileref="../resources/images/DIN_4844-2/warning/W001_risk_of_fire.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
@@ -207,7 +207,7 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
+                    <imagedata contentwidth="0.5cm"
                                fileref="../resources/images/DIN_4844-2/warning/W000_general.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
@@ -218,7 +218,7 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
+                    <imagedata contentwidth="0.5cm"
                                fileref="../resources/images/DIN_4844-2/warning/W002_risk_of_explosion.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
@@ -229,7 +229,7 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
+                    <imagedata contentwidth="0.5cm"
                                fileref="../resources/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
@@ -240,7 +240,7 @@
             <row>
               <entry><inlinemediaobject>
                   <imageobject>
-                    <imagedata contentwidth="1cm"
+                    <imagedata contentwidth="0.5cm"
                                fileref="../resources/images/DIN_4844-2/fire/F005_fire_extinguisher.svg"/>
                   </imageobject>
                 </inlinemediaobject></entry>
@@ -270,7 +270,7 @@
       text is often accompanied by the symbol <inlinemediaobject>
           <imageobject>
             <imagedata contentwidth="0.5cm"
-                       fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+                       fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
           </imageobject>
         </inlinemediaobject>.</para>
 

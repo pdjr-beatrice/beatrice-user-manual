@@ -75,7 +75,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Take care to perform the necessary routine
@@ -83,7 +83,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="RESOURCES/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
         </imageobject>
       </inlinemediaobject> Remove the key from the helm engine panel before
@@ -91,7 +91,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="RESOURCES/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
         </imageobject>
       </inlinemediaobject> The engine becomes hot during operation and remains
@@ -99,8 +99,8 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="../resources//images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>deut1</citation></para>
 
@@ -179,6 +179,14 @@
         </listitem>
       </orderedlist>
 
+      <para><inlinemediaobject>
+          <imageobject>
+            <imagedata contentwidth="0.5cm"
+                       fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          </imageobject>
+        </inlinemediaobject>To avoid damage to the engine alternator never
+      stop the engine by simply turning the ignition key to position 0.</para>
+
       <para>Engine speed is controlled by the combined throttle/gear lever
       which operates through control cables: if the engine speed or gears
       cannot be changed then in the first instance check for a broken
@@ -207,7 +215,7 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
+            <imagedata contentwidth="0.5cm"
                        fileref="RESOURCES/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
           </imageobject>
         </inlinemediaobject> The exhaust system is thoroughly insulated
@@ -232,7 +240,7 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
+            <imagedata contentwidth="0.5cm"
                        fileref="RESOURCES/images/DIN_4844-2/warning/W026_risk_of_hot_surface.svg"/>
           </imageobject>
         </inlinemediaobject> The exposed cooling circuit pipework becomes hot
@@ -240,8 +248,8 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
-                       fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+            <imagedata contentwidth="0.5cm"
+                       fileref="../resources//images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
           </imageobject>
         </inlinemediaobject> <citation>blok2</citation></para>
     </section>
@@ -306,7 +314,7 @@
         </tgroup>
       </informaltable> <inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Take care to perform the necessary routine
@@ -314,7 +322,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="RESOURCES/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
         </imageobject>
       </inlinemediaobject> Remove the key from the helm engine panel before
@@ -322,8 +330,8 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>prm1</citation>
     <citation>prm2</citation></para>
@@ -367,8 +375,8 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
-                       fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+            <imagedata contentwidth="0.5cm"
+                       fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
           </imageobject>
         </inlinemediaobject> <citation>pyth1</citation></para>
     </section>
@@ -403,7 +411,7 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
+            <imagedata contentwidth="0.5cm"
                        fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> The stuffing material requires periodic
@@ -411,8 +419,8 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
-                       fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+            <imagedata contentwidth="0.5cm"
+                       fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
           </imageobject>
         </inlinemediaobject> <citation>blok1</citation></para>
     </section>
@@ -453,7 +461,7 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
+            <imagedata contentwidth="0.5cm"
                        fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> Regularly check grease levels and top-up as
@@ -461,8 +469,8 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
-                       fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+            <imagedata contentwidth="0.5cm"
+                       fileref="../resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
           </imageobject>
         </inlinemediaobject> MANUAL NOT SUPPLIED</para>
     </section>
@@ -553,7 +561,7 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
+            <imagedata contentwidth="0.5cm"
                        fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> Steering using the tiller is only possible at low
@@ -562,7 +570,7 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
+            <imagedata contentwidth="0.5cm"
                        fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> Keep the locker housing the tiller and rudder
