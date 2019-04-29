@@ -25,7 +25,7 @@
 
   <para><inlinemediaobject>
       <imageobject>
-        <imagedata contentwidth="1cm"
+        <imagedata contentwidth="0.5cm"
                    fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
       </imageobject>
     </inlinemediaobject> Never let the holding tank become too full:
@@ -44,7 +44,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
         </imageobject>
       </inlinemediaobject> WC units operate at 230VAC, unplug from mains
@@ -52,7 +52,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> sani2</para>
@@ -115,7 +115,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
         </imageobject>
       </inlinemediaobject> Sump units operate at 230VAC, unplug from mains
@@ -123,7 +123,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> sani1</para>
@@ -140,7 +140,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Variations in tank level readings are possible due
@@ -148,7 +148,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Tank level readings require <guilabel>NMEA BUS
@@ -156,7 +156,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>mare1</citation></para>
@@ -274,7 +274,7 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
+            <imagedata contentwidth="0.5cm"
                        fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> Ensure that the DISCHARGE VALVE and SEA COCK

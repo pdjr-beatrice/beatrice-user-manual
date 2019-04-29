@@ -21,7 +21,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Detectors are tailored to the space in which they
@@ -30,7 +30,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> Operation of the alarm system is fully documented
@@ -46,7 +46,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Have extinguishers checked at the calendar
@@ -54,7 +54,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Replace expired or discharged extinguishers with
@@ -80,7 +80,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Novec 1230 is an environmentally neutral,
@@ -90,7 +90,7 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
+          <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> FILL ME IN</para>

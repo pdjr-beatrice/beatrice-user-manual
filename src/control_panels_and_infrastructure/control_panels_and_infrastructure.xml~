@@ -8,38 +8,31 @@
          xmlns:db="http://docbook.org/ns/docbook">
   <title>Control panels and infrastructure</title>
 
-  <para>Operation of the vessel is supported by two physical control panels
-  dedicated to domestic and navigation control and a number of virtual
-  interfaces implement by a dedicated computer system running a Signal K
-  service. An NMEA 2000 based data communications infrastructure allows
+  <para>Operation of the vessel is supported by two principal control panels
+  and a data communications infrastructure which allows
   <emphasis>inter-alia</emphasis> controls to operate remote devices and
   instruments to gather data from remote sensors.</para>
 
-  <para>Wired and wireless Ethernet networks is used to support technical,
-  domestic and entertainment activities and some proprietary network systems
-  are used to interconnect components when there is no open or generic
-  alternative. Additionally the Signal K server provides some support for
-  wide-area communication and control via SMS and email.</para>
+  <para>The vessel uses the NMEA 2000 standard network architecture for data
+  communication between critical systems and notably for operation of remote
+  equipment via NMEA 2000 'switchbank' protocols.</para>
+
+  <para>Ethernet networks, both wired and wireless, are used to support
+  technical, domestic and entertainment activities and proprietary network
+  systems are used to interconnect components when there is no open or generic
+  alternative.</para>
+
+  <para>The vessel supports wide-area communication and control via SMS, email
+  and some proprietary protocols.</para>
 
   <sect1>
     <title>Infrastructure</title>
 
     <sect2>
-      <title>Signal K</title>
-
-      <para>A dedicated industrial PC runs a Signal K server which integrates
-      NMEA 2000 and other data and hosts a number of apps which provide
-      monitoring, diagnostic and control functions. The industrial PC has an
-      IP address of 192.168.1.1 and the Signal K server interface can be
-      accessed at https://192.168.1.1.:3000/.</para>
-    </sect2>
-
-    <sect2>
       <title>NMEA 2000</title>
 
       <para>The vessel is equipped with two NMEA 2000 buses and a dedicated
-      industrial PC responsible for operation of some NMEA related
-      features.</para>
+      industrial PC responsible for operation of NMEA related features.</para>
 
       <variablelist>
         <varlistentry>
