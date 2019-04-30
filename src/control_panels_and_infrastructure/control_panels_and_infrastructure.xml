@@ -8,18 +8,40 @@
          xmlns:db="http://docbook.org/ns/docbook">
   <title>Control panels and infrastructure</title>
 
-  <para>Operation of the vessel is supported by two physical control panels
-  dedicated to domestic and navigation control and a number of virtual
-  interfaces implement by a dedicated computer system running a Signal K
-  service. An NMEA 2000 based data communications infrastructure allows
-  <emphasis>inter-alia</emphasis> controls to operate remote devices and
-  instruments to gather data from remote sensors.</para>
+  <para>Operation of the vessel is supported by two physical control
+  panels.</para>
 
-  <para>Wired and wireless Ethernet networks is used to support technical,
-  domestic and entertainment activities and some proprietary network systems
-  are used to interconnect components when there is no open or generic
-  alternative. Additionally the Signal K server provides some support for
-  wide-area communication and control via SMS and email.</para>
+  <para>The domestic panel (located in the lower companionway) provides
+  instrumentation and control of all house functions whilst the helm panel
+  provides instrumentation and control of navigation and ship installations. A
+  number of interfaces and controls are implemented by the ship's Signal K
+  server and are available through web-browser interfaces on the ship's
+  local-area network.</para>
+
+  <para>Data communication on the ship is supported by a range of
+  technologies:</para>
+
+  <itemizedlist>
+    <listitem>
+      <para>twin NMEA 2000 networks support critical navigation and house
+      instrumentation and control;</para>
+    </listitem>
+
+    <listitem>
+      <para>a shipwide Ethernet network supports technical, domestic and
+      entertainment services over wire and WiFi;</para>
+    </listitem>
+
+    <listitem>
+      <para>proprietary network systems are used to interconnect components
+      when there is no open or generic alternative;</para>
+    </listitem>
+
+    <listitem>
+      <para>cellular network interfaces support remote monitoring and
+      control.</para>
+    </listitem>
+  </itemizedlist>
 
   <sect1>
     <title>Infrastructure</title>
@@ -27,27 +49,40 @@
     <sect2>
       <title>Signal K</title>
 
-      <para>A dedicated industrial PC runs a Signal K server which integrates
-      NMEA 2000 and other data and hosts a number of apps which provide
-      monitoring, diagnostic and control functions. The industrial PC has an
-      IP address of 192.168.1.1 and the Signal K server interface can be
-      accessed at https://192.168.1.1.:3000/.</para>
+      <para>An industrial PC mounted at the helm runs a Signal K server which
+      integrates data from all ship-based providers and hosts a number of
+      bespoke apps which provide monitoring, diagnostic and control
+      functions.</para>
+
+      <para>Importantly, the Signal K server implements non-local switching
+      using NMEA 2000 switchbank PGNs For example, operating a switch at the
+      helm causes a PGN127501 message to be sent over the NMEA 2000 network:
+      this message is detected by the Signal K server and mapped into a
+      PGN127502 message which is transmitted to cause one or more relays in a
+      remote part of the vessel to change state. The mapping between switch
+      operation and relay state change is implemented by a set of rules which
+      configure the server's response: this means it is simple to re-purpose
+      switches to operate different devices and also to offer some automation
+      functions: for example, the server can monitor waste tank levels and
+      initiate an automatic waste discharge if a tank overflow is
+      imminent.</para>
+
+      <para>The industrial PC has an IP address of 192.168.1.1 and the Signal
+      K server interface can be accessed at https://192.168.1.1.:3000/.</para>
     </sect2>
 
     <sect2>
       <title>NMEA 2000</title>
 
-      <para>The vessel is equipped with two NMEA 2000 buses and a dedicated
-      industrial PC responsible for operation of some NMEA related
-      features.</para>
+      <para>The vessel is equipped with two NMEA 2000 buses.</para>
 
       <variablelist>
         <varlistentry>
           <term>NMEA BUS 0 ('domestic bus')</term>
 
           <listitem>
-            <para>NMEA bus 0 supports instrumentation and control of the
-            ship's domestic or 'house' systems.</para>
+            <para>NMEA bus 0 supports all on-board control functions and
+            instrumentation of the ship's domestic or 'house' systems.</para>
 
             <para>If this bus is not permanently enabled then very few of the
             ship's systems can be operated.</para>
@@ -58,36 +93,26 @@
           <term>NMEA BUS 1 ('navigation bus')</term>
 
           <listitem>
-            <para>NMEA bus 1 supports instrumentation and control related to
+            <para>NMEA bus 1 supports instrumentation and controls related to
             navigation of the vessel.</para>
           </listitem>
         </varlistentry>
       </variablelist>
 
       <para>The two networks are bridged at the helm so that communication on
-      one is visible on the other, but are powered separately. When navigation
-      instrumentation and control is not required then NMEA bus 1 should be
-      switched off at the domestic panel to conserve battery charge.</para>
-
-      <para>Most non-local switching activities on the ship are mediated over
-      NMEA 2000 and operating a switch at the helm will cause a signal to be
-      sent over the NMEA 2000 network which causes a relay in a remote part of
-      the vessel to change state. The relationship between switch operation
-      and relay state change is mapped through a programmable NMEA controller
-      which also supports some automatic convenience functions: for example,
-      the controller can monitor waste tank levels and issue SMS or email
-      alerts or initiate an automatic waste-discharge if a tank overflow is
-      imminent. The controller PC is accessible at
-      http://192.168.1.120:2000/.</para>
+      one is visible on the other, but are powered separately via switches at
+      the domestic panel. When navigation instrumentation and control is not
+      required then NMEA bus 1 should be switched off to conserve battery
+      charge.</para>
     </sect2>
 
     <sect2>
       <title>Ethernet</title>
 
-      <para>The ship uses Ethernet as its default communication system for
-      non-critical data communications. In addition to a conventional file
-      server, a DLNA server distributes music and video and real-time TV from
-      satellite and terrestrial receivers over ipTV.</para>
+      <para>A ship-wide Ethernet network (192.168.1.0) supports non-critical
+      clients and services. Addit including a navigation computer installed at
+      the helm. In addition a DLNA server distributes music and video and
+      real-time TV from satellite and terrestrial receivers over ipTV.</para>
 
       <para>Some ship systems are available on the local Ethernet and some
       more widely available.</para>
@@ -107,8 +132,9 @@
         networks. An on-board network (SSID=BEATRICE) is simply an extension
         of the ship's wired Ethernet. An external WiFi network, switchable at
         the helm, supports deck communications over VoIP (SSID=BEATRICE-VOIP)
-        and a public presence (SSID=BEATRICE-GUEST) as well as providing a
-        high-gain connection for access to remote wireless hubs.</para>
+        and a public presence (SSID=BEATRICE-GUEST). A separate high-gain
+        network bridge provides reliable connection to remote wireless
+        hubs.</para>
       </sect3>
 
       <sect3>
