@@ -37,7 +37,7 @@
 
           <entry>Alternator (on generator)</entry>
 
-          <entry>Engine room</entry>
+          <entry>Engine room (aft switch)</entry>
         </row>
 
         <row>
@@ -61,7 +61,7 @@
 
           <entry>Alternator (split charge with domestic system)</entry>
 
-          <entry>Engine room</entry>
+          <entry>Engine room (forward switch)</entry>
         </row>
 
         <row>
@@ -474,7 +474,7 @@
           <mediaobject>
             <imageobject>
               <imagedata align="left" contentwidth="10cm"
-                         fileref="resources/distribution_cabinet_c1.png"
+                         fileref="RESOURCES/distribution_cabinet_c1.png"
                          xml:id="distribution_cabinet_c1"/>
             </imageobject>
           </mediaobject>
@@ -504,7 +504,7 @@
           <mediaobject>
             <imageobject>
               <imagedata align="left" contentwidth="10cm"
-                         fileref="resources/distribution_cabinet_c2.png"/>
+                         fileref="RESOURCES/distribution_cabinet_c2.png"/>
             </imageobject>
           </mediaobject>
         </figure>
