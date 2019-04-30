@@ -25,8 +25,8 @@
 
   <para><inlinemediaobject>
       <imageobject>
-        <imagedata contentwidth="1cm"
-                   fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+        <imagedata contentwidth="0.5cm"
+                   fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
       </imageobject>
     </inlinemediaobject> Never let the holding tank become too full:
   overfilling can cause a system malfunction with overflow of sewage water
@@ -44,16 +44,16 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
         </imageobject>
       </inlinemediaobject> WC units operate at 230VAC, unplug from mains
     before servicing.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> sani2</para>
   </section>
@@ -115,16 +115,16 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
         </imageobject>
       </inlinemediaobject> Sump units operate at 230VAC, unplug from mains
     before servicing.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> sani1</para>
   </section>
@@ -140,24 +140,24 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Variations in tank level readings are possible due
     to conditions of trim, list, seaway and callibration.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Tank level readings require <guilabel>NMEA BUS
     0</guilabel> to be enabled on the ship's domestic panel.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>mare1</citation></para>
   </section>
@@ -274,8 +274,8 @@
 
       <para><inlinemediaobject>
           <imageobject>
-            <imagedata contentwidth="1cm"
-                       fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+            <imagedata contentwidth="0.5cm"
+                       fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
           </imageobject>
         </inlinemediaobject> Ensure that the DISCHARGE VALVE and SEA COCK
       remain open whilst the discharge system is set to automatic.</para>

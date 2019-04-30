@@ -49,10 +49,9 @@
     <sect2>
       <title>Signal K</title>
 
-      <para>An industrial PC mounted at the helm runs a Signal K server which
-      integrates data from all ship-based providers and hosts a number of
-      bespoke apps which provide monitoring, diagnostic and control
-      functions.</para>
+      <para>A dedicated industrial PC runs a Signal K server which integrates
+      data from all providers and hosts a number of bespoke apps which provide
+      monitoring, diagnostic and control functions.</para>
 
       <para>Importantly, the Signal K server implements non-local switching
       using NMEA 2000 switchbank PGNs For example, operating a switch at the
@@ -109,10 +108,10 @@
     <sect2>
       <title>Ethernet</title>
 
-      <para>A ship-wide Ethernet network (192.168.1.0) supports non-critical
-      clients and services. Addit including a navigation computer installed at
-      the helm. In addition a DLNA server distributes music and video and
-      real-time TV from satellite and terrestrial receivers over ipTV.</para>
+      <para>The ship uses Ethernet as its default communication system for
+      non-critical data communications. In addition to a conventional file
+      server, a DLNA server distributes music and video and real-time TV from
+      satellite and terrestrial receivers over ipTV.</para>
 
       <para>Some ship systems are available on the local Ethernet and some
       more widely available.</para>

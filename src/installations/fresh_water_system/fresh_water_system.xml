@@ -74,24 +74,24 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Variations in tank level readings are possible due
     to conditions of trim, list, seaway and callibration.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Tank level sensing requires <guilabel>NMEA BUS
     0</guilabel> to be enabled on the ship's domestic panel.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>mare1</citation></para>
   </section>
@@ -109,8 +109,8 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/IEC5010/IEC5010_On_Off_Symbol%20.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/IEC5010/IEC5010_On_Off_Symbol%20.svg"/>
         </imageobject>
       </inlinemediaobject>To enable and disable the pressure system use the
     switch labelled <guilabel>HYDROPHORE</guilabel> on the ship's domestic
@@ -118,31 +118,31 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> The pressure system can only be enable and disabled
     if <guilabel>NMEA BUS 0</guilabel> is enabled.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
         </imageobject>
       </inlinemediaobject> The motor and pump have an exposed mechanism and
     may begin operation unexpectedly.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
         </imageobject>
       </inlinemediaobject> Danger of electrical shock 230VAC</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>spec1</citation></para>
   </section>
@@ -173,8 +173,8 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/IEC5010/IEC5010_On_Off_Symbol%20.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/IEC5010/IEC5010_On_Off_Symbol%20.svg"/>
         </imageobject>
       </inlinemediaobject> To enable and disable the hot-water system use the
     switch marked <guilabel>THERMAL STORE</guilabel> on the ship's domestic
@@ -182,8 +182,8 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/IEC5010/IEC5010_On_Off_Symbol%20.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/IEC5010/IEC5010_On_Off_Symbol%20.svg"/>
         </imageobject>
       </inlinemediaobject> To enable and disable the hot-water loop use the
     switch marked <guilabel>HOT WATER LOOP</guilabel> on the ship's domestic
@@ -191,16 +191,16 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W000_general.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
-      </inlinemediaobject> The hot water system can only be enable and
+      </inlinemediaobject> The hot water system can only be enabled and
     disabled if <guilabel>NMEA BUS 0</guilabel> is enabled.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> FILL ME IN</para>
   </section>
@@ -216,16 +216,16 @@
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
         </imageobject>
       </inlinemediaobject> WC units operate at 230VAC, unplug from mains
     before servicing.</para>
 
     <para><inlinemediaobject>
         <imageobject>
-          <imagedata contentwidth="1cm"
-                     fileref="RESOURCES/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
         </imageobject>
       </inlinemediaobject> <citation>sani1</citation></para>
   </section>
