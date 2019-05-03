@@ -21,9 +21,9 @@
 <?hard-pagebreak?>
   <xi:include href="bilge_pumping_system/bilge_pumping_system.xml" xpointer="element(/1)"/>
 <?hard-pagebreak?>
-  <xi:include href="electrical_system/electrical_system.xml" xpointer="element(/1)"/>
+  <xi:include href="data_networks/data_networks.xml" xpointer="element(/1)"/>
 <?hard-pagebreak?>
-  <xi:include href="ethernet/ethernet.xml" xpointer="element(/1)"/>
+  <xi:include href="electrical_system/electrical_system.xml" xpointer="element(/1)"/>
 <?hard-pagebreak?>
   <xi:include href="space_heating_cooling_and_hot-water/space_heating_cooling_and_hot-water.xml" xpointer="element(/1)"/>
 <?hard-pagebreak?>

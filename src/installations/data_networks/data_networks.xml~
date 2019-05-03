@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Data networks</title>
+
+  <para>NMEA 2000 and Ethernet data networks are installed on the ship
+  together with some small-scale proprietary networks concerned with operation
+  of the Victron power system.</para>
+
+  <section>
+    <title>NMEA 2000</title>
+
+    <para>WCs pump macerated waste directly to the holding tank each time the
+    'flush' function is activated.</para>
+
+    <para>The WCs operate at 230VAC and are supplied via circuit-breakers in
+    distribution cabinets C1 and C4. The WCs should normally remain powered
+    whenever the vessel is in use.</para>
+  </section>
+
+  <section>
+    <title>Ethernet</title>
+
+    <para>Ethernet is used to support general access to ship services
+    including informationn displays, virtual control panels, VoIP deck
+    communication, map and NIS services and audio and video entrtainment. The
+    following schematic indicates the general structure.</para>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata contentwidth="17cm" fileref="RESOURCES/ethernet.jpg"/>
+      </imageobject>
+    </mediaobject>
+
+    <section>
+      <title>Equipment</title>
+
+      <para>The following table lists the fixed devices which depend upon
+      Ethernet for their operation.</para>
+
+      <informaltable>
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry align="center">Item</entry>
+
+              <entry>Location</entry>
+
+              <entry>IP addresses (hostname)</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>NetGear N600 wireless router</entry>
+
+              <entry>Helm</entry>
+
+              <entry>192.168.1.254 (gateway), 192.168.2.254 (WAN),
+              192.168.3.254 (USB 4G)</entry>
+            </row>
+
+            <row>
+              <entry>Ubiquiti Networks Bullet gateway</entry>
+
+              <entry>On deck below blue-board</entry>
+
+              <entry>192.168.2.253 (bullet)</entry>
+            </row>
+
+            <row>
+              <entry>Cisco managed switch</entry>
+
+              <entry>Lower companionway server rack</entry>
+
+              <entry>192.168.1.253 (switch)</entry>
+            </row>
+
+            <row>
+              <entry>Signal K / NMEA controller</entry>
+
+              <entry>Helm</entry>
+
+              <entry>192.168.1.1 (controller)</entry>
+            </row>
+
+            <row>
+              <entry>Navigation PC</entry>
+
+              <entry>Helm</entry>
+
+              <entry>192.168.1.101 (helm)</entry>
+            </row>
+
+            <row>
+              <entry>NAS/DLNA server</entry>
+
+              <entry>Lower companionway server rack</entry>
+
+              <entry>192.168.1.2 (nas)</entry>
+            </row>
+
+            <row>
+              <entry>OpenSeaMap server</entry>
+
+              <entry>Lower companionway server rack</entry>
+
+              <entry>192.168.1.3 (maps)</entry>
+            </row>
+
+            <row>
+              <entry>Master cabin media centre</entry>
+
+              <entry>Master cabin</entry>
+
+              <entry>192.168.1.21 (osmc-mc)</entry>
+            </row>
+
+            <row>
+              <entry>Saloon media centre</entry>
+
+              <entry>Saloon</entry>
+
+              <entry>192.168.1.22 (osmc-sl)</entry>
+            </row>
+
+            <row>
+              <entry>Guest cabin media centre</entry>
+
+              <entry>Guest cabin</entry>
+
+              <entry>192.168.1.23 (osmc-gc)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+
+    <section>
+      <title>Wired networks</title>
+
+      <para>CAT6 UTP cabling from around the ship terminates at a network
+      switch located in the ship's data cabinet which is accessible behind a
+      panel on the port side of the lower companionway. The switch WAN port is
+      connected by a single cable to the main router located at the helm. Helm
+      equipment which benefits from an Ethernet connection is cabled directly
+      to the main router's built in LAN switch.</para>
+
+      <para>A second wired network consisting of a single cable connects the
+      main router's WAN port to the ship's external gateway.</para>
+    </section>
+
+    <section>
+      <title>Wireless networks</title>
+
+      <para>The ship implements two WiFi networks: an internal network
+      (SSID="BEATRICE") simply extends the vessels 192.168.1.0 network whilst
+      and external network (SSID="BEATRICE-EXT") supports VoIP intercom use
+      for deck crew and allows restricted access to on-board services for
+      guests.</para>
+    </section>
+  </section>
+</section>
