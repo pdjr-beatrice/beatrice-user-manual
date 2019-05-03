@@ -50,9 +50,8 @@
       <title>Signal K</title>
 
       <para>An industrial PC mounted at the helm runs a Signal K server which
-      integrates data from all ship-based providers and hosts a number of
-      bespoke apps which provide monitoring, diagnostic and control
-      functions.</para>
+      integrates data from all ship-based providers and provides a range of
+      monitoring, diagnostic and control functions.</para>
 
       <para>Importantly, the Signal K server implements non-local switching
       using NMEA 2000 switchbank PGNs For example, operating a switch at the
@@ -74,7 +73,9 @@
     <sect2>
       <title>NMEA 2000</title>
 
-      <para>The vessel is equipped with two NMEA 2000 buses.</para>
+      <para>The vessel is equipped with two NMEA 2000 buses which are bridged
+      at the helm so that communication on one is visible on the other, but
+      are powered separately via switches on the domestic panel.</para>
 
       <variablelist>
         <varlistentry>
@@ -85,7 +86,7 @@
             instrumentation of the ship's domestic or 'house' systems.</para>
 
             <para>If this bus is not permanently enabled then very few of the
-            ship's systems can be operated.</para>
+            ship's systems can be monitored or operated.</para>
           </listitem>
         </varlistentry>
 
@@ -95,46 +96,155 @@
           <listitem>
             <para>NMEA bus 1 supports instrumentation and controls related to
             navigation of the vessel.</para>
+
+            <para>This bus must be enabled when navigating the vessel, but
+            should be powered down when the ship is moored.</para>
           </listitem>
         </varlistentry>
       </variablelist>
-
-      <para>The two networks are bridged at the helm so that communication on
-      one is visible on the other, but are powered separately via switches at
-      the domestic panel. When navigation instrumentation and control is not
-      required then NMEA bus 1 should be switched off to conserve battery
-      charge.</para>
     </sect2>
 
     <sect2>
       <title>Ethernet</title>
 
-      <para>A ship-wide Ethernet network (192.168.1.0) supports non-critical
-      clients and services. Addit including a navigation computer installed at
-      the helm. In addition a DLNA server distributes music and video and
-      real-time TV from satellite and terrestrial receivers over ipTV.</para>
+      <para>A number of wiired and wireless Ethernet networks support
+      non-critical clients and services.</para>
 
-      <para>Some ship systems are available on the local Ethernet and some
-      more widely available.</para>
+      <para><informaltable>
+          <tgroup cols="5">
+            <thead>
+              <row>
+                <entry align="center">Network</entry>
+
+                <entry>Gateway</entry>
+
+                <entry>Allocated addresses</entry>
+
+                <entry>Description</entry>
+              </row>
+            </thead>
+
+            <tbody>
+              <row>
+                <entry>192.168.1.0</entry>
+
+                <entry>192.168.1.254</entry>
+
+                <entry>192.168.1.1</entry>
+
+                <entry>Signal K server / NMEA controller</entry>
+              </row>
+
+              <row>
+                <entry/>
+
+                <entry/>
+
+                <entry>192.168.1.2</entry>
+
+                <entry>Helm navigation PC</entry>
+              </row>
+
+              <row>
+                <entry/>
+
+                <entry/>
+
+                <entry>192.168.1.3</entry>
+
+                <entry>Saloon TV</entry>
+              </row>
+
+              <row>
+                <entry/>
+
+                <entry/>
+
+                <entry>192.168.1.101 - 192.168.1.50</entry>
+
+                <entry>Wireless clients (SSID = BEATRICE)</entry>
+              </row>
+
+              <row>
+                <entry/>
+
+                <entry/>
+
+                <entry>192.168.1.253</entry>
+
+                <entry>Managed switch</entry>
+              </row>
+
+              <row>
+                <entry/>
+
+                <entry/>
+
+                <entry>192.168.1.254</entry>
+
+                <entry>Router (Linksys N600)</entry>
+              </row>
+
+              <row>
+                <entry>192.168.2.0</entry>
+
+                <entry>192.168.2.254</entry>
+
+                <entry>192.168.2.254</entry>
+
+                <entry>Router (Linksys N600)</entry>
+              </row>
+
+              <row>
+                <entry/>
+
+                <entry/>
+
+                <entry>192.168.2.253</entry>
+
+                <entry>Router (Ubiquiti Bullet)</entry>
+              </row>
+
+              <row>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </informaltable></para>
+
+      <para>including a navigation computer installed at the helm and a DLNA
+      server which distributes music and video and real-time TV from satellite
+      and terrestrial receivers over ipTV.</para>
 
       <sect3>
         <title>Wired ethernet</title>
 
         <para>A wired Ethernet network reaches all parts of the living
         accommodation. An intelligent switch with QoS ensures that bandwidth
-        is managed in favour of critical services.</para>
+        is managed sensibly.</para>
       </sect3>
 
       <sect3>
         <title>WiFi</title>
 
         <para>The ship supports two physical WiFi networks and three virtual
-        networks. An on-board network (SSID=BEATRICE) is simply an extension
-        of the ship's wired Ethernet. An external WiFi network, switchable at
-        the helm, supports deck communications over VoIP (SSID=BEATRICE-VOIP)
-        and a public presence (SSID=BEATRICE-GUEST). A separate high-gain
-        network bridge provides reliable connection to remote wireless
-        hubs.</para>
+        networks.</para>
+
+        <para>An on-board network (SSID=BEATRICE) is simply an extension of
+        the ship's wired Ethernet. An external WiFi network, switchable at the
+        helm, supports deck communications over VoIP (SSID=BEATRICE-VOIP) and
+        a public presence (SSID=BEATRICE-GUEST). A separate high-gain network
+        bridge provides reliable connection to remote wireless hubs.</para>
+
+        <para/>
+
+        <itemizedlist>
+          <listitem>
+            <para/>
+          </listitem>
+        </itemizedlist>
+
+        <para/>
       </sect3>
 
       <sect3>
