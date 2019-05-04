@@ -56,14 +56,18 @@
       components.</para>
 
       <informaltable>
-        <tgroup cols="2">
+        <tgroup cols="5">
           <thead>
             <row>
-              <entry align="center">Item</entry>
+              <entry align="center">Device</entry>
 
-              <entry align="center">Location</entry>
+              <entry>Serial #</entry>
+
+              <entry>Instance</entry>
 
               <entry>Bus</entry>
+
+              <entry align="center">Location</entry>
             </row>
           </thead>
 
@@ -71,45 +75,71 @@
             <row>
               <entry>Actisense NGT-1-ISO NMEA 2000 gateway</entry>
 
-              <entry>Helm</entry>
+              <entry/>
+
+              <entry>n/a</entry>
 
               <entry>0</entry>
+
+              <entry>Helm</entry>
             </row>
 
             <row>
               <entry>Actisense QNB1 network block</entry>
 
+              <entry/>
+
+              <entry>n/a</entry>
+
+              <entry>1</entry>
+
               <entry>Helm panel</entry>
-
-              <entry>1</entry>
             </row>
 
             <row>
               <entry>Oceanic Systems 3478 relay output module</entry>
 
-              <entry>Engine room</entry>
+              <entry/>
+
+              <entry>0x0A</entry>
 
               <entry>0</entry>
-            </row>
-
-            <row>
-              <entry>Oceanic Systems 3478 relay output module</entry>
 
               <entry>Engine room</entry>
-
-              <entry>1</entry>
             </row>
 
             <row>
               <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry/>
+
+              <entry>0x1A</entry>
+
+              <entry>1</entry>
+
+              <entry>Engine room</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry/>
+
+              <entry>0x0F</entry>
+
+              <entry>0</entry>
 
               <entry>Master cabin</entry>
-
-              <entry>1</entry>
             </row>
 
             <row>
               <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry/>
+
+              <entry>0x1F</entry>
+
+              <entry>1</entry>
 
               <entry>Master cabin</entry>
             </row>
@@ -117,37 +147,51 @@
             <row>
               <entry>Oceanic Systems 4410 switch input module</entry>
 
-              <entry>Helm</entry>
+              <entry/>
+
+              <entry>0x01</entry>
 
               <entry>0</entry>
+
+              <entry>Helm</entry>
             </row>
 
             <row>
               <entry>Oceanic Systems 4410 switch input module</entry>
 
-              <entry>Helm</entry>
+              <entry/>
+
+              <entry>0x11</entry>
 
               <entry>0</entry>
+
+              <entry>Helm</entry>
             </row>
 
             <row>
               <entry>Maretron NBE100 network bus extender</entry>
 
-              <entry>Helm</entry>
+              <entry/>
+
+              <entry>n/a</entry>
 
               <entry>0 &amp; 1</entry>
+
+              <entry>Helm</entry>
             </row>
           </tbody>
         </tgroup>
       </informaltable>
 
-      <para>The following devices depend upn NMEA 2000 for their
+      <para>The following devices depend upon NMEA 2000 for their
       function.</para>
 
       <informaltable>
-        <tgroup cols="2">
+        <tgroup cols="3">
           <tbody>
             <row>
+              <entry/>
+
               <entry/>
 
               <entry/>

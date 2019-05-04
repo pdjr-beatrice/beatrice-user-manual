@@ -15,19 +15,208 @@
   <section>
     <title>NMEA 2000</title>
 
-    <para>WCs pump macerated waste directly to the holding tank each time the
-    'flush' function is activated.</para>
+    <para>The vessel is equipped with two NMEA 2000 buses, bridged at the helm
+    but powered separately via switches on the domestic panel.</para>
 
-    <para>The WCs operate at 230VAC and are supplied via circuit-breakers in
-    distribution cabinets C1 and C4. The WCs should normally remain powered
-    whenever the vessel is in use.</para>
+    <variablelist>
+      <varlistentry>
+        <term>NMEA BUS 0 ('domestic bus')</term>
+
+        <listitem>
+          <para>NMEA bus 0 supports all on-board control functions and
+          instrumentation of the ship's domestic or 'house' systems.</para>
+
+          <para>If this bus is not permanently enabled then very few of the
+          ship's systems can be monitored or operated.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>NMEA BUS 1 ('navigation bus')</term>
+
+        <listitem>
+          <para>NMEA bus 1 supports instrumentation and controls related to
+          navigation of the vessel.</para>
+
+          <para>This bus must be enabled when navigating the vessel, but
+          should be powered down when the ship is moored.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <para>The following schematic indicates the general arrangement of the
+    NMEA 2000 network.</para>
+
+    <para/>
+
+    <section>
+      <title>Equipment</title>
+
+      <para>The following table lists NMEA 2000 infrastructure
+      components.</para>
+
+      <informaltable>
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry align="center">Item</entry>
+
+              <entry align="center">Location</entry>
+
+              <entry>Bus</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>Actisense NGT-1-ISO NMEA 2000 gateway</entry>
+
+              <entry>Helm</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Actisense QNB1 network block</entry>
+
+              <entry>Helm panel</entry>
+
+              <entry>1</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry>Engine room</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry>Engine room</entry>
+
+              <entry>1</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry>Master cabin</entry>
+
+              <entry>1</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry>Master cabin</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 4410 switch input module</entry>
+
+              <entry>Helm</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 4410 switch input module</entry>
+
+              <entry>Helm</entry>
+
+              <entry>0</entry>
+            </row>
+
+            <row>
+              <entry>Maretron NBE100 network bus extender</entry>
+
+              <entry>Helm</entry>
+
+              <entry>0 &amp; 1</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+
+      <para>The following devices depend upn NMEA 2000 for their
+      function.</para>
+
+      <informaltable>
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry/>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>Simrad RF25N rudder feedback unit</entry>
+
+              <entry>Aft deck locker</entry>
+
+              <entry>1</entry>
+            </row>
+
+            <row>
+              <entry>Simrad RF25N rudder feedback unit</entry>
+
+              <entry>Aft deck locker</entry>
+
+              <entry>1</entry>
+            </row>
+
+            <row>
+              <entry>Simrad RF25N rudder feedback unit</entry>
+
+              <entry>Aft deck locker</entry>
+
+              <entry>1</entry>
+            </row>
+
+            <row>
+              <entry>Simrad RF25N rudder feedback unit</entry>
+
+              <entry>Aft deck locker</entry>
+
+              <entry>1</entry>
+            </row>
+
+            <row>
+              <entry>Simrad RF25N rudder feedback unit</entry>
+
+              <entry>Aft deck locker</entry>
+
+              <entry>1</entry>
+            </row>
+
+            <row>
+              <entry>Simrad RF25N rudder feedback unit</entry>
+
+              <entry>Aft deck locker</entry>
+
+              <entry>1</entry>
+            </row>
+
+            <row>
+              <entry/>
+
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
   </section>
 
   <section>
-    <title>Ethernet</title>
+    <title>Ethernet LAN</title>
 
     <para>Ethernet is used to support general access to ship services
-    including informationn displays, virtual control panels, VoIP deck
+    including information displays, virtual control panels, VoIP deck
     communication, map and NIS services and audio and video entrtainment. The
     following schematic indicates the general structure.</para>
 
@@ -160,9 +349,40 @@
 
       <para>The ship implements two WiFi networks: an internal network
       (SSID="BEATRICE") simply extends the vessels 192.168.1.0 network whilst
-      and external network (SSID="BEATRICE-EXT") supports VoIP intercom use
-      for deck crew and allows restricted access to on-board services for
+      an external network (SSID="BEATRICE-EXT") supports VoIP intercom use for
+      deck crew and allows restricted access to on-board services for
       guests.</para>
     </section>
+  </section>
+
+  <section>
+    <title>WAN</title>
+
+    <para>Connection to external networks is provided in three ways:</para>
+
+    <orderedlist>
+      <listitem>
+        <para>By WiFi. The ship's wireless gateway operates in station mode to
+        allow connection to an available WiFi hotspot. The administration
+        interface allows identification of and connection to available
+        networks and is accessible at https://192.168.2.254/ with default
+        credentials "ubnt:ubnt". For this service to be available, the
+        <keycap>WiFi</keycap> switch at the helm must be on.</para>
+      </listitem>
+
+      <listitem>
+        <para>By 4G. The ship's router is equipped with a 4G USB dongle
+        connected to a remote external antenna. The arrangement give a
+        broadband quality data link to the Internet at a maximum speed of
+        150Mbs. The administration interface at https://192.168.1.254/ allows
+        management of the connection.</para>
+      </listitem>
+
+      <listitem>
+        <para>By SMS. The USB dongle used for 4G connection also supports the
+        sending and reception of SMS messages which are used by some Signal K
+        applications for alert notification and control.</para>
+      </listitem>
+    </orderedlist>
   </section>
 </section>
