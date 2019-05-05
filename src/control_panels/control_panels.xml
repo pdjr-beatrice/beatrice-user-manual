@@ -19,7 +19,7 @@
 
     <listitem>
       <para>the helm panel which provides instrumentation and control of the
-      ship's navigation and technical installations. </para>
+      ship's navigation and technical installations.</para>
     </listitem>
   </itemizedlist>
 
@@ -933,10 +933,8 @@
                   </inlinemediaobject> D.WASH (OFF-ON)</term>
 
                 <listitem>
-                  <para>In the ON position the aft deck-wash connection will
-                  supply raw water rather than the normal potable water from
-                  the ship's tank. Note that the forward deck wash connection
-                  always supplies potable water.</para>
+                  <para>In the ON position the aft deck-wash raw-water pump is
+                  enabled.</para>
                 </listitem>
               </varlistentry>
 
@@ -965,9 +963,10 @@
 
                 <listitem>
                   <para>In the AUTO position the sewage holding tank will be
-                  automatically discharged when it reaches 90% capacity. If
-                  this mode is selected then the holding tank discharge valve
-                  and sea-cock must be left open.</para>
+                  automatically discharged when it reaches the alert capacity
+                  set in the ship's Signal K system. If this mode is selected
+                  then the holding tank discharge valve and sea-cock must be
+                  left open.</para>
 
                   <para>In the ON position the sewage discharge pump will
                   operate. Before selecting this mode, the holding tank
@@ -1025,11 +1024,11 @@
                   </inlinemediaobject> WIFI (OFF-ON)</term>
 
                 <listitem>
-                  <para>In the ON position the ship's external WiFi station is
-                  powered up. This provides a high-gain antenna for accessing
-                  external wireless hotspots and a local wireless hub which
-                  supports, amongst other things, VoIP communication amongst
-                  crew.</para>
+                  <para>In the ON position the ship's external WiFi gateway is
+                  powered up. The gateway provides a high-gain antenna for
+                  accessing external WiFi hotspots and a local wireless hub
+                  which supports, amongst other things, VoIP communication for
+                  deck crew.</para>
                 </listitem>
               </varlistentry>
             </variablelist>
@@ -1323,5 +1322,11 @@
         </sect4>
       </sect3>
     </sect2>
+  </sect1>
+
+  <sect1>
+    <title>Logical control panels</title>
+
+    <para/>
   </sect1>
 </chapter>
