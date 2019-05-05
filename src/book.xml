@@ -59,7 +59,7 @@
 
   <?hard-pagebreak ?>
 
-  <xi:include href="control_panels_and_infrastructure/control_panels_and_infrastructure.xml"
+  <xi:include href="control_panels/control_panels.xml"
               xpointer="element(/1)"
               xmlns:xi="http://www.w3.org/2001/XInclude"/>
 

@@ -6,165 +6,29 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Control panels and infrastructure</title>
+  <title>Control panels</title>
 
   <para>Operation of the vessel is supported by two physical control
-  panels.</para>
-
-  <para>The domestic panel (located in the lower companionway) provides
-  instrumentation and control of all house functions whilst the helm panel
-  provides instrumentation and control of navigation and ship installations. A
-  number of interfaces and controls are implemented by the ship's Signal K
-  server and are available through web-browser interfaces on the ship's
-  local-area network.</para>
-
-  <para>Data communication on the ship is supported by a range of
-  technologies:</para>
+  panels:</para>
 
   <itemizedlist>
     <listitem>
-      <para>twin NMEA 2000 networks support critical navigation and house
-      instrumentation and control;</para>
+      <para>the domestic panel provides instrumentation and control of all
+      house functions and enables/disables...</para>
     </listitem>
 
     <listitem>
-      <para>a shipwide Ethernet network supports technical, domestic and
-      entertainment services over wire and WiFi;</para>
-    </listitem>
-
-    <listitem>
-      <para>proprietary network systems are used to interconnect components
-      when there is no open or generic alternative;</para>
-    </listitem>
-
-    <listitem>
-      <para>cellular network interfaces support remote monitoring and
-      control.</para>
+      <para>the helm panel which provides instrumentation and control of the
+      ship's navigation and technical installations. </para>
     </listitem>
   </itemizedlist>
 
-  <sect1>
-    <title>Infrastructure</title>
-
-    <sect2>
-      <title>Signal K</title>
-
-      <para>A dedicated industrial PC runs a Signal K server which integrates
-      data from all providers and hosts a number of bespoke apps which provide
-      monitoring, diagnostic and control functions.</para>
-
-      <para>Importantly, the Signal K server implements non-local switching
-      using NMEA 2000 switchbank PGNs For example, operating a switch at the
-      helm causes a PGN127501 message to be sent over the NMEA 2000 network:
-      this message is detected by the Signal K server and mapped into a
-      PGN127502 message which is transmitted to cause one or more relays in a
-      remote part of the vessel to change state. The mapping between switch
-      operation and relay state change is implemented by a set of rules which
-      configure the server's response: this means it is simple to re-purpose
-      switches to operate different devices and also to offer some automation
-      functions: for example, the server can monitor waste tank levels and
-      initiate an automatic waste discharge if a tank overflow is
-      imminent.</para>
-
-      <para>The industrial PC has an IP address of 192.168.1.1 and the Signal
-      K server interface can be accessed at https://192.168.1.1.:3000/.</para>
-    </sect2>
-
-    <sect2>
-      <title>NMEA 2000</title>
-
-      <para>The vessel is equipped with two NMEA 2000 buses.</para>
-
-      <variablelist>
-        <varlistentry>
-          <term>NMEA BUS 0 ('domestic bus')</term>
-
-          <listitem>
-            <para>NMEA bus 0 supports all on-board control functions and
-            instrumentation of the ship's domestic or 'house' systems.</para>
-
-            <para>If this bus is not permanently enabled then very few of the
-            ship's systems can be operated.</para>
-          </listitem>
-        </varlistentry>
-
-        <varlistentry>
-          <term>NMEA BUS 1 ('navigation bus')</term>
-
-          <listitem>
-            <para>NMEA bus 1 supports instrumentation and controls related to
-            navigation of the vessel.</para>
-          </listitem>
-        </varlistentry>
-      </variablelist>
-
-      <para>The two networks are bridged at the helm so that communication on
-      one is visible on the other, but are powered separately via switches at
-      the domestic panel. When navigation instrumentation and control is not
-      required then NMEA bus 1 should be switched off to conserve battery
-      charge.</para>
-    </sect2>
-
-    <sect2>
-      <title>Ethernet</title>
-
-      <para>The ship uses Ethernet as its default communication system for
-      non-critical data communications. In addition to a conventional file
-      server, a DLNA server distributes music and video and real-time TV from
-      satellite and terrestrial receivers over ipTV.</para>
-
-      <para>Some ship systems are available on the local Ethernet and some
-      more widely available.</para>
-
-      <sect3>
-        <title>Wired ethernet</title>
-
-        <para>A wired Ethernet network reaches all parts of the living
-        accommodation. An intelligent switch with QoS ensures that bandwidth
-        is managed in favour of critical services.</para>
-      </sect3>
-
-      <sect3>
-        <title>WiFi</title>
-
-        <para>The ship supports two physical WiFi networks and three virtual
-        networks. An on-board network (SSID=BEATRICE) is simply an extension
-        of the ship's wired Ethernet. An external WiFi network, switchable at
-        the helm, supports deck communications over VoIP (SSID=BEATRICE-VOIP)
-        and a public presence (SSID=BEATRICE-GUEST). A separate high-gain
-        network bridge provides reliable connection to remote wireless
-        hubs.</para>
-      </sect3>
-
-      <sect3>
-        <title>WAN connectivity</title>
-
-        <para>The ship supports access to the Internet by both WiFi and
-        cellular connections.</para>
-      </sect3>
-    </sect2>
-
-    <sect2>
-      <title>Email and SMS interfaces</title>
-
-      <para>The ship's NMEA controller offers some services over email and
-      SMS. Alerts for certain conditions can be selected for email or SMS
-      notification and some controls can be operated by SMS and/or
-      email.</para>
-    </sect2>
-
-    <sect2>
-      <title>Proprietary networks</title>
-
-      <para>The only proprietary netwoks on the vessel are the Victron VE-bus
-      which is used for communication between the charger-inverter and various
-      control panels and the Webasto network supporting the chiller and space
-      environmental controls.</para>
-    </sect2>
-  </sect1>
+  <para>In addition, a number of virtual interfaces and controls are
+  implemented by the ship's Signal K server are made available on the vessel's
+  LAN.</para>
 
   <sect1>
-    <title>Control panels</title>
+    <title>Physical control panels</title>
 
     <sect2>
       <title>Domestic panel</title>
@@ -177,7 +41,7 @@
       management' functions and providing controls for enabling and disabling
       most of vessel's systems.</para>
 
-      <para>For most switches to actually do anything NMEA BUS 0 must be
+      <para>For most controls to actually do anything NMEA BUS 0 must be
       enabled.</para>
 
       <para><figure xml:id="domestic-panel-layout">
@@ -195,8 +59,7 @@
         <title>Instruments and control panels</title>
 
         <para>The domestic panel incorporates three sub-panels concerned
-        primarily with the ship's domestic battery bank and associated
-        systems.<footnote>
+        primarily with the ship's electrical power systems.<footnote>
             <para>The Color Control GX is also able to display tank level
             information.</para>
           </footnote></para>
@@ -498,13 +361,13 @@
       together important controls and instrumentation mainly concerned with
       navigation of the vessel.</para>
 
-      <para>The helm panel is enabled from the domestic panel,
-      <keycap>HELM</keycap>, <keycap>NMEA BUS 0</keycap><footnote>
+      <para>The helm panel is incrementally enabled by four domestic panel
+      controls <keycap>HELM</keycap>, <keycap>NMEA BUS 0</keycap><footnote>
           <para>Only required for access to tank level data</para>
         </footnote>, <keycap>NMEA BUS 1</keycap> and
       <keycap>VHF</keycap><footnote>
-          <para>Required for VHF radio and AIS operation</para>
-        </footnote> controls must be switched ON for the helm panel to be
+          <para>Required for operation of the main VHF radio</para>
+        </footnote>which must all be switched ON for the helm panel to be
       fully functional.</para>
 
       <para>Non-navigation and safety features (including a multi-channel
