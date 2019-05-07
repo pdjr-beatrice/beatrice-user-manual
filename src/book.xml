@@ -32,6 +32,8 @@
       retrieval system, without written permission from the author, such
       subject to the terms of the agreement between author and builder of the
       product which is subject of this manual.</para>
+
+          
     </legalnotice>
   </info>
 
@@ -59,8 +61,7 @@
 
   <?hard-pagebreak ?>
 
-  <xi:include href="control_panels/control_panels.xml"
-              xpointer="element(/1)"
+  <xi:include href="control_panels/control_panels.xml" xpointer="element(/1)"
               xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
   <?hard-pagebreak ?>
