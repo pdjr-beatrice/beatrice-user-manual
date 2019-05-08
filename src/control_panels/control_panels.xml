@@ -39,10 +39,8 @@
       <para>The domestic panel, located in the lower companionway, is the
       ship's primary control panel bringigng together all of the ship's 'house
       management' functions and providing controls for enabling and disabling
-      most of vessel's systems.</para>
-
-      <para>For most controls to actually do anything NMEA BUS 0 must be
-      enabled.</para>
+      most of vessel's systems. For most controls to actually do anything NMEA
+      BUS 0 must be enabled.</para>
 
       <para><figure xml:id="domestic-panel-layout">
           <title>Domestic panel layout</title>
@@ -1327,6 +1325,69 @@
   <sect1>
     <title>Logical control panels</title>
 
-    <para/>
+    <para>A number of logical control panels are implemented as Signal K
+    server webapp plugins.</para>
+
+    <para><informaltable>
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry valign="top"><emphasis role="bold">Signalk
+              Panel</emphasis> (http://192.168.1.1:3000/signalk-panel/) is a
+              simple integrated instrument panel displaying house and
+              navigation data.</entry>
+
+              <entry align="center"><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentwidth="7.5cm"
+                               fileref="RESOURCES/signalk-panel.png"/>
+                  </imageobject>
+                </inlinemediaobject></entry>
+            </row>
+
+            <row>
+              <entry valign="top"><emphasis role="bold">Signalk Log Viewer
+              </emphasis>(http://192.168.1.1:3000/signalk-log-viewer/) is a
+              viewer for data logged by the
+              <filename>signalk-log-viewer</filename> plugin.</entry>
+
+              <entry align="center"><inlinemediaobject>
+                  <imageobject>
+                    <imagedata align="center" contentwidth="7.5cm"
+                               fileref="RESOURCES/signalk-sensor-log.png"/>
+                  </imageobject>
+                </inlinemediaobject></entry>
+            </row>
+
+            <row>
+              <entry valign="top"><emphasis role="bold">Signalk
+              Switchbank</emphasis>
+              (http://192.168.1.1:3000/signalk-switchbank/) visualises the
+              state of NMEA 2000 switchbank input and output channels defined
+              by the <filename>signalk-switchbank</filename> plugin.</entry>
+
+              <entry align="center"><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentwidth="7.5cm"
+                               fileref="RESOURCES/signalk-switchbank.png"/>
+                  </imageobject>
+                </inlinemediaobject></entry>
+            </row>
+
+            <row>
+              <entry valign="top"><emphasis
+              role="bold">Freeboard-sk</emphasis>
+              (http://192.168.1.1:3000/freebaord-sk/) chartplotter.</entry>
+
+              <entry align="center"><inlinemediaobject>
+                  <imageobject>
+                    <imagedata contentwidth="7.5cm"
+                               fileref="RESOURCES/freeboard-sk.png"/>
+                  </imageobject>
+                </inlinemediaobject></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable></para>
   </sect1>
 </chapter>
