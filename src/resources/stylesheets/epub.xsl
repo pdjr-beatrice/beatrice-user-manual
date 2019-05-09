@@ -3,7 +3,6 @@
  
 	<xsl:import href="/opt/xslutil_perso-4_6_0/addon/config/docbook5/xsl/fo/docbook.xsl" />
 
-
 <xsl:template match="figure[processing-instruction('landscapeFigure')]">
   <fo:block-container reference-orientation="90">
     <xsl:apply-imports/>

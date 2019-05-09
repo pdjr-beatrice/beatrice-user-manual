@@ -35,81 +35,43 @@
     </legalnotice>
   </info>
 
-  <?hard-pagebreak ?>
+  <?hard-pagebreak?>
+  <xi:include href="introduction/introduction.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="introduction/introduction.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <?hard-pagebreak?>
+  <xi:include href="vessel_type_and_identification/vessel_type_and_identification.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak ?>
+  <?hard-pagebreak?>
+  <xi:include href="general_particulars/general_particulars.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="vessel_type_and_identification/vessel_type_and_identification.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <?hard-pagebreak?>
+  <xi:include href="installations/installations.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  
+  <?hard-pagebreak?>
+  <xi:include href="sailing/sailing.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak ?>
+  <?hard-pagebreak?>
+  <xi:include href="maintenance/maintenance.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="general_particulars/general_particulars.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <?hard-pagebreak?>
+  <xi:include href="receipt_of_documents/receipt_of_documents.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak ?>
+  <?hard-pagebreak?>
+  <xi:include href="declaration_of_conformity/declaration_of_conformity.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="installations/installations.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <?hard-pagebreak?>
+  <xi:include href="copy_certificates/copy_certificates.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak ?>
+  <?hard-pagebreak?>
+  <xi:include href="warranty_conditions/warranty_conditions.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="control_panels/control_panels.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <?hard-pagebreak?>
+  <xi:include href="electrical_diagrams/electrical_diagrams.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak ?>
+  <?hard-pagebreak?>
+  <xi:include href="heating_diagrams/heating_diagrams.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="sailing/sailing.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <?hard-pagebreak?>
+  <xi:include href="bibliography/bibliography.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak ?>
-
-  <xi:include href="maintenance/maintenance.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
-  <?hard-pagebreak ?>
-
-  <xi:include href="receipt_of_documents/receipt_of_documents.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
-  <?hard-pagebreak ?>
-
-  <xi:include href="declaration_of_conformity/declaration_of_conformity.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
-  <?hard-pagebreak ?>
-
-  <xi:include href="copy_certificates/copy_certificates.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
-  <?hard-pagebreak ?>
-
-  <xi:include href="warranty_conditions/warranty_conditions.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
-  <?hard-pagebreak ?>
-
-  <xi:include href="electrical_diagrams/electrical_diagrams.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
-  <?hard-pagebreak ?>
-
-  <xi:include href="heating_diagrams/heating_diagrams.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
-  <?hard-pagebreak ?>
-
-  <xi:include href="bibliography/bibliography.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </book>

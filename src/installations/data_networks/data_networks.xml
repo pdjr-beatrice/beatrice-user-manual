@@ -188,16 +188,19 @@
   <section>
     <title>Ethernet LAN</title>
 
-    <para>Ethernet is used to support general access to ship services
-    including information displays, virtual control panels, VoIP deck
-    communication, map and NIS services and audio and video entrtainment. The
-    following schematic indicates the general structure.</para>
+    <para><figure>
+        <title>Ethernet LAN infrastructure components</title>
 
-    <mediaobject>
-      <imageobject>
-        <imagedata contentwidth="17cm" fileref="RESOURCES/ethernet.png"/>
-      </imageobject>
-    </mediaobject>
+        <mediaobject>
+          <imageobject>
+            <imagedata align="center" contentwidth="17cm"
+                       fileref="RESOURCES/ethernet.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>Ethernet is used to support general access to ship services
+    including information displays, virtual control panels, VoIP deck
+    communication, map and NIS services and audio and video
+    entrtainment.</para>
 
     <section>
       <title>Equipment</title>

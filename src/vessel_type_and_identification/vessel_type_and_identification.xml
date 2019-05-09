@@ -29,6 +29,17 @@
   <section>
     <title>Builder's plate</title>
 
+    <figure>
+      <title>Builders plate</title>
+
+      <mediaobject>
+        <imageobject>
+          <imagedata align="center" contentwidth="10cm"
+                     fileref="RESOURCES/buildersplate.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
     <para>The builder's plate is affixed at the helm and contains valuable
     information on your vessel including the name of builder, CE-mark, design
     category, maximum recommended number of persons when under way and maximum
