@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Fresh water system</title>
+
+  <para>The fresh water system consists of two 1680 litre stainless-steel
+  fixed storage tanks, a hydrophore with a 230VAC electrical pump and an
+  on-demand, plate heat-exchanger based, hot water generator.</para>
+
+  <para>Refer to <xref linkend="fluid-storage-and-handling"/> for a system
+  overview.</para>
+
+  <para>The twin tanks are normally commoned through valves located under the
+  saloon floor: it is possible to operate the system from just one tank by
+  closing the appropriate valves between tanks and on the commoning
+  manifold.</para>
+
+  <section>
+    <title>Filling the tanks</title>
+
+    <para>Ensure that the hose you use for topping up your potable water tanks
+    is appropriate for potable water and that your chosen water water source
+    is in fact dispensing drinking water.</para>
+
+    <orderedlist>
+      <listitem>
+        <para>Locate the deck filler marked "WATER".</para>
+      </listitem>
+
+      <listitem>
+        <para>Clean the area around the filler and ensure that any adjacent
+        filler caps are firmly closed.</para>
+      </listitem>
+
+      <listitem>
+        <para>Clean the end of the hose which will be inserted into the ship's
+        filler port and run water through the hose for a sufficient time to
+        eliminate any retained or static water from the supply.</para>
+      </listitem>
+
+      <listitem>
+        <para>Open the deckfitting, insert the hose and commence
+        filling.</para>
+      </listitem>
+
+      <listitem>
+        <para>Fill the tank. Do not overfill - a 90% reading on the tank gauge
+        is a sensible target.</para>
+      </listitem>
+
+      <listitem>
+        <para>Remove the hose and replace the filler cap.</para>
+      </listitem>
+
+      <listitem>
+        <para>Make an entry in the ship's log.</para>
+      </listitem>
+    </orderedlist>
+  </section>
+
+  <section>
+    <title>Tank level monitoring</title>
+
+    <para>Each tank is equipped with an electronic tank level monitoring
+    system consisting of a hydrostatic tank level sender which broadcasts
+    messages onto the ship's domestic NMEA 2000 bus. Tank level data can be
+    displayed on screens located at the helm, domestic panel and
+    elsewhere.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Variations in tank level readings are possible due
+    to conditions of trim, list, seaway and callibration.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> Tank level sensing requires <guilabel>NMEA BUS
+    0</guilabel> to be enabled on the ship's domestic panel.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+        </imageobject>
+      </inlinemediaobject> <citation>mare1</citation></para>
+  </section>
+
+  <section>
+    <title>Pressure system</title>
+
+    <para>The ship's hydrophore is installed in the engine room and consists
+    of a 230VAC electrically driven pump and pressure vessel. The system is
+    set to a default pressure of 3bar and will automatically maintain this,
+    starting the pump as necessary to cater for demand.</para>
+
+    <para>The system is entirely automatic in operation and it is recommended
+    that the hydrophore remain powered at all times.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/IEC5010/IEC5010_On_Off_Symbol%20.svg"/>
+        </imageobject>
+      </inlinemediaobject>To enable and disable the pressure system use the
+    switch labelled <guilabel>HYDROPHORE</guilabel> on the ship's domestic
+    panel.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> The pressure system can only be enable and disabled
+    if <guilabel>NMEA BUS 0</guilabel> is enabled.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W025_risk_of_remote_start.svg"/>
+        </imageobject>
+      </inlinemediaobject> The motor and pump have an exposed mechanism and
+    may begin operation unexpectedly.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
+        </imageobject>
+      </inlinemediaobject> Danger of electrical shock 230VAC</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+        </imageobject>
+      </inlinemediaobject> <citation>spec1</citation></para>
+  </section>
+
+  <section>
+    <title>Hot water</title>
+
+    <para>Hot water is generated by a heat exchanger system located in the
+    engine-room. When a hot-water tap is opened fluid from the ship's thermal
+    buffer is pumped through the heat exchanger primary circuit and used to
+    heat cold water, delivered by the hydrophore, in the heat exchanger
+    secondary circuit.</para>
+
+    <para>An independent pumped hot-water loop attempts to predict demand for
+    hot water and ensure that, under most circumstances, pre-heated water is
+    available at an outlet in anticipation of its likely use.</para>
+
+    <para>When the thermal buffer is fully charged it can supply enough hot
+    water for at least a day's normal domestic usage without the input of any
+    additional energy.</para>
+
+    <para>If the thermal buffer is cold, then it can be recharged for the
+    purpose of hot water generation almost instantaneously from the ship's
+    boiler or less rapidly by use of the immersion heaters (waste heat from
+    operation of the main engine and generator is also used to recharge the
+    buffer). Refer to <xref linkend="heating"/> for detailed information on
+    managing the thermal buffer.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/IEC5010/IEC5010_On_Off_Symbol%20.svg"/>
+        </imageobject>
+      </inlinemediaobject> To enable and disable the hot-water system use the
+    switch marked <guilabel>THERMAL STORE</guilabel> on the ship's domestic
+    panel.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/IEC5010/IEC5010_On_Off_Symbol%20.svg"/>
+        </imageobject>
+      </inlinemediaobject> To enable and disable the hot-water loop use the
+    switch marked <guilabel>HOT WATER LOOP</guilabel> on the ship's domestic
+    panel.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject> The hot water system can only be enabled and
+    disabled if <guilabel>NMEA BUS 0</guilabel> is enabled.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+        </imageobject>
+      </inlinemediaobject> FILL ME IN</para>
+  </section>
+
+  <section>
+    <title>Heads</title>
+
+    <para>WCs on the vessel are operated electrically and flush from the
+    ship's fresh water system, discharging directly into the ship's black
+    water holding tank. The WC units are operated by a simple flush button and
+    consume either 3 litres of 5 litres of water per operation depending on
+    the selected flush mode.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/warning/W008_risk_of_electrocution.svg"/>
+        </imageobject>
+      </inlinemediaobject> WC units operate at 230VAC, unplug from mains
+    before servicing.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm"
+                     fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+        </imageobject>
+      </inlinemediaobject> <citation>sani1</citation></para>
+  </section>
+</section>

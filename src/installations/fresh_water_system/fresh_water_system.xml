@@ -44,7 +44,7 @@
       </listitem>
 
       <listitem>
-        <para>Open the deckfitting, insert the hose and commence
+        <para>Open the deck filler, insert the hose and commence
         filling.</para>
       </listitem>
 
@@ -78,7 +78,7 @@
                      fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
       </inlinemediaobject> Variations in tank level readings are possible due
-    to conditions of trim, list, seaway and callibration.</para>
+    to conditions of trim, list, seaway and calibration.</para>
 
     <para><inlinemediaobject>
         <imageobject>
@@ -101,11 +101,8 @@
 
     <para>The ship's hydrophore is installed in the engine room and consists
     of a 230VAC electrically driven pump and pressure vessel. The system is
-    set to a default pressure of 3bar and will automatically maintain this,
+    set to a default pressure of 3 bar and will automatically maintain this,
     starting the pump as necessary to cater for demand.</para>
-
-    <para>The system is entirely automatic in operation and it is recommended
-    that the hydrophore remain powered at all times.</para>
 
     <para><inlinemediaobject>
         <imageobject>
@@ -114,7 +111,8 @@
         </imageobject>
       </inlinemediaobject>To enable and disable the pressure system use the
     switch labelled <guilabel>HYDROPHORE</guilabel> on the ship's domestic
-    panel.</para>
+    panel, but note that the system is entirely automatic in operation and it
+    is recommended that the hydrophore remain powered at all times.</para>
 
     <para><inlinemediaobject>
         <imageobject>
@@ -156,9 +154,10 @@
     heat cold water, delivered by the hydrophore, in the heat exchanger
     secondary circuit.</para>
 
-    <para>An independent pumped hot-water loop attempts to predict demand for
-    hot water and ensure that, under most circumstances, pre-heated water is
-    available at an outlet in anticipation of its likely use.</para>
+    <para>An independent pumped hot-water loop is triggered by operation of a
+    light switch in the day heads and en-suite and ensures that, under most
+    circumstances, pre-heated water is available at an outlet in anticipation
+    of its likely use.</para>
 
     <para>When the thermal buffer is fully charged it can supply enough hot
     water for at least a day's normal domestic usage without the input of any
@@ -194,8 +193,8 @@
           <imagedata contentwidth="0.5cm"
                      fileref="resources/images/DIN_4844-2/warning/W000_general.svg"/>
         </imageobject>
-      </inlinemediaobject> The hot water system can only be enabled and
-    disabled if <guilabel>NMEA BUS 0</guilabel> is enabled.</para>
+      </inlinemediaobject> The hot-water system and hot-water loop can only be
+    enabled and disabled if <guilabel>NMEA BUS 0</guilabel> is enabled.</para>
 
     <para><inlinemediaobject>
         <imageobject>
