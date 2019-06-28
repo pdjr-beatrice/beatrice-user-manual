@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" version="1.0">
  
-	<xsl:import href="/opt/xslutil_perso-4_6_0/addon/config/docbook5/xsl/fo/docbook.xsl" />
+	<xsl:import href="/opt/xbe-perso-8_3_0/addon/config/docbook5/xsl/fo/docbook.xsl" />
 
 <xsl:template match="figure[processing-instruction('landscapeFigure')]">
   <fo:block-container reference-orientation="90">

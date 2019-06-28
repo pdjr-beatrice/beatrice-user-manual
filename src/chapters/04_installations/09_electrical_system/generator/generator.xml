@@ -1,0 +1,120 @@
+  <section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+    <title>Generator</title>
+
+    <para>A 230VAC 12kVA 1500rpm diesel generator is available to provide
+    230VAC electrical energy when the vessel is off-grid or when the ship's
+    batteries are depleted.</para>
+
+    <para/>
+
+    <section>
+      <title>Generator controls</title>
+
+      <para>The generator control panel is located at the helm and offers
+      three primary buttons:</para>
+
+      <variablelist>
+        <varlistentry>
+          <term>START</term>
+
+          <listitem>
+            <para>Press to initiate the generator start sequence. The control
+            panel will prepare the generator for starting and make up to three
+            cranking attempts. If cranking is unsuccessful, check the control
+            panel display for diagnostic information and consult the control
+            panel manual for further instructions.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>STOP</term>
+
+          <listitem>
+            <para>Press to stop the generator or cancel auto-start
+            mode.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>AUTO</term>
+
+          <listitem>
+            <para>Press to place the generator in auto-start mode. In
+            auto-start mode control of the generator is referred to the ship's
+            domestic panel.</para>
+
+            <para>The domestic panel has two switches labelled
+            GENERATOR:</para>
+
+            <variablelist>
+              <varlistentry>
+                <term>left-hand switch</term>
+
+                <listitem>
+                  <para>In the on position causes the generator to start. The
+                  generator will continue running until the switch is turned
+                  off or the generator control panel is taken out of
+                  auto-start mode.</para>
+                </listitem>
+              </varlistentry>
+
+              <varlistentry>
+                <term>right-hand switch</term>
+
+                <listitem>
+                  <para>In the on position refers generator start control the
+                  the ship's battery management system controller. The battery
+                  manager will start the generator automatically to recharge
+                  the ship's batteries should they become severely
+                  depleted.</para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </section>
+
+    <section xml:id="generatorelectrics">
+      <title>Generator electrics</title>
+
+      <para>The generator operates at 12VDC. A single 120Ah 12VDC cranking
+      battery is installed on the port side of the engine room with an
+      adjacent battery isolator switch and a dedicated 24VDC battery charger
+      which is energised only when the ship is connected to shore or generator
+      supply.</para>
+    </section>
+
+    <section>
+      <title>Generator exhaust</title>
+
+      <para>The generator has a dry exhaust system routed through a silencer
+      and discharging through the transom.</para>
+    </section>
+
+    <section>
+      <title>Generator cooling</title>
+
+      <para>The generator engine is indirectly cooled through an immersed heat
+      exchanger located in a protected cavity at the port side of the hull.
+      The heat exchanger can be serviced from the engine room without the need
+      for lift-out or dry-docking.</para>
+
+      <para>A subsidiary primary cooling circuit is used to heat the ship's
+      thermal buffer through a heat transfer coil.</para>
+
+      <para>The primary cooling circuit is pumped by a mechanically driven
+      engine mounted impeller.</para>
+
+      <para>The generator cabinet is actively cooled by a powerful fan which
+      draws air from the engine room, through the cabinet and discharges
+      through an insulated pipe at the transom.</para>
+    </section>
+  </section>
+

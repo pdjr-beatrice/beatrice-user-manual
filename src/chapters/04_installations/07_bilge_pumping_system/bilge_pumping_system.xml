@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Bilge pumping system</title>
+
+  <para>The vessel is equipped with two electrically operated bilge pumps, one
+  in the engine compartment and another in the main compartment. Each pump is
+  connected to a float switch which operates the bilge pump automatically when
+  water is detected in the bilge. Each float switch is backed-up by an
+  independent water level sensor connected to the ship's alarm system.</para>
+
+  <section>
+    <title>Bilge system controls</title>
+
+    <para>Each bilge system is operated by a three-position switch located at
+    the helm (labelled <keycap>E.ROOM</keycap> and
+    <keycap>M.COMP</keycap>):</para>
+
+    <variablelist>
+      <varlistentry>
+        <term>UP POSITION</term>
+
+        <listitem>
+          <para>The bilge pump and float switch are switched off. In normal
+          use the switch should never be left in this position unless the
+          vessel is out of the water or the bilge system is being serviced.
+          When the switch is in this position the associated bilge pump alarm
+          indicator will illuminate.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>MID POSITION</term>
+
+        <listitem>
+          <para>The bilge pump and float switch are enabled in automatic mode.
+          If the float switch detects water in the bilge the pump will start
+          automatically and the helm alarm annunciator and indicator will
+          signal an alert and the associated bilge pump alarm indicator will
+          illuminate.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>DOWN POSITION</term>
+
+        <listitem>
+          <para>The bilge pump will run, the helm alarm annunciator and
+          indicator will signal an alert and the associated bilge pump alarm
+          indicator will illuminate.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </section>
+
+  <section>
+    <title>Bilge system alarms</title>
+
+    <para>Each bilge system has an indicator light at the helm which
+    illuminates when the assocated bilge system is switched off and/or when
+    the bilge pump is running. The indicator will flash when the bilge backup
+    sensor detects water: typically this means that the float switch has
+    failed to activate the bilge pump or the compartment is being inundated at
+    a rate beyond the capacity of the bilge pump.</para>
+
+    <para>The helm alarm system will activate when a bilge pump is running for
+    whatever reason and also when a backup sensor detects water. The audible
+    component of the alarm can be cancelled, but the visual component will
+    remain active until the condition causing the alert is corrected.</para>
+  </section>
+</section>

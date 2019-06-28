@@ -1,77 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-<!ENTITY % myents SYSTEM "entities.ent">
-%myents;
-]>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <book version="5.0" xmlns="http://docbook.org/ns/docbook">
+    <title>Beatrice of Hull</title>
+
+    <subtitle>SRF Luxemoter 19.95</subtitle>
+    <subtitle>Owner Manual</subtitle>
   <info>
-    <title>&boattype; &boatname;</title>
 
-    <subtitle>Owner's Manual</subtitle>
-
-    <pubdate>tbc</pubdate>
+    <pubdate>May 2019</pubdate>
+<copyright>
+        <year>2016-2019</year>
+        <holder>Paul Reeve</holder>
+  </copyright>
 
     <legalnotice>
-      <para>Changes in specifications can be made without prior notice.</para>
-
       <para>No rights can be obtained from this manual.</para>
 
-      <para>Changes in specifications may be made without due notice, parts of
-      this manual may describe options or systems that may be different to
-      those fitted to your boat, despite the name of your boat showing on this
-      manual.</para>
+      <para>Changes in the specification of a boat may be made at any time and
+      parts of this manual may describe options or systems that may be different to
+      those currently fitted to the described vessel.</para>
 
-      <para>The producer will not accept responsibility for damages, direct
+      <para>The author will not accept responsibility for damages, direct
       and indirect that result from the wordly text of this manual, when
       reason and common sense should prevail.</para>
 
       <para>All rights reserved. No part of this manual may be reproduced or
       transmitted in any form or by any means, electronic or mechanical,
       including photocopying, recording or by any information storage or
-      retrieval system, without written permission from the author, such
-      subject to the terms of the agreement between author and builder of the
-      product which is subject of this manual.</para>
+      retrieval system, without written permission from the author.
+      </para>
     </legalnotice>
+
+    <author>
+      <personname>
+        <firstname>Paul</firstname>
+
+        <surname>Reeve</surname>
+      </personname>
+    </author>
+    <releaseinfo>
+	<para>Version 1.0</para>
+    </releaseinfo>
   </info>
 
-  <?hard-pagebreak?>
-  <xi:include href="introduction/introduction.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="chapters/01_introduction/introduction.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="vessel_type_and_identification/vessel_type_and_identification.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="chapters/02_vessel_type_and_identification/vessel_type_and_identification.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="general_particulars/general_particulars.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="chapters/03_general_particulars/general_particulars.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="installations/installations.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  
-  <?hard-pagebreak?>
-  <xi:include href="sailing/sailing.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="chapters/04_installations/installations.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="maintenance/maintenance.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="chapters/05_sailing/sailing.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="receipt_of_documents/receipt_of_documents.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="chapters/06_maintenance/maintenance.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="declaration_of_conformity/declaration_of_conformity.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="appendix/01_declaration_of_conformity/declaration_of_conformity.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="copy_certificates/copy_certificates.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="appendix/02_copy_certificates/copy_certificates.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="warranty_conditions/warranty_conditions.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="appendix/03_electrical_diagrams/electrical_diagrams.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="electrical_diagrams/electrical_diagrams.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="appendix/04_heating_diagrams/heating_diagrams.xml"
+              xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <?hard-pagebreak?>
-  <xi:include href="heating_diagrams/heating_diagrams.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
-  <?hard-pagebreak?>
-  <xi:include href="bibliography/bibliography.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-
+  <xi:include href="bibliography/bibliography.xml" xpointer="element(/1)"
+              xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </book>

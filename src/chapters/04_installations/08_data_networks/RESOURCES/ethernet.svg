@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="44cm" height="22cm" viewBox="1 29 868 432" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <image x="240" y="200" width="60" height="60" xlink:href="file:///home/preeve/Downloads/network/wireless%20router.jpg"/>
+  <image x="60" y="60" width="60" height="60" xlink:href="file:///home/preeve/Downloads/network/wireless%20router.jpg"/>
+  <image x="240" y="420" width="40" height="40" xlink:href="file:///home/preeve/Downloads/network/programmable%20switch.jpg"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="260" y1="260" x2="260" y2="420"/>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="224.45">
+    <tspan x="300" y="224.45">SSID "BEATRICE"</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="270" y="181">
+    <tspan x="270" y="181">NetGear N600</tspan>
+    <tspan x="270" y="197">Router</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="90" y="41">
+    <tspan x="90" y="41">Ubiquiti Networks Bullet</tspan>
+    <tspan x="90" y="57">Gateway</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="84.45">
+    <tspan x="120" y="84.45">SSID "BEATRICE-EXT"</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="90" y="132.273">
+    <tspan x="90" y="132.273">192.168.2.253</tspan>
+    <tspan x="90" y="148.272"></tspan>
+  </text>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="90,120 90,240 240,240 240,240 "/>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="251.9">
+    <tspan x="240" y="251.9">192.168.2.254</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="272.273">
+    <tspan x="260" y="272.273">192.168.1.254</tspan>
+    <tspan x="260" y="288.273"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="417">
+    <tspan x="260" y="417">192.168.1.253</tspan>
+  </text>
+  <image x="680" y="60" width="40" height="46.3636" xlink:href="file:///home/preeve/Downloads/network/antenna.jpg"/>
+  <image x="460" y="200" width="40" height="20.7407" xlink:href="file:///home/preeve/Downloads/network/RF%20modem.jpg"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="480" y1="240" x2="300" y2="240"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="500" y="200.996">
+    <tspan x="500" y="200.996">Huawei E3372</tspan>
+    <tspan x="500" y="216.996">4G Cellular Modem</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="280" y1="260" x2="280" y2="300"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="300" y1="320" x2="280" y2="300"/>
+  <image x="640" y="280" width="40" height="20.3846" xlink:href="file:///home/preeve/Downloads/network/host.jpg"/>
+  <image x="760" y="280" width="40" height="20.3846" xlink:href="file:///home/preeve/Downloads/network/host.jpg"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="300" y1="320" x2="780" y2="320"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="660" y1="320" x2="660" y2="300.385"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="780" y1="320" x2="780" y2="300.385"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="660" y="277">
+    <tspan x="660" y="277">Signal K</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="780" y="277">
+    <tspan x="780" y="277">Plotter</tspan>
+  </text>
+  <image x="380" y="400" width="40" height="20.3846" xlink:href="file:///home/preeve/Downloads/network/host.jpg"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="400" y="396.255">
+    <tspan x="400" y="396.255">NAS</tspan>
+  </text>
+  <image x="460" y="400" width="40" height="20.3846" xlink:href="file:///home/preeve/Downloads/network/host.jpg"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="480" y="396.255">
+    <tspan x="480" y="396.255">MapServer</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="280" y1="440" x2="560" y2="440"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="400" y1="440" x2="400" y2="420.385"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="480" y1="440" x2="480" y2="420.385"/>
+  <image x="460" y="60" width="40" height="46.3636" xlink:href="file:///home/preeve/Downloads/network/antenna.jpg"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="480" y1="240" x2="480" y2="220.385"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="480" y1="200" x2="480" y2="100"/>
+  <image x="680" y="200" width="40" height="20.7407" xlink:href="file:///home/preeve/Downloads/network/RF%20modem.jpg"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="700" y1="200" x2="700" y2="100"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="700" y1="220.741" x2="700" y2="300"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="680" y1="300.385" x2="700" y2="300"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="720" y="200.996">
+    <tspan x="720" y="200.996">Huawei E3163</tspan>
+    <tspan x="720" y="216.996">SMS Cellular Modem</tspan>
+  </text>
+</svg>

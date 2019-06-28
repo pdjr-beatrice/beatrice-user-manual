@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Fuse
+D Fuse, generic
+K Fuse
+F ~
+$ENDCMP
+#
+#End Doc Library

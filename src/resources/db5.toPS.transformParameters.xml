@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg:configuration
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:cfg="http://www.xmlmind.com/xmleditor/schema/configuration"
+><cfg:parameterGroup
+name="db5.toPS.transformParameters"
+><cfg:parameter
+name="admon.graphics.path"
+>%~px../images/</cfg:parameter
+><cfg:parameter
+name="callout.graphics"
+>0</cfg:parameter
+><cfg:parameter
+name="callout.graphics.path"
+>%~px../images/callouts/</cfg:parameter
+><cfg:parameter
+name="chapter.autolabel"
+>1</cfg:parameter
+><cfg:parameter
+name="graphicsize.extension"
+>0</cfg:parameter
+><cfg:parameter
+name="header.column.widths"
+>1 3 1</cfg:parameter
+><cfg:parameter
+name="img.src.path"
+>%~pi</cfg:parameter
+><cfg:parameter
+name="section.label.includes.component.label"
+>1</cfg:parameter
+></cfg:parameterGroup
+></cfg:configuration
+>
