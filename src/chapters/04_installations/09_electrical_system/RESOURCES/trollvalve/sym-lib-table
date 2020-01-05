@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name trollvalve-rescue)(type Legacy)(uri ${KIPRJMOD}/trollvalve-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name trollvalve)(type Legacy)(uri /home/preeve/Projects/git/beatrice-user-manual/src/resources/kicad-libraries/trollvalve.lib)(options "")(descr ""))
+)

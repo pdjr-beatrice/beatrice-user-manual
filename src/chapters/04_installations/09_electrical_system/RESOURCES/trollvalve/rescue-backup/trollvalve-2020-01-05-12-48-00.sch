@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:trollvalve-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -74,9 +75,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 1050 1700 1050
 Wire Wire Line
-	1850 1800 2100 1800
-Wire Wire Line
-	2100 1800 2200 1800
+	1850 1800 2200 1800
 Wire Wire Line
 	2100 1050 2000 1050
 $Comp
@@ -572,11 +571,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 2900 7550 2900
 Wire Wire Line
-	4100 3000 5600 3000
-Wire Wire Line
-	5600 3000 7500 3000
-Wire Wire Line
-	7500 3000 7550 3000
+	4100 3000 7550 3000
 Connection ~ 7500 3000
 Wire Wire Line
 	9450 1500 9950 1500
@@ -661,9 +656,7 @@ F 3 "" H 2450 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1100 2200 1550 2200
-Wire Wire Line
-	1550 2200 2450 2200
+	1100 2200 2450 2200
 $Comp
 L FINDER-40.31 RL?
 U 1 1 5E115543
@@ -676,7 +669,7 @@ F 3 "" H 1550 4200 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L SW_DIP_x01 SW1
+L SW_DIP_x01-RESCUE-trollvalve SW1
 U 1 1 5E116E35
 P 1550 2500
 F 0 "SW1" H 1550 2700 50  0000 C TNN
@@ -807,9 +800,7 @@ F 3 "" H 2000 2900 50  0001 C CNN
 $EndComp
 Connection ~ 2100 1800
 Wire Wire Line
-	2100 1050 2100 1800
-Wire Wire Line
-	2100 1800 2100 2600
+	2100 1050 2100 2600
 Wire Wire Line
 	1250 2500 1100 2500
 Wire Wire Line
@@ -840,9 +831,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 4400 1250 4400
 Wire Wire Line
-	800  5100 800  6200
-Wire Wire Line
-	800  6200 800  6400
+	800  5100 800  6400
 Wire Wire Line
 	800  4800 800  4000
 Wire Wire Line
@@ -910,9 +899,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4400 3150 4400
 Wire Wire Line
-	4000 1600 4000 1850
-Wire Wire Line
-	4000 1850 4000 4400
+	4000 1600 4000 4400
 Wire Wire Line
 	4100 3000 4100 4500
 Wire Wire Line
