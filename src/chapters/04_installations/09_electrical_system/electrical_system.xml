@@ -8,7 +8,7 @@
          xmlns:db="http://docbook.org/ns/docbook">
   <title>Electrical system</title>
 
-  <para>The vessel has a number of DC and AC electrical systems as summarised
+  <para>The vessel has three discrete electrical systems as summarised
   below.</para>
 
   <informaltable>
@@ -77,7 +77,7 @@
         </row>
 
         <row>
-          <entry>Domestic (DC)</entry>
+          <entry>Domestic</entry>
 
           <entry>24VDC</entry>
 
@@ -113,7 +113,7 @@
         </row>
 
         <row>
-          <entry>Domestic (AC)</entry>
+          <entry/>
 
           <entry>230VAC</entry>
 
@@ -131,7 +131,7 @@
     <title>Generator engine system</title>
 
     <para>The generator engine system is entirely self-contained with no
-    consumers other than the generator starter system.</para>
+    consumers other than the generator and its control panel.</para>
 
     <para>A single 12VDC 120Ah battery and associated master switch are
     located below the generator housing on the port side of the engine
@@ -147,7 +147,7 @@
     <title>Main engine system</title>
 
     <para>The main engine system operates at 24VDC and supports the main
-    engine starter system, propeller shaft lubrication pump, raw-water
+    engine and its control panel, propeller shaft lubrication pump, raw-water
     deck-wash pump and the stern navigation light.</para>
 
     <para>Two 12VDC 120Ah series-connected batteries and associated master
@@ -172,7 +172,7 @@
     considerations.</para>
 
     <section>
-      <title>Domestic (DC) system</title>
+      <title>Domestic DC system</title>
 
       <para>The domestic DC system operates at 24VDC and supports all ship's
       systems which require a direct current supply (other than those
@@ -187,13 +187,13 @@
       inverter-charger and 5kW solar charge controller.</para>
 
       <para>The inverter-charger automatically blends inverting and charging
-      depending upon the availability of an external 230VAC power source, but
-      can be switched to charger-only mode using the control mounted in the
-      domestic panel. Two 230VAC energy inputs are available: a shore-power
-      connection on the aft deck allows connection to a utility outlet and
-      supplies energy to the inverter-charger through a 7kW isolating
-      transformer; the ship's generator can provide up to 12kW of energy when
-      off-grid.</para>
+      depending upon consumer demand and the availability of an external
+      230VAC power source, but can be switched to charger-only mode using the
+      control mounted in the domestic panel. Two 230VAC energy inputs are
+      available: a shore-power connection on the aft deck allows connection to
+      a utility outlet and supplies energy to the inverter-charger through a
+      7kW isolating transformer; the ship's generator can provide up to 12kW
+      of energy when off-grid.</para>
 
       <para>The solar charge controller connects to a 1kW solar panel array
       mounted over the aft deck.</para>
@@ -201,7 +201,7 @@
       <para>The main DC connection box integrates all suppliers and
       consumers</para>
 
-      <para> are of can be switched between charge only and inverter-charge
+      <para>are of can be switched between charge only and inverter-charge
       only energised when the the ship is connected to a 230VAC shore power
       supply or when the ship's generator is running.</para>
 

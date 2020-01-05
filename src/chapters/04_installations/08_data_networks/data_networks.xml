@@ -247,6 +247,14 @@
             </row>
 
             <row>
+              <entry>Rasperrby Pi VPN router</entry>
+
+              <entry>Helm</entry>
+
+              <entry>192.168.1.252</entry>
+            </row>
+
+            <row>
               <entry>Signal K / NMEA controller</entry>
 
               <entry>Helm</entry>
