@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Solenoid
+D Buzzer, polar
+K Quartz Resonator Ceramic 
+$ENDCMP
+#
+#End Doc Library
