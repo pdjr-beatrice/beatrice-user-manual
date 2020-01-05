@@ -223,7 +223,7 @@
     <title>Domestic panel</title>
 
     <mediaobject>
-      <imageobject>
+      <imageobject xml:id="domestic-panel-schematic">
         <imagedata align="center" contentwidth="17cm"
                    fileref="RESOURCES/dc-domestic.png"/>
       </imageobject>

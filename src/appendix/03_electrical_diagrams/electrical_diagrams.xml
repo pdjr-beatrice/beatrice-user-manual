@@ -27,14 +27,14 @@
 
       <tbody>
         <row>
-          <entry>C0</entry>
+          <entry>DC1</entry>
 
           <entry>24VDC</entry>
 
           <entry>Battery compartment (galley)</entry>
 
-          <entry>Main DC distribution cabinet. Battery power to all shipboard
-          consumers.</entry>
+          <entry>Main DC distribution cabinet. Battery connection, charging,
+          inverting and distribution.</entry>
         </row>
 
         <row>
@@ -154,14 +154,17 @@
   </informaltable>
 
   <section>
-    <title>Distribution cabinet C0</title>
+    <title><link linkend="DC1">Cabinet DC1 and associated
+    equipment</link></title>
 
     <mediaobject>
       <imageobject>
         <imagedata align="center" contentwidth="17cm"
-                   fileref="RESOURCES/dc_main.png"/>
+                   fileref="../../chapters/04_installations/09_electrical_system/RESOURCES/DC1.svg"/>
       </imageobject>
     </mediaobject>
+
+    <para/>
   </section>
 
   <section>

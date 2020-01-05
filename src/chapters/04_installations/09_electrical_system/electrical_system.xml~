@@ -77,7 +77,7 @@
         </row>
 
         <row>
-          <entry>Domestic</entry>
+          <entry>Domestic (DC)</entry>
 
           <entry>24VDC</entry>
 
@@ -113,7 +113,7 @@
         </row>
 
         <row>
-          <entry>Domestic</entry>
+          <entry>Domestic (AC)</entry>
 
           <entry>230VAC</entry>
 
@@ -147,8 +147,8 @@
     <title>Main engine system</title>
 
     <para>The main engine system operates at 24VDC and supports the main
-    engine starter system, the shaft lubrication system and the stern
-    navigation light.</para>
+    engine starter system, propeller shaft lubrication pump, raw-water
+    deck-wash pump and the stern navigation light.</para>
 
     <para>Two 12VDC 120Ah series-connected batteries and associated master
     switch are located below the generator housing on the port side of the
@@ -164,18 +164,46 @@
   <section>
     <title>Domestic system</title>
 
-    <para>The domestic system consists of a 24VDC battery bank integrated with
-    a 230VAC system through an integrated inverter-charger.</para>
-
-    <para>The 24VDC system house/navigation system operates at 24VDC and
-    supports all ship's systems other than generator and main engine
-    starting.</para>
+    <para>The domestic system consists of a 24VDC house battery bank connected
+    to a 230VAC inverter-charger. This integrated system supports all domestic
+    and navigation electrical systems: there is no bias towards the use of DC
+    or AC for particular purposes and individual equipment is specified for AC
+    or DC connection based on technical, performance and efficiency
+    considerations.</para>
 
     <section>
-      <title>Overview</title>
+      <title>Domestic (DC) system</title>
 
-      <para>The domestic battery bank connects through a battery isolator
-      switch to DC1 Battery Connection Box.</para>
+      <para>The domestic DC system operates at 24VDC and supports all ship's
+      systems which require a direct current supply (other than those
+      supported by the generator and main engine systems discussed
+      above).</para>
+
+      <para>Twelve 2VDC 1100Ah series connected batteries and associated
+      master switch are located in the battery compartment below the galley
+      floor.</para>
+
+      <para>The house batteries are charged by an integrated 8kW
+      inverter-charger and 5kW solar charge controller.</para>
+
+      <para>The inverter-charger automatically blends inverting and charging
+      depending upon the availability of an external 230VAC power source, but
+      can be switched to charger-only mode using the control mounted in the
+      domestic panel. Two 230VAC energy inputs are available: a shore-power
+      connection on the aft deck allows connection to a power-grid 230VAC
+      outlet and supplies energy to the inverter-charger through a 7kW
+      isolating transformer; the ship's generator can provide up to 12kW of
+      energy when off-grid.</para>
+
+      <para>The solar charge controller connects to a 1kW solar panel array
+      mounted over the aft deck.</para>
+
+      <para>The main DC connection box (see <xref linkend="DC1"/>integrates
+      all suppliers and consumers</para>
+
+      <para>are of can be switched between charge only and inverter-charge
+      only energised when the the ship is connected to a 230VAC shore power
+      supply or when the ship's generator is running.</para>
 
       <para>A direct connection from the battery isolator switch powers Busbar
       1 which supports connection of services which should be permanently
@@ -190,6 +218,12 @@
       isolator to Busbar 2 which supports connection of all non-essential
       consumers. This isolator can be operated remotely from the domestic
       panel <literal>MAIN ISOLATOR</literal> control.</para>
+
+      <para><mediaobject>
+          <imageobject>
+            <imagedata fileref="RESOURCES/DC1.pdf"/>
+          </imageobject>
+        </mediaobject></para>
     </section>
 
     <section>

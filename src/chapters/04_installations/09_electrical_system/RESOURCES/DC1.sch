@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "DC1 - Battery compartment schematic"
-Date "2018-08-03"
-Rev "1.0"
+Title "Cabinet DC1 and associated equipment"
+Date "2019-07-01"
+Rev "1.2"
 Comp "PDJR"
 Comment1 "Neutral busbar connections not shown."
-Comment2 "All fuses of type MEGA."
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -113,7 +113,7 @@ Connection ~ 5760 4540
 Wire Wire Line
 	5510 4540 5510 4390
 Wire Wire Line
-	4490 4740 4490 5090
+	4490 4740 4490 5260
 Wire Wire Line
 	4490 4740 3980 4740
 Connection ~ 5510 4540
@@ -133,10 +133,10 @@ Connection ~ 6960 4540
 Wire Wire Line
 	7440 4390 7440 4540
 Wire Wire Line
-	7440 4540 7440 5090
+	7440 4540 7440 5260
 Connection ~ 7200 4540
 Wire Wire Line
-	7440 5090 5680 5090
+	7440 5260 5680 5260
 Connection ~ 7440 4540
 Wire Wire Line
 	5510 4540 5760 4540
@@ -145,15 +145,15 @@ Wire Wire Line
 Wire Wire Line
 	6000 4540 6240 4540
 Wire Wire Line
-	6670 7110 6670 7280
+	6670 7370 6670 7540
 Wire Wire Line
 	6000 4090 6000 3440
 Wire Wire Line
 	6000 3440 4890 3440
 Wire Wire Line
-	4890 3440 4890 6150
+	4890 3440 4890 6340
 Wire Wire Line
-	4890 6150 5090 6150
+	4890 6340 5090 6340
 $Comp
 L Device:Fuse 35A
 U 1 1 5B64BBEE
@@ -168,7 +168,7 @@ $EndComp
 Text GLabel 10060 6150 2    60   Output ~ 0
 (SPUDPOLE)
 Wire Wire Line
-	5690 6150 10060 6150
+	5690 6340 10060 6340
 Text GLabel 10060 2760 2    60   Output ~ 0
 [DC11]F9
 Text GLabel 10060 2520 2    60   Output ~ 0
@@ -207,18 +207,18 @@ Wire Notes Line
 	7520 4620 6640 4620
 Text GLabel 1500 4850 0    60   Output ~ 0
 [DC13](BMV700)
-Text GLabel 1500 5490 0    60   Input ~ 0
+Text GLabel 1500 5660 0    60   Input ~ 0
 [DC11]T003
 Wire Wire Line
-	5080 5490 1500 5490
+	5080 5660 1500 5660
 Wire Wire Line
-	5090 6550 1530 6550
-Text GLabel 1530 6550 0    60   Input ~ 0
+	5090 6740 1530 6740
+Text GLabel 1530 6740 0    60   Input ~ 0
 [DC11]T142
 Wire Wire Line
-	5690 6550 5860 6550
+	5690 6740 5860 6740
 Wire Wire Line
-	5860 6550 5860 6840
+	5860 6740 5860 7030
 Wire Wire Line
 	2110 3890 2000 3890
 Wire Wire Line
@@ -271,12 +271,12 @@ Wire Wire Line
 	2000 3850 2110 3850
 Wire Wire Line
 	2330 4190 2330 4750
-Text GLabel 1530 6690 0    60   Input ~ 0
+Text GLabel 1530 6880 0    60   Input ~ 0
 [DC11]T143
-Text GLabel 1500 5630 0    60   Input ~ 0
+Text GLabel 1500 5790 0    60   Input ~ 0
 [DC11]T004
 Wire Wire Line
-	2330 7110 6670 7110
+	2330 7370 6670 7370
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 5D15EBC2
@@ -412,60 +412,60 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D184201
-P 6670 7280
-F 0 "#PWR?" H 6675 7107 50  0001 C CNN
-F 1 "GND" H 6675 7107 50  0001 C CNN
-F 2 "" H 6670 7280 50  0001 C CNN
-F 3 "" H 6670 7280 50  0001 C CNN
-	1    6670 7280
+P 6670 7540
+F 0 "#PWR?" H 6675 7367 50  0001 C CNN
+F 1 "GND" H 6675 7367 50  0001 C CNN
+F 2 "" H 6670 7540 50  0001 C CNN
+F 3 "" H 6670 7540 50  0001 C CNN
+	1    6670 7540
 	1    0    0    -1  
 $EndComp
 $Comp
 L Relay:DIPxx-1Axx-11x K?
 U 1 1 5D1AC9C6
-P 5380 5290
-F 0 "K?" V 5847 5290 50  0001 C CNN
-F 1 "MAIN_ISOLATOR" V 5680 5490 50  0000 L CNN
-F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 5730 5240 50  0001 L CNN
-F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 5380 5290 50  0001 C CNN
-	1    5380 5290
+P 5380 5460
+F 0 "K?" V 5847 5460 50  0001 C CNN
+F 1 "MAIN_ISOLATOR" V 5680 5660 50  0000 L CNN
+F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 5730 5410 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 5380 5460 50  0001 C CNN
+	1    5380 5460
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	1500 5630 4980 5630
+	1500 5790 4980 5790
 Wire Wire Line
-	5680 5490 5850 5490
+	5680 5660 5850 5660
 Wire Wire Line
-	5850 5490 5850 5780
+	5850 5660 5850 5950
 Wire Wire Line
-	5850 5780 4980 5780
+	5850 5950 4980 5950
 Wire Wire Line
-	4980 5780 4980 5630
+	4980 5950 4980 5790
 $Comp
 L Relay:DIPxx-1Axx-11x K?
 U 1 1 5D1DDC7F
-P 5390 6350
-F 0 "K?" V 5857 6350 50  0001 C CNN
-F 1 "SPUD_ISOLATOR" V 5690 6550 50  0000 L CNN
-F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 5740 6300 50  0001 L CNN
-F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 5390 6350 50  0001 C CNN
-	1    5390 6350
+P 5390 6540
+F 0 "K?" V 5857 6540 50  0001 C CNN
+F 1 "SPUD_ISOLATOR" V 5690 6740 50  0000 L CNN
+F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 5740 6490 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 5390 6540 50  0001 C CNN
+	1    5390 6540
 	0    1    -1   0   
 $EndComp
 Wire Notes Line
-	4360 7040 6440 7040
+	4360 7300 6440 7300
 Wire Notes Line
-	6440 7040 6440 7180
+	6440 7300 6440 7440
 Wire Notes Line
-	6440 7180 4360 7180
+	6440 7440 4360 7440
 Wire Notes Line
-	4360 7180 4360 7040
+	4360 7440 4360 7300
 Wire Wire Line
-	1530 6690 4980 6690
+	1530 6880 4980 6880
 Wire Wire Line
-	4980 6690 4980 6840
+	4980 6880 4980 7030
 Wire Wire Line
-	4980 6840 5860 6840
+	4980 7030 5860 7030
 Wire Notes Line
 	6320 4460 6320 4620
 Wire Notes Line
@@ -530,7 +530,7 @@ Wire Wire Line
 Text GLabel 1500 5050 0    60   Output ~ 0
 [DC13](BMV700)
 Wire Wire Line
-	2330 5150 2330 7110
+	2330 5150 2330 7370
 Wire Wire Line
 	2970 4540 3480 4540
 Wire Wire Line
@@ -557,12 +557,6 @@ Wire Wire Line
 	1500 510  1490 510 
 Text GLabel 1500 820  0    60   Input ~ 0
 (GENERATOR_L)
-Entry Wire Line
-	3510 1550 3610 1650
-Entry Wire Line
-	3510 1550 3610 1650
-Entry Wire Line
-	3510 1550 3610 1450
 Entry Wire Line
 	6210 1250 6310 1150
 Entry Wire Line
@@ -730,17 +724,13 @@ Wire Wire Line
 Wire Wire Line
 	3980 4540 5510 4540
 Wire Wire Line
-	4490 5090 5080 5090
+	4490 5260 5080 5260
 Wire Wire Line
 	2970 3550 2970 4540
 Wire Wire Line
 	2110 3550 2970 3550
 Wire Wire Line
 	2110 4190 2330 4190
-Entry Wire Line
-	3100 1450 3200 1550
-Entry Wire Line
-	3100 1650 3200 1550
 $Comp
 L beatrice:ISOL_TRANS U?
 U 1 1 5D1A166F
@@ -753,7 +743,7 @@ F 3 "" H 2450 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 1550 3200 1550
+	3100 1550 3610 1550
 $Comp
 L Switch:SW_DIP_x02 SW?
 U 1 1 5D1B09EE
@@ -800,10 +790,6 @@ Wire Wire Line
 	2720 1050 3610 1050
 Wire Wire Line
 	2410 920  2620 920 
-Wire Wire Line
-	2620 920  2620 1150
-Wire Wire Line
-	2620 1150 3610 1150
 Text GLabel 1500 1500 0    60   Input ~ 0
 (SHORE_L)
 Text GLabel 1500 1600 0    60   Input ~ 0
@@ -815,17 +801,33 @@ Wire Wire Line
 Wire Wire Line
 	1810 920  1500 920 
 Wire Wire Line
-	1500 1020 1840 1020
+	3100 1450 3610 1450
 Wire Wire Line
-	1840 1020 1840 1250
+	3100 1650 3610 1650
 Wire Wire Line
-	1840 1250 3610 1250
+	3610 1250 2620 1250
 Wire Wire Line
-	3610 1550 3520 1550
+	2620 920  2620 1250
+Wire Wire Line
+	1500 1020 1770 1020
+Wire Wire Line
+	1770 1020 1770 1150
+Wire Wire Line
+	1770 1150 3610 1150
+$Comp
+L power:GND #PWR?
+U 1 1 5D1CE965
+P 1770 1150
+F 0 "#PWR?" H 1770 900 50  0001 C CNN
+F 1 "GND" H 1770 1000 50  0001 C CNN
+F 2 "" H 1770 1150 50  0001 C CNN
+F 3 "" H 1770 1150 50  0001 C CNN
+	1    1770 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1770 1150
 Wire Bus Line
 	6210 1550 6350 1550
 Wire Bus Line
 	6210 1150 6360 1150
-Wire Bus Line
-	3200 1550 3520 1550
 $EndSCHEMATC

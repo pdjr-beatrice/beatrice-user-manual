@@ -69,6 +69,14 @@
 
               <entry/>
             </row>
+
+            <row>
+              <entry>Trolling system</entry>
+
+              <entry>Electrical</entry>
+
+              <entry/>
+            </row>
           </tbody>
         </tgroup>
       </informaltable></para>
@@ -279,9 +287,9 @@
     separate from the main engine, but uses the same type of lubricating
     oil.</para>
 
-    <para>The gearbox supports an electrically selectable trolling mode and
-    provides a permanent power take off (PTO) for the ship's hydraulic
-    system.</para>
+    <para>The gearbox supports an electrically selectable and operated
+    trolling mode and provides a permanent power take off (PTO) for the ship's
+    hydraulic system.</para>
 
     <para><informaltable>
         <tgroup cols="3">
@@ -321,8 +329,8 @@
             <row>
               <entry>Gearbox controls</entry>
 
-              <entry>Cable (fwd/rev/troll) and electrical (troll
-              enable)</entry>
+              <entry>Cable (fwd/rev/troll) and electrical (troll enable and
+              operate)</entry>
 
               <entry/>
             </row>
@@ -351,6 +359,18 @@
         </imageobject>
       </inlinemediaobject> <citation>prm1</citation>
     <citation>prm2</citation></para>
+  </section>
+
+  <section>
+    <title>Trolling valve</title>
+
+    <para>The troll valve system supports low speed maneuvering by allowing
+    the propeller speed to be decoupled from engine rpm through an
+    electrically operated hydraulic clutch which manipulates output shaft
+    speed by proportional slip. The system only operates when engine revs are
+    below 1000rpm and is enabled by the helm TROLL switch. A joystick at the
+    helm allows proportional control of gearbox slip and hence shaft
+    rpm.</para>
   </section>
 
   <section>
@@ -445,7 +465,7 @@
       <para>The primary shaft lubrication system is electrically driven and
       operates under the control of a scheduler implement under the vessel's
       Signal K server. The scheduler is configured to operate when the
-      ignition switch is in position I (RUN) and operates for 5 minutes
+      ignition switch is in position I (RUN) and operates for 2 minutes
       initially and then for 1 minute in every 30 minutes subsequently. The
       lubrication schedule will also start if the stern gland temperature
       exceeds a programmed default value of 60C.</para>

@@ -176,54 +176,32 @@
 
       <para>The domestic DC system operates at 24VDC and supports all ship's
       systems which require a direct current supply (other than those
-      supported by the generator and main engine systems discussed
-      above).</para>
+      supported by the generator and main engine systems discussed above) and,
+      via an inverter, the ship's 230VAC supply.</para>
 
       <para>Twelve 2VDC 1100Ah series connected batteries and associated
       master switch are located in the battery compartment below the galley
       floor.</para>
 
-      <para>The house batteries are charged by an integrated 8kW
-      inverter-charger and 5kW solar charge controller.</para>
+      <para>The house batteries are charged by then main-engine alternator, an
+      integrated 8kW inverter-charger and 5kW solar charge controller.</para>
 
       <para>The inverter-charger automatically blends inverting and charging
       depending upon the availability of an external 230VAC power source, but
       can be switched to charger-only mode using the control mounted in the
       domestic panel. Two 230VAC energy inputs are available: a shore-power
-      connection on the aft deck allows connection to a utility outlet and
-      supplies energy to the inverter-charger through a 7kW isolating
-      transformer; the ship's generator can provide up to 12kW of energy when
-      off-grid.</para>
+      connection on the aft deck allows connection to a power-grid 230VAC
+      outlet and supplies energy to the inverter-charger through a 7kW
+      isolating transformer; the ship's generator can provide up to 12kW of
+      energy when off-grid.</para>
 
       <para>The solar charge controller connects to a 1kW solar panel array
       mounted over the aft deck.</para>
 
-      <para>The main DC connection box integrates all suppliers and
-      consumers</para>
+      <para>The main DC connection box (see <xref linkend="DC1"/>) connects
+      all suppliers and consumers.</para>
 
-      <para> are of can be switched between charge only and inverter-charge
-      only energised when the the ship is connected to a 230VAC shore power
-      supply or when the ship's generator is running.</para>
-
-      <para>A direct connection from the battery isolator switch powers Busbar
-      1 which supports connection of services which should be permanently
-      available even when the boat is out of service. This includes
-      connections to charging sources (charger/inverter, main engine
-      alternator and solar charge controller) and some safety critical
-      consumers (helm-panel essential services like bilge pumps and alarms and
-      spudpole). Individual isolators can be operated to disconnect these
-      consumers if required.</para>
-
-      <para>A second connection from the battery isolator switch goes via an
-      isolator to Busbar 2 which supports connection of all non-essential
-      consumers. This isolator can be operated remotely from the domestic
-      panel <literal>MAIN ISOLATOR</literal> control.</para>
-
-      <para><mediaobject>
-          <imageobject>
-            <imagedata fileref="RESOURCES/DC1.pdf"/>
-          </imageobject>
-        </mediaobject></para>
+      <para/>
     </section>
 
     <section>
