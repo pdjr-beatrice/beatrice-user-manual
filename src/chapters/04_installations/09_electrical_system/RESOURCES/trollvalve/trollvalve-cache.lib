@@ -185,27 +185,6 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# trollvalve-rescue_Solenoid
-#
-DEF trollvalve-rescue_Solenoid SL 0 1 Y N 1 F N
-F0 "SL" 150 50 50 H V L CNN
-F1 "trollvalve-rescue_Solenoid" 150 -50 50 H V L CNN
-F2 "" -25 100 50 V I C CNN
-F3 "" -25 100 50 V I C CNN
-$FPLIST
- *Buzzer*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -65 75 -45 75 N
-P 2 0 1 0 -55 85 -55 65 N
-P 2 0 1 0 0 125 0 -125 N
-P 6 0 1 0 0 100 0 150 150 150 150 -150 0 -150 0 -100 N
-P 7 0 1 0 150 0 250 0 200 100 250 100 250 -100 300 -100 250 0 N
-X - 1 -100 100 100 R 50 50 1 1 P
-X + 2 -100 -100 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # trollvalve-rescue_Stepper_Motor_bipolar
 #
 DEF trollvalve-rescue_Stepper_Motor_bipolar M 0 0 Y N 1 F N
@@ -268,6 +247,27 @@ X B2 6 -500 -400 100 R 50 50 1 1 W
 X ERR 7 600 500 100 L 50 50 1 1 W
 X RST 8 600 400 100 L 50 50 1 1 I
 X SCL 9 600 300 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# trollvalve_Solenoid
+#
+DEF trollvalve_Solenoid SL 0 1 Y N 1 F N
+F0 "SL" 150 50 50 H V L CNN
+F1 "trollvalve_Solenoid" 150 -50 50 H V L CNN
+F2 "" -25 100 50 V I C CNN
+F3 "" -25 100 50 V I C CNN
+$FPLIST
+ *Buzzer*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -65 75 -45 75 N
+P 2 0 1 0 -55 85 -55 65 N
+P 2 0 1 0 0 125 0 -125 N
+P 6 0 1 0 0 100 0 150 150 150 150 -150 0 -150 0 -100 N
+P 7 0 1 0 150 0 250 0 200 100 250 100 250 -100 300 -100 250 0 N
+X - 1 -100 100 100 R 50 50 1 1 P
+X + 2 -100 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

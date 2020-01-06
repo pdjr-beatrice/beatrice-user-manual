@@ -43,17 +43,6 @@ F 3 "" H 10400 2550 50  0001 C CNN
 	1    10400 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L trollvalve-rescue:Solenoid SL?
-U 1 1 5E10C37B
-P 10300 3250
-F 0 "SL?" H 10450 3300 50  0001 L CNN
-F 1 "SL1" H 10700 3250 50  0000 L BNN
-F 2 "" V 10275 3350 50  0001 C CNN
-F 3 "" V 10275 3350 50  0001 C CNN
-	1    10300 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10600 1750 10600 1550
 $Comp
@@ -759,17 +748,6 @@ F 3 "~" H 3550 2650 50  0001 C CNN
 	1    3550 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L trollvalve:POLOLU_TIC_T500 U2
-U 1 1 5E159AB6
-P 7350 1950
-F 0 "U2" H 7400 1375 50  0000 C CNN
-F 1 "POLOLU_TIC_T500" H 7400 1374 50  0001 C CNN
-F 2 "Pololu_TIC_T500" H 7550 2700 50  0001 L CNN
-F 3 "www.st.com/resource/en/datasheet/stspin240.pdf" H 7500 2200 50  0001 C CNN
-	1    7350 1950
-	-1   0    0    1   
-$EndComp
 Text Notes 750  6450 0    60   ~ 0
 U2
 Text Notes 1050 6450 0    60   ~ 0
@@ -1040,4 +1018,26 @@ Text Notes 1050 5850 0    60   ~ 0
 STEPPER MOTOR
 Text Notes 2550 5850 0    60   ~ 0
 GENERIC NEMA 17HS10-0704S
+$Comp
+L trollvalve:Solenoid SL?
+U 1 1 5E137833
+P 10300 3250
+F 0 "SL?" H 10628 3291 50  0000 L CNN
+F 1 "Solenoid" H 10628 3200 50  0000 L CNN
+F 2 "" V 10275 3350 50  0001 C CNN
+F 3 "" V 10275 3350 50  0001 C CNN
+	1    10300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L trollvalve:POLOLU_TIC_T500 U?
+U 1 1 5E141539
+P 7350 1950
+F 0 "U?" H 7400 1283 50  0000 C CNN
+F 1 "POLOLU_TIC_T500" H 7400 1374 50  0000 C CNN
+F 2 "Pololu_TIC_T500" H 7550 2700 50  0001 L CNN
+F 3 "www.st.com/resource/en/datasheet/stspin240.pdf" H 7500 2200 50  0001 C CNN
+	1    7350 1950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
