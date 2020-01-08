@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name troll-relay)(type KiCad)(uri /home/preeve/git/beatrice-user-manual/src/chapters/04_installations/09_electrical_system/RESOURCES/trollvalve/troll-relay/troll-relay)(options "")(descr ""))
+)

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/preeve/git/beatrice-user-manual/src/chapters/04_installations/09_electrical_system/RESOURCES/trollvalve/troll-relay/troll-relay/troll-relay.sch</source>
+    <date>Wed 08 Jan 2020 14:21:52 CET</date>
+    <tool>Eeschema 5.1.5-1.fc31</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>troll-relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="K1">
+      <value>FINDER-30.22</value>
+      <footprint>Relay_THT:Relay_DPDT_Finder_30.22</footprint>
+      <datasheet>http://gfinder.findernet.com/assets/Series/354/S30EN.pdf</datasheet>
+      <libsource lib="Relay" part="FINDER-30.22" description="FINDER 30.52, Dual Pole Relay, Subminiature 5mm Pitch, 2A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E146D6E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>troll-relay:PHOENIX_MKDS_3.5MM_3-POLE_#1751251</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1490C1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>troll-relay:PHOENIX_MKDS_3.5MM_2-POLE_#1751248</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E14A049</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>Fuse</value>
+      <footprint>troll-relay:LITTLEFUSE_153008</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E14A5A0</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>troll-relay:LITTLEFUSE_153008</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E14AACC</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <footprint>troll-relay:LITTLEFUSE_153008</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E153D82</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>troll-relay:PHOENIX_MKDS_3.5MM_3-POLE_#1751251</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E14969E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="FINDER-30.22">
+      <description>FINDER 30.52, Dual Pole Relay, Subminiature 5mm Pitch, 2A</description>
+      <docs>http://gfinder.findernet.com/assets/Series/354/S30EN.pdf</docs>
+      <footprints>
+        <fp>Relay*DPDT*Finder*30.22*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">FINDER-30.22</field>
+        <field name="Footprint">Relay_THT:Relay_DPDT_Finder_30.22</field>
+      </fields>
+      <pins>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="21" name="~" type="passive"/>
+        <pin num="22" name="~" type="passive"/>
+        <pin num="24" name="~" type="passive"/>
+        <pin num="A1" name="~" type="passive"/>
+        <pin num="A2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/usr/share/kicad/library/Relay.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+      <node ref="K1" pin="21"/>
+    </net>
+    <net code="2" name="Net-(J3-Pad2)">
+      <node ref="K1" pin="22"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J3-Pad3)">
+      <node ref="K1" pin="24"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="4" name="Net-(F1-Pad2)">
+      <node ref="J2" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(F1-Pad1)">
+      <node ref="K1" pin="11"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad2)">
+      <node ref="K1" pin="12"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="K1" pin="14"/>
+    </net>
+    <net code="8" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(F3-Pad1)">
+      <node ref="K1" pin="A2"/>
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="K1" pin="A1"/>
+    </net>
+    <net code="11" name="Net-(F3-Pad2)">
+      <node ref="J1" pin="1"/>
+      <node ref="F3" pin="2"/>
+    </net>
+  </nets>
+</export>
