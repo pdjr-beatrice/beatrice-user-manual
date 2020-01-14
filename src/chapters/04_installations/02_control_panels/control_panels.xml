@@ -9,10 +9,10 @@
   <title>Control panels</title>
 
   <para>Operation of the vessel is supported by two physical control panels: a
-  <emphasis>domestic panel</emphasis> provides instrumentation and control of
-  all house functions and enables/disables a <emphasis>helm panel</emphasis>
-  which provides instrumentation and control of the ship's navigation and
-  technical installations.</para>
+  <emphasis>domestic panel</emphasis> which groups instruments and controls
+  for all house functions and a <emphasis>helm panel</emphasis> which groups
+  instruments and controls relating to the ship's navigation and technical
+  installations.</para>
 
   <para>In addition, a number of virtual interfaces and controls are
   implemented by the ship's Signal K server and are made available on the
@@ -189,7 +189,7 @@
             <term>REFRIGERATION (OFF-ON)</term>
 
             <listitem>
-              <para>Operates the refrigerator and freezer.</para>
+              <para>(unused)</para>
             </listitem>
           </varlistentry>
 

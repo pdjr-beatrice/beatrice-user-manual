@@ -147,8 +147,8 @@
     <title>Main engine system</title>
 
     <para>The main engine system operates at 24VDC and supports the main
-    engine and its control panel, propeller shaft lubrication pump, raw-water
-    deck-wash pump and the stern navigation light.</para>
+    engine and its control panel, propeller shaft lubrication pump, trolling
+    system, raw-water deck-wash pump and the stern navigation light.</para>
 
     <para>Two 12VDC 120Ah series-connected batteries and associated master
     switch are located below the generator housing on the port side of the
@@ -168,7 +168,7 @@
     to a 230VAC inverter-charger. This integrated system supports all domestic
     and navigation electrical systems: there is no bias towards the use of DC
     or AC for particular purposes and individual equipment is specified for AC
-    or DC connection based on technical, performance and efficiency
+    or DC connection based on technical, performance and economic
     considerations.</para>
 
     <section>
@@ -187,15 +187,6 @@
       integrated 8kW inverter-charger and 5kW solar charge controller.</para>
 
       <para>The inverter-charger automatically blends inverting and charging
-<<<<<<< HEAD
-      depending upon the availability of an external 230VAC power source, but
-      can be switched to charger-only mode using the control mounted in the
-      domestic panel. Two 230VAC energy inputs are available: a shore-power
-      connection on the aft deck allows connection to a power-grid 230VAC
-      outlet and supplies energy to the inverter-charger through a 7kW
-      isolating transformer; the ship's generator can provide up to 12kW of
-      energy when off-grid.</para>
-=======
       depending upon consumer demand and the availability of an external
       230VAC power source, but can be switched to charger-only mode using the
       control mounted in the domestic panel. Two 230VAC energy inputs are
@@ -203,17 +194,10 @@
       a utility outlet and supplies energy to the inverter-charger through a
       7kW isolating transformer; the ship's generator can provide up to 12kW
       of energy when off-grid.</para>
->>>>>>> 7eba8275a5396782c4b1d3f9bbda166699feb089
 
       <para>The solar charge controller connects to a 1kW solar panel array
       mounted over the aft deck.</para>
 
-<<<<<<< HEAD
-      <para>The main DC connection box (see <xref linkend="DC1"/>) connects
-      all suppliers and consumers.</para>
-
-      <para/>
-=======
       <para>The main DC connection box integrates all suppliers and
       consumers</para>
 
@@ -240,7 +224,6 @@
             <imagedata fileref="RESOURCES/DC1.pdf"/>
           </imageobject>
         </mediaobject></para>
->>>>>>> 7eba8275a5396782c4b1d3f9bbda166699feb089
     </section>
 
     <section>

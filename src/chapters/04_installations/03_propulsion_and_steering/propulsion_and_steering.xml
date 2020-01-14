@@ -379,8 +379,7 @@
     <para>The output of the vessel's gearbox is coupled to the propeller shaft
     by a flexible coupling which reduces vibration and eliminates the need for
     precise engine alignment. The propeller shaft exits the vessel through a
-    conventional stuffing-box with continuous automatic shaft
-    lubrication.</para>
+    conventional stuffing-box with automatic shaft lubrication.</para>
 
     <section>
       <title>Anti-vibration coupling</title>
@@ -466,7 +465,7 @@
       operates under the control of a scheduler implement under the vessel's
       Signal K server. The scheduler is configured to operate when the
       ignition switch is in position I (RUN) and operates for 2 minutes
-      initially and then for 1 minute in every 30 minutes subsequently. The
+      initially and then for 30 seconds every 60 minutes subsequently. The
       lubrication schedule will also start if the stern gland temperature
       exceeds a programmed default value of 60C.</para>
 
@@ -559,8 +558,8 @@
     steering cylinders connected to a quadrant on the rudder.</para>
 
     <para>When the ship's main engine is running, power from the ship's
-    hydraulic system is used to augment the manual steering system, making
-    steering lighter and more comfortable in use.</para>
+    hydraulic system is used to augment the manual steering, significantly
+    reducing steering effort.</para>
 
     <section>
       <title>Steering assistance</title>
