@@ -8,7 +8,7 @@ Title "DC Main Engine Connection Box"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "TROLL_ON and TROLL_POSITION fused at helm."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -487,4 +487,20 @@ Wire Wire Line
 Wire Wire Line
 	6950 1900 10000 1900
 Connection ~ 2450 5300
+Text GLabel 10000 1700 2    50   Output ~ 0
+SHAFT_LUBE_+24VDC
+Text GLabel 10000 1800 2    50   Output ~ 0
+SHAFT_LUBE_GND
+Text GLabel 10000 1900 2    50   Output ~ 0
+STOP_SOLENOID_+24VDC
+Text GLabel 10000 2000 2    50   Output ~ 0
+START_SOLENOID_+24VDC
+Text GLabel 10000 2100 2    40   Input ~ 0
+RPM
+Text GLabel 10000 2200 2    40   Input ~ 0
+WATER_TEMPERTATURE
+Text GLabel 10000 2300 2    40   Input ~ 0
+OIL_PRESSURE
+Text GLabel 10000 2400 2    40   Input ~ 0
+ALTERNATOR_D+
 $EndSCHEMATC
