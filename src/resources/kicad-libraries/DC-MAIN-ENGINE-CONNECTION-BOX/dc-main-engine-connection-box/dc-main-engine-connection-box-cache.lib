@@ -141,11 +141,11 @@ X ~ A2 -200 -400 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# trollvalve_POLOLU_TIC_T500
+# dc-main-engine-connection-box-rescue_POLOLU_TIC_T500-trollvalve
 #
-DEF trollvalve_POLOLU_TIC_T500 U 0 40 Y Y 1 F N
+DEF dc-main-engine-connection-box-rescue_POLOLU_TIC_T500-trollvalve U 0 40 Y Y 1 F N
 F0 "U" -400 650 50 H V L CNN
-F1 "trollvalve_POLOLU_TIC_T500" 200 650 50 H V L CNN
+F1 "dc-main-engine-connection-box-rescue_POLOLU_TIC_T500-trollvalve" 200 650 50 H V L CNN
 F2 "Pololu_TIC_T500" 200 750 50 H I L CNN
 F3 "" 150 250 50 H I C CNN
 $FPLIST
