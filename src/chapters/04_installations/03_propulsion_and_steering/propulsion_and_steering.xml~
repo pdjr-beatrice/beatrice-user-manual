@@ -362,11 +362,12 @@
   </section>
 
   <section>
-    <title>Trolling system</title>
+    <title>Trolling valve</title>
 
-    <para>The trolling system supports low speed maneuvering by allowing the
-    propeller speed to be decoupled from engine rpm through an electrically
-    operated hydraulic clutch. The system only operates when engine revs are
+    <para>The troll valve system supports low speed maneuvering by allowing
+    the propeller speed to be decoupled from engine rpm through an
+    electrically operated hydraulic clutch which manipulates output shaft
+    speed by proportional slip. The system only operates when engine revs are
     below 1000rpm and is enabled by the helm TROLL switch. A joystick at the
     helm allows proportional control of gearbox slip and hence shaft
     rpm.</para>

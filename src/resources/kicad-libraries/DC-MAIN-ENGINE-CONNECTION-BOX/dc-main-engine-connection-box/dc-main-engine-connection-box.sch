@@ -346,10 +346,10 @@ Wire Wire Line
 Connection ~ 2450 5500
 Connection ~ 2450 6200
 $Comp
-L dc-main-engine-connection-box-rescue:POLOLU_TIC_T500-trollvalve U?
+L dc-main-engine-connection-box-rescue:POLOLU_TIC_T500-trollvalve U1
 U 1 1 5E31D2A1
 P 8500 4200
-F 0 "U?" H 8550 4967 50  0000 C CNN
+F 0 "U1" H 8550 4967 50  0000 C CNN
 F 1 "POLOLU_TIC_T500" H 8550 4876 50  0000 C CNN
 F 2 "Pololu_TIC_T500" H 8700 4950 50  0001 L CNN
 F 3 "www.st.com/resource/en/datasheet/stspin240.pdf" H 8650 4450 50  0001 C CNN
@@ -361,19 +361,19 @@ Wire Wire Line
 Wire Wire Line
 	8000 4300 7550 4300
 Wire Wire Line
-	7550 4300 7550 5400
+	7550 4300 7550 5650
 Wire Wire Line
 	8000 4400 7650 4400
 Wire Wire Line
-	7650 4400 7650 5300
+	7650 4400 7650 5550
 Wire Wire Line
-	7750 4500 7750 5200
+	7750 4500 7750 5450
 Wire Wire Line
 	7750 4500 8000 4500
 Wire Wire Line
 	8000 4600 7850 4600
 Wire Wire Line
-	7850 4600 7850 5100
+	7850 4600 7850 5350
 Wire Wire Line
 	8000 3700 7450 3700
 Wire Wire Line
@@ -385,47 +385,35 @@ Wire Wire Line
 Wire Wire Line
 	9100 3900 9400 3900
 Wire Wire Line
-	9400 3900 9400 4600
+	7850 5350 10000 5350
 Wire Wire Line
-	9400 4600 10000 4600
+	7750 5450 10000 5450
 Wire Wire Line
-	7850 5100 10000 5100
+	7650 5550 10000 5550
 Wire Wire Line
-	7750 5200 10000 5200
-Wire Wire Line
-	7650 5300 10000 5300
-Wire Wire Line
-	7550 5400 10000 5400
+	7550 5650 10000 5650
 Wire Wire Line
 	2450 6200 9200 6200
-Wire Wire Line
-	2000 4300 2550 4300
-Wire Wire Line
-	2550 4300 2550 6000
 Wire Wire Line
 	2000 4100 2000 4200
 Wire Wire Line
 	2000 4200 6600 4200
 Wire Wire Line
 	6600 4200 6600 4800
-Wire Wire Line
-	6600 4800 10000 4800
 Connection ~ 2000 4200
 Wire Wire Line
 	2000 4200 2000 4300
-Text GLabel 10000 4800 2    50   Output ~ 0
-SOLENOID_GND
-Text GLabel 10000 4600 2    50   Input ~ 0
+Text GLabel 10000 5250 2    50   Input ~ 0
 LIMIT_SWITCH
 Text GLabel 10000 4900 2    50   Output ~ 0
 SOLENOID_+24VDC
-Text GLabel 10000 5100 2    50   Output ~ 0
+Text GLabel 10000 5350 2    50   Output ~ 0
 MOTOR_A
-Text GLabel 10000 5200 2    50   Output ~ 0
+Text GLabel 10000 5450 2    50   Output ~ 0
 MOTOR_A
-Text GLabel 10000 5300 2    50   Output ~ 0
+Text GLabel 10000 5550 2    50   Output ~ 0
 MOTOR_B
-Text GLabel 10000 5400 2    50   Output ~ 0
+Text GLabel 10000 5650 2    50   Output ~ 0
 MOTOR_B
 Wire Wire Line
 	10000 4900 7450 4900
@@ -433,29 +421,27 @@ Connection ~ 7450 4900
 Wire Wire Line
 	7450 4900 7450 5500
 Wire Notes Line
-	9600 4500 9750 4500
+	9600 4700 9750 4700
 Wire Notes Line
-	9750 4500 9750 5500
+	9750 4700 9750 4950
 Wire Notes Line
-	9750 5500 9600 5500
+	9750 4950 9600 4950
 Wire Notes Line
-	9600 5500 9600 4500
+	9600 4950 9600 4700
 Text Notes 9600 4500 0    50   ~ 0
 TROLL LOOM (MULTICORE) 
-Text Notes 9600 4900 0    50   ~ 0
+Text Notes 9650 4800 0    50   ~ 0
 1
-Text Notes 9600 4800 0    50   ~ 0
+Text Notes 9650 4900 0    50   ~ 0
 2
-Text Notes 9600 4600 0    50   ~ 0
+Text Notes 9650 5350 0    50   ~ 0
 3
-Text Notes 9600 5100 0    50   ~ 0
+Text Notes 9650 5450 0    50   ~ 0
 4
-Text Notes 9600 5200 0    50   ~ 0
+Text Notes 9650 5550 0    50   ~ 0
 5
-Text Notes 9600 5300 0    50   ~ 0
+Text Notes 9650 5650 0    50   ~ 0
 6
-Text Notes 9600 5400 0    50   ~ 0
-7
 Wire Wire Line
 	7350 2400 10000 2400
 Wire Wire Line
@@ -503,4 +489,39 @@ Text GLabel 10000 2300 2    40   Input ~ 0
 OIL_PRESSURE
 Text GLabel 10000 2400 2    40   Input ~ 0
 ALTERNATOR_D+
+Wire Wire Line
+	9400 5250 10000 5250
+Wire Wire Line
+	9400 3900 9400 5250
+Wire Wire Line
+	6600 4800 10000 4800
+Text GLabel 10000 4800 2    50   Output ~ 0
+SOLENOID_GND
+Text GLabel 10000 5150 2    50   Output ~ 0
+LIMIT_SWITCH_GND
+Wire Wire Line
+	6500 5150 10000 5150
+Wire Wire Line
+	6500 4300 6500 5150
+Text Notes 9650 5250 0    50   ~ 0
+2
+Text Notes 9650 5150 0    50   ~ 0
+1
+Wire Notes Line
+	9600 5050 9750 5050
+Wire Notes Line
+	9750 5050 9750 5700
+Wire Notes Line
+	9750 5700 9600 5700
+Wire Notes Line
+	9600 5700 9600 5050
+Wire Wire Line
+	2000 4300 2000 4400
+Wire Wire Line
+	2000 4400 2550 4400
+Connection ~ 2000 4300
+Wire Wire Line
+	2550 4400 2550 6000
+Wire Wire Line
+	2000 4300 6500 4300
 $EndSCHEMATC
