@@ -8,7 +8,7 @@ $ENDCMP
 #
 $CMP Solenoid
 D Buzzer, polar
-K Quartz Resonator Ceramic
+K Quartz Resonator Ceramic 
 $ENDCMP
 #
 #End Doc Library

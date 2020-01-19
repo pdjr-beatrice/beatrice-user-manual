@@ -1040,4 +1040,15 @@ F 3 "www.st.com/resource/en/datasheet/stspin240.pdf" H 7500 2200 50  0001 C CNN
 	1    7350 1950
 	-1   0    0    1   
 $EndComp
+$Comp
+L trollvalve:CARLINGSW_L U?
+U 1 1 5E23D65F
+P 8050 5300
+F 0 "U?" H 8475 6265 50  0000 C CNN
+F 1 "CARLINGSW_L" H 8475 6174 50  0000 C CNN
+F 2 "" H 8250 5150 50  0001 C CNN
+F 3 "" H 8250 5150 50  0001 C CNN
+	1    8050 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
