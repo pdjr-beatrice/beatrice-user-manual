@@ -101,31 +101,55 @@ X ~ A2 -200 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_DIP_x01
+# beatrice_CARLING_L24
 #
-DEF Switch_SW_DIP_x01 SW 0 0 Y N 1 F N
-F0 "SW" 0 150 50 H V C CNN
-F1 "Switch_SW_DIP_x01" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SW?DIP?x1*
-$ENDFPLIST
+DEF beatrice_CARLING_L24 U 0 40 Y Y 1 F N
+F0 "U" 400 900 50 H V C CNN
+F1 "beatrice_CARLING_L24" 400 -250 50 H V C CNN
+F2 "" 200 -150 50 H I C CNN
+F3 "" 200 -150 50 H I C CNN
 DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-S -150 100 150 -100 0 1 10 f
-P 2 0 0 0 -60 5 93 46 N
-X ~ 1 -300 0 200 R 50 50 1 1 P
-X ~ 2 300 0 200 L 50 50 1 1 P
+C 400 0 50 0 1 0 N
+C 400 700 50 0 1 0 N
+S 200 800 600 -150 0 1 0 f
+P 2 0 1 0 200 0 350 0 N
+P 2 0 1 0 200 400 350 450 N
+P 2 0 1 0 200 700 350 700 N
+P 2 0 1 0 350 -50 450 50 N
+P 2 0 1 0 350 50 450 -50 N
+P 2 0 1 0 350 750 450 650 N
+P 2 0 1 0 450 0 550 0 N
+P 2 0 1 0 450 350 450 300 N
+P 2 0 1 0 450 450 600 400 N
+P 2 0 1 0 550 700 450 700 N
+P 2 0 1 0 550 700 600 700 N
+P 3 0 1 0 200 300 350 300 350 350 N
+P 3 0 1 0 350 450 350 500 200 500 N
+P 3 0 1 0 450 300 450 200 600 200 N
+P 3 0 1 0 450 450 450 500 600 500 N
+P 3 0 1 0 450 750 400 700 350 650 N
+P 4 0 1 0 275 425 285 455 250 445 275 425 F
+P 4 0 1 0 525 425 550 445 515 455 525 425 F
+P 6 0 1 0 550 700 550 600 400 600 400 100 550 100 550 0 N
+X ~ 1 0 500 200 R 50 50 1 1 P
+X ~ 10 0 700 200 R 50 50 1 1 P
+X ~ 12 0 0 200 R 50 50 1 1 P
+X ~ 2 0 400 200 R 50 50 1 1 P
+X ~ 3 0 300 200 R 50 50 1 1 P
+X ~ 4 0 200 200 R 50 50 1 1 P
+X ~ 5 800 500 200 L 50 50 1 1 P
+X ~ 6 800 400 200 L 50 50 1 1 P
+X ~ 7 800 300 200 L 50 50 1 1 P
+X ~ 8 800 200 200 L 50 50 1 1 P
+X ~ 9 800 700 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# trollvalve-rescue_CONN_01X01_FEMALE
+# trollvalve-rescue_CONN_01X01_FEMALE-trollvalve-rescue
 #
-DEF trollvalve-rescue_CONN_01X01_FEMALE J 0 40 Y N 1 F N
+DEF trollvalve-rescue_CONN_01X01_FEMALE-trollvalve-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "trollvalve-rescue_CONN_01X01_FEMALE" 0 -100 50 H V C CNN
+F1 "trollvalve-rescue_CONN_01X01_FEMALE-trollvalve-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -134,11 +158,11 @@ X 1 1 -100 0 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# trollvalve-rescue_CONN_01X01_MALE
+# trollvalve-rescue_CONN_01X01_MALE-trollvalve-rescue
 #
-DEF trollvalve-rescue_CONN_01X01_MALE J 0 40 Y N 1 F N
+DEF trollvalve-rescue_CONN_01X01_MALE-trollvalve-rescue J 0 40 Y N 1 F N
 F0 "J" 0 75 50 H V C CNN
-F1 "trollvalve-rescue_CONN_01X01_MALE" 0 -100 50 H V C CNN
+F1 "trollvalve-rescue_CONN_01X01_MALE-trollvalve-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -148,11 +172,11 @@ X 1 1 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# trollvalve-rescue_Fuse
+# trollvalve-rescue_Fuse-trollvalve-rescue
 #
-DEF trollvalve-rescue_Fuse F 0 0 N Y 1 F N
+DEF trollvalve-rescue_Fuse-trollvalve-rescue F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "trollvalve-rescue_Fuse" -75 0 50 V V C CNN
+F1 "trollvalve-rescue_Fuse-trollvalve-rescue" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -166,107 +190,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# trollvalve-rescue_SW_Push_SPDT
+# trollvalve-rescue_POLOLU_TIC_T500-trollvalve
 #
-DEF trollvalve-rescue_SW_Push_SPDT SW 0 0 Y N 1 F N
-F0 "SW" 0 170 50 H V C CNN
-F1 "trollvalve-rescue_SW_Push_SPDT" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 -100 20 0 0 0 N
-C 80 100 20 0 1 0 N
-P 2 0 0 0 0 40 0 120 N
-P 2 0 1 0 -60 10 100 80 N
-X A 1 200 100 100 L 50 50 1 1 P
-X B 2 -200 0 100 R 50 50 1 1 P
-X C 3 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# trollvalve-rescue_Stepper_Motor_bipolar
-#
-DEF trollvalve-rescue_Stepper_Motor_bipolar M 0 0 Y N 1 F N
-F0 "M" 150 100 50 H V L CNN
-F1 "trollvalve-rescue_Stepper_Motor_bipolar" 150 50 50 H V L TNN
-F2 "" 10 -10 50 H I C CNN
-F3 "" 10 -10 50 H I C CNN
-$FPLIST
- Pin_Headers:Pin_Header_Straight_1x04
- Connect:bornier4
- TerminalBlock*4pol
-$ENDFPLIST
-DRAW
-A -175 -75 25 -899 899 0 1 0 N -175 -100 -175 -50
-A -175 -25 25 -899 899 0 1 0 N -175 -50 -175 0
-A -175 25 25 -899 899 0 1 0 N -175 0 -175 50
-A -175 75 25 -899 899 0 1 0 N -175 50 -175 100
-A -75 175 25 -1799 -1 0 1 0 N -100 175 -50 175
-A -25 175 25 -1799 -1 0 1 0 N -50 175 0 175
-A 25 175 25 -1799 -1 0 1 0 N 0 175 50 175
-A 75 175 25 -1799 -1 0 1 0 N 50 175 100 175
-C 0 0 128 0 1 10 N
-P 5 0 0 0 -50 -70 -50 80 0 -20 50 80 50 -70 N
-P 2 0 1 0 -200 -100 -175 -100 N
-P 2 0 1 0 -200 100 -175 100 N
-P 2 0 1 0 -100 200 -100 175 N
-P 2 0 1 0 100 200 100 175 N
-X ~ 1 -100 300 100 D 50 50 1 1 P
-X - 2 100 300 100 D 50 50 1 1 P
-X ~ 3 -300 100 100 R 50 50 1 1 P
-X ~ 4 -300 -100 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# trollvalve_CARLINGSW_L
-#
-DEF trollvalve_CARLINGSW_L U 0 40 Y Y 1 F N
-F0 "U" 400 900 50 H V C CNN
-F1 "trollvalve_CARLINGSW_L" 400 -250 50 H V C CNN
-F2 "" 200 -150 50 H I C CNN
-F3 "" 200 -150 50 H I C CNN
-DRAW
-C 400 0 50 0 1 0 N
-C 400 700 50 0 1 0 N
-S 200 800 600 -150 0 1 0 f
-P 2 0 1 0 150 0 350 0 N
-P 2 0 1 0 150 700 350 700 N
-P 2 0 1 0 350 -50 450 50 N
-P 2 0 1 0 350 50 450 -50 N
-P 2 0 1 0 350 750 450 650 N
-P 2 0 1 0 450 0 600 0 N
-P 2 0 1 0 500 400 400 350 N
-P 2 0 1 0 550 700 450 700 N
-P 2 0 1 0 550 700 600 700 N
-P 2 0 1 0 600 400 500 400 N
-P 2 0 1 0 600 700 650 700 N
-P 3 0 1 0 200 300 350 300 350 350 N
-P 3 0 1 0 200 400 250 400 350 350 N
-P 3 0 1 0 200 500 350 500 350 450 f
-P 3 0 1 0 400 350 400 200 600 200 N
-P 3 0 1 0 400 450 400 500 600 500 N
-P 3 0 1 0 450 750 400 700 350 650 N
-X ~ 1 0 500 200 R 50 50 1 1 P
-X ~ 10 0 0 200 R 50 50 1 1 P
-X ~ 11 850 700 200 L 50 50 1 1 P
-X ~ 12 0 700 200 R 50 50 1 1 P
-X ~ 2 0 400 200 R 50 50 1 1 P
-X ~ 3 0 300 200 R 50 50 1 1 P
-X ~ 4 0 200 200 R 50 50 1 1 P
-X ~ 5 800 500 200 L 50 50 1 1 P
-X ~ 6 800 400 200 L 50 50 1 1 P
-X ~ 7 800 300 200 L 50 50 1 1 P
-X ~ 8 800 200 200 L 50 50 1 1 P
-X ~ 9 800 0 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# trollvalve_POLOLU_TIC_T500
-#
-DEF trollvalve_POLOLU_TIC_T500 U 0 40 Y Y 1 F N
+DEF trollvalve-rescue_POLOLU_TIC_T500-trollvalve U 0 40 Y Y 1 F N
 F0 "U" -400 650 50 H V L CNN
-F1 "trollvalve_POLOLU_TIC_T500" 200 650 50 H V L CNN
+F1 "trollvalve-rescue_POLOLU_TIC_T500-trollvalve" 200 650 50 H V L CNN
 F2 "Pololu_TIC_T500" 200 750 50 H I L CNN
 F3 "" 150 250 50 H I C CNN
 $FPLIST
@@ -293,11 +221,30 @@ X SCL 9 600 300 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# trollvalve_Solenoid
+# trollvalve-rescue_SW_Push_SPDT-trollvalve-rescue
 #
-DEF trollvalve_Solenoid SL 0 1 Y N 1 F N
+DEF trollvalve-rescue_SW_Push_SPDT-trollvalve-rescue SW 0 0 Y N 1 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "trollvalve-rescue_SW_Push_SPDT-trollvalve-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 0 0 0 40 0 120 N
+P 2 0 1 0 -60 10 100 80 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trollvalve-rescue_Solenoid-trollvalve
+#
+DEF trollvalve-rescue_Solenoid-trollvalve SL 0 1 Y N 1 F N
 F0 "SL" 150 50 50 H V L CNN
-F1 "trollvalve_Solenoid" 150 -50 50 H V L CNN
+F1 "trollvalve-rescue_Solenoid-trollvalve" 150 -50 50 H V L CNN
 F2 "" -25 100 50 V I C CNN
 F3 "" -25 100 50 V I C CNN
 $FPLIST
@@ -311,6 +258,40 @@ P 6 0 1 0 0 100 0 150 150 150 150 -150 0 -150 0 -100 N
 P 7 0 1 0 150 0 250 0 200 100 250 100 250 -100 300 -100 250 0 N
 X - 1 -100 100 100 R 50 50 1 1 P
 X + 2 -100 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trollvalve-rescue_Stepper_Motor_bipolar-trollvalve-rescue
+#
+DEF trollvalve-rescue_Stepper_Motor_bipolar-trollvalve-rescue M 0 0 Y N 1 F N
+F0 "M" 150 100 50 H V L CNN
+F1 "trollvalve-rescue_Stepper_Motor_bipolar-trollvalve-rescue" 150 50 50 H V L TNN
+F2 "" 10 -10 50 H I C CNN
+F3 "" 10 -10 50 H I C CNN
+$FPLIST
+ Pin_Headers:Pin_Header_Straight_1x04
+ Connect:bornier4
+ TerminalBlock*4pol
+$ENDFPLIST
+DRAW
+A -175 -75 25 -899 899 0 1 0 N -175 -100 -175 -50
+A -175 -25 25 -899 899 0 1 0 N -175 -50 -175 0
+A -175 25 25 -899 899 0 1 0 N -175 0 -175 50
+A -175 75 25 -899 899 0 1 0 N -175 50 -175 100
+A -75 175 25 -1799 -1 0 1 0 N -100 175 -50 175
+A -25 175 25 -1799 -1 0 1 0 N -50 175 0 175
+A 25 175 25 -1799 -1 0 1 0 N 0 175 50 175
+A 75 175 25 -1799 -1 0 1 0 N 50 175 100 175
+C 0 0 128 0 1 10 N
+P 5 0 0 0 -50 -70 -50 80 0 -20 50 80 50 -70 N
+P 2 0 1 0 -200 -100 -175 -100 N
+P 2 0 1 0 -200 100 -175 100 N
+P 2 0 1 0 -100 200 -100 175 N
+P 2 0 1 0 100 200 100 175 N
+X ~ 1 -100 300 100 D 50 50 1 1 P
+X - 2 100 300 100 D 50 50 1 1 P
+X ~ 3 -300 100 100 R 50 50 1 1 P
+X ~ 4 -300 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
