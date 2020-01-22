@@ -1,0 +1,4921 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "DC11 - Helm distribution cabinet"
+Date "2018-08-04"
+Rev "2.0"
+Comp "PDJR"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Relay:FINDER-40.52 RL3
+U 1 1 578505CC
+P 12700 5650
+F 0 "RL3" V 11750 5900 50  0000 L CNN
+F 1 "VHF" V 12240 5650 50  0000 C CNN
+F 2 "" H 12700 5650 50  0000 C CNN
+F 3 "" H 12700 5650 50  0000 C CNN
+	1    12700 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L AZ850-x RL5
+U 1 1 5785BA9C
+P 19020 5810
+F 0 "RL5" H 19870 5960 50  0000 L CNN
+F 1 "NMEA BUS 1" V 18560 5810 50  0000 C CNN
+F 2 "" H 19020 5810 50  0000 C CNN
+F 3 "" H 19020 5810 50  0000 C CNN
+	1    19020 5810
+	0    1    1    0   
+$EndComp
+$Comp
+L AZ850-x RL4
+U 1 1 57885758
+P 17870 5810
+F 0 "RL4" H 18720 5960 50  0000 L CNN
+F 1 "NMEA BUS 0" V 17410 5810 50  0000 C CNN
+F 2 "" H 17870 5810 50  0000 C CNN
+F 3 "" H 17870 5810 50  0000 C CNN
+	1    17870 5810
+	0    1    1    0   
+$EndComp
+Text Notes 2650 4750 0    60   ~ 12
+ESSENTIAL SERVICES (+24VDC 60A)
+Text Notes 7650 4750 0    60   ~ 12
+ALWAYS ON (+24VDC 80A)
+Text Notes 15790 4640 0    60   ~ 12
+ALWAYS ON (+12VDC 30A)
+Text Notes 13450 4750 0    60   ~ 12
+SWITCHED (+24VDC 60A)
+$Comp
+L NMEA_4410 OFFSHORE~SYSTEMS~4410
+U 1 1 579A6825
+P 21520 2090
+F 0 "OFFSHORE SYSTEMS 4410" V 22360 490 60  0000 L BNN
+F 1 "NMEA_BUS_0_SWITCH_INPUT_MODULE" V 22050 1340 60  0000 C CNN
+F 2 "" V 21420 2040 60  0000 C CNN
+F 3 "" V 21420 2040 60  0000 C CNN
+	1    21520 2090
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMEA_4410 OFFSHORE_SYSTEMS_4410
+U 1 1 57A40E3A
+P 21530 4100
+F 0 "OFFSHORE_SYSTEMS_4410" V 22370 2500 60  0000 L BNN
+F 1 "NMEA_BUS_1_SWITCH_INPUT_MODULE" V 22060 3350 60  0000 C CNN
+F 2 "" V 21430 4050 60  0000 C CNN
+F 3 "" V 21430 4050 60  0000 C CNN
+	1    21530 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P12
+U 1 1 581B7A5A
+P 3150 10200
+F 0 "P12" H 3150 10300 50  0001 C CNN
+F 1 "02" V 3150 10200 40  0000 C CNN
+F 2 "" H 3150 9000 50  0000 C CNN
+F 3 "" H 3150 9000 50  0000 C CNN
+	1    3150 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P11
+U 1 1 581B391D
+P 3050 10200
+F 0 "P11" H 3050 10300 50  0001 C CNN
+F 1 "01" V 3050 10200 40  0000 C CNN
+F 2 "" H 3050 9000 50  0000 C CNN
+F 3 "" H 3050 9000 50  0000 C CNN
+	1    3050 10200
+	0    1    1    0   
+$EndComp
+Text Notes 1890 1950 0    60   ~ 0
+35mm 200A
+Text Notes 2750 3050 0    60   Italic 0
+LITTLEFUSE MEGA
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P14
+U 1 1 5AE1AC62
+P 3350 10200
+F 0 "P14" H 3350 10300 50  0001 C CNN
+F 1 "04" V 3350 10200 40  0000 C CNN
+F 2 "" H 3350 9000 50  0000 C CNN
+F 3 "" H 3350 9000 50  0000 C CNN
+	1    3350 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P13
+U 1 1 5AE1AC69
+P 3250 10200
+F 0 "P13" H 3250 10300 50  0001 C CNN
+F 1 "03" V 3250 10200 40  0000 C CNN
+F 2 "" H 3250 9000 50  0000 C CNN
+F 3 "" H 3250 9000 50  0000 C CNN
+	1    3250 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P19
+U 1 1 5AE1D86D
+P 3850 10200
+F 0 "P19" H 3850 10300 50  0001 C CNN
+F 1 "09" V 3850 10200 40  0000 C CNN
+F 2 "" H 3850 9000 50  0000 C CNN
+F 3 "" H 3850 9000 50  0000 C CNN
+	1    3850 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P20
+U 1 1 5AE1D923
+P 3950 10200
+F 0 "P20" H 3950 10300 50  0001 C CNN
+F 1 "10" V 3950 10200 40  0000 C CNN
+F 2 "" H 3950 9000 50  0000 C CNN
+F 3 "" H 3950 9000 50  0000 C CNN
+	1    3950 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P21
+U 1 1 5AE1D9D9
+P 4250 10200
+F 0 "P21" H 4250 10300 50  0001 C CNN
+F 1 "13" V 4250 10200 40  0000 C CNN
+F 2 "" H 4250 9000 50  0000 C CNN
+F 3 "" H 4250 9000 50  0000 C CNN
+	1    4250 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P22
+U 1 1 5AE1DF54
+P 4350 10200
+F 0 "P22" H 4350 10300 50  0001 C CNN
+F 1 "14" V 4350 10200 40  0000 C CNN
+F 2 "" H 4350 9000 50  0000 C CNN
+F 3 "" H 4350 9000 50  0000 C CNN
+	1    4350 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P23
+U 1 1 5AE1E00A
+P 4450 10200
+F 0 "P23" H 4450 10300 50  0001 C CNN
+F 1 "15" V 4450 10200 40  0000 C CNN
+F 2 "" H 4450 9000 50  0000 C CNN
+F 3 "" H 4450 9000 50  0000 C CNN
+	1    4450 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P26
+U 1 1 5AE2A3B5
+P 7050 10200
+F 0 "P26" H 7050 10300 50  0001 C CNN
+F 1 "04" V 7050 10200 40  0000 C CNN
+F 2 "" H 7050 9000 50  0000 C CNN
+F 3 "" H 7050 9000 50  0000 C CNN
+	1    7050 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P38
+U 1 1 5AE2A3BB
+P 6050 10200
+F 0 "P38" H 6050 10300 50  0001 C CNN
+F 1 "10" V 6050 10200 40  0000 C CNN
+F 2 "" H 6050 9000 50  0000 C CNN
+F 3 "" H 6050 9000 50  0000 C CNN
+	1    6050 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P28
+U 1 1 5AE2A3C1
+P 10150 10200
+F 0 "P28" H 10150 10300 50  0001 C CNN
+F 1 "25" V 10150 10200 40  0000 C CNN
+F 2 "" H 10150 9000 50  0000 C CNN
+F 3 "" H 10150 9000 50  0000 C CNN
+	1    10150 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P27
+U 1 1 5AE2A3C7
+P 7150 10200
+F 0 "P27" H 7150 10300 50  0001 C CNN
+F 1 "05" V 7150 10200 40  0000 C CNN
+F 2 "" H 7150 9000 50  0000 C CNN
+F 3 "" H 7150 9000 50  0000 C CNN
+	1    7150 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P30
+U 1 1 5AE2A3CD
+P 5250 10200
+F 0 "P30" H 5250 10300 50  0001 C CNN
+F 1 "02" V 5250 10200 40  0000 C CNN
+F 2 "" H 5250 9000 50  0000 C CNN
+F 3 "" H 5250 9000 50  0000 C CNN
+	1    5250 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P31
+U 1 1 5AE2A3D3
+P 5350 10200
+F 0 "P31" H 5350 10300 50  0001 C CNN
+F 1 "03" V 5350 10200 40  0000 C CNN
+F 2 "" H 5350 9000 50  0000 C CNN
+F 3 "" H 5350 9000 50  0000 C CNN
+	1    5350 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P32
+U 1 1 5AE2A3D9
+P 5450 10200
+F 0 "P32" H 5450 10300 50  0001 C CNN
+F 1 "04" V 5450 10200 40  0000 C CNN
+F 2 "" H 5450 9000 50  0000 C CNN
+F 3 "" H 5450 9000 50  0000 C CNN
+	1    5450 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P33
+U 1 1 5AE2A3DF
+P 5550 10200
+F 0 "P33" H 5550 10300 50  0001 C CNN
+F 1 "05" V 5550 10200 40  0000 C CNN
+F 2 "" H 5550 9000 50  0000 C CNN
+F 3 "" H 5550 9000 50  0000 C CNN
+	1    5550 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P34
+U 1 1 5AE2A3E5
+P 5650 10200
+F 0 "P34" H 5650 10300 50  0001 C CNN
+F 1 "06" V 5650 10200 40  0000 C CNN
+F 2 "" H 5650 9000 50  0000 C CNN
+F 3 "" H 5650 9000 50  0000 C CNN
+	1    5650 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P35
+U 1 1 5AE2A3EB
+P 5750 10200
+F 0 "P35" H 5750 10300 50  0001 C CNN
+F 1 "07" V 5750 10200 40  0000 C CNN
+F 2 "" H 5750 9000 50  0000 C CNN
+F 3 "" H 5750 9000 50  0000 C CNN
+	1    5750 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P36
+U 1 1 5AE2A3F1
+P 5850 10200
+F 0 "P36" H 5850 10300 50  0001 C CNN
+F 1 "08" V 5850 10200 40  0000 C CNN
+F 2 "" H 5850 9000 50  0000 C CNN
+F 3 "" H 5850 9000 50  0000 C CNN
+	1    5850 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P37
+U 1 1 5AE2A3F7
+P 5950 10200
+F 0 "P37" H 5950 10300 50  0001 C CNN
+F 1 "09" V 5950 10200 40  0000 C CNN
+F 2 "" H 5950 9000 50  0000 C CNN
+F 3 "" H 5950 9000 50  0000 C CNN
+	1    5950 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P29
+U 1 1 5AE2A3FD
+P 5150 10200
+F 0 "P29" H 5150 10300 50  0001 C CNN
+F 1 "01" V 5150 10200 40  0000 C CNN
+F 2 "" H 5150 9000 50  0000 C CNN
+F 3 "" H 5150 9000 50  0000 C CNN
+	1    5150 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P43
+U 1 1 5AE3C48C
+P 6850 10200
+F 0 "P43" H 6850 10300 50  0001 C CNN
+F 1 "02" V 6850 10200 40  0000 C CNN
+F 2 "" H 6850 9000 50  0000 C CNN
+F 3 "" H 6850 9000 50  0000 C CNN
+	1    6850 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P44
+U 1 1 5AE3C492
+P 6950 10200
+F 0 "P44" H 6950 10300 50  0001 C CNN
+F 1 "03" V 6950 10200 40  0000 C CNN
+F 2 "" H 6950 9000 50  0000 C CNN
+F 3 "" H 6950 9000 50  0000 C CNN
+	1    6950 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P39
+U 1 1 5AE3C498
+P 6150 10200
+F 0 "P39" H 6150 10300 50  0001 C CNN
+F 1 "11" V 6150 10200 40  0000 C CNN
+F 2 "" H 6150 9000 50  0000 C CNN
+F 3 "" H 6150 9000 50  0000 C CNN
+	1    6150 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P40
+U 1 1 5AE3C49E
+P 6250 10200
+F 0 "P40" H 6250 10300 50  0001 C CNN
+F 1 "12" V 6250 10200 40  0000 C CNN
+F 2 "" H 6250 9000 50  0000 C CNN
+F 3 "" H 6250 9000 50  0000 C CNN
+	1    6250 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P41
+U 1 1 5AE3C4A4
+P 6350 10200
+F 0 "P41" H 6350 10300 50  0001 C CNN
+F 1 "13" V 6350 10200 40  0000 C CNN
+F 2 "" H 6350 9000 50  0000 C CNN
+F 3 "" H 6350 9000 50  0000 C CNN
+	1    6350 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P42
+U 1 1 5AE3C4AA
+P 6750 10200
+F 0 "P42" H 6750 10300 50  0001 C CNN
+F 1 "01" V 6750 10200 40  0000 C CNN
+F 2 "" H 6750 9000 50  0000 C CNN
+F 3 "" H 6750 9000 50  0000 C CNN
+	1    6750 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P56
+U 1 1 5AE2BF00
+P 8550 10200
+F 0 "P56" H 8550 10300 50  0001 C CNN
+F 1 "09" V 8550 10200 40  0000 C CNN
+F 2 "" H 8550 9000 50  0000 C CNN
+F 3 "" H 8550 9000 50  0000 C CNN
+	1    8550 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P45
+U 1 1 5AE2BF12
+P 10650 10200
+F 0 "P45" H 10650 10300 50  0001 C CNN
+F 1 "30" V 10650 10200 40  0000 C CNN
+F 2 "" H 10650 9000 50  0000 C CNN
+F 3 "" H 10650 9000 50  0000 C CNN
+	1    10650 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P49
+U 1 1 5AE2BF24
+P 7750 10200
+F 0 "P49" H 7750 10300 50  0001 C CNN
+F 1 "01" V 7750 10200 40  0000 C CNN
+F 2 "" H 7750 9000 50  0000 C CNN
+F 3 "" H 7750 9000 50  0000 C CNN
+	1    7750 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P51
+U 1 1 5AE2BF2A
+P 8050 10200
+F 0 "P51" H 8050 10300 50  0001 C CNN
+F 1 "04" V 8050 10200 40  0000 C CNN
+F 2 "" H 8050 9000 50  0000 C CNN
+F 3 "" H 8050 9000 50  0000 C CNN
+	1    8050 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P52
+U 1 1 5AE2BF30
+P 8150 10200
+F 0 "P52" H 8150 10300 50  0001 C CNN
+F 1 "05" V 8150 10200 40  0000 C CNN
+F 2 "" H 8150 9000 50  0000 C CNN
+F 3 "" H 8150 9000 50  0000 C CNN
+	1    8150 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P53
+U 1 1 5AE2BF36
+P 8250 10200
+F 0 "P53" H 8250 10300 50  0001 C CNN
+F 1 "06" V 8250 10200 40  0000 C CNN
+F 2 "" H 8250 9000 50  0000 C CNN
+F 3 "" H 8250 9000 50  0000 C CNN
+	1    8250 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P55
+U 1 1 5AE2BF42
+P 8450 10200
+F 0 "P55" H 8450 10300 50  0001 C CNN
+F 1 "08" V 8450 10200 40  0000 C CNN
+F 2 "" H 8450 9000 50  0000 C CNN
+F 3 "" H 8450 9000 50  0000 C CNN
+	1    8450 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P63
+U 1 1 5AE2BF48
+P 9450 10200
+F 0 "P63" H 9450 10300 50  0001 C CNN
+F 1 "18" V 9450 10200 40  0000 C CNN
+F 2 "" H 9450 9000 50  0000 C CNN
+F 3 "" H 9450 9000 50  0000 C CNN
+	1    9450 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P64
+U 1 1 5AE2C084
+P 9550 10200
+F 0 "P64" H 9550 10300 50  0001 C CNN
+F 1 "19" V 9550 10200 40  0000 C CNN
+F 2 "" H 9550 9000 50  0000 C CNN
+F 3 "" H 9550 9000 50  0000 C CNN
+	1    9550 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P62
+U 1 1 5AE2C08A
+P 9350 10200
+F 0 "P62" H 9350 10300 50  0001 C CNN
+F 1 "17" V 9350 10200 40  0000 C CNN
+F 2 "" H 9350 9000 50  0000 C CNN
+F 3 "" H 9350 9000 50  0000 C CNN
+	1    9350 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P57
+U 1 1 5AE2C090
+P 8650 10200
+F 0 "P57" H 8650 10300 50  0001 C CNN
+F 1 "10" V 8650 10200 40  0000 C CNN
+F 2 "" H 8650 9000 50  0000 C CNN
+F 3 "" H 8650 9000 50  0000 C CNN
+	1    8650 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P58
+U 1 1 5AE2C096
+P 8750 10200
+F 0 "P58" H 8750 10300 50  0001 C CNN
+F 1 "11" V 8750 10200 40  0000 C CNN
+F 2 "" H 8750 9000 50  0000 C CNN
+F 3 "" H 8750 9000 50  0000 C CNN
+	1    8750 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P59
+U 1 1 5AE2C09C
+P 8950 10200
+F 0 "P59" H 8950 10300 50  0001 C CNN
+F 1 "13" V 8950 10200 40  0000 C CNN
+F 2 "" H 8950 9000 50  0000 C CNN
+F 3 "" H 8950 9000 50  0000 C CNN
+	1    8950 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P60
+U 1 1 5AE2C0A2
+P 9050 10200
+F 0 "P60" H 9050 10300 50  0001 C CNN
+F 1 "14" V 9050 10200 40  0000 C CNN
+F 2 "" H 9050 9000 50  0000 C CNN
+F 3 "" H 9050 9000 50  0000 C CNN
+	1    9050 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P61
+U 1 1 5AE2C0A8
+P 9150 10200
+F 0 "P61" H 9150 10300 50  0001 C CNN
+F 1 "15" V 9150 10200 40  0000 C CNN
+F 2 "" H 9150 9000 50  0000 C CNN
+F 3 "" H 9150 9000 50  0000 C CNN
+	1    9150 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P47
+U 1 1 5AE22D8E
+P 7250 10200
+F 0 "P47" H 7250 10300 50  0001 C CNN
+F 1 "06" V 7250 10200 40  0000 C CNN
+F 2 "" H 7250 9000 50  0000 C CNN
+F 3 "" H 7250 9000 50  0000 C CNN
+	1    7250 10200
+	0    1    1    0   
+$EndComp
+Text Notes 1890 2130 0    60   ~ 0
+10mm 80A
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P65
+U 1 1 5AE2894E
+P 9650 10200
+F 0 "P65" H 9650 10300 50  0001 C CNN
+F 1 "20" V 9650 10200 40  0000 C CNN
+F 2 "" H 9650 9000 50  0000 C CNN
+F 3 "" H 9650 9000 50  0000 C CNN
+	1    9650 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P66
+U 1 1 5AE28A0D
+P 9750 10200
+F 0 "P66" H 9750 10300 50  0001 C CNN
+F 1 "21" V 9750 10200 40  0000 C CNN
+F 2 "" H 9750 9000 50  0000 C CNN
+F 3 "" H 9750 9000 50  0000 C CNN
+	1    9750 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P54
+U 1 1 5AE35F13
+P 8350 10200
+F 0 "P54" H 8350 10300 50  0001 C CNN
+F 1 "07" V 8350 10200 40  0000 C CNN
+F 2 "" H 8350 9000 50  0000 C CNN
+F 3 "" H 8350 9000 50  0000 C CNN
+	1    8350 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P67
+U 1 1 5AE47E2E
+P 9850 10200
+F 0 "P67" H 9850 10300 50  0001 C CNN
+F 1 "22" V 9850 10200 40  0000 C CNN
+F 2 "" H 9850 9000 50  0000 C CNN
+F 3 "" H 9850 9000 50  0000 C CNN
+	1    9850 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P68
+U 1 1 5AE47E34
+P 9950 10200
+F 0 "P68" H 9950 10300 50  0001 C CNN
+F 1 "23" V 9950 10200 40  0000 C CNN
+F 2 "" H 9950 9000 50  0000 C CNN
+F 3 "" H 9950 9000 50  0000 C CNN
+	1    9950 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P50
+U 1 1 5AE48416
+P 7950 10200
+F 0 "P50" H 7950 10300 50  0001 C CNN
+F 1 "03" V 7950 10200 40  0000 C CNN
+F 2 "" H 7950 9000 50  0000 C CNN
+F 3 "" H 7950 9000 50  0000 C CNN
+	1    7950 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE76C9F
+P 3450 10200
+F 0 "P?" H 3450 10300 50  0001 C CNN
+F 1 "05" V 3450 10200 40  0000 C CNN
+F 2 "" H 3450 9000 50  0000 C CNN
+F 3 "" H 3450 9000 50  0000 C CNN
+	1    3450 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE76CA5
+P 3550 10200
+F 0 "P?" H 3550 10300 50  0001 C CNN
+F 1 "06" V 3550 10200 40  0000 C CNN
+F 2 "" H 3550 9000 50  0000 C CNN
+F 3 "" H 3550 9000 50  0000 C CNN
+	1    3550 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE76CAB
+P 3650 10200
+F 0 "P?" H 3650 10300 50  0001 C CNN
+F 1 "07" V 3650 10200 40  0000 C CNN
+F 2 "" H 3650 9000 50  0000 C CNN
+F 3 "" H 3650 9000 50  0000 C CNN
+	1    3650 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE76CB1
+P 4650 10200
+F 0 "P?" H 4650 10300 50  0001 C CNN
+F 1 "17" V 4650 10200 40  0000 C CNN
+F 2 "" H 4650 9000 50  0000 C CNN
+F 3 "" H 4650 9000 50  0000 C CNN
+	1    4650 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE7767A
+P 4550 10200
+F 0 "P?" H 4550 10300 50  0001 C CNN
+F 1 "16" V 4550 10200 40  0000 C CNN
+F 2 "" H 4550 9000 50  0000 C CNN
+F 3 "" H 4550 9000 50  0000 C CNN
+	1    4550 10200
+	0    1    1    0   
+$EndComp
+Text GLabel 5250 9950 1    40   Output ~ 0
+A1
+Text GLabel 5350 9950 1    40   Output ~ 0
+A2
+Text GLabel 5450 9950 1    40   Output ~ 0
+A3
+Text GLabel 5550 9950 1    40   Output ~ 0
+A4
+Text GLabel 5600 4950 1    40   Input ~ 0
+A1
+Text GLabel 5700 4950 1    40   Input ~ 0
+A2
+Text GLabel 5800 4950 1    40   Input ~ 0
+A3
+Text GLabel 5900 4950 1    40   Input ~ 0
+A4
+Text GLabel 6000 4950 1    40   Input ~ 0
+A5
+Text GLabel 5650 9950 1    40   Output ~ 0
+A5
+Text GLabel 5250 10450 3    40   Input ~ 0
+AL.CHANNEL.01
+Text GLabel 5350 10450 3    40   Input ~ 0
+AL.CHANNEL.02
+Text GLabel 5450 10450 3    40   Input ~ 0
+AL.CHANNEL.03
+Text GLabel 5550 10450 3    40   Input ~ 0
+AL.CHANNEL.04
+Text GLabel 9250 9950 1    40   Output ~ 0
+NMEA_0.00
+Text GLabel 21520 2090 0    40   Input ~ 0
+NMEA_0.01
+Text GLabel 9350 9950 1    40   Output ~ 0
+NMEA_0.01
+Text GLabel 21520 2190 0    40   Input ~ 0
+NMEA_0.02
+Text GLabel 8450 9950 1    40   Output ~ 0
+NMEA_0.02
+Text GLabel 21520 2290 0    40   Input ~ 0
+NMEA_0.03
+Text GLabel 8350 9950 1    40   Output ~ 0
+NMEA_0.03
+Text GLabel 21520 2390 0    40   Input ~ 0
+NMEA_0.04
+Text GLabel 10150 9950 1    40   Output ~ 0
+NMEA_0.04
+Text GLabel 21520 2490 0    40   Input ~ 0
+NMEA_0.05
+Text GLabel 9050 9950 1    40   Output ~ 0
+NMEA_0.05
+Text GLabel 21520 2590 0    40   Input ~ 0
+NMEA_0.06
+Text GLabel 9150 9950 1    40   Output ~ 0
+NMEA_0.06
+Text GLabel 21520 2690 0    40   Input ~ 0
+NMEA_0.07
+Text GLabel 8650 9950 1    40   Output ~ 0
+NMEA_0.08
+Text GLabel 21520 2790 0    40   Input ~ 0
+NMEA_0.08
+Text GLabel 8050 9950 1    40   Output ~ 0
+NMEA_0.08
+Text GLabel 21520 2890 0    40   Input ~ 0
+NMEA_0.09
+Text GLabel 11850 5750 2    40   Output ~ 0
+NMEA_0.09
+Text GLabel 21520 2990 0    40   Input ~ 0
+NMEA_0.10
+Text GLabel 21520 3090 0    40   Input ~ 0
+NMEA_0.11
+Text GLabel 21520 3190 0    40   Input ~ 0
+NMEA_0.12
+Text GLabel 21520 3290 0    40   Input ~ 0
+NMEA_0.13
+Text GLabel 21520 3390 0    40   Input ~ 0
+NMEA_0.14
+Text GLabel 21520 3490 0    40   Input ~ 0
+NMEA_0.15
+Text GLabel 21520 3590 0    40   Input ~ 0
+NMEA_0.16
+Text GLabel 8550 9950 1    40   Output ~ 0
+COURTESY_RLY
+Text GLabel 10100 5250 0    40   Input ~ 0
+COURTESY_RLY
+Text GLabel 11250 5250 0    40   Input ~ 0
+NAV_RLY
+Text GLabel 9550 9950 1    40   Output ~ 0
+NAV_RLY
+Text GLabel 12400 5250 0    40   Input ~ 0
+VHF_RLY
+Text GLabel 10250 9950 1    40   Output ~ 0
+VHF_RLY
+Text GLabel 17570 5610 0    40   Input ~ 0
+NMEA0_RLY
+Text GLabel 18720 5610 0    40   Input ~ 0
+NMEA1_RLY
+Text GLabel 9750 9950 1    40   Output ~ 0
+NMEA0_RLY
+Text GLabel 9850 9950 1    40   Output ~ 0
+NMEA1_RLY
+Text GLabel 19600 6110 2    40   Output ~ 0
+IND2
+Text GLabel 21530 4100 0    40   Input ~ 0
+NMEA_1.01
+Text GLabel 21530 4200 0    40   Input ~ 0
+NMEA_1.02
+Text GLabel 21530 4300 0    40   Input ~ 0
+NMEA_1.03
+Text GLabel 21530 4400 0    40   Input ~ 0
+NMEA_1.04
+Text GLabel 21530 4500 0    40   Input ~ 0
+NMEA_1.05
+Text GLabel 21530 4600 0    40   Input ~ 0
+NMEA_1.06
+Text GLabel 21530 4700 0    40   Input ~ 0
+NMEA_1.07
+Text GLabel 21530 4800 0    40   Input ~ 0
+NMEA_1.08
+Text GLabel 21530 4900 0    40   Input ~ 0
+NMEA_1.09
+Text GLabel 21530 5000 0    40   Input ~ 0
+NMEA_1.10
+Text GLabel 21530 5100 0    40   Input ~ 0
+NMEA_1.11
+Text GLabel 21530 5200 0    40   Input ~ 0
+NMEA_1.12
+Text GLabel 21530 5300 0    40   Input ~ 0
+NMEA_1.13
+Text GLabel 5650 10450 3    40   Input ~ 0
+AL.CHANNEL.05
+Text GLabel 5750 10450 3    40   Input ~ 0
+AL.CHANNEL.06
+Text GLabel 8150 9950 1    40   Output ~ 0
+A_SIG6
+Text GLabel 5750 9950 1    40   Output ~ 0
+A6
+Text GLabel 6100 4950 1    40   Input ~ 0
+A6
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE7DE06
+P 10050 10200
+F 0 "P?" H 10050 10300 50  0001 C CNN
+F 1 "24" V 10050 10200 40  0000 C CNN
+F 2 "" H 10050 9000 50  0000 C CNN
+F 3 "" H 10050 9000 50  0000 C CNN
+	1    10050 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE7DE0C
+P 10250 10200
+F 0 "P?" H 10250 10300 50  0001 C CNN
+F 1 "26" V 10250 10200 40  0000 C CNN
+F 2 "" H 10250 9000 50  0000 C CNN
+F 3 "" H 10250 9000 50  0000 C CNN
+	1    10250 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE7DE12
+P 10350 10200
+F 0 "P?" H 10350 10300 50  0001 C CNN
+F 1 "27" V 10350 10200 40  0000 C CNN
+F 2 "" H 10350 9000 50  0000 C CNN
+F 3 "" H 10350 9000 50  0000 C CNN
+	1    10350 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE7DE18
+P 10450 10200
+F 0 "P?" H 10450 10300 50  0001 C CNN
+F 1 "28" V 10450 10200 40  0000 C CNN
+F 2 "" H 10450 9000 50  0000 C CNN
+F 3 "" H 10450 9000 50  0000 C CNN
+	1    10450 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE7DE1E
+P 10550 10200
+F 0 "P?" H 10550 10300 50  0001 C CNN
+F 1 "29" V 10550 10200 40  0000 C CNN
+F 2 "" H 10550 9000 50  0000 C CNN
+F 3 "" H 10550 9000 50  0000 C CNN
+	1    10550 10200
+	0    1    1    0   
+$EndComp
+Text GLabel 10450 9950 1    40   Input ~ 0
+A1
+Text GLabel 10550 9950 1    40   Input ~ 0
+A2
+Text GLabel 10350 9950 1    40   Input ~ 0
+A6
+Text Notes 5500 11300 0    40   ~ 0
+ER BILGE LEVEL HIGH
+Text Notes 5500 11400 0    40   ~ 0
+MC BILGE LEVEL HIGH
+Text Notes 5500 11500 0    40   ~ 0
+ER BILGE PUMP RUNNING
+Text Notes 5500 11600 0    40   ~ 0
+MC BILGE PUMP RUNNING
+Text Notes 5500 11700 0    40   ~ 0
+WASTE DISCHARGE PUMP RUNNING
+Text Notes 5500 12000 0    40   ~ 0
+BATTERY VOLTAGE LOW
+Text Notes 5500 12200 0    40   ~ 0
+INTRUDER ALARM ACTIVE
+Text GLabel 6150 9950 1    40   Output ~ 0
+A10
+Text GLabel 6050 9950 1    40   Output ~ 0
+A9
+Text Notes 5500 12100 0    40   ~ 0
+FIRE ALARM ACTIVE
+Text GLabel 5600 6350 3    40   Input ~ 0
+A10
+Text GLabel 6400 4950 1    40   Input ~ 0
+A9
+Text GLabel 6150 10450 3    40   Input ~ 0
+AL.CHANNEL.10
+Text GLabel 6050 10450 3    40   Input ~ 0
+AL.CHANNEL.09
+Text GLabel 10650 9950 1    40   Input ~ 0
+A9
+Text GLabel 10750 9950 1    40   Input ~ 0
+A10
+Text GLabel 7750 10450 3    40   Output ~ 0
+DP.PANEL.SUPPLY
+Text GLabel 8050 10450 3    40   Input ~ 0
+DP.ANCHOR-LIGHT.ON
+Text GLabel 8150 10450 3    40   Input ~ 0
+DP.BATTERY-ALARM.ON
+Text GLabel 8250 10450 3    40   Input ~ 0
+DP.BLACK-WATER-SYSTEM.ENABLE
+Text GLabel 8350 10450 3    40   Input ~ 0
+DP.BOILER.ENABLE
+Text GLabel 8450 10450 3    40   Input ~ 0
+DP.CHILLER.ENABLE
+Text GLabel 8550 10450 3    40   Input ~ 0
+DP.COURTESY-LIGHTS.ON
+Text GLabel 8650 10450 3    40   Input ~ 0
+DP.DECK-LIGHTS.ON
+Text GLabel 8750 10450 3    40   Input ~ 0
+DP.GENERATOR.ON
+Text GLabel 8850 10450 3    40   Input ~ 0
+DP.GREY-WATER-SYSTEM.ENABLE
+Text GLabel 9050 10450 3    40   Input ~ 0
+DP.HOT-WATER-LOOP.ENABLE
+Text GLabel 9150 10450 3    40   Input ~ 0
+DP.HYDROPHORE.ENABLE
+Text GLabel 9250 10450 3    40   Input ~ 0
+DP.1KW-IMMERSION-HEATER.ON
+Text GLabel 9350 10450 3    40   Input ~ 0
+DP.2KW-IMMERSION-HEATER.ON
+Text GLabel 9550 10450 3    40   Input ~ 0
+DP.NAVIGATION-LIGHTS.ON
+Text GLabel 9650 10450 3    40   Input ~ 0
+DP.NETWORK-SERVICES.ON
+Text GLabel 9750 10450 3    40   Input ~ 0
+DP.NMEA-BUS-0.ON
+Text GLabel 9850 10450 3    40   Input ~ 0
+DP.NMEA-BUS-1.ON
+Text GLabel 9950 10450 3    40   Input ~ 0
+DP.REFRIGERATION.ON
+Text GLabel 10050 10450 3    40   Input ~ 0
+DP.ALARM-SILENCE.ON
+Text GLabel 10150 10450 3    40   Input ~ 0
+DP.THERMAL-STORE.ENABLE
+Text GLabel 10250 10450 3    40   Input ~ 0
+DP.VHF.ENABLE
+Text GLabel 10350 10450 3    40   Input ~ 0
+DP.BATTERY-ALARM.ACTIVE
+Text GLabel 10450 10450 3    40   Input ~ 0
+DP.ER-BILGE-ALARM.ACTIVE
+Text GLabel 10550 10450 3    40   Input ~ 0
+DP.MC-BILGE-ALARM.ACTIVE
+Text GLabel 10650 10450 3    40   Input ~ 0
+DP.FIRE-ALARM.ACTIVE
+Text GLabel 10750 10450 3    40   Input ~ 0
+DP.INTRUDER-ALARM.ACTIVE
+Text GLabel 5150 10450 3    40   Input ~ 0
+AL.SILENCE
+Text GLabel 5850 10450 3    40   Input ~ 0
+AL.CHANNEL.07
+Text GLabel 5950 10450 3    40   Input ~ 0
+AL.CHANNEL.08
+Text GLabel 6250 10450 3    40   Output ~ 0
+AL.SOUNDER
+Text GLabel 6350 10450 3    40   Output ~ 0
+AL.INDICATOR
+Text GLabel 6750 10450 3    40   Input ~ 0
+DM.INCREASE
+Text GLabel 6850 10450 3    40   Input ~ 0
+DM.DECREASE
+Text GLabel 6950 10450 3    40   Output ~ 0
+DM.PWMOUT+
+Text GLabel 7150 10450 3    40   Output ~ 0
+DM.PWMOUT-
+Text GLabel 3250 10450 3    40   Output ~ 0
+ER_BILGE_SENSOR_SUPPLY
+Text GLabel 3350 10450 3    40   Input ~ 0
+ER_BILGE_SENSOR_ON
+Text GLabel 3450 10450 3    40   Output ~ 0
+MC_BILGE_SENSOR_SUPPLY
+Text GLabel 3550 10450 3    40   Input ~ 0
+MC_BILGE_SENSOR_ON
+Text GLabel 3650 10450 3    40   Output ~ 0
+ER_BILGE_PUMP_SWITCH_SUPPLY
+Text GLabel 3750 10450 3    40   Input ~ 0
+ER_BILGE_PUMP_SWITCH(AUTO)
+Text GLabel 3850 10450 3    40   Input ~ 0
+ER_BILGE_PUMP(MAN)
+$Comp
+L Relay:FINDER-40.52 RL?
+U 1 1 5B639853
+P 4900 5650
+F 0 "RL?" H 5750 5800 50  0000 L CNN
+F 1 "MAIN ISOLATOR REVERSING RELAY" V 3850 5650 50  0000 C CNN
+F 2 "" H 4900 5650 50  0000 C CNN
+F 3 "" H 4900 5650 50  0000 C CNN
+	1    4900 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B63DE38
+P 5300 6350
+F 0 "#PWR?" H 5300 6100 50  0001 C CNN
+F 1 "GND" H 5300 6200 50  0000 C CNN
+F 2 "" H 5300 6350 50  0000 C CNN
+F 3 "" H 5300 6350 50  0000 C CNN
+	1    5300 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 10450 3    40   Output ~ 0
+MAIN_ISOLATOR_SOLENOID_RED
+Text GLabel 3150 10450 3    40   Output ~ 0
+MAIN_ISOLATOR_SOLENOID_BLACK
+Text GLabel 4450 9650 1    40   Output ~ 0
+ALARM_CHANNEL_04
+Text GLabel 3850 9650 1    40   Output ~ 0
+ALARM_CHANNEL_03
+Text GLabel 4050 10450 3    40   Output ~ 0
+ER_BILGE_PUMP_BROWN
+Text GLabel 4150 10450 3    40   Output ~ 0
+ER_BILGE_PUMP_BLUE
+Text GLabel 3350 9950 1    40   Output ~ 0
+ALARM_CHANNEL_01
+Text GLabel 3550 9950 1    40   Output ~ 0
+ALARM_CHANNEL_02
+Text GLabel 8950 9950 1    40   Output ~ 0
+HI_POS
+Text GLabel 6200 4950 1    40   Input ~ 0
+A7
+Text GLabel 6300 4950 1    40   Input ~ 0
+A8
+$Comp
+L power:GND #PWR?
+U 1 1 5B6605FF
+P 5800 6350
+F 0 "#PWR?" H 5800 6100 50  0001 C CNN
+F 1 "GND" H 5800 6200 50  0000 C CNN
+F 2 "" H 5800 6350 50  0000 C CNN
+F 3 "" H 5800 6350 50  0000 C CNN
+	1    5800 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 9950 1    40   Output ~ 0
+A7
+Text GLabel 5950 9950 1    40   Output ~ 0
+A8
+$Comp
+L power:GND #PWR?
+U 1 1 5B666ACF
+P 7000 6350
+F 0 "#PWR?" H 7000 6100 50  0001 C CNN
+F 1 "GND" H 7000 6200 50  0000 C CNN
+F 2 "" H 7000 6350 50  0000 C CNN
+F 3 "" H 7000 6350 50  0000 C CNN
+	1    7000 6350
+	1    0    0    -1  
+$EndComp
+Text Notes 10970 12990 3    60   ~ 0
+HELM PANEL +24VDC <-
+Text Notes 11080 12860 3    60   ~ 0
+GENERATOR PANEL +24VDC <-
+Text Notes 12980 12860 3    60   ~ 0
+NIGHT LIGHTS ->
+Text Notes 12480 12860 3    60   ~ 0
+HORN ->
+Text Notes 11280 12840 3    60   ~ 0
+AIS ->
+Text Notes 11880 12860 3    60   ~ 0
+COURTESY LIGHTS ->
+Text Notes 14480 12860 3    60   ~ 0
+WASTE TANK FLUSH ->
+Text Notes 13980 12860 3    60   ~ 0
+ER VENTILATION (MAN) ->
+Text Notes 13880 12860 3    60   ~ 0
+ER VENTILATION (AUTO) ->
+Text Notes 11480 12860 3    60   ~ 0
+ANCHOR (UP) ->
+Text Notes 14180 12860 3    60   ~ 0
+MC VENTILATION (MAN) ->
+Text Notes 12680 12860 3    60   ~ 0
+MAST (DOWN) ->
+Text Notes 12580 12860 3    60   ~ 0
+HYDRAULIC ENABLE ->
+Text Notes 12780 12860 3    60   ~ 0
+MAST (UP) ->
+Text Notes 14080 12860 3    60   ~ 0
+MC VENTILATION (AUTO) ->
+Text Notes 12880 12860 3    60   ~ 0
+NAVIGATION LIGHTS ->
+Text Notes 11680 12860 3    60   ~ 0
+BOARD +/- ->
+Text Notes 11780 12860 3    60   ~ 0
+BOARD -/+ ->
+Text Notes 12180 12860 3    60   ~ 0
+HATCH (OPEN) ->
+Text Notes 12280 12860 3    60   ~ 0
+HATCH (CLOSE) ->
+Text Notes 11980 12860 3    60   ~ 0
+DECK WASH ->
+Text Notes 11380 12860 3    60   ~ 0
+ANCHOR (DOWN) ->
+Text Notes 13380 12860 3    60   ~ 0
+SEARCHLIGHT ->
+Text Notes 14380 12860 3    60   ~ 0
+WASTE PUMP (MAN) ->
+Text Notes 13780 12860 3    60   ~ 0
+TROLL ->
+Text Notes 14280 12860 3    60   ~ 0
+WASTE PUMP (AUTO) ->
+Text Notes 15080 12860 3    60   ~ 0
+DECK LIGHTS ->
+Text Notes 13080 12860 3    60   ~ 0
+RADAR +24VDC <-
+Text Notes 11180 12860 3    60   ~ 0
+AIS +24VDC <-
+Text Notes 11580 12860 3    60   ~ 0
+BOARD +24VDC <-
+Text Notes 12380 12860 3    60   ~ 0
+HORN +24VDC <-
+Text Notes 13180 12860 3    60   ~ 0
+RADAR ->
+Text Notes 13280 12860 3    60   ~ 0
+SEARCHLIGHT +24VDC <-
+Text Notes 14680 12860 3    60   ~ 0
+WIFI ->
+Text Notes 14980 12860 3    60   ~ 0
+WIPER MODE ->
+Text Notes 14580 12860 3    60   ~ 0
+WIFI +12 VDC <-
+Text Notes 14780 12860 3    60   ~ 0
+WIPER +24VDC <-
+Text Notes 12080 12860 3    60   ~ 0
+ENGINE ON ->
+Text Notes 14880 12860 3    60   ~ 0
+WIPER ON ->
+Text Notes 15180 12860 3    60   ~ 0
+BOW THRUST (PORT) ->
+Text Notes 15280 12860 3    60   ~ 0
+BOW THRUST (STARBOARD) ->
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B657D47
+P 9250 10200
+F 0 "P?" H 9250 10300 50  0001 C CNN
+F 1 "16" V 9250 10200 40  0000 C CNN
+F 2 "" H 9250 9000 50  0000 C CNN
+F 3 "" H 9250 9000 50  0000 C CNN
+	1    9250 10200
+	0    1    1    0   
+$EndComp
+Text GLabel 9450 10450 3    40   Input ~ 0
+DP.MAIN-ISOLATOR.ON
+Text GLabel 9650 9950 1    40   Output ~ 0
+MI_SW_ON
+Wire Wire Line
+	16120 4850 16120 5330
+Wire Wire Line
+	16320 4850 16320 5330
+Wire Wire Line
+	16520 4850 16520 5330
+Wire Wire Line
+	16720 4850 16720 5330
+Wire Wire Line
+	16920 4850 16920 5330
+Wire Wire Line
+	15920 3160 15920 4850
+Wire Wire Line
+	16720 6340 17100 6340
+Wire Wire Line
+	16720 6340 16720 6230
+Wire Wire Line
+	16920 6230 16920 7830
+Wire Notes Line
+	29620 4590 29620 4970
+Wire Bus Line
+	10850 12750 15580 12750
+Text GLabel 8750 9950 1    40   Output ~ 0
+GENPANEL_REMOTE_START
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B65AD31
+P 8850 10200
+F 0 "P?" H 8850 10300 50  0001 C CNN
+F 1 "12" V 8850 10200 40  0000 C CNN
+F 2 "" H 8850 9000 50  0000 C CNN
+F 3 "" H 8850 9000 50  0000 C CNN
+	1    8850 10200
+	0    1    1    0   
+$EndComp
+Text GLabel 8950 10450 3    40   Input ~ 0
+DP.HELM.ENABLE
+Text GLabel 10050 9950 1    40   Output ~ 0
+A_SIL0
+Text Notes 10890 13130 3    60   ~ 0
+HELM PANEL +24VDC <-
+Wire Bus Line
+	15750 4530 19880 4530
+Wire Bus Line
+	15750 4530 15750 8570
+Wire Bus Line
+	15750 8570 19880 8570
+Wire Bus Line
+	15840 8650 16750 8650
+Wire Bus Line
+	15840 12750 16750 12750
+Wire Bus Line
+	16830 8650 19880 8650
+Wire Bus Line
+	16830 12750 19880 12750
+Wire Wire Line
+	19290 8730 19240 8730
+Wire Wire Line
+	15920 4850 16120 4850
+Connection ~ 15920 4850
+Connection ~ 16120 4850
+Connection ~ 16320 4850
+Connection ~ 16520 4850
+Connection ~ 16720 4850
+Wire Wire Line
+	17100 6340 17100 4770
+Wire Wire Line
+	16920 7830 17540 7830
+Text GLabel 18360 6110 2    40   Output ~ 0
+IND1
+Wire Wire Line
+	18720 6410 18660 6410
+Wire Wire Line
+	18660 6410 18660 6690
+Wire Wire Line
+	16520 6230 16520 6690
+Wire Wire Line
+	16520 6690 18660 6690
+Wire Wire Line
+	16320 6230 16320 6770
+Wire Wire Line
+	16320 6770 18580 6770
+Wire Wire Line
+	18580 6770 18580 6010
+Wire Wire Line
+	18580 6010 18720 6010
+Wire Wire Line
+	16120 6230 16120 6610
+Wire Wire Line
+	16120 6610 17520 6610
+Wire Wire Line
+	17520 6610 17520 6410
+Wire Wire Line
+	17520 6410 17570 6410
+Wire Wire Line
+	15920 6230 15920 6530
+Wire Wire Line
+	15920 6530 17440 6530
+Wire Wire Line
+	17440 6530 17440 6010
+Wire Wire Line
+	17440 6010 17570 6010
+Wire Wire Line
+	19320 6510 19600 6510
+Wire Bus Line
+	19880 8570 19880 4530
+Text GLabel 1900 2000 0    60   Input ~ 0
+[DC1]F9
+Text GLabel 1900 2150 0    60   Input ~ 0
+[DC1]F5
+Text GLabel 4500 4200 0    40   Input ~ 0
+HI_POS
+$Comp
+L power:GND #PWR?
+U 1 1 5B63EA83
+P 5400 4300
+F 0 "#PWR?" H 5400 4050 50  0001 C CNN
+F 1 "GND" H 5400 4150 50  0000 C CNN
+F 2 "" H 5400 4300 50  0000 C CNN
+F 3 "" H 5400 4300 50  0000 C CNN
+	1    5400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B640F97
+P 5500 3100
+F 0 "#PWR?" H 5500 2850 50  0001 C CNN
+F 1 "GND" H 5500 2950 50  0000 C CNN
+F 2 "" H 5500 3100 50  0000 C CNN
+F 3 "" H 5500 3100 50  0000 C CNN
+	1    5500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B64104A
+P 4300 3100
+F 0 "#PWR?" H 4300 2850 50  0001 C CNN
+F 1 "GND" H 4300 2950 50  0000 C CNN
+F 2 "" H 4300 3100 50  0000 C CNN
+F 3 "" H 4300 3100 50  0000 C CNN
+	1    4300 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18240 9290 18580 9290
+Wire Wire Line
+	15000 8810 18840 8810
+Wire Wire Line
+	18990 8890 18940 8890
+Wire Wire Line
+	19490 8970 19440 8970
+Text Notes 15870 8860 0    60   ~ 12
+EXTERNAL\nINPUTS
+Text Notes 16860 8760 0    60   ~ 12
+EQUIPMENT CONNECTIONS
+Text Notes 16850 12730 0    60   ~ 0
+RED TERMINAL = 24VDC\nORANGE TERMINAL = 12VDC
+Text Notes 10870 12730 0    60   ~ 0
+RED TERMINAL = 24VDC (SUPPLY CURRENT)\nBLACK TERMINAL = 24VDC (SIGNAL CURRENT)
+$Comp
+L Device:Fuse 10A
+U 1 1 5B660B23
+P 7400 5650
+F 0 "10A" V 7400 5650 35  0000 C CNN
+F 1 "F9.1.9_DIMMER_NEGATIVE_RAIL" V 7450 5750 35  0000 R TNN
+F 2 "" H 7400 5650 50  0000 C CNN
+F 3 "" H 7400 5650 50  0000 C CNN
+	1    7400 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 60A
+U 1 1 5B662859
+P 3050 2400
+F 0 "60A" V 3050 2400 35  0000 C CNN
+F 1 "F5.1_ALWAYS_LIVE" V 3100 2500 35  0000 R TNN
+F 2 "" H 3050 2400 50  0000 C CNN
+F 3 "" H 3050 2400 50  0000 C CNN
+	1    3050 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 60A
+U 1 1 5B662CFB
+P 3250 2400
+F 0 "60A" V 3250 2400 35  0000 C CNN
+F 1 "F5.2_SWITCHED_LIVE" V 3300 2500 35  0000 R TNN
+F 2 "" H 3250 2400 50  0000 C CNN
+F 3 "" H 3250 2400 50  0000 C CNN
+	1    3250 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 30A
+U 1 1 5B662FEC
+P 3450 2400
+F 0 "30A" V 3450 2400 35  0000 C CNN
+F 1 "F5.3_12VDC" V 3500 2500 35  0000 R TNN
+F 2 "" H 3450 2400 50  0000 C CNN
+F 3 "" H 3450 2400 50  0000 C CNN
+	1    3450 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 2A
+U 1 1 5B664F3F
+P 2700 5650
+F 0 "2A" V 2700 5650 35  0000 C CNN
+F 1 "F9.1.1_MAIN_ISOLATOR" V 2800 5750 35  0000 R BNN
+F 2 "" H 2700 5650 50  0000 C CNN
+F 3 "" H 2700 5650 50  0000 C CNN
+	1    2700 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 2A
+U 1 1 5B66570E
+P 2900 5650
+F 0 "2A" V 2900 5650 35  0000 C CNN
+F 1 "F9.1.2_HELM_ISOLATOR" V 2950 5750 35  0000 R TNN
+F 2 "" H 2900 5650 50  0000 C CNN
+F 3 "" H 2900 5650 50  0000 C CNN
+	1    2900 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 10A
+U 1 1 5B665DB6
+P 14950 5650
+F 0 "10A" V 14950 5650 35  0000 C CNN
+F 1 "F5.2.8 (SPARE)" V 15000 5750 35  0000 R TNN
+F 2 "" H 14950 5650 50  0000 C CNN
+F 3 "" H 14950 5650 50  0000 C CNN
+	1    14950 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 2A
+U 1 1 5B665F94
+P 3300 5650
+F 0 "2A" V 3300 5650 35  0000 C CNN
+F 1 "F9.1.4_MC_BILGE_SENSOR" V 3350 5750 35  0000 R TNN
+F 2 "" H 3300 5650 50  0000 C CNN
+F 3 "" H 3300 5650 50  0000 C CNN
+	1    3300 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 15A
+U 1 1 5B666909
+P 3500 5650
+F 0 "15A" V 3500 5650 35  0000 C CNN
+F 1 "F9.1.5_ER_BILGE_PUMP" V 3550 5750 35  0000 R TNN
+F 2 "" H 3500 5650 50  0000 C CNN
+F 3 "" H 3500 5650 50  0000 C CNN
+	1    3500 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 15A
+U 1 1 5B666B29
+P 3700 5650
+F 0 "15A" V 3700 5650 35  0000 C CNN
+F 1 "F9.1.6_MC_BILGE_PUMP" V 3750 5750 35  0000 R TNN
+F 2 "" H 3700 5650 50  0000 C CNN
+F 3 "" H 3700 5650 50  0000 C CNN
+	1    3700 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B666DD3
+P 3900 5650
+F 0 "5A" V 3900 5650 35  0000 C CNN
+F 1 "F9.1.7_HELM_PANEL_ALARM" V 3950 5750 35  0000 R TNN
+F 2 "" H 3900 5650 50  0000 C CNN
+F 3 "" H 3900 5650 50  0000 C CNN
+	1    3900 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B66715B
+P 4100 5650
+F 0 "5A" V 4100 5650 35  0000 C CNN
+F 1 "F9.1.8_HELM_PANEL_DIMMER" V 4150 5750 35  0000 R TNN
+F 2 "" H 4100 5650 50  0000 C CNN
+F 3 "" H 4100 5650 50  0000 C CNN
+	1    4100 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B65FAAA
+P 7750 5650
+F 0 "5A" V 7750 5650 35  0000 C CNN
+F 1 "F5.1.1 DOMESTIC PANEL" V 7800 5750 35  0000 R TNN
+F 2 "" H 7750 5650 50  0000 C CNN
+F 3 "" H 7750 5650 50  0000 C CNN
+	1    7750 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B66020A
+P 7950 5650
+F 0 "5A" V 7950 5650 35  0000 C CNN
+F 1 "F5.1.2 GENERATOR PANEL" V 8000 5750 35  0000 R TNN
+F 2 "" H 7950 5650 50  0000 C CNN
+F 3 "" H 7950 5650 50  0000 C CNN
+	1    7950 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B6605A4
+P 8150 5650
+F 0 "5A" V 8150 5650 35  0000 C CNN
+F 1 "F5.1.3 HELM PANEL" V 8200 5750 35  0000 R TNN
+F 2 "" H 8150 5650 50  0000 C CNN
+F 3 "" H 8150 5650 50  0000 C CNN
+	1    8150 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B6608BF
+P 8350 5650
+F 0 "5A" V 8350 5650 35  0000 C CNN
+F 1 "F5.1.4 AIS" V 8400 5750 35  0000 R TNN
+F 2 "" H 8350 5650 50  0000 C CNN
+F 3 "" H 8350 5650 50  0000 C CNN
+	1    8350 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B660B32
+P 8550 5650
+F 0 "5A" V 8550 5650 35  0000 C CNN
+F 1 "F5.1.5 COURTESY LIGHTS" V 8600 5750 35  0000 R TNN
+F 2 "" H 8550 5650 50  0000 C CNN
+F 3 "" H 8550 5650 50  0000 C CNN
+	1    8550 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B660E28
+P 8750 5650
+F 0 "5A" V 8750 5650 35  0000 C CNN
+F 1 "F5.1.6 NAV LIGHTS" V 8800 5750 35  0000 R TNN
+F 2 "" H 8750 5650 50  0000 C CNN
+F 3 "" H 8750 5650 50  0000 C CNN
+	1    8750 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 10A
+U 1 1 5B6610E3
+P 8950 5650
+F 0 "10A" V 8950 5650 35  0000 C CNN
+F 1 "F5.1.7 VHF" V 9000 5750 35  0000 R TNN
+F 2 "" H 8950 5650 50  0000 C CNN
+F 3 "" H 8950 5650 50  0000 C CNN
+	1    8950 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 10A
+U 1 1 5B6616D4
+P 9150 5650
+F 0 "10A" V 9150 5650 35  0000 C CNN
+F 1 "F5.1.8 WIFI" V 9200 5750 35  0000 R TNN
+F 2 "" H 9150 5650 50  0000 C CNN
+F 3 "" H 9150 5650 50  0000 C CNN
+	1    9150 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 2A
+U 1 1 5B661A0E
+P 9350 5650
+F 0 "2A" V 9350 5650 35  0000 C CNN
+F 1 "F5.1.9 SPUD ISOLATOR" V 9400 5750 35  0000 R TNN
+F 2 "" H 9350 5650 50  0000 C CNN
+F 3 "" H 9350 5650 50  0000 C CNN
+	1    9350 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B66273F
+P 13550 5650
+F 0 "5A" V 13550 5650 35  0000 C CNN
+F 1 "F5.2.1 HELM PANEL" V 13600 5750 35  0000 R TNN
+F 2 "" H 13550 5650 50  0000 C CNN
+F 3 "" H 13550 5650 50  0000 C CNN
+	1    13550 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 10A
+U 1 1 5B662AF1
+P 13750 5650
+F 0 "10A" V 13750 5650 35  0000 C CNN
+F 1 "F5.2.2 AUTOPILOT" V 13800 5750 35  0000 R TNN
+F 2 "" H 13750 5650 50  0000 C CNN
+F 3 "" H 13750 5650 50  0000 C CNN
+	1    13750 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B662E2B
+P 13950 5650
+F 0 "5A" V 13950 5650 35  0000 C CNN
+F 1 "F5.2.3 BLUE BOARD" V 14000 5750 35  0000 R TNN
+F 2 "" H 13950 5650 50  0000 C CNN
+F 3 "" H 13950 5650 50  0000 C CNN
+	1    13950 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 5A
+U 1 1 5B6631C5
+P 14150 5650
+F 0 "5A" V 14150 5650 35  0000 C CNN
+F 1 "F5.2.4 HORN" V 14200 5750 35  0000 R TNN
+F 2 "" H 14150 5650 50  0000 C CNN
+F 3 "" H 14150 5650 50  0000 C CNN
+	1    14150 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 10A
+U 1 1 5B6634FF
+P 14350 5650
+F 0 "10A" V 14350 5650 35  0000 C CNN
+F 1 "F5.2.5 RADAR" V 14400 5750 35  0000 R TNN
+F 2 "" H 14350 5650 50  0000 C CNN
+F 3 "" H 14350 5650 50  0000 C CNN
+	1    14350 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 10A
+U 1 1 5B663841
+P 14550 5650
+F 0 "10A" V 14550 5650 35  0000 C CNN
+F 1 "F5.2.6 SEARCHLIGHT" V 14600 5750 35  0000 R TNN
+F 2 "" H 14550 5650 50  0000 C CNN
+F 3 "" H 14550 5650 50  0000 C CNN
+	1    14550 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse 10A
+U 1 1 5B663B3F
+P 14750 5650
+F 0 "10A" V 14750 5650 35  0000 C CNN
+F 1 "F5.2.7 WIPER" V 14800 5750 35  0000 R TNN
+F 2 "" H 14750 5650 50  0000 C CNN
+F 3 "" H 14750 5650 50  0000 C CNN
+	1    14750 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L beatrice:FUSE_CONN_02X01 5A
+U 1 1 5B66419D
+P 15920 5580
+F 0 "5A" V 15530 5580 35  0000 C BNN
+F 1 "F5.3.1 NMEA BUS 0 LEG A" H 16280 5490 35  0000 R BNN
+F 2 "" H 15920 5580 50  0000 C CNN
+F 3 "" H 15920 5580 50  0000 C CNN
+	1    15920 5580
+	0    1    1    0   
+$EndComp
+$Comp
+L beatrice:FUSE_CONN_02X01 5A
+U 1 1 5B6645A1
+P 16120 5580
+F 0 "5A" V 15730 5580 35  0000 C BNN
+F 1 "F5.3.2 NMEA BUS 0 LEG B" H 16480 5490 35  0000 R BNN
+F 2 "" H 16120 5580 50  0000 C CNN
+F 3 "" H 16120 5580 50  0000 C CNN
+	1    16120 5580
+	0    1    1    0   
+$EndComp
+$Comp
+L beatrice:FUSE_CONN_02X01 5A
+U 1 1 5B664A7D
+P 16320 5580
+F 0 "5A" V 15930 5580 35  0000 C BNN
+F 1 "F5.3.3 NMEA BUS 1 LEG A" H 16680 5490 35  0000 R BNN
+F 2 "" H 16320 5580 50  0000 C CNN
+F 3 "" H 16320 5580 50  0000 C CNN
+	1    16320 5580
+	0    1    1    0   
+$EndComp
+$Comp
+L beatrice:FUSE_CONN_02X01 5A
+U 1 1 5B664A83
+P 16520 5580
+F 0 "5A" V 16130 5580 35  0000 C BNN
+F 1 "F5.3.4 NMEA BUS 1 LEG B" H 16880 5490 35  0000 R BNN
+F 2 "" H 16520 5580 50  0000 C CNN
+F 3 "" H 16520 5580 50  0000 C CNN
+	1    16520 5580
+	0    1    1    0   
+$EndComp
+$Comp
+L beatrice:FUSE_CONN_02X01 10A
+U 1 1 5B664FF8
+P 16720 5580
+F 0 "10A" V 16330 5580 35  0000 C BNN
+F 1 "F5.3.5 VHF" H 17080 5490 35  0000 R BNN
+F 2 "" H 16720 5580 50  0000 C CNN
+F 3 "" H 16720 5580 50  0000 C CNN
+	1    16720 5580
+	0    1    1    0   
+$EndComp
+$Comp
+L beatrice:FUSE_CONN_02X01 10A
+U 1 1 5B665340
+P 16920 5580
+F 0 "10A" V 16530 5580 35  0000 C BNN
+F 1 "F5.3.6 12VDC OUTLETS" H 17280 5490 35  0000 R BNN
+F 2 "" H 16920 5580 50  0000 C CNN
+F 3 "" H 16920 5580 50  0000 C CNN
+	1    16920 5580
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	22470 2190 22520 2190
+Wire Wire Line
+	22520 2190 22520 2220
+$Comp
+L power:GND #PWR?
+U 1 1 5B668CB2
+P 22520 2220
+F 0 "#PWR?" H 22520 1970 50  0001 C CNN
+F 1 "GND" H 22520 2070 50  0000 C CNN
+F 2 "" H 22520 2220 50  0000 C CNN
+F 3 "" H 22520 2220 50  0000 C CNN
+	1    22520 2220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17570 5610 17570 1910
+Wire Wire Line
+	22520 1910 22520 2090
+Wire Wire Line
+	22520 2090 22470 2090
+Wire Wire Line
+	18720 5610 18720 3920
+Wire Wire Line
+	22520 3920 22520 4100
+Wire Wire Line
+	22520 4100 22480 4100
+Wire Wire Line
+	22480 4200 22520 4200
+Wire Wire Line
+	22520 4200 22520 4240
+$Comp
+L power:GND #PWR?
+U 1 1 5B66B1EA
+P 22520 4240
+F 0 "#PWR?" H 22520 3990 50  0001 C CNN
+F 1 "GND" H 22520 4090 50  0000 C CNN
+F 2 "" H 22520 4240 50  0000 C CNN
+F 3 "" H 22520 4240 50  0000 C CNN
+	1    22520 4240
+	1    0    0    -1  
+$EndComp
+Text GLabel 21530 5400 0    40   Input ~ 0
+NMEA_1.14
+Text GLabel 21530 5500 0    40   Input ~ 0
+NMEA_1.15
+Text GLabel 21530 5600 0    40   Input ~ 0
+NMEA_1.16
+Wire Wire Line
+	15920 4850 15920 5330
+Wire Wire Line
+	16120 4850 16320 4850
+Wire Wire Line
+	16320 4850 16520 4850
+Wire Wire Line
+	16520 4850 16720 4850
+Wire Wire Line
+	16720 4850 16920 4850
+Wire Wire Line
+	18170 6110 18360 6110
+Wire Wire Line
+	18170 6510 18380 6510
+Wire Wire Line
+	18580 5710 18580 6010
+Wire Wire Line
+	18140 9210 18660 9210
+Wire Wire Line
+	18660 5310 18660 6410
+Wire Wire Line
+	19320 6110 19600 6110
+Wire Wire Line
+	17570 1910 22520 1910
+Wire Wire Line
+	18720 3920 22520 3920
+Wire Wire Line
+	15400 9130 19640 9130
+Wire Wire Line
+	15900 9050 19540 9050
+$Comp
+L Device:Fuse 2A
+U 1 1 5B665B2D
+P 3100 5650
+F 0 "2A" V 3100 5650 35  0000 C CNN
+F 1 "F9.1.3_ER_BILGE_SENSOR" V 3150 5750 35  0000 R TNN
+F 2 "" H 3100 5650 50  0000 C CNN
+F 3 "" H 3100 5650 50  0000 C CNN
+	1    3100 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5E72F06E
+P 4050 10200
+F 0 "P?" H 4050 10300 50  0001 C CNN
+F 1 "11" V 4050 10200 40  0000 C CNN
+F 2 "" H 4050 9000 50  0000 C CNN
+F 3 "" H 4050 9000 50  0000 C CNN
+	1    4050 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5E72F5AB
+P 4150 10200
+F 0 "P?" H 4150 10300 50  0001 C CNN
+F 1 "12" V 4150 10200 40  0000 C CNN
+F 2 "" H 4150 9000 50  0000 C CNN
+F 3 "" H 4150 9000 50  0000 C CNN
+	1    4150 10200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 2000 3050 2000
+Wire Wire Line
+	3450 2000 3450 2250
+Wire Wire Line
+	3250 2250 3250 2000
+Connection ~ 3250 2000
+Wire Wire Line
+	3250 2000 3450 2000
+Wire Wire Line
+	3050 2250 3050 2000
+Connection ~ 3050 2000
+Wire Wire Line
+	3050 2000 3250 2000
+$Comp
+L Device:Fuse 60A
+U 1 1 5B6616BC
+P 2700 2400
+F 0 "60A" V 2700 2400 35  0000 C CNN
+F 1 "F9.1_ESSENTIAL_SERVICES" V 2750 2500 35  0000 R TNN
+F 2 "" H 2700 2400 50  0000 C CNN
+F 3 "" H 2700 2400 50  0000 C CNN
+	1    2700 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 2150 2700 2150
+Wire Wire Line
+	2700 2150 2700 2250
+Wire Notes Line
+	2650 4800 4150 4800
+Wire Notes Line
+	4150 4800 4150 5000
+Wire Notes Line
+	4150 5000 2650 5000
+Wire Notes Line
+	2650 5000 2650 4800
+Wire Wire Line
+	5200 5750 5300 5750
+Wire Wire Line
+	5300 5750 5300 6150
+Wire Wire Line
+	5200 6150 5300 6150
+Connection ~ 5300 6150
+Wire Wire Line
+	4050 9850 4050 9950
+Wire Wire Line
+	4150 9750 4150 9950
+$Comp
+L Relay:RAYEX-L90A K?
+U 1 1 5F707C5C
+P 4900 4000
+F 0 "K?" V 5467 4000 50  0000 C CNN
+F 1 "HELM_ISOL" V 5376 4000 50  0000 C CNN
+F 2 "Relay_THT:Relay_SPST_RAYEX-L90A" H 5350 3950 50  0001 L CNN
+F 3 "https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf" H 5600 3850 50  0001 L CNN
+	1    4900 4000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5300 4200 5400 4200
+Wire Wire Line
+	5400 4200 5400 4300
+Wire Wire Line
+	3250 2550 3250 3800
+Wire Wire Line
+	3250 3800 4500 3800
+Wire Wire Line
+	3050 3350 3050 2550
+$Comp
+L Converter_DCDC:NCS1S1205SC U?
+U 1 1 5F948EF9
+P 4900 2800
+F 0 "U?" H 4900 3267 50  0000 C CNN
+F 1 "DC-DC CONVERTER" H 4900 3176 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_Murata_NCS1SxxxxSC_THT" H 4900 2400 50  0001 C CNN
+F 3 "https://power.murata.com/data/power/ncl/kdc_ncs1.pdf" H 4875 2800 50  0001 C CNN
+	1    4900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2550 3450 2600
+Wire Wire Line
+	4400 2600 3450 2600
+Wire Wire Line
+	4300 3100 4300 3000
+Wire Wire Line
+	4300 3000 4400 3000
+Wire Wire Line
+	5400 3000 5500 3000
+Wire Wire Line
+	5500 3000 5500 3100
+$Comp
+L beatrice:FOXTAM_YWA10 U?
+U 1 1 5E2E064B
+P 5600 5350
+F 0 "U?" H 5650 5150 60  0000 L CNN
+F 1 "ALARM MANAGER" H 5700 6100 50  0000 L CNN
+F 2 "" H 5600 5350 60  0001 C CNN
+F 3 "" H 5600 5350 60  0001 C CNN
+	1    5600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5950 5400 5950
+Wire Wire Line
+	5300 6150 5300 6350
+Wire Wire Line
+	5400 5950 5400 7550
+Wire Wire Line
+	5200 5250 5300 5250
+Wire Wire Line
+	5300 5250 5300 5750
+Connection ~ 5300 5750
+Wire Wire Line
+	5400 5950 5400 5550
+Wire Wire Line
+	5400 5550 5200 5550
+Connection ~ 5400 5950
+Wire Wire Line
+	6300 6350 6300 6450
+Wire Wire Line
+	6300 6450 6100 6450
+Wire Wire Line
+	6100 6450 6100 6350
+$Comp
+L beatrice:ABEL_DIM13 U?
+U 1 1 5F1A9D59
+P 6800 6250
+F 0 "U?" H 6750 6950 60  0000 L CNN
+F 1 "PANEL DIMMER" H 6650 7900 50  0000 L CNN
+F 2 "" H 6800 6250 60  0001 C CNN
+F 3 "" H 6800 6250 60  0001 C CNN
+	1    6800 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4850 6800 4950
+Wire Wire Line
+	6950 9950 6950 9850
+Wire Wire Line
+	6900 4850 6900 4950
+Wire Wire Line
+	7000 4950 7000 4750
+Wire Wire Line
+	7000 4750 7400 4750
+Wire Wire Line
+	7050 9950 7050 9850
+Wire Wire Line
+	7050 9850 6950 9850
+Wire Wire Line
+	7250 9950 7250 9850
+Wire Wire Line
+	7250 9850 7150 9850
+Wire Wire Line
+	7150 9850 7150 9950
+Wire Wire Line
+	7400 5100 7400 4750
+Wire Notes Line width 10
+	2500 4500 7500 4500
+Wire Wire Line
+	6600 4850 6800 4850
+Wire Wire Line
+	6900 4850 7200 4850
+Wire Wire Line
+	7750 5100 7750 4900
+Wire Wire Line
+	7750 4900 7950 4900
+Wire Wire Line
+	9350 4900 9350 5100
+Wire Wire Line
+	7950 5100 7950 4900
+Connection ~ 7950 4900
+Wire Wire Line
+	7950 4900 8150 4900
+Wire Wire Line
+	8150 5100 8150 4900
+Connection ~ 8150 4900
+Wire Wire Line
+	8150 4900 8350 4900
+Wire Wire Line
+	8350 5100 8350 4900
+Connection ~ 8350 4900
+Wire Wire Line
+	8350 4900 8550 4900
+Wire Wire Line
+	8550 5100 8550 4900
+Connection ~ 8550 4900
+Wire Wire Line
+	8550 4900 8750 4900
+Wire Wire Line
+	8750 5100 8750 4900
+Connection ~ 8750 4900
+Wire Wire Line
+	8750 4900 8950 4900
+Wire Wire Line
+	8950 5100 8950 4900
+Connection ~ 8950 4900
+Wire Wire Line
+	8950 4900 9150 4900
+Wire Wire Line
+	9150 5100 9150 4900
+Connection ~ 9150 4900
+Wire Wire Line
+	9150 4900 9350 4900
+Wire Wire Line
+	3050 3350 7750 3350
+Wire Wire Line
+	7750 4900 7750 3350
+Connection ~ 7750 4900
+Wire Notes Line
+	7650 4800 9450 4800
+Wire Notes Line
+	9450 4800 9450 5000
+Wire Notes Line
+	9450 5000 7650 5000
+Wire Notes Line
+	7650 5000 7650 4800
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 60715625
+P 7850 10200
+F 0 "P?" H 7850 10300 50  0001 C CNN
+F 1 "02" V 7850 10200 40  0000 C CNN
+F 2 "" H 7850 9000 50  0000 C CNN
+F 3 "" H 7850 9000 50  0000 C CNN
+	1    7850 10200
+	0    1    1    0   
+$EndComp
+Text GLabel 7850 10450 3    40   Output ~ 0
+DP.MAIN-ISOLATOR-SWITCH.SUPPLY
+Wire Wire Line
+	7850 7550 7850 9950
+Wire Wire Line
+	4300 5250 4600 5250
+Wire Wire Line
+	4500 6050 4600 6050
+Wire Wire Line
+	2700 7550 5400 7550
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 621B1D98
+P 10750 10200
+F 0 "P?" H 10750 10300 50  0001 C CNN
+F 1 "31" V 10750 10200 40  0000 C CNN
+F 2 "" H 10750 9000 50  0000 C CNN
+F 3 "" H 10750 9000 50  0000 C CNN
+	1    10750 10200
+	0    1    1    0   
+$EndComp
+Text GLabel 7950 10450 3    40   Output ~ 0
+DP.HELM-ISOLATOR-SWITCH.SUPPLY
+Wire Wire Line
+	2900 6200 2900 7450
+Wire Wire Line
+	7950 7450 7950 9950
+Wire Wire Line
+	7750 6200 7750 9950
+Wire Wire Line
+	3050 9950 3050 7650
+Wire Wire Line
+	3050 7650 4400 7650
+Wire Wire Line
+	4400 7650 4400 5650
+Wire Wire Line
+	4400 5650 4600 5650
+Wire Wire Line
+	4500 6050 4500 7750
+Wire Wire Line
+	4500 7750 3150 7750
+Wire Wire Line
+	3150 7750 3150 9950
+Wire Wire Line
+	3100 7350 3100 6200
+Wire Wire Line
+	3300 7250 3300 6200
+Wire Wire Line
+	3500 7150 3500 6200
+Wire Wire Line
+	4250 7050 3700 7050
+Wire Wire Line
+	3700 7050 3700 6200
+Wire Wire Line
+	4300 5250 4300 6750
+Wire Wire Line
+	4100 6200 4100 6850
+Wire Wire Line
+	4100 6850 6600 6850
+Wire Wire Line
+	6600 6850 6600 4850
+Wire Wire Line
+	3900 6200 3900 6950
+Wire Wire Line
+	3900 6950 6100 6950
+Wire Wire Line
+	6100 6950 6100 6450
+Connection ~ 6100 6450
+Wire Wire Line
+	2900 7450 7950 7450
+Wire Wire Line
+	5400 7550 7850 7550
+Connection ~ 5400 7550
+Wire Wire Line
+	5700 6350 5700 7650
+Wire Wire Line
+	5700 7650 5150 7650
+Wire Wire Line
+	5150 7650 5150 9950
+Wire Wire Line
+	6200 7650 6250 7650
+Wire Wire Line
+	6250 7650 6250 9950
+Wire Wire Line
+	6200 6400 6200 7650
+Wire Wire Line
+	6350 9950 6350 7650
+Wire Wire Line
+	6350 7650 6400 7650
+Wire Wire Line
+	6400 7650 6400 6350
+Wire Wire Line
+	6750 9950 6750 7650
+Wire Wire Line
+	6750 7650 6800 7650
+Wire Wire Line
+	6800 6350 6800 7650
+Wire Wire Line
+	6900 6350 6900 7750
+Wire Wire Line
+	6900 7750 6850 7750
+Wire Wire Line
+	6850 7750 6850 9950
+Wire Wire Line
+	7200 4850 7200 7850
+Wire Wire Line
+	7200 7850 6950 7850
+Wire Wire Line
+	6950 7850 6950 9850
+Connection ~ 6950 9850
+Wire Wire Line
+	7150 9850 7150 7950
+Wire Wire Line
+	7150 7950 7400 7950
+Wire Wire Line
+	7400 7950 7400 6200
+Connection ~ 7150 9850
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E630277
+P 2700 6000
+F 0 "J?" V 2592 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 2637 6048 50  0001 L CNN
+F 2 "" H 2700 6000 50  0001 C CNN
+F 3 "~" H 2700 6000 50  0001 C CNN
+	1    2700 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E631D04
+P 2700 5300
+F 0 "J?" V 2592 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 2547 5212 50  0001 R CNN
+F 2 "" H 2700 5300 50  0001 C CNN
+F 3 "~" H 2700 5300 50  0001 C CNN
+	1    2700 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E69FC0D
+P 2700 5300
+F 0 "J?" V 2808 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 2763 5212 50  0001 R CNN
+F 2 "" H 2700 5300 50  0001 C CNN
+F 3 "~" H 2700 5300 50  0001 C CNN
+	1    2700 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E6A0731
+P 2700 6000
+F 0 "J?" V 2762 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 2808 6044 50  0001 L CNN
+F 2 "" H 2700 6000 50  0001 C CNN
+F 3 "~" H 2700 6000 50  0001 C CNN
+	1    2700 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 6200 2700 7550
+Wire Wire Line
+	2700 5100 2700 4900
+Connection ~ 2700 4900
+Wire Wire Line
+	2700 4900 2900 4900
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CC9BC
+P 2900 5300
+F 0 "J?" V 2792 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 2747 5212 50  0001 R CNN
+F 2 "" H 2900 5300 50  0001 C CNN
+F 3 "~" H 2900 5300 50  0001 C CNN
+	1    2900 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CCD38
+P 3100 5300
+F 0 "J?" V 2992 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 2947 5212 50  0001 R CNN
+F 2 "" H 3100 5300 50  0001 C CNN
+F 3 "~" H 3100 5300 50  0001 C CNN
+	1    3100 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CD1F9
+P 3300 5300
+F 0 "J?" V 3192 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 3147 5212 50  0001 R CNN
+F 2 "" H 3300 5300 50  0001 C CNN
+F 3 "~" H 3300 5300 50  0001 C CNN
+	1    3300 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CD8C7
+P 3500 5300
+F 0 "J?" V 3392 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 3347 5212 50  0001 R CNN
+F 2 "" H 3500 5300 50  0001 C CNN
+F 3 "~" H 3500 5300 50  0001 C CNN
+	1    3500 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CDC52
+P 3700 5300
+F 0 "J?" V 3592 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 3547 5212 50  0001 R CNN
+F 2 "" H 3700 5300 50  0001 C CNN
+F 3 "~" H 3700 5300 50  0001 C CNN
+	1    3700 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CE047
+P 3900 5300
+F 0 "J?" V 3792 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 3747 5212 50  0001 R CNN
+F 2 "" H 3900 5300 50  0001 C CNN
+F 3 "~" H 3900 5300 50  0001 C CNN
+	1    3900 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CE4EA
+P 4100 5300
+F 0 "J?" V 3992 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 3947 5212 50  0001 R CNN
+F 2 "" H 4100 5300 50  0001 C CNN
+F 3 "~" H 4100 5300 50  0001 C CNN
+	1    4100 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CE954
+P 2900 6000
+F 0 "J?" V 2792 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 2837 6048 50  0001 L CNN
+F 2 "" H 2900 6000 50  0001 C CNN
+F 3 "~" H 2900 6000 50  0001 C CNN
+	1    2900 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CED24
+P 3100 6000
+F 0 "J?" V 2992 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 3037 6048 50  0001 L CNN
+F 2 "" H 3100 6000 50  0001 C CNN
+F 3 "~" H 3100 6000 50  0001 C CNN
+	1    3100 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CF150
+P 3300 6000
+F 0 "J?" V 3192 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 3237 6048 50  0001 L CNN
+F 2 "" H 3300 6000 50  0001 C CNN
+F 3 "~" H 3300 6000 50  0001 C CNN
+	1    3300 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CF49C
+P 3500 6000
+F 0 "J?" V 3392 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 3437 6048 50  0001 L CNN
+F 2 "" H 3500 6000 50  0001 C CNN
+F 3 "~" H 3500 6000 50  0001 C CNN
+	1    3500 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CF788
+P 3700 6000
+F 0 "J?" V 3592 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 3637 6048 50  0001 L CNN
+F 2 "" H 3700 6000 50  0001 C CNN
+F 3 "~" H 3700 6000 50  0001 C CNN
+	1    3700 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CFAC0
+P 3900 6000
+F 0 "J?" V 3792 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 3837 6048 50  0001 L CNN
+F 2 "" H 3900 6000 50  0001 C CNN
+F 3 "~" H 3900 6000 50  0001 C CNN
+	1    3900 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E8CFED6
+P 4100 6000
+F 0 "J?" V 3992 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 4037 6048 50  0001 L CNN
+F 2 "" H 4100 6000 50  0001 C CNN
+F 3 "~" H 4100 6000 50  0001 C CNN
+	1    4100 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D0252
+P 2900 6000
+F 0 "J?" V 2962 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 3008 6044 50  0001 L CNN
+F 2 "" H 2900 6000 50  0001 C CNN
+F 3 "~" H 2900 6000 50  0001 C CNN
+	1    2900 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D068A
+P 3100 6000
+F 0 "J?" V 3162 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 3208 6044 50  0001 L CNN
+F 2 "" H 3100 6000 50  0001 C CNN
+F 3 "~" H 3100 6000 50  0001 C CNN
+	1    3100 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D0A8E
+P 3300 6000
+F 0 "J?" V 3362 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 3408 6044 50  0001 L CNN
+F 2 "" H 3300 6000 50  0001 C CNN
+F 3 "~" H 3300 6000 50  0001 C CNN
+	1    3300 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D0EA6
+P 3500 6000
+F 0 "J?" V 3562 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 3608 6044 50  0001 L CNN
+F 2 "" H 3500 6000 50  0001 C CNN
+F 3 "~" H 3500 6000 50  0001 C CNN
+	1    3500 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D12BF
+P 3700 6000
+F 0 "J?" V 3762 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 3808 6044 50  0001 L CNN
+F 2 "" H 3700 6000 50  0001 C CNN
+F 3 "~" H 3700 6000 50  0001 C CNN
+	1    3700 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D1660
+P 3900 6000
+F 0 "J?" V 3962 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 4008 6044 50  0001 L CNN
+F 2 "" H 3900 6000 50  0001 C CNN
+F 3 "~" H 3900 6000 50  0001 C CNN
+	1    3900 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D1B16
+P 4100 6000
+F 0 "J?" V 4162 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 4208 6044 50  0001 L CNN
+F 2 "" H 4100 6000 50  0001 C CNN
+F 3 "~" H 4100 6000 50  0001 C CNN
+	1    4100 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D1EAA
+P 2900 5300
+F 0 "J?" V 3008 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 2963 5212 50  0001 R CNN
+F 2 "" H 2900 5300 50  0001 C CNN
+F 3 "~" H 2900 5300 50  0001 C CNN
+	1    2900 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D2344
+P 3100 5300
+F 0 "J?" V 3208 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 3163 5212 50  0001 R CNN
+F 2 "" H 3100 5300 50  0001 C CNN
+F 3 "~" H 3100 5300 50  0001 C CNN
+	1    3100 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D2747
+P 3300 5300
+F 0 "J?" V 3408 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 3363 5212 50  0001 R CNN
+F 2 "" H 3300 5300 50  0001 C CNN
+F 3 "~" H 3300 5300 50  0001 C CNN
+	1    3300 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D2C00
+P 3500 5300
+F 0 "J?" V 3608 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 3563 5212 50  0001 R CNN
+F 2 "" H 3500 5300 50  0001 C CNN
+F 3 "~" H 3500 5300 50  0001 C CNN
+	1    3500 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D2FE5
+P 3700 5300
+F 0 "J?" V 3808 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 3763 5212 50  0001 R CNN
+F 2 "" H 3700 5300 50  0001 C CNN
+F 3 "~" H 3700 5300 50  0001 C CNN
+	1    3700 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D343B
+P 3900 5300
+F 0 "J?" V 4008 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 3963 5212 50  0001 R CNN
+F 2 "" H 3900 5300 50  0001 C CNN
+F 3 "~" H 3900 5300 50  0001 C CNN
+	1    3900 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E8D380F
+P 4100 5300
+F 0 "J?" V 4208 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 4163 5212 50  0001 R CNN
+F 2 "" H 4100 5300 50  0001 C CNN
+F 3 "~" H 4100 5300 50  0001 C CNN
+	1    4100 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 5100 2900 4900
+Connection ~ 2900 4900
+Wire Wire Line
+	2900 4900 3100 4900
+Wire Wire Line
+	3100 5100 3100 4900
+Connection ~ 3100 4900
+Wire Wire Line
+	3100 4900 3300 4900
+Wire Wire Line
+	3300 5100 3300 4900
+Connection ~ 3300 4900
+Wire Wire Line
+	3300 4900 3500 4900
+Wire Wire Line
+	3500 5100 3500 4900
+Connection ~ 3500 4900
+Wire Wire Line
+	3500 4900 3700 4900
+Wire Wire Line
+	3700 5100 3700 4900
+Connection ~ 3700 4900
+Wire Wire Line
+	3700 4900 3900 4900
+Wire Wire Line
+	3900 5100 3900 4900
+Connection ~ 3900 4900
+Wire Wire Line
+	3900 4900 4100 4900
+Wire Wire Line
+	4100 5100 4100 4900
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5EAF6220
+P 7400 5300
+F 0 "J?" V 7292 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 7247 5212 50  0001 R CNN
+F 2 "" H 7400 5300 50  0001 C CNN
+F 3 "~" H 7400 5300 50  0001 C CNN
+	1    7400 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5EAF692D
+P 7400 6000
+F 0 "J?" V 7292 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 7337 6048 50  0001 L CNN
+F 2 "" H 7400 6000 50  0001 C CNN
+F 3 "~" H 7400 6000 50  0001 C CNN
+	1    7400 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EAF700A
+P 7400 6000
+F 0 "J?" V 7462 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 7508 6044 50  0001 L CNN
+F 2 "" H 7400 6000 50  0001 C CNN
+F 3 "~" H 7400 6000 50  0001 C CNN
+	1    7400 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EB2FBA8
+P 7400 5300
+F 0 "J?" V 7508 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 7463 5212 50  0001 R CNN
+F 2 "" H 7400 5300 50  0001 C CNN
+F 3 "~" H 7400 5300 50  0001 C CNN
+	1    7400 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EEC817E
+P 7750 5300
+F 0 "J?" V 7858 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 7813 5212 50  0001 R CNN
+F 2 "" H 7750 5300 50  0001 C CNN
+F 3 "~" H 7750 5300 50  0001 C CNN
+	1    7750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EEC8535
+P 7950 5300
+F 0 "J?" V 8058 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 8013 5212 50  0001 R CNN
+F 2 "" H 7950 5300 50  0001 C CNN
+F 3 "~" H 7950 5300 50  0001 C CNN
+	1    7950 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5EEC8910
+P 7750 6000
+F 0 "J?" V 7642 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 7687 6048 50  0001 L CNN
+F 2 "" H 7750 6000 50  0001 C CNN
+F 3 "~" H 7750 6000 50  0001 C CNN
+	1    7750 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5EEC8D21
+P 7950 6000
+F 0 "J?" V 7842 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 7887 6048 50  0001 L CNN
+F 2 "" H 7950 6000 50  0001 C CNN
+F 3 "~" H 7950 6000 50  0001 C CNN
+	1    7950 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5EEC9051
+P 7750 6000
+F 0 "J?" V 7812 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 7858 6044 50  0001 L CNN
+F 2 "" H 7750 6000 50  0001 C CNN
+F 3 "~" H 7750 6000 50  0001 C CNN
+	1    7750 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5EEC96FF
+P 7750 5300
+F 0 "J?" V 7642 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 7597 5212 50  0001 R CNN
+F 2 "" H 7750 5300 50  0001 C CNN
+F 3 "~" H 7750 5300 50  0001 C CNN
+	1    7750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5EEC9AC4
+P 7950 5300
+F 0 "J?" V 7842 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 7797 5212 50  0001 R CNN
+F 2 "" H 7950 5300 50  0001 C CNN
+F 3 "~" H 7950 5300 50  0001 C CNN
+	1    7950 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E02A7
+P 8150 5300
+F 0 "J?" V 8258 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 8213 5212 50  0001 R CNN
+F 2 "" H 8150 5300 50  0001 C CNN
+F 3 "~" H 8150 5300 50  0001 C CNN
+	1    8150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E0833
+P 8350 5300
+F 0 "J?" V 8458 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 8413 5212 50  0001 R CNN
+F 2 "" H 8350 5300 50  0001 C CNN
+F 3 "~" H 8350 5300 50  0001 C CNN
+	1    8350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E0B43
+P 8550 5300
+F 0 "J?" V 8658 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 8613 5212 50  0001 R CNN
+F 2 "" H 8550 5300 50  0001 C CNN
+F 3 "~" H 8550 5300 50  0001 C CNN
+	1    8550 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E0ED5
+P 8750 5300
+F 0 "J?" V 8858 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 8813 5212 50  0001 R CNN
+F 2 "" H 8750 5300 50  0001 C CNN
+F 3 "~" H 8750 5300 50  0001 C CNN
+	1    8750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E1321
+P 8950 5300
+F 0 "J?" V 9058 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 9013 5212 50  0001 R CNN
+F 2 "" H 8950 5300 50  0001 C CNN
+F 3 "~" H 8950 5300 50  0001 C CNN
+	1    8950 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E16E9
+P 9150 5300
+F 0 "J?" V 9258 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 9213 5212 50  0001 R CNN
+F 2 "" H 9150 5300 50  0001 C CNN
+F 3 "~" H 9150 5300 50  0001 C CNN
+	1    9150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E1B8C
+P 9350 5300
+F 0 "J?" V 9458 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 9413 5212 50  0001 R CNN
+F 2 "" H 9350 5300 50  0001 C CNN
+F 3 "~" H 9350 5300 50  0001 C CNN
+	1    9350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E1F6B
+P 8150 5300
+F 0 "J?" V 8042 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 7997 5212 50  0001 R CNN
+F 2 "" H 8150 5300 50  0001 C CNN
+F 3 "~" H 8150 5300 50  0001 C CNN
+	1    8150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E2380
+P 8350 5300
+F 0 "J?" V 8242 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 8197 5212 50  0001 R CNN
+F 2 "" H 8350 5300 50  0001 C CNN
+F 3 "~" H 8350 5300 50  0001 C CNN
+	1    8350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E2833
+P 8550 5300
+F 0 "J?" V 8442 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 8397 5212 50  0001 R CNN
+F 2 "" H 8550 5300 50  0001 C CNN
+F 3 "~" H 8550 5300 50  0001 C CNN
+	1    8550 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E2BFC
+P 8750 5300
+F 0 "J?" V 8642 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 8597 5212 50  0001 R CNN
+F 2 "" H 8750 5300 50  0001 C CNN
+F 3 "~" H 8750 5300 50  0001 C CNN
+	1    8750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E3063
+P 8950 5300
+F 0 "J?" V 8842 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 8797 5212 50  0001 R CNN
+F 2 "" H 8950 5300 50  0001 C CNN
+F 3 "~" H 8950 5300 50  0001 C CNN
+	1    8950 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E341B
+P 9150 5300
+F 0 "J?" V 9042 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 8997 5212 50  0001 R CNN
+F 2 "" H 9150 5300 50  0001 C CNN
+F 3 "~" H 9150 5300 50  0001 C CNN
+	1    9150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E3829
+P 9350 5300
+F 0 "J?" V 9242 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 9197 5212 50  0001 R CNN
+F 2 "" H 9350 5300 50  0001 C CNN
+F 3 "~" H 9350 5300 50  0001 C CNN
+	1    9350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E3C4A
+P 8150 6000
+F 0 "J?" V 8042 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 8087 6048 50  0001 L CNN
+F 2 "" H 8150 6000 50  0001 C CNN
+F 3 "~" H 8150 6000 50  0001 C CNN
+	1    8150 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E409B
+P 8350 6000
+F 0 "J?" V 8242 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 8287 6048 50  0001 L CNN
+F 2 "" H 8350 6000 50  0001 C CNN
+F 3 "~" H 8350 6000 50  0001 C CNN
+	1    8350 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E4463
+P 8550 6000
+F 0 "J?" V 8442 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 8487 6048 50  0001 L CNN
+F 2 "" H 8550 6000 50  0001 C CNN
+F 3 "~" H 8550 6000 50  0001 C CNN
+	1    8550 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E4850
+P 8750 6000
+F 0 "J?" V 8642 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 8687 6048 50  0001 L CNN
+F 2 "" H 8750 6000 50  0001 C CNN
+F 3 "~" H 8750 6000 50  0001 C CNN
+	1    8750 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E4C56
+P 8950 6000
+F 0 "J?" V 8842 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 8887 6048 50  0001 L CNN
+F 2 "" H 8950 6000 50  0001 C CNN
+F 3 "~" H 8950 6000 50  0001 C CNN
+	1    8950 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E50BC
+P 9150 6000
+F 0 "J?" V 9042 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 9087 6048 50  0001 L CNN
+F 2 "" H 9150 6000 50  0001 C CNN
+F 3 "~" H 9150 6000 50  0001 C CNN
+	1    9150 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5F0E5528
+P 9350 6000
+F 0 "J?" V 9242 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 9287 6048 50  0001 L CNN
+F 2 "" H 9350 6000 50  0001 C CNN
+F 3 "~" H 9350 6000 50  0001 C CNN
+	1    9350 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E5A02
+P 7950 6000
+F 0 "J?" V 8012 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 8058 6044 50  0001 L CNN
+F 2 "" H 7950 6000 50  0001 C CNN
+F 3 "~" H 7950 6000 50  0001 C CNN
+	1    7950 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E5E0D
+P 8150 6000
+F 0 "J?" V 8212 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 8258 6044 50  0001 L CNN
+F 2 "" H 8150 6000 50  0001 C CNN
+F 3 "~" H 8150 6000 50  0001 C CNN
+	1    8150 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E6256
+P 8350 6000
+F 0 "J?" V 8412 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 8458 6044 50  0001 L CNN
+F 2 "" H 8350 6000 50  0001 C CNN
+F 3 "~" H 8350 6000 50  0001 C CNN
+	1    8350 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E66E4
+P 8550 6000
+F 0 "J?" V 8612 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 8658 6044 50  0001 L CNN
+F 2 "" H 8550 6000 50  0001 C CNN
+F 3 "~" H 8550 6000 50  0001 C CNN
+	1    8550 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E6B63
+P 8750 6000
+F 0 "J?" V 8812 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 8858 6044 50  0001 L CNN
+F 2 "" H 8750 6000 50  0001 C CNN
+F 3 "~" H 8750 6000 50  0001 C CNN
+	1    8750 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E6F59
+P 8950 6000
+F 0 "J?" V 9012 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 9058 6044 50  0001 L CNN
+F 2 "" H 8950 6000 50  0001 C CNN
+F 3 "~" H 8950 6000 50  0001 C CNN
+	1    8950 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E73D1
+P 9150 6000
+F 0 "J?" V 9212 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 9258 6044 50  0001 L CNN
+F 2 "" H 9150 6000 50  0001 C CNN
+F 3 "~" H 9150 6000 50  0001 C CNN
+	1    9150 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5F0E788B
+P 9350 6000
+F 0 "J?" V 9412 6044 50  0001 L CNN
+F 1 "Conn_01x01_Male" V 9458 6044 50  0001 L CNN
+F 2 "" H 9350 6000 50  0001 C CNN
+F 3 "~" H 9350 6000 50  0001 C CNN
+	1    9350 6000
+	0    1    1    0   
+$EndComp
+Text GLabel 7050 10450 3    40   Output ~ 0
+DM.PWMOUT+
+Text GLabel 7250 10450 3    40   Output ~ 0
+DM.PWMOUT-
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P18
+U 1 1 5AE1D7B7
+P 3750 10200
+F 0 "P18" H 3750 10300 50  0001 C CNN
+F 1 "08" V 3750 10200 40  0000 C CNN
+F 2 "" H 3750 9000 50  0000 C CNN
+F 3 "" H 3750 9000 50  0000 C CNN
+	1    3750 10200
+	0    1    1    0   
+$EndComp
+Text GLabel 3950 10450 3    40   Input ~ 0
+ER_BILGE_PUMP_SWITCH(OFF)
+Wire Wire Line
+	3850 9950 3850 9850
+Wire Wire Line
+	3850 9850 4050 9850
+Wire Wire Line
+	3250 9950 3250 7350
+Wire Wire Line
+	3250 7350 3100 7350
+Wire Wire Line
+	3450 9950 3450 7250
+Wire Wire Line
+	3450 7250 3300 7250
+Wire Wire Line
+	3650 9950 3650 7150
+Wire Wire Line
+	3650 7150 3500 7150
+Wire Wire Line
+	3750 9750 3750 9950
+Wire Wire Line
+	3750 9750 4150 9750
+Wire Wire Line
+	3850 9850 3850 9650
+Connection ~ 3850 9850
+Text GLabel 4250 10450 3    40   Output ~ 0
+MC_BILGE_PUMP_SWITCH_SUPPLY
+Text GLabel 4350 10450 3    40   Input ~ 0
+MC_BILGE_PUMP_SWITCH(AUTO)
+Text GLabel 4450 10450 3    40   Input ~ 0
+MC_BILGE_PUMP_SWITCH(MAN)
+Text GLabel 4550 10450 3    40   Input ~ 0
+MC_BILGE_PUMP_SWITCH(OFF)
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5F960834
+P 4750 10200
+F 0 "P?" H 4750 10300 50  0001 C CNN
+F 1 "18" V 4750 10200 40  0000 C CNN
+F 2 "" H 4750 9000 50  0000 C CNN
+F 3 "" H 4750 9000 50  0000 C CNN
+	1    4750 10200
+	0    1    1    0   
+$EndComp
+Text GLabel 4650 10450 3    40   Output ~ 0
+MC_BILGE_PUMP_BROWN
+Text GLabel 4750 10450 3    40   Output ~ 0
+MC_BILGE_PUMP_BLUE
+Wire Wire Line
+	4350 9950 4350 9750
+Wire Wire Line
+	4350 9750 4750 9750
+Wire Wire Line
+	4750 9750 4750 9950
+Wire Wire Line
+	4450 9950 4450 9850
+Wire Wire Line
+	4450 9850 4650 9850
+Wire Wire Line
+	4650 9850 4650 9950
+Wire Wire Line
+	4450 9850 4450 9650
+Connection ~ 4450 9850
+Wire Wire Line
+	4250 9950 4250 7050
+Text Notes 5250 11200 0    40   ~ 0
+ALARM CHANNEL ALLOCATIONS
+Text Notes 5250 11300 0    40   ~ 0
+01
+Text Notes 5250 11400 0    40   ~ 0
+02
+Text Notes 5250 11500 0    40   ~ 0
+03
+Text Notes 5250 11600 0    40   ~ 0
+04
+Text Notes 5250 11700 0    40   ~ 0
+05
+Text Notes 5250 11800 0    40   ~ 0
+06
+Text Notes 5250 11900 0    40   ~ 0
+07
+Text Notes 5250 12000 0    40   ~ 0
+08
+Text Notes 5250 12100 0    40   ~ 0
+09
+Text Notes 5250 12200 0    40   ~ 0
+10
+Wire Wire Line
+	2700 2550 2700 4900
+$Comp
+L Relay:FINDER-40.52 RL?
+U 1 1 5EAAA98F
+P 10400 5650
+F 0 "RL?" H 9500 5650 50  0000 L CNN
+F 1 "COURTESY LIGHTS" V 9700 5650 50  0000 C CNN
+F 2 "" H 10400 5650 50  0000 C CNN
+F 3 "" H 10400 5650 50  0000 C CNN
+	1    10400 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 6200 8550 6300
+Wire Wire Line
+	8550 6300 10000 6300
+Wire Wire Line
+	10000 6300 10000 6050
+Wire Wire Line
+	10000 6050 10100 6050
+Wire Wire Line
+	10000 6050 10000 5650
+Wire Wire Line
+	10000 5650 10100 5650
+Connection ~ 10000 6050
+$Comp
+L power:GND #PWR?
+U 1 1 5EC25AFF
+P 10800 5300
+F 0 "#PWR?" H 10800 5050 50  0001 C CNN
+F 1 "GND" H 10800 5150 50  0000 C CNN
+F 2 "" H 10800 5300 50  0000 C CNN
+F 3 "" H 10800 5300 50  0000 C CNN
+	1    10800 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 5250 10800 5250
+Wire Wire Line
+	10800 5250 10800 5300
+$Comp
+L power:GND #PWR?
+U 1 1 5EC6B582
+P 11950 5300
+F 0 "#PWR?" H 11950 5050 50  0001 C CNN
+F 1 "GND" H 11950 5150 50  0000 C CNN
+F 2 "" H 11950 5300 50  0000 C CNN
+F 3 "" H 11950 5300 50  0000 C CNN
+	1    11950 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 5250 11950 5250
+Wire Wire Line
+	11950 5250 11950 5300
+$Comp
+L Relay:FINDER-40.52 RL2
+U 1 1 5787D933
+P 11550 5650
+F 0 "RL2" H 10600 5850 50  0000 L CNN
+F 1 "NAV LIGHTS" V 10850 5650 50  0000 C CNN
+F 2 "" H 11550 5650 50  0000 C CNN
+F 3 "" H 11550 5650 50  0000 C CNN
+	1    11550 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 6200 8750 6400
+Wire Wire Line
+	8750 6400 11150 6400
+Wire Wire Line
+	11150 6400 11150 6050
+Wire Wire Line
+	11150 5650 11250 5650
+Wire Wire Line
+	11250 6050 11150 6050
+Connection ~ 11150 6050
+Wire Wire Line
+	11150 6050 11150 5650
+Wire Wire Line
+	12400 6050 12300 6050
+Wire Wire Line
+	12300 6050 12300 5650
+Wire Wire Line
+	12400 5650 12300 5650
+Connection ~ 12300 5650
+Wire Wire Line
+	12300 5650 12300 4600
+Wire Wire Line
+	5400 2600 14150 2600
+Wire Wire Line
+	5300 3700 13550 3700
+Wire Wire Line
+	13550 4900 13750 4900
+Wire Wire Line
+	13550 4900 13550 3700
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E60C948
+P 13550 5300
+F 0 "J?" V 13442 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 13397 5212 50  0001 R CNN
+F 2 "" H 13550 5300 50  0001 C CNN
+F 3 "~" H 13550 5300 50  0001 C CNN
+	1    13550 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E60F3FA
+P 13750 5300
+F 0 "J?" V 13642 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 13597 5212 50  0001 R CNN
+F 2 "" H 13750 5300 50  0001 C CNN
+F 3 "~" H 13750 5300 50  0001 C CNN
+	1    13750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E60F764
+P 13950 5300
+F 0 "J?" V 13842 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 13797 5212 50  0001 R CNN
+F 2 "" H 13950 5300 50  0001 C CNN
+F 3 "~" H 13950 5300 50  0001 C CNN
+	1    13950 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E60F9BE
+P 14150 5300
+F 0 "J?" V 14042 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 13997 5212 50  0001 R CNN
+F 2 "" H 14150 5300 50  0001 C CNN
+F 3 "~" H 14150 5300 50  0001 C CNN
+	1    14150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E60FC90
+P 14350 5300
+F 0 "J?" V 14242 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 14197 5212 50  0001 R CNN
+F 2 "" H 14350 5300 50  0001 C CNN
+F 3 "~" H 14350 5300 50  0001 C CNN
+	1    14350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E60FFAA
+P 14550 5300
+F 0 "J?" V 14442 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 14397 5212 50  0001 R CNN
+F 2 "" H 14550 5300 50  0001 C CNN
+F 3 "~" H 14550 5300 50  0001 C CNN
+	1    14550 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E610434
+P 14750 5300
+F 0 "J?" V 14642 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 14597 5212 50  0001 R CNN
+F 2 "" H 14750 5300 50  0001 C CNN
+F 3 "~" H 14750 5300 50  0001 C CNN
+	1    14750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E61066A
+P 14950 5300
+F 0 "J?" V 14842 5212 50  0001 R CNN
+F 1 "Conn_01x01_Female" V 14797 5212 50  0001 R CNN
+F 2 "" H 14950 5300 50  0001 C CNN
+F 3 "~" H 14950 5300 50  0001 C CNN
+	1    14950 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E611982
+P 13550 6000
+F 0 "J?" V 13442 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 13487 6048 50  0001 L CNN
+F 2 "" H 13550 6000 50  0001 C CNN
+F 3 "~" H 13550 6000 50  0001 C CNN
+	1    13550 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E61365C
+P 13750 6000
+F 0 "J?" V 13642 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 13687 6048 50  0001 L CNN
+F 2 "" H 13750 6000 50  0001 C CNN
+F 3 "~" H 13750 6000 50  0001 C CNN
+	1    13750 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E613927
+P 13950 6000
+F 0 "J?" V 13842 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 13887 6048 50  0001 L CNN
+F 2 "" H 13950 6000 50  0001 C CNN
+F 3 "~" H 13950 6000 50  0001 C CNN
+	1    13950 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E615637
+P 14150 6000
+F 0 "J?" V 14042 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 14087 6048 50  0001 L CNN
+F 2 "" H 14150 6000 50  0001 C CNN
+F 3 "~" H 14150 6000 50  0001 C CNN
+	1    14150 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E6158C5
+P 14350 6000
+F 0 "J?" V 14242 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 14287 6048 50  0001 L CNN
+F 2 "" H 14350 6000 50  0001 C CNN
+F 3 "~" H 14350 6000 50  0001 C CNN
+	1    14350 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E615B4F
+P 14550 6000
+F 0 "J?" V 14442 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 14487 6048 50  0001 L CNN
+F 2 "" H 14550 6000 50  0001 C CNN
+F 3 "~" H 14550 6000 50  0001 C CNN
+	1    14550 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E615E55
+P 14750 6000
+F 0 "J?" V 14642 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 14687 6048 50  0001 L CNN
+F 2 "" H 14750 6000 50  0001 C CNN
+F 3 "~" H 14750 6000 50  0001 C CNN
+	1    14750 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 5E6161A3
+P 14950 6000
+F 0 "J?" V 14842 6048 50  0001 L CNN
+F 1 "Conn_01x01_Female" V 14887 6048 50  0001 L CNN
+F 2 "" H 14950 6000 50  0001 C CNN
+F 3 "~" H 14950 6000 50  0001 C CNN
+	1    14950 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E6175A7
+P 13550 5300
+F 0 "J?" V 13658 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 13613 5212 50  0001 R CNN
+F 2 "" H 13550 5300 50  0001 C CNN
+F 3 "~" H 13550 5300 50  0001 C CNN
+	1    13550 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E619DB2
+P 13750 5300
+F 0 "J?" V 13858 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 13813 5212 50  0001 R CNN
+F 2 "" H 13750 5300 50  0001 C CNN
+F 3 "~" H 13750 5300 50  0001 C CNN
+	1    13750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E61A314
+P 13950 5300
+F 0 "J?" V 14058 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 14013 5212 50  0001 R CNN
+F 2 "" H 13950 5300 50  0001 C CNN
+F 3 "~" H 13950 5300 50  0001 C CNN
+	1    13950 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E61A698
+P 14150 5300
+F 0 "J?" V 14258 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 14213 5212 50  0001 R CNN
+F 2 "" H 14150 5300 50  0001 C CNN
+F 3 "~" H 14150 5300 50  0001 C CNN
+	1    14150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E61AA13
+P 14350 5300
+F 0 "J?" V 14458 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 14413 5212 50  0001 R CNN
+F 2 "" H 14350 5300 50  0001 C CNN
+F 3 "~" H 14350 5300 50  0001 C CNN
+	1    14350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E61AD26
+P 14550 5300
+F 0 "J?" V 14658 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 14613 5212 50  0001 R CNN
+F 2 "" H 14550 5300 50  0001 C CNN
+F 3 "~" H 14550 5300 50  0001 C CNN
+	1    14550 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E61B123
+P 14750 5300
+F 0 "J?" V 14858 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 14813 5212 50  0001 R CNN
+F 2 "" H 14750 5300 50  0001 C CNN
+F 3 "~" H 14750 5300 50  0001 C CNN
+	1    14750 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 5E61B487
+P 14950 5300
+F 0 "J?" V 15058 5212 50  0001 R CNN
+F 1 "Conn_01x01_Male" V 15013 5212 50  0001 R CNN
+F 2 "" H 14950 5300 50  0001 C CNN
+F 3 "~" H 14950 5300 50  0001 C CNN
+	1    14950 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13550 5100 13550 4900
+Connection ~ 13550 4900
+Wire Wire Line
+	13750 4900 13750 5100
+Connection ~ 13750 4900
+Wire Wire Line
+	13750 4900 13950 4900
+Wire Wire Line
+	13950 5100 13950 4900
+Connection ~ 13950 4900
+Wire Wire Line
+	13950 4900 14150 4900
+Wire Wire Line
+	14150 5100 14150 4900
+Connection ~ 14150 4900
+Wire Wire Line
+	14150 4900 14350 4900
+Wire Wire Line
+	14350 5100 14350 4900
+Connection ~ 14350 4900
+Wire Wire Line
+	14350 4900 14550 4900
+Wire Wire Line
+	14550 5100 14550 4900
+Connection ~ 14550 4900
+Wire Wire Line
+	14550 4900 14750 4900
+Wire Wire Line
+	14750 5100 14750 4900
+Connection ~ 14750 4900
+Wire Wire Line
+	14750 4900 14950 4900
+Wire Wire Line
+	14950 5100 14950 4900
+Wire Notes Line
+	13450 4800 15050 4800
+Wire Notes Line
+	15050 4800 15050 5000
+Wire Notes Line
+	15050 5000 13450 5000
+Wire Notes Line
+	13450 5000 13450 4800
+Wire Wire Line
+	18040 6290 18040 9940
+Wire Wire Line
+	17740 7030 17740 9940
+Wire Wire Line
+	16540 9940 16540 9690
+Wire Wire Line
+	16440 9940 16440 9690
+Text GLabel 16540 9690 1    40   Output ~ 0
+NMEA_1.13
+Text GLabel 16440 9690 1    40   Output ~ 0
+NMEA_1.15
+Text GLabel 16540 10440 3    40   Input ~ 0
+GENERATOR_PANEL_T03_(FUEL_PUMP)
+Text GLabel 16440 10440 3    40   Input ~ 0
+ENGINE_IGNITION_SW_ON
+Wire Wire Line
+	15750 8970 15750 9940
+Wire Wire Line
+	15650 6690 15650 9940
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5E1943C5
+P 15250 10190
+F 0 "P?" H 15250 10290 50  0001 C CNN
+F 1 "110" V 15250 10190 30  0000 C CNN
+F 2 "" H 15250 8990 50  0000 C CNN
+F 3 "" H 15250 8990 50  0000 C CNN
+	1    15250 10190
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17640 6370 17640 9940
+Wire Wire Line
+	19220 6050 19220 9940
+Text GLabel 19640 10440 3    40   Output ~ 0
+WORKHLIGHT_+24VDC_10A
+Wire Wire Line
+	19640 9130 19640 9940
+Wire Wire Line
+	15350 9940 15350 9130
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5D802A11
+P 19640 10190
+F 0 "P?" H 19640 10290 50  0001 C CNN
+F 1 "143" V 19640 10190 30  0000 C CNN
+F 2 "" H 19640 8990 50  0000 C CNN
+F 3 "" H 19640 8990 50  0000 C CNN
+	1    19640 10190
+	0    1    1    0   
+$EndComp
+Text GLabel 15350 10440 3    40   Input ~ 0
+HP_WRKLT_ON
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5D6D1DA6
+P 15350 10190
+F 0 "P?" H 15350 10290 50  0001 C CNN
+F 1 "110" V 15350 10190 30  0000 C CNN
+F 2 "" H 15350 8990 50  0000 C CNN
+F 3 "" H 15350 8990 50  0000 C CNN
+	1    15350 10190
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17840 9910 17840 9940
+Text Notes 15850 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 15750 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 15650 10090 1    30   ~ 0
+RD 1.5
+Text Notes 15550 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 15450 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 15150 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 15050 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 14950 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 14850 10090 1    30   ~ 0
+RD 2.5
+Text Notes 14750 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 14650 10090 1    30   ~ 0
+RD 1.5
+Text Notes 14550 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 14450 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 14350 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 14250 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 14150 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 14050 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 13950 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 13850 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 13750 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 13650 10090 1    30   ~ 0
+RD 2.5
+Text Notes 13550 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 13450 10090 1    30   ~ 0
+RD 2.5
+Text Notes 13350 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 13250 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 13150 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 13050 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 12950 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 12850 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 12750 10090 1    30   ~ 0
+RD 1.5
+Text Notes 12650 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 12550 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 12450 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 12350 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 12250 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 12150 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 12050 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 11950 10090 1    30   ~ 0
+RD 1.5
+Text Notes 11850 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 11750 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 11650 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 11550 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 11450 10090 1    30   ~ 0
+RD 1.5
+Text Notes 11350 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 11250 10090 1    30   ~ 0
+RD 2.5
+Text Notes 11150 10090 1    30   ~ 0
+RD 2.5
+Text Notes 16440 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 16340 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 16240 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 16140 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 19540 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 19440 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 19340 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 19240 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 19040 10090 1    30   ~ 0
+OR/BK 2.5
+Text Notes 19140 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 18940 10090 1    30   ~ 0
+RD/BK 1.0
+Text Notes 18840 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 18740 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 18640 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 18540 10090 1    30   ~ 0
+RD/BK 2.5
+Text Notes 18440 10090 1    30   ~ 0
+OR/BK 1.5
+Text Notes 18340 10090 1    30   ~ 0
+OR/BK 1.5
+Text Notes 18240 10090 1    30   ~ 0
+OR/BK 1.5
+Text Notes 18140 10090 1    30   ~ 0
+OR/BK 1.5
+Text Notes 18040 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 17940 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 17840 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 17740 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 17640 10090 1    30   ~ 0
+OR 2.5
+Text Notes 17540 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 17440 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 17340 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 17240 10090 1    30   ~ 0
+RD/BK 1.5
+Text Notes 17140 10090 1    30   ~ 0
+RD/BK 1.5
+Text GLabel 19540 10440 3    40   Output ~ 0
+SPUDPOLE_ISOLATOR_-/+24VDC_5A
+Text GLabel 19440 10440 3    40   Output ~ 0
+SPUDPOLE_ISOLATOR_+/-24VDC_5A
+Text GLabel 19340 10440 3    40   Output ~ 0
+AUTOPILOT_+24VDC_10A
+Text GLabel 19240 10440 3    40   Output ~ 0
+WHEELHOUSE_LIGHTING_+24VDC_10A
+Text GLabel 19140 10440 3    40   Output ~ 0
+VHF_+24VDC_10A
+Text GLabel 19040 10440 3    40   Output ~ 0
+VHF_+12VDC_10A
+Text GLabel 18940 10440 3    40   Output ~ 0
+WIPER_MODE_+24VDC_10A
+Text GLabel 18840 10440 3    40   Output ~ 0
+WIPER_+24VDC_10A
+Text GLabel 18740 10440 3    40   Output ~ 0
+WIFI_+24VDC_5A
+Text GLabel 18640 10440 3    40   Output ~ 0
+SEARCHLIGHT_+24VDC_10A
+Text GLabel 18540 10440 3    40   Output ~ 0
+RADAR_+24VDC_10A
+Text GLabel 18440 10440 3    40   Output ~ 0
+NMEA_BUS_1_LEG_A_+12VDC_5A
+Text GLabel 18340 10440 3    40   Output ~ 0
+NMEA_BUS_1_LEG_A_+12VDC_5A
+Text GLabel 18240 10440 3    40   Output ~ 0
+NMEA_BUS_0_LEG_B_+12VDC_5A
+Text GLabel 18140 10440 3    40   Output ~ 0
+NMEA_BUS_0_LEG_A_+12VDC_5A
+Text GLabel 18040 10440 3    40   Output ~ 0
+NIGHT_LIGHTS_+24VDC_5A
+Text GLabel 17940 10440 3    40   Output ~ 0
+NAV_LIGHTS_+24VDC_5A
+Text GLabel 17840 10440 3    40   Output ~ 0
+NAV_LIGHTS_+24VDC_5A
+Text GLabel 17740 10440 3    40   Output ~ 0
+HORN_+24VDC_5A
+Text GLabel 17640 10440 3    40   Output ~ 0
+HELM_SOCKETS_+12VDC_10A
+Text GLabel 17540 10440 3    40   Output ~ 0
+COURTESY_LIGHTS_+24VDC_5A
+Text GLabel 17440 10440 3    40   Output ~ 0
+COURTESY_LIGHTS_+24VDC_5A
+Text GLabel 17340 10440 3    40   Output ~ 0
+BLUEBOARD_+/-24VDC_5A
+Text GLabel 17240 10440 3    40   Output ~ 0
+BLUEBOARD_+/-24VDC_5A
+Text GLabel 17140 10440 3    40   Output ~ 0
+AIS_+24VDC_5A
+Text GLabel 16640 10440 3    40   Input ~ 0
+WHEELHOUSE_HEATING_ON
+Text GLabel 16340 10440 3    40   Input ~ 0
+PROPANE_GAS_ON
+Text GLabel 16240 10440 3    40   Input ~ 0
+CALL_FOR_CH
+Text GLabel 16140 10440 3    40   Input ~ 0
+CALL_FOR_HW
+Wire Wire Line
+	19540 9050 19540 9940
+Wire Wire Line
+	15850 9940 15850 9050
+Wire Wire Line
+	19440 9940 19440 8970
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B65A5B2
+P 19540 10190
+F 0 "P?" H 19540 10290 50  0001 C CNN
+F 1 "143" V 19540 10190 30  0000 C CNN
+F 2 "" H 19540 8990 50  0000 C CNN
+F 3 "" H 19540 8990 50  0000 C CNN
+	1    19540 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B65A47A
+P 19440 10190
+F 0 "P?" H 19440 10290 50  0001 C CNN
+F 1 "142" V 19440 10190 30  0000 C CNN
+F 2 "" H 19440 8990 50  0000 C CNN
+F 3 "" H 19440 8990 50  0000 C CNN
+	1    19440 10190
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15050 8890 15050 9940
+Wire Wire Line
+	18940 9940 18940 8890
+Wire Wire Line
+	18840 8810 18840 9940
+Wire Wire Line
+	14950 9940 14950 8810
+Wire Wire Line
+	18740 9940 18740 8090
+Wire Wire Line
+	17540 9940 17540 7830
+Wire Wire Line
+	19520 6210 19520 9940
+Wire Wire Line
+	18640 9940 18640 8170
+Wire Wire Line
+	18540 9940 18540 8250
+Wire Wire Line
+	17340 9940 17340 8490
+Wire Wire Line
+	17240 8570 17240 9940
+Wire Wire Line
+	17140 8650 17140 9940
+Wire Wire Line
+	19320 6130 19320 6510
+Wire Wire Line
+	18140 9210 18140 9940
+Wire Wire Line
+	18240 9940 18240 9290
+Wire Wire Line
+	18340 9450 18340 9940
+Wire Wire Line
+	19880 9450 18340 9450
+Wire Wire Line
+	18440 9370 19800 9370
+Wire Wire Line
+	18440 9940 18440 9370
+Text GLabel 15850 10440 3    40   Input ~ 0
+HP_SPUDISOL_-/+
+Text GLabel 15750 10440 3    40   Input ~ 0
+HP_SPUDISOL_+/-
+Text GLabel 15650 10440 3    40   Output ~ 0
+HP_SPUDISOL_+24VDC
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64204F
+P 15850 10190
+F 0 "P?" H 15850 10290 50  0001 C CNN
+F 1 "110" V 15850 10190 30  0000 C CNN
+F 2 "" H 15850 8990 50  0000 C CNN
+F 3 "" H 15850 8990 50  0000 C CNN
+	1    15850 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B641FC6
+P 15750 10190
+F 0 "P?" H 15750 10290 50  0001 C CNN
+F 1 "109" V 15750 10190 30  0000 C CNN
+F 2 "" H 15750 8990 50  0000 C CNN
+F 3 "" H 15750 8990 50  0000 C CNN
+	1    15750 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B641F3D
+P 15650 10190
+F 0 "P?" H 15650 10290 50  0001 C CNN
+F 1 "108" V 15650 10190 30  0000 C CNN
+F 2 "" H 15650 8990 50  0000 C CNN
+F 3 "" H 15650 8990 50  0000 C CNN
+	1    15650 10190
+	0    1    1    0   
+$EndComp
+Wire Bus Line
+	20130 11950 20130 7850
+Wire Wire Line
+	19930 5310 19930 9450
+Wire Wire Line
+	19800 5710 19800 9370
+Wire Wire Line
+	16640 8730 16640 9940
+Wire Wire Line
+	19240 9940 19240 8730
+Wire Wire Line
+	17840 9910 17940 9910
+Wire Bus Line
+	17030 7850 17030 11950
+Wire Bus Line
+	16950 11950 16950 7850
+Wire Wire Line
+	16340 9940 16340 9690
+Wire Wire Line
+	16240 9940 16240 9690
+Wire Wire Line
+	16140 9940 16140 9690
+Wire Bus Line
+	16040 7850 16040 11950
+Wire Bus Line
+	15980 11950 15980 7850
+Wire Wire Line
+	15550 9690 15550 9940
+Wire Wire Line
+	15450 9940 15450 9690
+Wire Wire Line
+	15150 9940 15150 9690
+Text GLabel 15150 9690 1    40   Output ~ 0
+NMEA_0.07
+Wire Wire Line
+	14550 9940 14550 9690
+Text GLabel 14550 9690 1    40   Output ~ 0
+NMEA_0.12
+Wire Wire Line
+	14450 9940 14450 9690
+Wire Wire Line
+	14350 9940 14350 9690
+Text GLabel 14450 9690 1    40   Output ~ 0
+NMEA_0.11
+Text GLabel 14350 9690 1    40   Output ~ 0
+NMEA_0.10
+Wire Wire Line
+	14050 9940 14050 9690
+Wire Wire Line
+	13950 9940 13950 9690
+Text GLabel 14050 9690 1    40   Output ~ 0
+NMEA_1.02
+Text GLabel 13950 9690 1    40   Output ~ 0
+NMEA_1.01
+Wire Wire Line
+	13850 9940 13850 9690
+Text GLabel 13850 9690 1    40   Output ~ 0
+NMEA_1.00
+Wire Wire Line
+	13250 9940 13250 9690
+Text GLabel 13250 9690 1    40   Output ~ 0
+NAV_RLY
+Wire Wire Line
+	13150 9940 13150 9690
+Wire Wire Line
+	13050 9940 13050 9690
+Text GLabel 13150 9690 1    40   Output ~ 0
+NMEA_1.08
+Text GLabel 13050 9690 1    40   Output ~ 0
+NMEA_1.07
+Text GLabel 12050 9690 1    40   Output ~ 0
+BLUEBOARD_ACTUATOR_RED
+Wire Wire Line
+	11650 9940 11650 9690
+Text GLabel 11650 9690 1    40   Output ~ 0
+AIS_TRANSCEIVER_NOTRANSMIT
+Text GLabel 15550 10440 3    40   Input ~ 0
+HP_THRUST_SB
+Text GLabel 15450 10440 3    40   Input ~ 0
+HP_THRUST_PORT
+Text GLabel 15150 10440 3    40   Input ~ 0
+HP_DCKLTS_ON
+Text GLabel 15050 10440 3    40   Input ~ 0
+HP_WIPER_MODE
+Text GLabel 14950 10440 3    40   Input ~ 0
+HP_WIPER_ON
+Text GLabel 14850 10440 3    40   Output ~ 0
+HP_WIPER_+24VDC
+Text GLabel 14750 10440 3    40   Input ~ 0
+HP_WIFI_ON
+Text GLabel 14650 10440 3    40   Output ~ 0
+HP_WIFI_+24VDC
+Text GLabel 14550 10440 3    40   Input ~ 0
+HP_WFLUSH_ON
+Text GLabel 14450 10440 3    40   Input ~ 0
+HP_WASTE_ON
+Text GLabel 14350 10440 3    40   Input ~ 0
+HP_WASTE_AUTO
+Text GLabel 14250 10440 3    40   Input ~ 0
+HP_MCVENT_ON
+Text GLabel 14150 10440 3    40   Input ~ 0
+HP_MCVENT_AUTO
+Text GLabel 14050 10440 3    40   Input ~ 0
+HP_ERVENT_ON
+Text GLabel 13950 10440 3    40   Input ~ 0
+HP_ERVENT_AUTO
+Text GLabel 13850 10440 3    40   Input ~ 0
+HP_TROLL_ON
+Text GLabel 13750 10440 3    40   Input ~ 0
+HP_SRCHLT_ON
+Text GLabel 13550 10440 3    40   Input ~ 0
+HP_RADAR_ON
+Text GLabel 13650 10440 3    40   Output ~ 0
+HP_SRCHLT_+24VDC
+Text GLabel 13450 10440 3    40   Output ~ 0
+HP_RADAR_+24VDC
+Text GLabel 13350 10440 3    40   Input ~ 0
+HP_NITELT_ON
+Text GLabel 13250 10440 3    40   Input ~ 0
+HP_NAVLTS_ON
+Text GLabel 13150 10440 3    40   Input ~ 0
+HP_MAST_DOWN
+Text GLabel 13050 10440 3    40   Input ~ 0
+HP_MAST_UP
+Text GLabel 12950 10440 3    40   Input ~ 0
+HP_HYDRLC_EN
+Text GLabel 12850 10440 3    40   Input ~ 0
+HP_HORN_ON
+Text GLabel 12750 10440 3    40   Output ~ 0
+HP_HORN_+24VDC
+Text GLabel 12650 10440 3    40   Input ~ 0
+HP_HATCH_CLOSE
+Text GLabel 12550 10440 3    40   Input ~ 0
+HP_HATCH_OPEN
+Text GLabel 12450 10440 3    40   Input ~ 0
+HP_IGNITN_ON
+Text GLabel 12350 10440 3    40   Input ~ 0
+HP_DWASH_ON
+Text GLabel 12250 10440 3    40   Input ~ 0
+HP_CRTLTS_ON
+Text GLabel 12150 10440 3    40   Input ~ 0
+HP_BOARD_-/+
+Text GLabel 12050 10440 3    40   Input ~ 0
+HP_BOARD_+/-
+Text GLabel 11950 10440 3    40   Output ~ 0
+HP_BOARD_+24VDC
+Text GLabel 11450 10440 3    40   Output ~ 0
+HP_AIS_+24VDC
+Text GLabel 11850 10440 3    40   Input ~ 0
+HP_ANCHOR_UP
+Text GLabel 11750 10440 3    40   Input ~ 0
+HP_ANCHOR_DOWN
+Text GLabel 11650 10440 3    40   Input ~ 0
+HP_AIS_NOTRANSMIT
+Text GLabel 11550 10440 3    40   Input ~ 0
+HP_AIS_ON
+Text GLabel 11250 10440 3    40   Output ~ 0
+GP_POWER_ALWAYS_+24VDC
+Text GLabel 11350 10440 3    40   Output ~ 0
+HP_POWER_SWITCHED_+24VDC
+Text GLabel 11150 10440 3    40   Output ~ 0
+HP_POWER_ALWAYS_+24VDC
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B664D90
+P 11250 10190
+F 0 "P?" H 11250 10290 50  0001 C CNN
+F 1 "66" V 11250 10190 40  0000 C CNN
+F 2 "" H 11250 8990 50  0000 C CNN
+F 3 "" H 11250 8990 50  0000 C CNN
+	1    11250 10190
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12550 9940 12550 9690
+Wire Wire Line
+	11750 9940 11750 9690
+Wire Wire Line
+	12650 9690 12650 9940
+Wire Wire Line
+	11850 9690 11850 9940
+Wire Wire Line
+	12050 9940 12050 9690
+Wire Wire Line
+	17940 9910 17940 9940
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B650C05
+P 13950 10190
+F 0 "P?" H 13950 10290 50  0001 C CNN
+F 1 "93" V 13950 10190 40  0000 C CNN
+F 2 "" H 13950 8990 50  0000 C CNN
+F 3 "" H 13950 8990 50  0000 C CNN
+	1    13950 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B650B58
+P 13850 10190
+F 0 "P?" H 13850 10290 50  0001 C CNN
+F 1 "92" V 13850 10190 40  0000 C CNN
+F 2 "" H 13850 8990 50  0000 C CNN
+F 3 "" H 13850 8990 50  0000 C CNN
+	1    13850 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B6509D3
+P 13750 10190
+F 0 "P?" H 13750 10290 50  0001 C CNN
+F 1 "91" V 13750 10190 40  0000 C CNN
+F 2 "" H 13750 8990 50  0000 C CNN
+F 3 "" H 13750 8990 50  0000 C CNN
+	1    13750 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64F7DA
+P 11150 10190
+F 0 "P?" H 11150 10290 50  0001 C CNN
+F 1 "65" V 11150 10190 40  0000 C CNN
+F 2 "" H 11150 8990 50  0000 C CNN
+F 3 "" H 11150 8990 50  0000 C CNN
+	1    11150 10190
+	0    1    1    0   
+$EndComp
+Text GLabel 15550 9690 1    40   Output ~ 0
+NMEA_1.10
+Text GLabel 12550 9690 1    40   Output ~ 0
+NMEA_1.11
+Text GLabel 12650 9690 1    40   Output ~ 0
+NMEA_1.12
+Text GLabel 15450 9690 1    40   Output ~ 0
+NMEA_1.09
+Text GLabel 11850 9690 1    40   Output ~ 0
+NMEA_1.05
+Text GLabel 11750 9690 1    40   Output ~ 0
+NMEA_1.06
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAF3
+P 15150 10190
+F 0 "P?" H 15150 10290 50  0001 C CNN
+F 1 "105" V 15150 10190 30  0000 C CNN
+F 2 "" H 15150 8990 50  0000 C CNN
+F 3 "" H 15150 8990 50  0000 C CNN
+	1    15150 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAEC
+P 12350 10190
+F 0 "P?" H 12350 10290 50  0001 C CNN
+F 1 "77" V 12350 10190 40  0000 C CNN
+F 2 "" H 12350 8990 50  0000 C CNN
+F 3 "" H 12350 8990 50  0000 C CNN
+	1    12350 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAE3
+P 15050 10190
+F 0 "P?" H 15050 10290 50  0001 C CNN
+F 1 "104" V 15050 10190 30  0000 C CNN
+F 2 "" H 15050 8990 50  0000 C CNN
+F 3 "" H 15050 8990 50  0000 C CNN
+	1    15050 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DADD
+P 14850 10190
+F 0 "P?" H 14850 10290 50  0001 C CNN
+F 1 "102" V 14850 10190 30  0000 C CNN
+F 2 "" H 14850 8990 50  0000 C CNN
+F 3 "" H 14850 8990 50  0000 C CNN
+	1    14850 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAD5
+P 15550 10190
+F 0 "P?" H 15550 10290 50  0001 C CNN
+F 1 "107" V 15550 10190 30  0000 C CNN
+F 2 "" H 15550 8990 50  0000 C CNN
+F 3 "" H 15550 8990 50  0000 C CNN
+	1    15550 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DACF
+P 15450 10190
+F 0 "P?" H 15450 10290 50  0001 C CNN
+F 1 "106" V 15450 10190 30  0000 C CNN
+F 2 "" H 15450 8990 50  0000 C CNN
+F 3 "" H 15450 8990 50  0000 C CNN
+	1    15450 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAC8
+P 13550 10190
+F 0 "P?" H 13550 10290 50  0001 C CNN
+F 1 "89" V 13550 10190 40  0000 C CNN
+F 2 "" H 13550 8990 50  0000 C CNN
+F 3 "" H 13550 8990 50  0000 C CNN
+	1    13550 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAC1
+P 13450 10190
+F 0 "P?" H 13450 10290 50  0001 C CNN
+F 1 "88" V 13450 10190 40  0000 C CNN
+F 2 "" H 13450 8990 50  0000 C CNN
+F 3 "" H 13450 8990 50  0000 C CNN
+	1    13450 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DABA
+P 12650 10190
+F 0 "P?" H 12650 10290 50  0001 C CNN
+F 1 "80" V 12650 10190 35  0000 C CNN
+F 2 "" H 12650 8990 50  0000 C CNN
+F 3 "" H 12650 8990 50  0000 C CNN
+	1    12650 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAB3
+P 11850 10190
+F 0 "P?" H 11850 10290 50  0001 C CNN
+F 1 "72" V 11850 10190 40  0000 C CNN
+F 2 "" H 11850 8990 50  0000 C CNN
+F 3 "" H 11850 8990 50  0000 C CNN
+	1    11850 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAAC
+P 11450 10190
+F 0 "P?" H 11450 10290 50  0001 C CNN
+F 1 "68" V 11450 10190 40  0000 C CNN
+F 2 "" H 11450 8990 50  0000 C CNN
+F 3 "" H 11450 8990 50  0000 C CNN
+	1    11450 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAA6
+P 14950 10190
+F 0 "P?" H 14950 10290 50  0001 C CNN
+F 1 "103" V 14950 10190 30  0000 C CNN
+F 2 "" H 14950 8990 50  0000 C CNN
+F 3 "" H 14950 8990 50  0000 C CNN
+	1    14950 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DAA0
+P 14650 10190
+F 0 "P?" H 14650 10290 50  0001 C CNN
+F 1 "100" V 14650 10190 30  0000 C CNN
+F 2 "" H 14650 8990 50  0000 C CNN
+F 3 "" H 14650 8990 50  0000 C CNN
+	1    14650 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA9A
+P 14550 10190
+F 0 "P?" H 14550 10290 50  0001 C CNN
+F 1 "99" V 14550 10190 40  0000 C CNN
+F 2 "" H 14550 8990 50  0000 C CNN
+F 3 "" H 14550 8990 50  0000 C CNN
+	1    14550 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA8E
+P 13350 10190
+F 0 "P?" H 13350 10290 50  0001 C CNN
+F 1 "87" V 13350 10190 40  0000 C CNN
+F 2 "" H 13350 8990 50  0000 C CNN
+F 3 "" H 13350 8990 50  0000 C CNN
+	1    13350 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA88
+P 13650 10190
+F 0 "P?" H 13650 10290 50  0001 C CNN
+F 1 "90" V 13650 10190 40  0000 C CNN
+F 2 "" H 13650 8990 50  0000 C CNN
+F 3 "" H 13650 8990 50  0000 C CNN
+	1    13650 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA82
+P 14050 10190
+F 0 "P?" H 14050 10290 50  0001 C CNN
+F 1 "94" V 14050 10190 40  0000 C CNN
+F 2 "" H 14050 8990 50  0000 C CNN
+F 3 "" H 14050 8990 50  0000 C CNN
+	1    14050 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA7B
+P 11650 10190
+F 0 "P?" H 11650 10290 50  0001 C CNN
+F 1 "70" V 11650 10190 40  0000 C CNN
+F 2 "" H 11650 8990 50  0000 C CNN
+F 3 "" H 11650 8990 50  0000 C CNN
+	1    11650 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA75
+P 13250 10190
+F 0 "P?" H 13250 10290 50  0001 C CNN
+F 1 "86" V 13250 10190 40  0000 C CNN
+F 2 "" H 13250 8990 50  0000 C CNN
+F 3 "" H 13250 8990 50  0000 C CNN
+	1    13250 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA6F
+P 13150 10190
+F 0 "P?" H 13150 10290 50  0001 C CNN
+F 1 "85" V 13150 10190 40  0000 C CNN
+F 2 "" H 13150 8990 50  0000 C CNN
+F 3 "" H 13150 8990 50  0000 C CNN
+	1    13150 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA68
+P 12250 10190
+F 0 "P?" H 12250 10290 50  0001 C CNN
+F 1 "76" V 12250 10190 40  0000 C CNN
+F 2 "" H 12250 8990 50  0000 C CNN
+F 3 "" H 12250 8990 50  0000 C CNN
+	1    12250 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA62
+P 14450 10190
+F 0 "P?" H 14450 10290 50  0001 C CNN
+F 1 "98" V 14450 10190 40  0000 C CNN
+F 2 "" H 14450 8990 50  0000 C CNN
+F 3 "" H 14450 8990 50  0000 C CNN
+	1    14450 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA5C
+P 14350 10190
+F 0 "P?" H 14350 10290 50  0001 C CNN
+F 1 "97" V 14350 10190 40  0000 C CNN
+F 2 "" H 14350 8990 50  0000 C CNN
+F 3 "" H 14350 8990 50  0000 C CNN
+	1    14350 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA44
+P 12550 10190
+F 0 "P?" H 12550 10290 50  0001 C CNN
+F 1 "79" V 12550 10190 40  0000 C CNN
+F 2 "" H 12550 8990 50  0000 C CNN
+F 3 "" H 12550 8990 50  0000 C CNN
+	1    12550 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA3E
+P 12450 10190
+F 0 "P?" H 12450 10290 50  0001 C CNN
+F 1 "78" V 12450 10190 40  0000 C CNN
+F 2 "" H 12450 8990 50  0000 C CNN
+F 3 "" H 12450 8990 50  0000 C CNN
+	1    12450 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA38
+P 14750 10190
+F 0 "P?" H 14750 10290 50  0001 C CNN
+F 1 "101" V 14750 10190 30  0000 C CNN
+F 2 "" H 14750 8990 50  0000 C CNN
+F 3 "" H 14750 8990 50  0000 C CNN
+	1    14750 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA32
+P 14250 10190
+F 0 "P?" H 14250 10290 50  0001 C CNN
+F 1 "96" V 14250 10190 40  0000 C CNN
+F 2 "" H 14250 8990 50  0000 C CNN
+F 3 "" H 14250 8990 50  0000 C CNN
+	1    14250 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA2C
+P 14150 10190
+F 0 "P?" H 14150 10290 50  0001 C CNN
+F 1 "95" V 14150 10190 40  0000 C CNN
+F 2 "" H 14150 8990 50  0000 C CNN
+F 3 "" H 14150 8990 50  0000 C CNN
+	1    14150 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA26
+P 12750 10190
+F 0 "P?" H 12750 10290 50  0001 C CNN
+F 1 "81" V 12750 10190 40  0000 C CNN
+F 2 "" H 12750 8990 50  0000 C CNN
+F 3 "" H 12750 8990 50  0000 C CNN
+	1    12750 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA20
+P 13050 10190
+F 0 "P?" H 13050 10290 50  0001 C CNN
+F 1 "84" V 13050 10190 40  0000 C CNN
+F 2 "" H 13050 8990 50  0000 C CNN
+F 3 "" H 13050 8990 50  0000 C CNN
+	1    13050 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA1A
+P 12950 10190
+F 0 "P?" H 12950 10290 50  0001 C CNN
+F 1 "83" V 12950 10190 40  0000 C CNN
+F 2 "" H 12950 8990 50  0000 C CNN
+F 3 "" H 12950 8990 50  0000 C CNN
+	1    12950 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA14
+P 12150 10190
+F 0 "P?" H 12150 10290 50  0001 C CNN
+F 1 "75" V 12150 10190 40  0000 C CNN
+F 2 "" H 12150 8990 50  0000 C CNN
+F 3 "" H 12150 8990 50  0000 C CNN
+	1    12150 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA0E
+P 12050 10190
+F 0 "P?" H 12050 10290 50  0001 C CNN
+F 1 "74" V 12050 10190 40  0000 C CNN
+F 2 "" H 12050 8990 50  0000 C CNN
+F 3 "" H 12050 8990 50  0000 C CNN
+	1    12050 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA08
+P 11950 10190
+F 0 "P?" H 11950 10290 50  0001 C CNN
+F 1 "73" V 11950 10190 40  0000 C CNN
+F 2 "" H 11950 8990 50  0000 C CNN
+F 3 "" H 11950 8990 50  0000 C CNN
+	1    11950 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64DA02
+P 11750 10190
+F 0 "P?" H 11750 10290 50  0001 C CNN
+F 1 "71" V 11750 10190 40  0000 C CNN
+F 2 "" H 11750 8990 50  0000 C CNN
+F 3 "" H 11750 8990 50  0000 C CNN
+	1    11750 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64D9FC
+P 11550 10190
+F 0 "P?" H 11550 10290 50  0001 C CNN
+F 1 "69" V 11550 10190 40  0000 C CNN
+F 2 "" H 11550 8990 50  0000 C CNN
+F 3 "" H 11550 8990 50  0000 C CNN
+	1    11550 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64D9F6
+P 12850 10190
+F 0 "P?" H 12850 10290 50  0001 C CNN
+F 1 "82" V 12850 10190 40  0000 C CNN
+F 2 "" H 12850 8990 50  0000 C CNN
+F 3 "" H 12850 8990 50  0000 C CNN
+	1    12850 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5B64D9EE
+P 11350 10190
+F 0 "P?" H 11350 10290 50  0001 C CNN
+F 1 "67" V 11350 10190 40  0000 C CNN
+F 2 "" H 11350 8990 50  0000 C CNN
+F 3 "" H 11350 8990 50  0000 C CNN
+	1    11350 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE84CBC
+P 16840 10190
+F 0 "P?" H 16840 10290 50  0001 C CNN
+F 1 "118" V 16840 10190 30  0000 C CNN
+F 2 "" H 16840 8990 50  0000 C CNN
+F 3 "" H 16840 8990 50  0000 C CNN
+	1    16840 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE84C21
+P 16740 10190
+F 0 "P?" H 16740 10290 50  0001 C CNN
+F 1 "117" V 16740 10190 30  0000 C CNN
+F 2 "" H 16740 8990 50  0000 C CNN
+F 3 "" H 16740 8990 50  0000 C CNN
+	1    16740 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE84B26
+P 16640 10190
+F 0 "P?" H 16640 10290 50  0001 C CNN
+F 1 "116" V 16640 10190 30  0000 C CNN
+F 2 "" H 16640 8990 50  0000 C CNN
+F 3 "" H 16640 8990 50  0000 C CNN
+	1    16640 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE84A8B
+P 16540 10190
+F 0 "P?" H 16540 10290 50  0001 C CNN
+F 1 "115" V 16540 10190 30  0000 C CNN
+F 2 "" H 16540 8990 50  0000 C CNN
+F 3 "" H 16540 8990 50  0000 C CNN
+	1    16540 10190
+	0    1    1    0   
+$EndComp
+Text GLabel 16340 9690 1    40   Output ~ 0
+NMEA_0.15
+Text GLabel 16240 9690 1    40   Output ~ 0
+NMEA_0.14
+Text GLabel 16140 9690 1    40   Output ~ 0
+NMEA_0.13
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE69CC5
+P 16340 10190
+F 0 "P?" H 16340 10290 50  0001 C CNN
+F 1 "113" V 16340 10190 30  0000 C CNN
+F 2 "" H 16340 8990 50  0000 C CNN
+F 3 "" H 16340 8990 50  0000 C CNN
+	1    16340 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE676F5
+P 16240 10190
+F 0 "P?" H 16240 10290 50  0001 C CNN
+F 1 "112" V 16240 10190 30  0000 C CNN
+F 2 "" H 16240 8990 50  0000 C CNN
+F 3 "" H 16240 8990 50  0000 C CNN
+	1    16240 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P?
+U 1 1 5AE676EF
+P 16140 10190
+F 0 "P?" H 16140 10290 50  0001 C CNN
+F 1 "111" V 16140 10190 30  0000 C CNN
+F 2 "" H 16140 8990 50  0000 C CNN
+F 3 "" H 16140 8990 50  0000 C CNN
+	1    16140 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P129
+U 1 1 5AE765A2
+P 19340 10190
+F 0 "P129" H 19340 10290 50  0001 C CNN
+F 1 "141" V 19340 10190 30  0000 C CNN
+F 2 "" H 19340 8990 50  0000 C CNN
+F 3 "" H 19340 8990 50  0000 C CNN
+	1    19340 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P115
+U 1 1 5AE6C794
+P 17940 10190
+F 0 "P115" H 17940 10290 50  0001 C CNN
+F 1 "127" V 17940 10190 30  0000 C CNN
+F 2 "" H 17940 8990 50  0000 C CNN
+F 3 "" H 17940 8990 50  0000 C CNN
+	1    17940 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P120
+U 1 1 5AE54F0F
+P 18440 10190
+F 0 "P120" H 18440 10290 50  0001 C CNN
+F 1 "132" V 18440 10190 30  0000 C CNN
+F 2 "" H 18440 8990 50  0000 C CNN
+F 3 "" H 18440 8990 50  0000 C CNN
+	1    18440 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P118
+U 1 1 5AE54F09
+P 18240 10190
+F 0 "P118" H 18240 10290 50  0001 C CNN
+F 1 "130" V 18240 10190 30  0000 C CNN
+F 2 "" H 18240 8990 50  0000 C CNN
+F 3 "" H 18240 8990 50  0000 C CNN
+	1    18240 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P119
+U 1 1 5AE54F03
+P 18340 10190
+F 0 "P119" H 18340 10290 50  0001 C CNN
+F 1 "131" V 18340 10190 30  0000 C CNN
+F 2 "" H 18340 8990 50  0000 C CNN
+F 3 "" H 18340 8990 50  0000 C CNN
+	1    18340 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P117
+U 1 1 5AE54EFD
+P 18140 10190
+F 0 "P117" H 18140 10290 50  0001 C CNN
+F 1 "129" V 18140 10190 30  0000 C CNN
+F 2 "" H 18140 8990 50  0000 C CNN
+F 3 "" H 18140 8990 50  0000 C CNN
+	1    18140 10190
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P112
+U 1 1 5AE54D8D
+P 17640 10190
+F 0 "P112" H 17640 10290 50  0001 C CNN
+F 1 "124" V 17640 10190 30  0000 C CNN
+F 2 "" H 17640 8990 50  0000 C CNN
+F 3 "" H 17640 8990 50  0000 C CNN
+	1    17640 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P128
+U 1 1 5AE54BA4
+P 19240 10190
+F 0 "P128" H 19240 10290 50  0001 C CNN
+F 1 "140" V 19240 10190 30  0000 C CNN
+F 2 "" H 19240 8990 50  0000 C CNN
+F 3 "" H 19240 8990 50  0000 C CNN
+	1    19240 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P106
+U 1 1 5AE54A34
+P 16440 10190
+F 0 "P106" H 16440 10290 50  0001 C CNN
+F 1 "114" V 16440 10190 30  0000 C CNN
+F 2 "" H 16440 8990 50  0000 C CNN
+F 3 "" H 16440 8990 50  0000 C CNN
+	1    16440 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P111
+U 1 1 5AE546A9
+P 17540 10190
+F 0 "P111" H 17540 10290 50  0001 C CNN
+F 1 "123" V 17540 10190 30  0000 C CNN
+F 2 "" H 17540 8990 50  0000 C CNN
+F 3 "" H 17540 8990 50  0000 C CNN
+	1    17540 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P127
+U 1 1 5AE544FD
+P 19140 10190
+F 0 "P127" H 19140 10290 50  0001 C CNN
+F 1 "139" V 19140 10190 30  0000 C CNN
+F 2 "" H 19140 8990 50  0000 C CNN
+F 3 "" H 19140 8990 50  0000 C CNN
+	1    19140 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P124
+U 1 1 5AE4FF53
+P 18840 10190
+F 0 "P124" H 18840 10290 50  0001 C CNN
+F 1 "136" V 18840 10190 30  0000 C CNN
+F 2 "" H 18840 8990 50  0000 C CNN
+F 3 "" H 18840 8990 50  0000 C CNN
+	1    18840 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P122
+U 1 1 5AE4FF4D
+P 18640 10190
+F 0 "P122" H 18640 10290 50  0001 C CNN
+F 1 "134" V 18640 10190 30  0000 C CNN
+F 2 "" H 18640 8990 50  0000 C CNN
+F 3 "" H 18640 8990 50  0000 C CNN
+	1    18640 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P126
+U 1 1 5AE4FF47
+P 19040 10190
+F 0 "P126" H 19040 10290 50  0001 C CNN
+F 1 "138" V 19040 10190 30  0000 C CNN
+F 2 "" H 19040 8990 50  0000 C CNN
+F 3 "" H 19040 8990 50  0000 C CNN
+	1    19040 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P125
+U 1 1 5AE4FF41
+P 18940 10190
+F 0 "P125" H 18940 10290 50  0001 C CNN
+F 1 "137" V 18940 10190 30  0000 C CNN
+F 2 "" H 18940 8990 50  0000 C CNN
+F 3 "" H 18940 8990 50  0000 C CNN
+	1    18940 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P109
+U 1 1 5AE4FF3B
+P 17340 10190
+F 0 "P109" H 17340 10290 50  0001 C CNN
+F 1 "121" V 17340 10190 30  0000 C CNN
+F 2 "" H 17340 8990 50  0000 C CNN
+F 3 "" H 17340 8990 50  0000 C CNN
+	1    17340 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P108
+U 1 1 5AE4FF35
+P 17240 10190
+F 0 "P108" H 17240 10290 50  0001 C CNN
+F 1 "120" V 17240 10190 30  0000 C CNN
+F 2 "" H 17240 8990 50  0000 C CNN
+F 3 "" H 17240 8990 50  0000 C CNN
+	1    17240 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P123
+U 1 1 5AE4FF2F
+P 18740 10190
+F 0 "P123" H 18740 10290 50  0001 C CNN
+F 1 "135" V 18740 10190 30  0000 C CNN
+F 2 "" H 18740 8990 50  0000 C CNN
+F 3 "" H 18740 8990 50  0000 C CNN
+	1    18740 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P121
+U 1 1 5AE4FF29
+P 18540 10190
+F 0 "P121" H 18540 10290 50  0001 C CNN
+F 1 "133" V 18540 10190 30  0000 C CNN
+F 2 "" H 18540 8990 50  0000 C CNN
+F 3 "" H 18540 8990 50  0000 C CNN
+	1    18540 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P116
+U 1 1 5AE4FF23
+P 18040 10190
+F 0 "P116" H 18040 10290 50  0001 C CNN
+F 1 "128" V 18040 10190 30  0000 C CNN
+F 2 "" H 18040 8990 50  0000 C CNN
+F 3 "" H 18040 8990 50  0000 C CNN
+	1    18040 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P107
+U 1 1 5AE4FF1D
+P 17140 10190
+F 0 "P107" H 17140 10290 50  0001 C CNN
+F 1 "119" V 17140 10190 30  0000 C CNN
+F 2 "" H 17140 8990 50  0000 C CNN
+F 3 "" H 17140 8990 50  0000 C CNN
+	1    17140 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P110
+U 1 1 5AE4FF17
+P 17440 10190
+F 0 "P110" H 17440 10290 50  0001 C CNN
+F 1 "122" V 17440 10190 30  0000 C CNN
+F 2 "" H 17440 8990 50  0000 C CNN
+F 3 "" H 17440 8990 50  0000 C CNN
+	1    17440 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P114
+U 1 1 5AE4FF11
+P 17840 10190
+F 0 "P114" H 17840 10290 50  0001 C CNN
+F 1 "126" V 17840 10190 30  0000 C CNN
+F 2 "" H 17840 8990 50  0000 C CNN
+F 3 "" H 17840 8990 50  0000 C CNN
+	1    17840 10190
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue P113
+U 1 1 5AE4FF0B
+P 17740 10190
+F 0 "P113" H 17740 10290 50  0001 C CNN
+F 1 "125" V 17740 10190 30  0000 C CNN
+F 2 "" H 17740 8990 50  0000 C CNN
+F 3 "" H 17740 8990 50  0000 C CNN
+	1    17740 10190
+	0    1    1    0   
+$EndComp
+Connection ~ 17540 7830
+Wire Wire Line
+	17540 7830 17540 6450
+Connection ~ 18580 6010
+Connection ~ 18580 6770
+Wire Wire Line
+	18580 6770 18580 9290
+Connection ~ 18660 6410
+Connection ~ 18660 6690
+Wire Wire Line
+	18660 6690 18660 9210
+Connection ~ 18840 8810
+Wire Wire Line
+	18840 8810 18890 8810
+Connection ~ 18940 8890
+Wire Wire Line
+	18940 8890 15100 8890
+Connection ~ 19240 8730
+Wire Wire Line
+	19240 8730 16690 8730
+Connection ~ 19320 6510
+Wire Wire Line
+	19320 6510 19320 9940
+Connection ~ 19440 8970
+Wire Wire Line
+	19440 8970 15800 8970
+Connection ~ 19540 9050
+Wire Wire Line
+	19540 9050 19590 9050
+Connection ~ 19640 9130
+Wire Wire Line
+	19640 9130 19690 9130
+$EndSCHEMATC

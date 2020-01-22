@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="15cm" height="14cm" viewBox="-248 12 295 274" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <line style="fill: none; fill-opacity:0; stroke-width: 14; stroke: #000000" x1="-100" y1="162" x2="-100" y2="279.75"/>
+  <g>
+    <ellipse style="fill: #000000" cx="-100" cy="142" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 14; stroke: #000000" cx="-100" cy="142" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 14; stroke: #000000" cx="-100" cy="142" rx="20" ry="20"/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 14; stroke: #000000" d="M -140,70 A 81.25,81.25 0 0 0 -140,210"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 14; stroke: #000000" d="M -60,210 A 81.25,81.25 0 0 0 -60,70"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 14; stroke: #000000" d="M -44,236 A 112.333,112.333 0 0 0 -44,44"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 14; stroke: #000000" d="M -156,44 A 110.286,110.286 0 0 0 -156,236"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 14; stroke: #000000" d="M -172,20 A 139.882,139.882 0 0 0 -172,260"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 14; stroke: #000000" d="M -28,260 A 139.882,139.882 0 0 0 -28,20"/>
+  <g>
+    <ellipse style="fill: #000000" cx="-172.2" cy="20.2" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-172.2" cy="20.2" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-172.2" cy="20.2" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-155.8" cy="43.8" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-155.8" cy="43.8" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-155.8" cy="43.8" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-139.8" cy="69.8" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-139.8" cy="69.8" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-139.8" cy="69.8" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-28" cy="20" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-28" cy="20" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-28" cy="20" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-44" cy="44" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-44" cy="44" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-44" cy="44" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-60" cy="70" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-60" cy="70" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-60" cy="70" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-60" cy="210" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-60" cy="210" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-60" cy="210" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-44" cy="236" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-44" cy="236" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-44" cy="236" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-28" cy="260" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-28" cy="260" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-28" cy="260" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-156" cy="236" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-156" cy="236" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-156" cy="236" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-172" cy="260" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-172" cy="260" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-172" cy="260" rx="7" ry="7"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="-140" cy="210" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-140" cy="210" rx="7" ry="7"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.62648e-14; stroke: #000000" cx="-140" cy="210" rx="7" ry="7"/>
+  </g>
+</svg>
