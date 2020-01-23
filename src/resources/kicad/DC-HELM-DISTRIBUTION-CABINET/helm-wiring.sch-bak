@@ -997,6 +997,88 @@ F 3 "" H 6350 7550 50  0000 C CNN
 	1    6350 7550
 	1    0    0    -1  
 $EndComp
+Text Notes 10320 14190 3    60   ~ 0
+HELM PANEL +24VDC <-
+Text Notes 10430 14060 3    60   ~ 0
+GENERATOR PANEL +24VDC <-
+Text Notes 12330 14060 3    60   ~ 0
+NIGHT LIGHTS ->
+Text Notes 11830 14060 3    60   ~ 0
+HORN ->
+Text Notes 10630 14040 3    60   ~ 0
+AIS ->
+Text Notes 11230 14060 3    60   ~ 0
+COURTESY LIGHTS ->
+Text Notes 13830 14060 3    60   ~ 0
+WASTE TANK FLUSH ->
+Text Notes 13330 14060 3    60   ~ 0
+ER VENTILATION (MAN) ->
+Text Notes 13230 14060 3    60   ~ 0
+ER VENTILATION (AUTO) ->
+Text Notes 10830 14060 3    60   ~ 0
+ANCHOR (UP) ->
+Text Notes 13530 14060 3    60   ~ 0
+MC VENTILATION (MAN) ->
+Text Notes 12030 14060 3    60   ~ 0
+MAST (DOWN) ->
+Text Notes 11930 14060 3    60   ~ 0
+HYDRAULIC ENABLE ->
+Text Notes 12130 14060 3    60   ~ 0
+MAST (UP) ->
+Text Notes 13430 14060 3    60   ~ 0
+MC VENTILATION (AUTO) ->
+Text Notes 12230 14060 3    60   ~ 0
+NAVIGATION LIGHTS ->
+Text Notes 11030 14060 3    60   ~ 0
+BOARD +/- ->
+Text Notes 11130 14060 3    60   ~ 0
+BOARD -/+ ->
+Text Notes 11530 14060 3    60   ~ 0
+HATCH (OPEN) ->
+Text Notes 11630 14060 3    60   ~ 0
+HATCH (CLOSE) ->
+Text Notes 11330 14060 3    60   ~ 0
+DECK WASH ->
+Text Notes 10730 14060 3    60   ~ 0
+ANCHOR (DOWN) ->
+Text Notes 12730 14060 3    60   ~ 0
+SEARCHLIGHT ->
+Text Notes 13730 14060 3    60   ~ 0
+WASTE PUMP (MAN) ->
+Text Notes 13130 14060 3    60   ~ 0
+TROLL ->
+Text Notes 13630 14060 3    60   ~ 0
+WASTE PUMP (AUTO) ->
+Text Notes 14430 14060 3    60   ~ 0
+DECK LIGHTS ->
+Text Notes 12430 14060 3    60   ~ 0
+RADAR +24VDC <-
+Text Notes 10530 14060 3    60   ~ 0
+AIS +24VDC <-
+Text Notes 10930 14060 3    60   ~ 0
+BOARD +24VDC <-
+Text Notes 11730 14060 3    60   ~ 0
+HORN +24VDC <-
+Text Notes 12530 14060 3    60   ~ 0
+RADAR ->
+Text Notes 12630 14060 3    60   ~ 0
+SEARCHLIGHT +24VDC <-
+Text Notes 14030 14060 3    60   ~ 0
+WIFI ->
+Text Notes 14330 14060 3    60   ~ 0
+WIPER MODE ->
+Text Notes 13930 14060 3    60   ~ 0
+WIFI +12 VDC <-
+Text Notes 14130 14060 3    60   ~ 0
+WIPER +24VDC <-
+Text Notes 11430 14060 3    60   ~ 0
+ENGINE ON ->
+Text Notes 14230 14060 3    60   ~ 0
+WIPER ON ->
+Text Notes 14530 14060 3    60   ~ 0
+BOW THRUST (PORT) ->
+Text Notes 14630 14060 3    60   ~ 0
+BOW THRUST (STARBOARD) ->
 $Comp
 L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5B657D47
@@ -1014,6 +1096,8 @@ Text GLabel 8900 11150 1    40   Output ~ 0
 MI_SW_ON
 Wire Notes Line
 	29620 4590 29620 4970
+Wire Bus Line
+	10200 13950 14930 13950
 Text GLabel 8000 11150 1    40   Output ~ 0
 GENPANEL_REMOTE_START
 $Comp
@@ -1031,12 +1115,18 @@ Text GLabel 8200 11650 3    40   Input ~ 8
 DP.HELM.ON_[ACTIVE_LOW]
 Text GLabel 9300 11150 1    40   Output ~ 0
 AL.SILENCE
+Text Notes 10240 14330 3    60   ~ 0
+HELM PANEL +24VDC <-
 Wire Bus Line
 	15100 9770 19230 9770
 Wire Bus Line
 	15190 9850 16100 9850
 Wire Bus Line
+	15190 13950 16100 13950
+Wire Bus Line
 	16180 9850 19230 9850
+Wire Bus Line
+	16180 13950 19230 13950
 Wire Wire Line
 	18640 9930 18590 9930
 Wire Wire Line
@@ -1081,6 +1171,10 @@ Text Notes 15220 10060 0    60   ~ 12
 EXTERNAL\nINPUTS
 Text Notes 16210 9960 0    60   ~ 12
 EQUIPMENT CONNECTIONS
+Text Notes 16200 13930 0    60   ~ 0
+RED TERMINAL = 24VDC\nORANGE TERMINAL = 12VDC
+Text Notes 10220 13930 0    60   ~ 0
+RED TERMINAL = 24VDC (SUPPLY CURRENT)\nBLACK TERMINAL = 24VDC (SIGNAL CURRENT)
 $Comp
 L Device:Fuse 10A
 U 1 1 5B660B23
@@ -3221,6 +3315,8 @@ Wire Wire Line
 	17790 10570 19150 10570
 Wire Wire Line
 	17790 11140 17790 10570
+Wire Bus Line
+	19480 13150 19480 9050
 Wire Wire Line
 	15990 9930 15990 11140
 Wire Wire Line
@@ -3237,6 +3333,10 @@ Wire Wire Line
 	15590 11140 15590 10890
 Wire Wire Line
 	15490 11140 15490 10890
+Wire Bus Line
+	15390 9050 15390 13150
+Wire Bus Line
+	15330 13150 15330 9050
 Wire Wire Line
 	14500 11140 14500 10890
 Text GLabel 14250 10990 1    40   Output ~ 0

@@ -62,6 +62,28 @@ X -VOUT 7 500 -200 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# Device_D
+#
+DEF Device_D D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_Fuse
 #
 DEF Device_Fuse F 0 0 N Y 1 F N
@@ -77,6 +99,39 @@ S -30 -100 30 100 0 1 10 N
 P 2 0 1 0 0 100 0 -100 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Relay_FINDER-32.21-x000
+#
+DEF Relay_FINDER-32.21-x000 K 0 20 Y Y 1 F N
+F0 "K" 450 150 50 H V L CNN
+F1 "Relay_FINDER-32.21-x000" 450 50 50 H V L CNN
+F2 "Relay_THT:Relay_SPST_Finder_32.21-x300" 1270 -30 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Relay*SPST*Finder*32.21*x300*
+$ENDFPLIST
+DRAW
+S -400 200 400 -200 0 1 10 f
+S -325 75 -75 -75 0 1 10 N
+P 4 0 0 0 100 200 100 100 125 125 100 150 F
+P 4 0 0 0 300 200 300 100 275 125 300 150 N
+P 2 0 1 10 -300 -75 -100 75 N
+P 2 0 1 0 -200 -200 -200 -75 N
+P 2 0 1 0 -200 200 -200 75 N
+P 2 0 1 10 -75 0 -50 0 N
+P 2 0 1 10 -25 0 0 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 75 0 100 0 N
+P 2 0 1 10 125 0 150 0 N
+P 2 0 1 20 200 -100 125 150 N
+P 2 0 1 0 200 -100 200 -200 N
+X ~ 11 200 -300 100 U 50 50 1 1 P
+X ~ 12 100 300 100 D 50 50 1 1 P
+X ~ 14 300 300 100 D 50 50 1 1 P
+X ~ A1 -200 300 100 D 50 50 1 1 P
+X ~ A2 -200 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -213,11 +268,61 @@ X RESET ~ 100 -1000 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue
+# beatrice_NMEA_POWER_INJ
 #
-DEF helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue P 0 1 Y N 1 F N
+DEF beatrice_NMEA_POWER_INJ U 0 40 Y Y 1 F N
+F0 "U" -1000 350 60 H I C CNN
+F1 "beatrice_NMEA_POWER_INJ" 150 200 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -100 100 400 -200 0 1 0 f
+P 2 0 1 0 -100 0 400 0 N
+X A+ ~ 0 -300 100 U 50 50 1 1 W
+X A- ~ 100 -300 100 U 50 50 1 1 W
+X B+ ~ 200 -300 100 U 50 50 1 1 W
+X B- ~ 300 -300 100 U 50 50 1 1 W
+X ~ ~ -200 0 100 R 50 50 1 1 B
+X ~ ~ 500 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# beatrice_OFFSHORE_SYSTEMS_4410
+#
+DEF beatrice_OFFSHORE_SYSTEMS_4410 U 0 40 Y Y 1 F N
+F0 "U" 350 800 60 H I C CNN
+F1 "beatrice_OFFSHORE_SYSTEMS_4410" 350 1750 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 1600 700 -100 0 1 0 f
+X 0 ~ -100 1500 100 R 50 50 1 1 I
+X 1 ~ -100 1400 100 R 50 50 1 1 I
+X 10 ~ -100 500 100 R 50 50 1 1 I
+X 11 ~ -100 400 100 R 50 50 1 1 I
+X 12 ~ -100 300 100 R 50 50 1 1 I
+X 13 ~ -100 200 100 R 50 50 1 1 I
+X 14 ~ -100 100 100 R 50 50 1 1 I
+X 15 ~ -100 0 100 R 50 50 1 1 I
+X 2 ~ -100 1300 100 R 50 50 1 1 I
+X 3 ~ -100 1200 100 R 50 50 1 1 I
+X 4 ~ -100 1100 100 R 50 50 1 1 I
+X 5 ~ -100 1000 100 R 50 50 1 1 I
+X 6 ~ -100 900 100 R 50 50 1 1 I
+X 7 ~ -100 800 100 R 50 50 1 1 I
+X 8 ~ -100 700 100 R 50 50 1 1 I
+X 9 ~ -100 600 100 R 50 50 1 1 I
+X GND ~ 800 1300 100 L 50 50 1 1 I
+X NMEA ~ 800 1500 100 L 50 50 1 1 B
+X VREF ~ 800 1400 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue
+#
+DEF helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P 0 1 Y N 1 F N
 F0 "P" 0 100 50 H V C CNN
-F1 "helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue" 0 -100 50 H V C CNN
+F1 "helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue" 0 -100 50 H V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
