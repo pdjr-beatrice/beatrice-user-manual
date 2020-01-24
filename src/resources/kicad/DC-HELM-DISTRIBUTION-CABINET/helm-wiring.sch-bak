@@ -55,7 +55,7 @@ ALWAYS ON (+12VDC 30A)
 Text Notes 13950 5950 0    60   ~ 12
 SWITCHED (+24VDC 60A)
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P12
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P12
 U 1 1 581B7A5A
 P 2500 11400
 F 0 "P12" H 2500 11500 50  0001 C CNN
@@ -66,7 +66,7 @@ F 3 "" H 2500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P11
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P11
 U 1 1 581B391D
 P 2400 11400
 F 0 "P11" H 2400 11500 50  0001 C CNN
@@ -81,7 +81,7 @@ Text Notes 1240 3150 0    60   ~ 0
 Text Notes 2100 4250 0    60   Italic 0
 LITTLEFUSE MEGA
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P14
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P14
 U 1 1 5AE1AC62
 P 2700 11400
 F 0 "P14" H 2700 11500 50  0001 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 2700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P13
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P13
 U 1 1 5AE1AC69
 P 2600 11400
 F 0 "P13" H 2600 11500 50  0001 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 2600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P19
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P19
 U 1 1 5AE1D86D
 P 3200 11400
 F 0 "P19" H 3200 11500 50  0001 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 3200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P20
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P20
 U 1 1 5AE1D923
 P 3300 11400
 F 0 "P20" H 3300 11500 50  0001 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 3300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P21
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P21
 U 1 1 5AE1D9D9
 P 3600 11400
 F 0 "P21" H 3600 11500 50  0001 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 3600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P22
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P22
 U 1 1 5AE1DF54
 P 3700 11400
 F 0 "P22" H 3700 11500 50  0001 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 3700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P23
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P23
 U 1 1 5AE1E00A
 P 3800 11400
 F 0 "P23" H 3800 11500 50  0001 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 3800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P26
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P26
 U 1 1 5AE2A3B5
 P 6400 11400
 F 0 "P26" H 6400 11500 50  0001 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 6400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P38
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P38
 U 1 1 5AE2A3BB
 P 5400 11400
 F 0 "P38" H 5400 11500 50  0001 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 5400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P28
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P28
 U 1 1 5AE2A3C1
 P 9500 11400
 F 0 "P28" H 9500 11500 50  0001 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 9500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P27
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P27
 U 1 1 5AE2A3C7
 P 6500 11400
 F 0 "P27" H 6500 11500 50  0001 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 6500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P30
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P30
 U 1 1 5AE2A3CD
 P 4600 11400
 F 0 "P30" H 4600 11500 50  0001 C CNN
@@ -213,7 +213,7 @@ F 3 "" H 4600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P31
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P31
 U 1 1 5AE2A3D3
 P 4700 11400
 F 0 "P31" H 4700 11500 50  0001 C CNN
@@ -224,7 +224,7 @@ F 3 "" H 4700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P32
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P32
 U 1 1 5AE2A3D9
 P 4800 11400
 F 0 "P32" H 4800 11500 50  0001 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 4800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P33
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P33
 U 1 1 5AE2A3DF
 P 4900 11400
 F 0 "P33" H 4900 11500 50  0001 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 4900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P34
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P34
 U 1 1 5AE2A3E5
 P 5000 11400
 F 0 "P34" H 5000 11500 50  0001 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 5000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P35
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P35
 U 1 1 5AE2A3EB
 P 5100 11400
 F 0 "P35" H 5100 11500 50  0001 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 5100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P36
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P36
 U 1 1 5AE2A3F1
 P 5200 11400
 F 0 "P36" H 5200 11500 50  0001 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 5200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P37
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P37
 U 1 1 5AE2A3F7
 P 5300 11400
 F 0 "P37" H 5300 11500 50  0001 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 5300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P29
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P29
 U 1 1 5AE2A3FD
 P 4500 11400
 F 0 "P29" H 4500 11500 50  0001 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 4500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P43
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P43
 U 1 1 5AE3C48C
 P 6200 11400
 F 0 "P43" H 6200 11500 50  0001 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 6200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P44
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P44
 U 1 1 5AE3C492
 P 6300 11400
 F 0 "P44" H 6300 11500 50  0001 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 6300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P39
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P39
 U 1 1 5AE3C498
 P 5500 11400
 F 0 "P39" H 5500 11500 50  0001 C CNN
@@ -334,7 +334,7 @@ F 3 "" H 5500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P40
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P40
 U 1 1 5AE3C49E
 P 5600 11400
 F 0 "P40" H 5600 11500 50  0001 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 5600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P41
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P41
 U 1 1 5AE3C4A4
 P 5700 11400
 F 0 "P41" H 5700 11500 50  0001 C CNN
@@ -356,7 +356,7 @@ F 3 "" H 5700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P42
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P42
 U 1 1 5AE3C4AA
 P 6100 11400
 F 0 "P42" H 6100 11500 50  0001 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 6100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P56
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P56
 U 1 1 5AE2BF00
 P 7900 11400
 F 0 "P56" H 7900 11500 50  0001 C CNN
@@ -378,7 +378,7 @@ F 3 "" H 7900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P49
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P49
 U 1 1 5AE2BF24
 P 7100 11400
 F 0 "P49" H 7100 11500 50  0001 C CNN
@@ -389,7 +389,7 @@ F 3 "" H 7100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P51
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P51
 U 1 1 5AE2BF2A
 P 7400 11400
 F 0 "P51" H 7400 11500 50  0001 C CNN
@@ -400,7 +400,7 @@ F 3 "" H 7400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P52
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P52
 U 1 1 5AE2BF30
 P 7500 11400
 F 0 "P52" H 7500 11500 50  0001 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 7500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P53
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P53
 U 1 1 5AE2BF36
 P 7600 11400
 F 0 "P53" H 7600 11500 50  0001 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 7600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P55
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P55
 U 1 1 5AE2BF42
 P 7800 11400
 F 0 "P55" H 7800 11500 50  0001 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 7800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P63
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P63
 U 1 1 5AE2BF48
 P 8800 11400
 F 0 "P63" H 8800 11500 50  0001 C CNN
@@ -444,7 +444,7 @@ F 3 "" H 8800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P64
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P64
 U 1 1 5AE2C084
 P 8900 11400
 F 0 "P64" H 8900 11500 50  0001 C CNN
@@ -455,7 +455,7 @@ F 3 "" H 8900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P62
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P62
 U 1 1 5AE2C08A
 P 8700 11400
 F 0 "P62" H 8700 11500 50  0001 C CNN
@@ -466,7 +466,7 @@ F 3 "" H 8700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P57
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P57
 U 1 1 5AE2C090
 P 8000 11400
 F 0 "P57" H 8000 11500 50  0001 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 8000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P58
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P58
 U 1 1 5AE2C096
 P 8100 11400
 F 0 "P58" H 8100 11500 50  0001 C CNN
@@ -488,7 +488,7 @@ F 3 "" H 8100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P59
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P59
 U 1 1 5AE2C09C
 P 8300 11400
 F 0 "P59" H 8300 11500 50  0001 C CNN
@@ -499,7 +499,7 @@ F 3 "" H 8300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P60
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P60
 U 1 1 5AE2C0A2
 P 8400 11400
 F 0 "P60" H 8400 11500 50  0001 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 8400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P61
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P61
 U 1 1 5AE2C0A8
 P 8500 11400
 F 0 "P61" H 8500 11500 50  0001 C CNN
@@ -521,7 +521,7 @@ F 3 "" H 8500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P47
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P47
 U 1 1 5AE22D8E
 P 6600 11400
 F 0 "P47" H 6600 11500 50  0001 C CNN
@@ -534,7 +534,7 @@ $EndComp
 Text Notes 1240 3330 0    60   ~ 0
 10mm 80A
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P65
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P65
 U 1 1 5AE2894E
 P 9000 11400
 F 0 "P65" H 9000 11500 50  0001 C CNN
@@ -545,7 +545,7 @@ F 3 "" H 9000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P66
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P66
 U 1 1 5AE28A0D
 P 9100 11400
 F 0 "P66" H 9100 11500 50  0001 C CNN
@@ -556,7 +556,7 @@ F 3 "" H 9100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P54
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P54
 U 1 1 5AE35F13
 P 7700 11400
 F 0 "P54" H 7700 11500 50  0001 C CNN
@@ -567,7 +567,7 @@ F 3 "" H 7700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P67
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P67
 U 1 1 5AE47E2E
 P 9200 11400
 F 0 "P67" H 9200 11500 50  0001 C CNN
@@ -578,7 +578,7 @@ F 3 "" H 9200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P68
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P68
 U 1 1 5AE47E34
 P 9300 11400
 F 0 "P68" H 9300 11500 50  0001 C CNN
@@ -589,7 +589,7 @@ F 3 "" H 9300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P50
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P50
 U 1 1 5AE48416
 P 7300 11400
 F 0 "P50" H 7300 11500 50  0001 C CNN
@@ -600,7 +600,7 @@ F 3 "" H 7300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE76C9F
 P 2800 11400
 F 0 "P?" H 2800 11500 50  0001 C CNN
@@ -611,7 +611,7 @@ F 3 "" H 2800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE76CA5
 P 2900 11400
 F 0 "P?" H 2900 11500 50  0001 C CNN
@@ -622,7 +622,7 @@ F 3 "" H 2900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE76CAB
 P 3000 11400
 F 0 "P?" H 3000 11500 50  0001 C CNN
@@ -633,7 +633,7 @@ F 3 "" H 3000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE76CB1
 P 4000 11400
 F 0 "P?" H 4000 11500 50  0001 C CNN
@@ -644,7 +644,7 @@ F 3 "" H 4000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE7767A
 P 3900 11400
 F 0 "P?" H 3900 11500 50  0001 C CNN
@@ -754,7 +754,7 @@ Text GLabel 9000 11150 1    40   Output ~ 0
 NMEA0_RLY
 Text GLabel 9100 11150 1    40   Output ~ 0
 NMEA1_RLY
-Text GLabel 21250 7350 2    40   Output ~ 0
+Text GLabel 20500 7350 2    40   Output ~ 0
 IND2
 Text GLabel 5000 11650 3    40   Input ~ 8
 AL.CHANNEL.05
@@ -767,7 +767,7 @@ A6
 Text GLabel 5450 6150 1    40   Input ~ 0
 A6
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE7DE06
 P 9400 11400
 F 0 "P?" H 9400 11500 50  0001 C CNN
@@ -778,7 +778,7 @@ F 3 "" H 9400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE7DE0C
 P 9600 11400
 F 0 "P?" H 9600 11500 50  0001 C CNN
@@ -789,7 +789,7 @@ F 3 "" H 9600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE7DE12
 P 9700 11400
 F 0 "P?" H 9700 11500 50  0001 C CNN
@@ -800,7 +800,7 @@ F 3 "" H 9700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE7DE18
 P 9800 11400
 F 0 "P?" H 9800 11500 50  0001 C CNN
@@ -811,7 +811,7 @@ F 3 "" H 9800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5AE7DE1E
 P 9900 11400
 F 0 "P?" H 9900 11500 50  0001 C CNN
@@ -997,90 +997,8 @@ F 3 "" H 6350 7550 50  0000 C CNN
 	1    6350 7550
 	1    0    0    -1  
 $EndComp
-Text Notes 10320 14190 3    60   ~ 0
-HELM PANEL +24VDC <-
-Text Notes 10430 14060 3    60   ~ 0
-GENERATOR PANEL +24VDC <-
-Text Notes 12330 14060 3    60   ~ 0
-NIGHT LIGHTS ->
-Text Notes 11830 14060 3    60   ~ 0
-HORN ->
-Text Notes 10630 14040 3    60   ~ 0
-AIS ->
-Text Notes 11230 14060 3    60   ~ 0
-COURTESY LIGHTS ->
-Text Notes 13830 14060 3    60   ~ 0
-WASTE TANK FLUSH ->
-Text Notes 13330 14060 3    60   ~ 0
-ER VENTILATION (MAN) ->
-Text Notes 13230 14060 3    60   ~ 0
-ER VENTILATION (AUTO) ->
-Text Notes 10830 14060 3    60   ~ 0
-ANCHOR (UP) ->
-Text Notes 13530 14060 3    60   ~ 0
-MC VENTILATION (MAN) ->
-Text Notes 12030 14060 3    60   ~ 0
-MAST (DOWN) ->
-Text Notes 11930 14060 3    60   ~ 0
-HYDRAULIC ENABLE ->
-Text Notes 12130 14060 3    60   ~ 0
-MAST (UP) ->
-Text Notes 13430 14060 3    60   ~ 0
-MC VENTILATION (AUTO) ->
-Text Notes 12230 14060 3    60   ~ 0
-NAVIGATION LIGHTS ->
-Text Notes 11030 14060 3    60   ~ 0
-BOARD +/- ->
-Text Notes 11130 14060 3    60   ~ 0
-BOARD -/+ ->
-Text Notes 11530 14060 3    60   ~ 0
-HATCH (OPEN) ->
-Text Notes 11630 14060 3    60   ~ 0
-HATCH (CLOSE) ->
-Text Notes 11330 14060 3    60   ~ 0
-DECK WASH ->
-Text Notes 10730 14060 3    60   ~ 0
-ANCHOR (DOWN) ->
-Text Notes 12730 14060 3    60   ~ 0
-SEARCHLIGHT ->
-Text Notes 13730 14060 3    60   ~ 0
-WASTE PUMP (MAN) ->
-Text Notes 13130 14060 3    60   ~ 0
-TROLL ->
-Text Notes 13630 14060 3    60   ~ 0
-WASTE PUMP (AUTO) ->
-Text Notes 14430 14060 3    60   ~ 0
-DECK LIGHTS ->
-Text Notes 12430 14060 3    60   ~ 0
-RADAR +24VDC <-
-Text Notes 10530 14060 3    60   ~ 0
-AIS +24VDC <-
-Text Notes 10930 14060 3    60   ~ 0
-BOARD +24VDC <-
-Text Notes 11730 14060 3    60   ~ 0
-HORN +24VDC <-
-Text Notes 12530 14060 3    60   ~ 0
-RADAR ->
-Text Notes 12630 14060 3    60   ~ 0
-SEARCHLIGHT +24VDC <-
-Text Notes 14030 14060 3    60   ~ 0
-WIFI ->
-Text Notes 14330 14060 3    60   ~ 0
-WIPER MODE ->
-Text Notes 13930 14060 3    60   ~ 0
-WIFI +12 VDC <-
-Text Notes 14130 14060 3    60   ~ 0
-WIPER +24VDC <-
-Text Notes 11430 14060 3    60   ~ 0
-ENGINE ON ->
-Text Notes 14230 14060 3    60   ~ 0
-WIPER ON ->
-Text Notes 14530 14060 3    60   ~ 0
-BOW THRUST (PORT) ->
-Text Notes 14630 14060 3    60   ~ 0
-BOW THRUST (STARBOARD) ->
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5B657D47
 P 8600 11400
 F 0 "P?" H 8600 11500 50  0001 C CNN
@@ -1096,12 +1014,10 @@ Text GLabel 8900 11150 1    40   Output ~ 0
 MI_SW_ON
 Wire Notes Line
 	29620 4590 29620 4970
-Wire Bus Line
-	10200 13950 14930 13950
 Text GLabel 8000 11150 1    40   Output ~ 0
 GENPANEL_REMOTE_START
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5B65AD31
 P 8200 11400
 F 0 "P?" H 8200 11500 50  0001 C CNN
@@ -1115,22 +1031,6 @@ Text GLabel 8200 11650 3    40   Input ~ 8
 DP.HELM.ON_[ACTIVE_LOW]
 Text GLabel 9300 11150 1    40   Output ~ 0
 AL.SILENCE
-Text Notes 10240 14330 3    60   ~ 0
-HELM PANEL +24VDC <-
-Wire Bus Line
-	15100 9770 19230 9770
-Wire Bus Line
-	15190 9850 16100 9850
-Wire Bus Line
-	15190 13950 16100 13950
-Wire Bus Line
-	16180 9850 19230 9850
-Wire Bus Line
-	16180 13950 19230 13950
-Wire Wire Line
-	18640 9930 18590 9930
-Wire Wire Line
-	16270 9030 16890 9030
 Text GLabel 19050 7350 2    40   Output ~ 0
 IND1
 Text GLabel 1250 3200 0    60   Input ~ 0
@@ -1159,22 +1059,6 @@ F 3 "" H 3650 4300 50  0000 C CNN
 	1    3650 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17590 10490 17930 10490
-Wire Wire Line
-	14350 10010 18190 10010
-Wire Wire Line
-	18340 10090 18290 10090
-Wire Wire Line
-	18840 10170 18790 10170
-Text Notes 15220 10060 0    60   ~ 12
-EXTERNAL\nINPUTS
-Text Notes 16210 9960 0    60   ~ 12
-EQUIPMENT CONNECTIONS
-Text Notes 16200 13930 0    60   ~ 0
-RED TERMINAL = 24VDC\nORANGE TERMINAL = 12VDC
-Text Notes 10220 13930 0    60   ~ 0
-RED TERMINAL = 24VDC (SUPPLY CURRENT)\nBLACK TERMINAL = 24VDC (SIGNAL CURRENT)
 $Comp
 L Device:Fuse 10A
 U 1 1 5B660B23
@@ -1549,12 +1433,6 @@ F 3 "" H 20450 3650 50  0000 C CNN
 	1    20450 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17490 10410 18010 10410
-Wire Wire Line
-	14750 10330 15900 10330
-Wire Wire Line
-	15250 10250 18890 10250
 $Comp
 L Device:Fuse 2A
 U 1 1 5B665B2D
@@ -1567,7 +1445,7 @@ F 3 "" H 2450 6850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E72F06E
 P 3400 11400
 F 0 "P?" H 3400 11500 50  0001 C CNN
@@ -1578,7 +1456,7 @@ F 3 "" H 3400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E72F5AB
 P 3500 11400
 F 0 "P?" H 3500 11500 50  0001 C CNN
@@ -1779,7 +1657,7 @@ Wire Notes Line
 Wire Notes Line
 	7000 6200 7000 6000
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 60715625
 P 7200 11400
 F 0 "P?" H 7200 11500 50  0001 C CNN
@@ -2670,7 +2548,7 @@ DM.PWMOUT+
 Text GLabel 6600 11650 3    40   Output ~ 8
 DM.PWMOUT-
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P18
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P18
 U 1 1 5AE1D7B7
 P 3100 11400
 F 0 "P18" H 3100 11500 50  0001 C CNN
@@ -2714,7 +2592,7 @@ MC_BILGE_PUMP_SWITCH(MAN)
 Text GLabel 3900 11650 3    40   Input ~ 0
 MC_BILGE_PUMP_SWITCH(OFF)
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5F960834
 P 4100 11400
 F 0 "P?" H 4100 11500 50  0001 C CNN
@@ -3110,233 +2988,76 @@ Wire Notes Line
 	15550 6200 13950 6200
 Wire Notes Line
 	13950 6200 13950 6000
-Wire Wire Line
-	15890 11140 15890 10890
-Wire Wire Line
-	15790 11140 15790 10890
-Text GLabel 15890 10890 1    40   Output ~ 0
+Text GLabel 15900 11150 1    40   Output ~ 0
 NMEA_1.13
-Text GLabel 15790 10890 1    40   Output ~ 0
+Text GLabel 15800 11150 1    40   Output ~ 0
 NMEA_1.15
-Text GLabel 15890 11640 3    40   Input ~ 0
+Text GLabel 15900 11650 3    40   Input ~ 0
 GENERATOR_PANEL_T03_(FUEL_PUMP)
-Text GLabel 15790 11640 3    40   Input ~ 0
+Text GLabel 15800 11650 3    40   Input ~ 0
 ENGINE_IGNITION_SW_ON
-Wire Wire Line
-	15900 7990 15900 10330
-Text GLabel 18990 11640 3    40   Output ~ 0
+Text GLabel 19100 11650 3    40   Output ~ 0
 WORKHLIGHT_+24VDC_10A
-Wire Wire Line
-	18990 10330 18990 11140
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5D802A11
-P 18990 11390
-F 0 "P?" H 18990 11490 50  0001 C CNN
-F 1 "143" V 18990 11390 30  0000 C CNN
-F 2 "" H 18990 10190 50  0000 C CNN
-F 3 "" H 18990 10190 50  0000 C CNN
-	1    18990 11390
-	0    1    1    0   
-$EndComp
 Text GLabel 14400 11650 3    40   Input ~ 0
 HP_WRKLT_ON
-Wire Wire Line
-	17190 11110 17190 11140
-Text Notes 15790 11290 1    30   ~ 0
-RD/BK 1.0
-Text Notes 15690 11290 1    30   ~ 0
-RD/BK 1.0
-Text Notes 15590 11290 1    30   ~ 0
-RD/BK 1.0
-Text Notes 15490 11290 1    30   ~ 0
-RD/BK 1.0
-Text Notes 18890 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 18790 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 18690 11290 1    30   ~ 0
-RD/BK 2.5
-Text Notes 18590 11290 1    30   ~ 0
-RD/BK 2.5
-Text Notes 18390 11290 1    30   ~ 0
-OR/BK 2.5
-Text Notes 18490 11290 1    30   ~ 0
-RD/BK 2.5
-Text Notes 18290 11290 1    30   ~ 0
-RD/BK 1.0
-Text Notes 18190 11290 1    30   ~ 0
-RD/BK 2.5
-Text Notes 18090 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 17990 11290 1    30   ~ 0
-RD/BK 2.5
-Text Notes 17890 11290 1    30   ~ 0
-RD/BK 2.5
-Text Notes 17790 11290 1    30   ~ 0
-OR/BK 1.5
-Text Notes 17690 11290 1    30   ~ 0
-OR/BK 1.5
-Text Notes 17590 11290 1    30   ~ 0
-OR/BK 1.5
-Text Notes 17490 11290 1    30   ~ 0
-OR/BK 1.5
-Text Notes 17390 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 17290 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 17190 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 17090 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 16990 11290 1    30   ~ 0
-OR 2.5
-Text Notes 16890 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 16790 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 16690 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 16590 11290 1    30   ~ 0
-RD/BK 1.5
-Text Notes 16490 11290 1    30   ~ 0
-RD/BK 1.5
-Text GLabel 18890 11640 3    40   Output ~ 0
+Text GLabel 19000 11650 3    40   Output ~ 0
 SPUDPOLE_ISOLATOR_-/+24VDC_5A
-Text GLabel 18790 11640 3    40   Output ~ 0
+Text GLabel 18900 11650 3    40   Output ~ 0
 SPUDPOLE_ISOLATOR_+/-24VDC_5A
-Text GLabel 18690 11640 3    40   Output ~ 0
+Text GLabel 18800 11650 3    40   Output ~ 0
 AUTOPILOT_+24VDC_10A
-Text GLabel 18590 11640 3    40   Output ~ 0
+Text GLabel 18700 11650 3    40   Output ~ 0
 WHEELHOUSE_LIGHTING_+24VDC_10A
-Text GLabel 18490 11640 3    40   Output ~ 0
+Text GLabel 18600 11650 3    40   Output ~ 0
 VHF_+24VDC_10A
-Text GLabel 18390 11640 3    40   Output ~ 0
+Text GLabel 18500 11650 3    40   Output ~ 0
 VHF_+12VDC_10A
-Text GLabel 18290 11640 3    40   Output ~ 0
+Text GLabel 18400 11650 3    40   Output ~ 0
 WIPER_MODE_+24VDC_10A
-Text GLabel 18190 11640 3    40   Output ~ 0
+Text GLabel 18300 11650 3    40   Output ~ 0
 WIPER_+24VDC_10A
-Text GLabel 18090 11640 3    40   Output ~ 0
+Text GLabel 18200 11650 3    40   Output ~ 0
 WIFI_+24VDC_5A
-Text GLabel 17990 11640 3    40   Output ~ 0
+Text GLabel 18100 11650 3    40   Output ~ 0
 SEARCHLIGHT_+24VDC_10A
-Text GLabel 17890 11640 3    40   Output ~ 0
+Text GLabel 18000 11650 3    40   Output ~ 0
 RADAR_+24VDC_10A
-Text GLabel 17790 11640 3    40   Output ~ 0
+Text GLabel 17900 11650 3    40   Output ~ 0
 NMEA_BUS_1_LEG_A_+12VDC_5A
-Text GLabel 17690 11640 3    40   Output ~ 0
+Text GLabel 17800 11650 3    40   Output ~ 0
 NMEA_BUS_1_LEG_A_+12VDC_5A
-Text GLabel 17590 11640 3    40   Output ~ 0
+Text GLabel 17700 11650 3    40   Output ~ 0
 NMEA_BUS_0_LEG_B_+12VDC_5A
-Text GLabel 17490 11640 3    40   Output ~ 0
+Text GLabel 17600 11650 3    40   Output ~ 0
 NMEA_BUS_0_LEG_A_+12VDC_5A
-Text GLabel 17390 11640 3    40   Output ~ 0
+Text GLabel 17400 11650 3    40   Output ~ 0
 NIGHT_LIGHTS_+24VDC_5A
-Text GLabel 17290 11640 3    40   Output ~ 0
+Text GLabel 17300 11650 3    40   Output ~ 0
 NAV_LIGHTS_+24VDC_5A
-Text GLabel 17190 11640 3    40   Output ~ 0
+Text GLabel 17200 11650 3    40   Output ~ 0
 NAV_LIGHTS_+24VDC_5A
-Text GLabel 17090 11640 3    40   Output ~ 0
+Text GLabel 17100 11650 3    40   Output ~ 0
 HORN_+24VDC_5A
-Text GLabel 16990 11640 3    40   Output ~ 0
+Text GLabel 17000 11650 3    40   Output ~ 0
 HELM_SOCKETS_+12VDC_10A
-Text GLabel 16890 11640 3    40   Output ~ 0
+Text GLabel 16900 11650 3    40   Output ~ 0
 COURTESY_LIGHTS_+24VDC_5A
-Text GLabel 16790 11640 3    40   Output ~ 0
+Text GLabel 16800 11650 3    40   Output ~ 0
 COURTESY_LIGHTS_+24VDC_5A
-Text GLabel 16690 11640 3    40   Output ~ 0
+Text GLabel 16700 11650 3    40   Output ~ 0
 BLUEBOARD_+/-24VDC_5A
-Text GLabel 16590 11640 3    40   Output ~ 0
+Text GLabel 16600 11650 3    40   Output ~ 0
 BLUEBOARD_+/-24VDC_5A
-Text GLabel 16490 11640 3    40   Output ~ 0
+Text GLabel 16500 11650 3    40   Output ~ 0
 AIS_+24VDC_5A
-Text GLabel 15990 11640 3    40   Input ~ 0
+Text GLabel 16000 11650 3    40   Input ~ 0
 WHEELHOUSE_HEATING_ON
-Text GLabel 15690 11640 3    40   Input ~ 0
+Text GLabel 15700 11650 3    40   Input ~ 0
 PROPANE_GAS_ON
-Text GLabel 15590 11640 3    40   Input ~ 0
+Text GLabel 15600 11650 3    40   Input ~ 0
 CALL_FOR_CH
-Text GLabel 15490 11640 3    40   Input ~ 0
+Text GLabel 15500 11650 3    40   Input ~ 0
 CALL_FOR_HW
-Wire Wire Line
-	18890 10250 18890 11140
-Wire Wire Line
-	18790 11140 18790 10170
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5B65A5B2
-P 18890 11390
-F 0 "P?" H 18890 11490 50  0001 C CNN
-F 1 "143" V 18890 11390 30  0000 C CNN
-F 2 "" H 18890 10190 50  0000 C CNN
-F 3 "" H 18890 10190 50  0000 C CNN
-	1    18890 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5B65A47A
-P 18790 11390
-F 0 "P?" H 18790 11490 50  0001 C CNN
-F 1 "142" V 18790 11390 30  0000 C CNN
-F 2 "" H 18790 10190 50  0000 C CNN
-F 3 "" H 18790 10190 50  0000 C CNN
-	1    18790 11390
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	18290 11140 18290 10090
-Wire Wire Line
-	18190 10010 18190 11140
-Wire Wire Line
-	18090 11140 18090 9290
-Wire Wire Line
-	16890 11140 16890 9030
-Wire Wire Line
-	17990 11140 17990 9370
-Wire Wire Line
-	17890 11140 17890 9450
-Wire Wire Line
-	16690 11140 16690 9690
-Wire Wire Line
-	16590 9770 16590 11140
-Wire Wire Line
-	16490 9850 16490 11140
-Wire Wire Line
-	17490 10410 17490 11140
-Wire Wire Line
-	17590 11140 17590 10490
-Wire Wire Line
-	17690 10650 17690 11140
-Wire Wire Line
-	19230 10650 17690 10650
-Wire Wire Line
-	17790 10570 19150 10570
-Wire Wire Line
-	17790 11140 17790 10570
-Wire Bus Line
-	19480 13150 19480 9050
-Wire Wire Line
-	15990 9930 15990 11140
-Wire Wire Line
-	18590 11140 18590 9930
-Wire Wire Line
-	17190 11110 17290 11110
-Wire Bus Line
-	16380 9050 16380 13150
-Wire Bus Line
-	16300 13150 16300 9050
-Wire Wire Line
-	15690 11140 15690 10890
-Wire Wire Line
-	15590 11140 15590 10890
-Wire Wire Line
-	15490 11140 15490 10890
-Wire Bus Line
-	15390 9050 15390 13150
-Wire Bus Line
-	15330 13150 15330 9050
 Wire Wire Line
 	14500 11140 14500 10890
 Text GLabel 14250 10990 1    40   Output ~ 0
@@ -3441,8 +3162,6 @@ Text GLabel 10600 11650 3    40   Output ~ 0
 HP_POWER_SWITCHED_+24VDC
 Text GLabel 10500 11650 3    40   Output ~ 0
 HP_POWER_ALWAYS_+24VDC
-Wire Wire Line
-	17290 11110 17290 11140
 Text GLabel 14650 10990 1    40   Output ~ 0
 NMEA_1.10
 Text GLabel 11600 11150 1    40   Output ~ 0
@@ -3456,7 +3175,7 @@ NMEA_1.05
 Text GLabel 11000 11150 1    40   Output ~ 0
 NMEA_1.06
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5B64DA9A
 P 13900 11400
 F 0 "P?" H 13900 11500 50  0001 C CNN
@@ -3467,7 +3186,7 @@ F 3 "" H 13900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5B64DA62
 P 13800 11400
 F 0 "P?" H 13800 11500 50  0001 C CNN
@@ -3478,7 +3197,7 @@ F 3 "" H 13800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5B64DA5C
 P 13700 11400
 F 0 "P?" H 13700 11500 50  0001 C CNN
@@ -3489,7 +3208,7 @@ F 3 "" H 13700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5B64DA32
 P 13600 11400
 F 0 "P?" H 13600 11500 50  0001 C CNN
@@ -3499,371 +3218,12 @@ F 3 "" H 13600 10200 50  0000 C CNN
 	1    13600 11400
 	0    1    1    0   
 $EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5AE84CBC
-P 16190 11390
-F 0 "P?" H 16190 11490 50  0001 C CNN
-F 1 "118" V 16190 11390 30  0000 C CNN
-F 2 "" H 16190 10190 50  0000 C CNN
-F 3 "" H 16190 10190 50  0000 C CNN
-	1    16190 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5AE84C21
-P 16090 11390
-F 0 "P?" H 16090 11490 50  0001 C CNN
-F 1 "117" V 16090 11390 30  0000 C CNN
-F 2 "" H 16090 10190 50  0000 C CNN
-F 3 "" H 16090 10190 50  0000 C CNN
-	1    16090 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5AE84B26
-P 15990 11390
-F 0 "P?" H 15990 11490 50  0001 C CNN
-F 1 "116" V 15990 11390 30  0000 C CNN
-F 2 "" H 15990 10190 50  0000 C CNN
-F 3 "" H 15990 10190 50  0000 C CNN
-	1    15990 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5AE84A8B
-P 15890 11390
-F 0 "P?" H 15890 11490 50  0001 C CNN
-F 1 "115" V 15890 11390 30  0000 C CNN
-F 2 "" H 15890 10190 50  0000 C CNN
-F 3 "" H 15890 10190 50  0000 C CNN
-	1    15890 11390
-	0    1    1    0   
-$EndComp
-Text GLabel 15690 10890 1    40   Output ~ 0
+Text GLabel 15700 11150 1    40   Output ~ 0
 NMEA_0.15
-Text GLabel 15590 10890 1    40   Output ~ 0
+Text GLabel 15600 11150 1    40   Output ~ 0
 NMEA_0.14
-Text GLabel 15490 10890 1    40   Output ~ 0
+Text GLabel 15500 11150 1    40   Output ~ 0
 NMEA_0.13
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5AE69CC5
-P 15690 11390
-F 0 "P?" H 15690 11490 50  0001 C CNN
-F 1 "113" V 15690 11390 30  0000 C CNN
-F 2 "" H 15690 10190 50  0000 C CNN
-F 3 "" H 15690 10190 50  0000 C CNN
-	1    15690 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5AE676F5
-P 15590 11390
-F 0 "P?" H 15590 11490 50  0001 C CNN
-F 1 "112" V 15590 11390 30  0000 C CNN
-F 2 "" H 15590 10190 50  0000 C CNN
-F 3 "" H 15590 10190 50  0000 C CNN
-	1    15590 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
-U 1 1 5AE676EF
-P 15490 11390
-F 0 "P?" H 15490 11490 50  0001 C CNN
-F 1 "111" V 15490 11390 30  0000 C CNN
-F 2 "" H 15490 10190 50  0000 C CNN
-F 3 "" H 15490 10190 50  0000 C CNN
-	1    15490 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P129
-U 1 1 5AE765A2
-P 18690 11390
-F 0 "P129" H 18690 11490 50  0001 C CNN
-F 1 "141" V 18690 11390 30  0000 C CNN
-F 2 "" H 18690 10190 50  0000 C CNN
-F 3 "" H 18690 10190 50  0000 C CNN
-	1    18690 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P115
-U 1 1 5AE6C794
-P 17290 11390
-F 0 "P115" H 17290 11490 50  0001 C CNN
-F 1 "127" V 17290 11390 30  0000 C CNN
-F 2 "" H 17290 10190 50  0000 C CNN
-F 3 "" H 17290 10190 50  0000 C CNN
-	1    17290 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P120
-U 1 1 5AE54F0F
-P 17790 11390
-F 0 "P120" H 17790 11490 50  0001 C CNN
-F 1 "132" V 17790 11390 30  0000 C CNN
-F 2 "" H 17790 10190 50  0000 C CNN
-F 3 "" H 17790 10190 50  0000 C CNN
-	1    17790 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P118
-U 1 1 5AE54F09
-P 17590 11390
-F 0 "P118" H 17590 11490 50  0001 C CNN
-F 1 "130" V 17590 11390 30  0000 C CNN
-F 2 "" H 17590 10190 50  0000 C CNN
-F 3 "" H 17590 10190 50  0000 C CNN
-	1    17590 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P119
-U 1 1 5AE54F03
-P 17690 11390
-F 0 "P119" H 17690 11490 50  0001 C CNN
-F 1 "131" V 17690 11390 30  0000 C CNN
-F 2 "" H 17690 10190 50  0000 C CNN
-F 3 "" H 17690 10190 50  0000 C CNN
-	1    17690 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P117
-U 1 1 5AE54EFD
-P 17490 11390
-F 0 "P117" H 17490 11490 50  0001 C CNN
-F 1 "129" V 17490 11390 30  0000 C CNN
-F 2 "" H 17490 10190 50  0000 C CNN
-F 3 "" H 17490 10190 50  0000 C CNN
-	1    17490 11390
-	0    -1   -1   0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P112
-U 1 1 5AE54D8D
-P 16990 11390
-F 0 "P112" H 16990 11490 50  0001 C CNN
-F 1 "124" V 16990 11390 30  0000 C CNN
-F 2 "" H 16990 10190 50  0000 C CNN
-F 3 "" H 16990 10190 50  0000 C CNN
-	1    16990 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P128
-U 1 1 5AE54BA4
-P 18590 11390
-F 0 "P128" H 18590 11490 50  0001 C CNN
-F 1 "140" V 18590 11390 30  0000 C CNN
-F 2 "" H 18590 10190 50  0000 C CNN
-F 3 "" H 18590 10190 50  0000 C CNN
-	1    18590 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P106
-U 1 1 5AE54A34
-P 15790 11390
-F 0 "P106" H 15790 11490 50  0001 C CNN
-F 1 "114" V 15790 11390 30  0000 C CNN
-F 2 "" H 15790 10190 50  0000 C CNN
-F 3 "" H 15790 10190 50  0000 C CNN
-	1    15790 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P111
-U 1 1 5AE546A9
-P 16890 11390
-F 0 "P111" H 16890 11490 50  0001 C CNN
-F 1 "123" V 16890 11390 30  0000 C CNN
-F 2 "" H 16890 10190 50  0000 C CNN
-F 3 "" H 16890 10190 50  0000 C CNN
-	1    16890 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P127
-U 1 1 5AE544FD
-P 18490 11390
-F 0 "P127" H 18490 11490 50  0001 C CNN
-F 1 "139" V 18490 11390 30  0000 C CNN
-F 2 "" H 18490 10190 50  0000 C CNN
-F 3 "" H 18490 10190 50  0000 C CNN
-	1    18490 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P124
-U 1 1 5AE4FF53
-P 18190 11390
-F 0 "P124" H 18190 11490 50  0001 C CNN
-F 1 "136" V 18190 11390 30  0000 C CNN
-F 2 "" H 18190 10190 50  0000 C CNN
-F 3 "" H 18190 10190 50  0000 C CNN
-	1    18190 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P122
-U 1 1 5AE4FF4D
-P 17990 11390
-F 0 "P122" H 17990 11490 50  0001 C CNN
-F 1 "134" V 17990 11390 30  0000 C CNN
-F 2 "" H 17990 10190 50  0000 C CNN
-F 3 "" H 17990 10190 50  0000 C CNN
-	1    17990 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P126
-U 1 1 5AE4FF47
-P 18390 11390
-F 0 "P126" H 18390 11490 50  0001 C CNN
-F 1 "138" V 18390 11390 30  0000 C CNN
-F 2 "" H 18390 10190 50  0000 C CNN
-F 3 "" H 18390 10190 50  0000 C CNN
-	1    18390 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P125
-U 1 1 5AE4FF41
-P 18290 11390
-F 0 "P125" H 18290 11490 50  0001 C CNN
-F 1 "137" V 18290 11390 30  0000 C CNN
-F 2 "" H 18290 10190 50  0000 C CNN
-F 3 "" H 18290 10190 50  0000 C CNN
-	1    18290 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P109
-U 1 1 5AE4FF3B
-P 16690 11390
-F 0 "P109" H 16690 11490 50  0001 C CNN
-F 1 "121" V 16690 11390 30  0000 C CNN
-F 2 "" H 16690 10190 50  0000 C CNN
-F 3 "" H 16690 10190 50  0000 C CNN
-	1    16690 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P108
-U 1 1 5AE4FF35
-P 16590 11390
-F 0 "P108" H 16590 11490 50  0001 C CNN
-F 1 "120" V 16590 11390 30  0000 C CNN
-F 2 "" H 16590 10190 50  0000 C CNN
-F 3 "" H 16590 10190 50  0000 C CNN
-	1    16590 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P123
-U 1 1 5AE4FF2F
-P 18090 11390
-F 0 "P123" H 18090 11490 50  0001 C CNN
-F 1 "135" V 18090 11390 30  0000 C CNN
-F 2 "" H 18090 10190 50  0000 C CNN
-F 3 "" H 18090 10190 50  0000 C CNN
-	1    18090 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P121
-U 1 1 5AE4FF29
-P 17890 11390
-F 0 "P121" H 17890 11490 50  0001 C CNN
-F 1 "133" V 17890 11390 30  0000 C CNN
-F 2 "" H 17890 10190 50  0000 C CNN
-F 3 "" H 17890 10190 50  0000 C CNN
-	1    17890 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P116
-U 1 1 5AE4FF23
-P 17390 11390
-F 0 "P116" H 17390 11490 50  0001 C CNN
-F 1 "128" V 17390 11390 30  0000 C CNN
-F 2 "" H 17390 10190 50  0000 C CNN
-F 3 "" H 17390 10190 50  0000 C CNN
-	1    17390 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P107
-U 1 1 5AE4FF1D
-P 16490 11390
-F 0 "P107" H 16490 11490 50  0001 C CNN
-F 1 "119" V 16490 11390 30  0000 C CNN
-F 2 "" H 16490 10190 50  0000 C CNN
-F 3 "" H 16490 10190 50  0000 C CNN
-	1    16490 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P110
-U 1 1 5AE4FF17
-P 16790 11390
-F 0 "P110" H 16790 11490 50  0001 C CNN
-F 1 "122" V 16790 11390 30  0000 C CNN
-F 2 "" H 16790 10190 50  0000 C CNN
-F 3 "" H 16790 10190 50  0000 C CNN
-	1    16790 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P114
-U 1 1 5AE4FF11
-P 17190 11390
-F 0 "P114" H 17190 11490 50  0001 C CNN
-F 1 "126" V 17190 11390 30  0000 C CNN
-F 2 "" H 17190 10190 50  0000 C CNN
-F 3 "" H 17190 10190 50  0000 C CNN
-	1    17190 11390
-	0    1    1    0   
-$EndComp
-$Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P113
-U 1 1 5AE4FF0B
-P 17090 11390
-F 0 "P113" H 17090 11490 50  0001 C CNN
-F 1 "125" V 17090 11390 30  0000 C CNN
-F 2 "" H 17090 10190 50  0000 C CNN
-F 3 "" H 17090 10190 50  0000 C CNN
-	1    17090 11390
-	0    1    1    0   
-$EndComp
-Connection ~ 18190 10010
-Wire Wire Line
-	18190 10010 18240 10010
-Connection ~ 18290 10090
-Wire Wire Line
-	18290 10090 14450 10090
-Connection ~ 18590 9930
-Wire Wire Line
-	18590 9930 16040 9930
-Connection ~ 18790 10170
-Wire Wire Line
-	18790 10170 15150 10170
-Connection ~ 18890 10250
-Wire Wire Line
-	18890 10250 18940 10250
-Connection ~ 18990 10330
-Wire Wire Line
-	18990 10330 19040 10330
 $Comp
 L Relay:FINDER-32.21-x000 K?
 U 1 1 5E2AB85E
@@ -4464,7 +3824,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 8000 3650 8000
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C824D
 P 12900 11400
 F 0 "P?" H 12900 11500 50  0001 C CNN
@@ -4475,7 +3835,7 @@ F 3 "" H 12900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C8253
 P 11300 11400
 F 0 "P?" H 11300 11500 50  0001 C CNN
@@ -4486,7 +3846,7 @@ F 3 "" H 11300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C8259
 P 13400 11400
 F 0 "P?" H 13400 11500 50  0001 C CNN
@@ -4497,7 +3857,7 @@ F 3 "" H 13400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C825F
 P 10500 11400
 F 0 "P?" H 10500 11500 50  0001 C CNN
@@ -4508,7 +3868,7 @@ F 3 "" H 10500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C8265
 P 10800 11400
 F 0 "P?" H 10800 11500 50  0001 C CNN
@@ -4519,7 +3879,7 @@ F 3 "" H 10800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C826B
 P 10900 11400
 F 0 "P?" H 10900 11500 50  0001 C CNN
@@ -4530,7 +3890,7 @@ F 3 "" H 10900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C8271
 P 11000 11400
 F 0 "P?" H 11000 11500 50  0001 C CNN
@@ -4541,7 +3901,7 @@ F 3 "" H 11000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C8277
 P 11200 11400
 F 0 "P?" H 11200 11500 50  0001 C CNN
@@ -4552,7 +3912,7 @@ F 3 "" H 11200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C827D
 P 12200 11400
 F 0 "P?" H 12200 11500 50  0001 C CNN
@@ -4563,7 +3923,7 @@ F 3 "" H 12200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C8283
 P 12300 11400
 F 0 "P?" H 12300 11500 50  0001 C CNN
@@ -4574,7 +3934,7 @@ F 3 "" H 12300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C8289
 P 12100 11400
 F 0 "P?" H 12100 11500 50  0001 C CNN
@@ -4585,7 +3945,7 @@ F 3 "" H 12100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C828F
 P 11400 11400
 F 0 "P?" H 11400 11500 50  0001 C CNN
@@ -4596,7 +3956,7 @@ F 3 "" H 11400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C8295
 P 11500 11400
 F 0 "P?" H 11500 11500 50  0001 C CNN
@@ -4607,7 +3967,7 @@ F 3 "" H 11500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82A1
 P 11800 11400
 F 0 "P?" H 11800 11500 50  0001 C CNN
@@ -4618,7 +3978,7 @@ F 3 "" H 11800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82A7
 P 11900 11400
 F 0 "P?" H 11900 11500 50  0001 C CNN
@@ -4629,7 +3989,7 @@ F 3 "" H 11900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82AD
 P 12400 11400
 F 0 "P?" H 12400 11500 50  0001 C CNN
@@ -4640,7 +4000,7 @@ F 3 "" H 12400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82B3
 P 12500 11400
 F 0 "P?" H 12500 11500 50  0001 C CNN
@@ -4651,7 +4011,7 @@ F 3 "" H 12500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82B9
 P 11100 11400
 F 0 "P?" H 11100 11500 50  0001 C CNN
@@ -4662,7 +4022,7 @@ F 3 "" H 11100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82BF
 P 12600 11400
 F 0 "P?" H 12600 11500 50  0001 C CNN
@@ -4673,7 +4033,7 @@ F 3 "" H 12600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82C5
 P 12700 11400
 F 0 "P?" H 12700 11500 50  0001 C CNN
@@ -4684,7 +4044,7 @@ F 3 "" H 12700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82CB
 P 10700 11400
 F 0 "P?" H 10700 11500 50  0001 C CNN
@@ -4695,7 +4055,7 @@ F 3 "" H 10700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82D1
 P 12800 11400
 F 0 "P?" H 12800 11500 50  0001 C CNN
@@ -4706,7 +4066,7 @@ F 3 "" H 12800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82D7
 P 13000 11400
 F 0 "P?" H 13000 11500 50  0001 C CNN
@@ -4717,7 +4077,7 @@ F 3 "" H 13000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82DD
 P 13100 11400
 F 0 "P?" H 13100 11500 50  0001 C CNN
@@ -4728,7 +4088,7 @@ F 3 "" H 13100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82E3
 P 13200 11400
 F 0 "P?" H 13200 11500 50  0001 C CNN
@@ -4739,7 +4099,7 @@ F 3 "" H 13200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82E9
 P 13300 11400
 F 0 "P?" H 13300 11500 50  0001 C CNN
@@ -4750,7 +4110,7 @@ F 3 "" H 13300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82EF
 P 12000 11400
 F 0 "P?" H 12000 11500 50  0001 C CNN
@@ -4761,7 +4121,7 @@ F 3 "" H 12000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82F5
 P 11600 11400
 F 0 "P?" H 11600 11500 50  0001 C CNN
@@ -4772,7 +4132,7 @@ F 3 "" H 11600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C8301
 P 13500 11400
 F 0 "P?" H 13500 11500 50  0001 C CNN
@@ -4783,7 +4143,7 @@ F 3 "" H 13500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA6139F
 P 15100 11400
 F 0 "P?" H 15100 11500 50  0001 C CNN
@@ -4794,7 +4154,7 @@ F 3 "" H 15100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613A5
 P 15000 11400
 F 0 "P?" H 15000 11500 50  0001 C CNN
@@ -4805,7 +4165,7 @@ F 3 "" H 15000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613AB
 P 14900 11400
 F 0 "P?" H 14900 11500 50  0001 C CNN
@@ -4816,7 +4176,7 @@ F 3 "" H 14900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613B1
 P 14800 11400
 F 0 "P?" H 14800 11500 50  0001 C CNN
@@ -4827,7 +4187,7 @@ F 3 "" H 14800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613B7
 P 14100 11400
 F 0 "P?" H 14100 11500 50  0001 C CNN
@@ -4838,7 +4198,7 @@ F 3 "" H 14100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613BD
 P 14600 11400
 F 0 "P?" H 14600 11500 50  0001 C CNN
@@ -4849,7 +4209,7 @@ F 3 "" H 14600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613C3
 P 14000 11400
 F 0 "P?" H 14000 11500 50  0001 C CNN
@@ -4860,7 +4220,7 @@ F 3 "" H 14000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613C9
 P 14200 11400
 F 0 "P?" H 14200 11500 50  0001 C CNN
@@ -4871,7 +4231,7 @@ F 3 "" H 14200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613CF
 P 14300 11400
 F 0 "P?" H 14300 11500 50  0001 C CNN
@@ -4882,7 +4242,7 @@ F 3 "" H 14300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613D5
 P 14400 11400
 F 0 "P?" H 14400 11500 50  0001 C CNN
@@ -4893,7 +4253,7 @@ F 3 "" H 14400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613DB
 P 14500 11400
 F 0 "P?" H 14500 11500 50  0001 C CNN
@@ -4904,7 +4264,7 @@ F 3 "" H 14500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA613E1
 P 14700 11400
 F 0 "P?" H 14700 11500 50  0001 C CNN
@@ -4915,7 +4275,7 @@ F 3 "" H 14700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5EA7A05D
 P 15200 11400
 F 0 "P?" H 15200 11500 50  0001 C CNN
@@ -4956,7 +4316,7 @@ Wire Wire Line
 Wire Wire Line
 	18800 6450 18800 6500
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C82FB
 P 10600 11400
 F 0 "P?" H 10600 11500 50  0001 C CNN
@@ -4967,7 +4327,7 @@ F 3 "" H 10600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E9C829B
 P 11700 11400
 F 0 "P?" H 11700 11500 50  0001 C CNN
@@ -4977,9 +4337,6 @@ F 3 "" H 11700 10200 50  0000 C CNN
 	1    11700 11400
 	0    1    1    0   
 $EndComp
-Connection ~ 15900 10330
-Wire Wire Line
-	15900 10330 18990 10330
 $Comp
 L Relay:FINDER-40.52 RL?
 U 1 1 5EEE399F
@@ -5088,7 +4445,7 @@ Wire Wire Line
 Text GLabel 7300 11650 3    40   Input ~ 0
 DP.AV-SERVICES.ENABLE
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P?
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
 U 1 1 5E3B8354
 P 10000 11400
 F 0 "P?" H 10000 11500 50  0001 C CNN
@@ -5216,9 +4573,6 @@ F 3 "" H 19450 1500 60  0001 C CNN
 	1    19450 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	20550 3500 20550 3000
-Connection ~ 20550 3500
 $Comp
 L power:GND #PWR?
 U 1 1 5ED4E257
@@ -5243,21 +4597,6 @@ F 3 "" H 19750 1800 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4750 3800 16150 3800
-Connection ~ 18900 3500
-Wire Wire Line
-	18900 3500 18900 3000
-Wire Wire Line
-	18900 3500 18900 6950
-Wire Wire Line
-	20550 5500 19000 5500
-Wire Wire Line
-	19450 1800 19450 3000
-Wire Wire Line
-	19450 3000 18900 3000
-Wire Wire Line
-	19650 1800 19650 3000
-Wire Wire Line
-	19650 3000 20550 3000
 $Comp
 L beatrice:NMEA_POWER_INJ U?
 U 1 1 5F00C0CB
@@ -5270,23 +4609,7 @@ F 3 "" H 21000 2000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	20150 6950 21000 6950
-Wire Wire Line
-	21000 6950 21000 2300
-Wire Wire Line
-	20150 7350 21200 7350
-Wire Wire Line
-	21200 7350 21200 2300
-Wire Wire Line
-	18700 7350 19000 7350
-Wire Wire Line
-	19000 5500 19000 7350
-Wire Wire Line
-	19050 7350 19000 7350
-Connection ~ 19000 7350
-Wire Wire Line
-	21250 7350 21200 7350
-Connection ~ 21200 7350
+	20150 7350 20250 7350
 $Comp
 L power:GND #PWR?
 U 1 1 5F11376E
@@ -5309,4 +4632,434 @@ F 3 "" H 21300 2300 50  0000 C CNN
 	1    21300 2300
 	1    0    0    -1  
 $EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E36C2CC
+P 15500 11400
+F 0 "P?" H 15500 11500 50  0001 C CNN
+F 1 "01" V 15500 11400 40  0000 C CNN
+F 2 "" H 15500 10200 50  0000 C CNN
+F 3 "" H 15500 10200 50  0000 C CNN
+	1    15500 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E36C2D2
+P 15800 11400
+F 0 "P?" H 15800 11500 50  0001 C CNN
+F 1 "04" V 15800 11400 40  0000 C CNN
+F 2 "" H 15800 10200 50  0000 C CNN
+F 3 "" H 15800 10200 50  0000 C CNN
+	1    15800 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E36C2D8
+P 15900 11400
+F 0 "P?" H 15900 11500 50  0001 C CNN
+F 1 "05" V 15900 11400 40  0000 C CNN
+F 2 "" H 15900 10200 50  0000 C CNN
+F 3 "" H 15900 10200 50  0000 C CNN
+	1    15900 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E36C2DE
+P 16000 11400
+F 0 "P?" H 16000 11500 50  0001 C CNN
+F 1 "06" V 16000 11400 40  0000 C CNN
+F 2 "" H 16000 10200 50  0000 C CNN
+F 3 "" H 16000 10200 50  0000 C CNN
+	1    16000 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E36C2E4
+P 16200 11400
+F 0 "P?" H 16200 11500 50  0001 C CNN
+F 1 "08" V 16200 11400 40  0000 C CNN
+F 2 "" H 16200 10200 50  0000 C CNN
+F 3 "" H 16200 10200 50  0000 C CNN
+	1    16200 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E36C2EA
+P 16100 11400
+F 0 "P?" H 16100 11500 50  0001 C CNN
+F 1 "07" V 16100 11400 40  0000 C CNN
+F 2 "" H 16100 10200 50  0000 C CNN
+F 3 "" H 16100 10200 50  0000 C CNN
+	1    16100 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E36C2F0
+P 15700 11400
+F 0 "P?" H 15700 11500 50  0001 C CNN
+F 1 "03" V 15700 11400 40  0000 C CNN
+F 2 "" H 15700 10200 50  0000 C CNN
+F 3 "" H 15700 10200 50  0000 C CNN
+	1    15700 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E36C2F6
+P 15600 11400
+F 0 "P?" H 15600 11500 50  0001 C CNN
+F 1 "02" V 15600 11400 40  0000 C CNN
+F 2 "" H 15600 10200 50  0000 C CNN
+F 3 "" H 15600 10200 50  0000 C CNN
+	1    15600 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E452297
+P 18900 11400
+F 0 "P?" H 18900 11500 50  0001 C CNN
+F 1 "25" V 18900 11400 40  0000 C CNN
+F 2 "" H 18900 10200 50  0000 C CNN
+F 3 "" H 18900 10200 50  0000 C CNN
+	1    18900 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522A3
+P 16500 11400
+F 0 "P?" H 16500 11500 50  0001 C CNN
+F 1 "01" V 16500 11400 40  0000 C CNN
+F 2 "" H 16500 10200 50  0000 C CNN
+F 3 "" H 16500 10200 50  0000 C CNN
+	1    16500 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522A9
+P 16800 11400
+F 0 "P?" H 16800 11500 50  0001 C CNN
+F 1 "04" V 16800 11400 40  0000 C CNN
+F 2 "" H 16800 10200 50  0000 C CNN
+F 3 "" H 16800 10200 50  0000 C CNN
+	1    16800 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522AF
+P 16900 11400
+F 0 "P?" H 16900 11500 50  0001 C CNN
+F 1 "05" V 16900 11400 40  0000 C CNN
+F 2 "" H 16900 10200 50  0000 C CNN
+F 3 "" H 16900 10200 50  0000 C CNN
+	1    16900 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522B5
+P 17000 11400
+F 0 "P?" H 17000 11500 50  0001 C CNN
+F 1 "06" V 17000 11400 40  0000 C CNN
+F 2 "" H 17000 10200 50  0000 C CNN
+F 3 "" H 17000 10200 50  0000 C CNN
+	1    17000 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522C1
+P 18200 11400
+F 0 "P?" H 18200 11500 50  0001 C CNN
+F 1 "18" V 18200 11400 40  0000 C CNN
+F 2 "" H 18200 10200 50  0000 C CNN
+F 3 "" H 18200 10200 50  0000 C CNN
+	1    18200 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522C7
+P 18300 11400
+F 0 "P?" H 18300 11500 50  0001 C CNN
+F 1 "19" V 18300 11400 40  0000 C CNN
+F 2 "" H 18300 10200 50  0000 C CNN
+F 3 "" H 18300 10200 50  0000 C CNN
+	1    18300 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522CD
+P 18100 11400
+F 0 "P?" H 18100 11500 50  0001 C CNN
+F 1 "17" V 18100 11400 40  0000 C CNN
+F 2 "" H 18100 10200 50  0000 C CNN
+F 3 "" H 18100 10200 50  0000 C CNN
+	1    18100 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522D3
+P 17400 11400
+F 0 "P?" H 17400 11500 50  0001 C CNN
+F 1 "10" V 17400 11400 40  0000 C CNN
+F 2 "" H 17400 10200 50  0000 C CNN
+F 3 "" H 17400 10200 50  0000 C CNN
+	1    17400 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522D9
+P 17500 11400
+F 0 "P?" H 17500 11500 50  0001 C CNN
+F 1 "11" V 17500 11400 40  0000 C CNN
+F 2 "" H 17500 10200 50  0000 C CNN
+F 3 "" H 17500 10200 50  0000 C CNN
+	1    17500 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522DF
+P 17800 11400
+F 0 "P?" H 17800 11500 50  0001 C CNN
+F 1 "14" V 17800 11400 40  0000 C CNN
+F 2 "" H 17800 10200 50  0000 C CNN
+F 3 "" H 17800 10200 50  0000 C CNN
+	1    17800 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522E5
+P 17900 11400
+F 0 "P?" H 17900 11500 50  0001 C CNN
+F 1 "15" V 17900 11400 40  0000 C CNN
+F 2 "" H 17900 10200 50  0000 C CNN
+F 3 "" H 17900 10200 50  0000 C CNN
+	1    17900 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522EB
+P 18400 11400
+F 0 "P?" H 18400 11500 50  0001 C CNN
+F 1 "20" V 18400 11400 40  0000 C CNN
+F 2 "" H 18400 10200 50  0000 C CNN
+F 3 "" H 18400 10200 50  0000 C CNN
+	1    18400 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522F1
+P 18500 11400
+F 0 "P?" H 18500 11500 50  0001 C CNN
+F 1 "21" V 18500 11400 40  0000 C CNN
+F 2 "" H 18500 10200 50  0000 C CNN
+F 3 "" H 18500 10200 50  0000 C CNN
+	1    18500 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522F7
+P 17100 11400
+F 0 "P?" H 17100 11500 50  0001 C CNN
+F 1 "07" V 17100 11400 40  0000 C CNN
+F 2 "" H 17100 10200 50  0000 C CNN
+F 3 "" H 17100 10200 50  0000 C CNN
+	1    17100 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522FD
+P 18600 11400
+F 0 "P?" H 18600 11500 50  0001 C CNN
+F 1 "22" V 18600 11400 40  0000 C CNN
+F 2 "" H 18600 10200 50  0000 C CNN
+F 3 "" H 18600 10200 50  0000 C CNN
+	1    18600 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E452303
+P 18700 11400
+F 0 "P?" H 18700 11500 50  0001 C CNN
+F 1 "23" V 18700 11400 40  0000 C CNN
+F 2 "" H 18700 10200 50  0000 C CNN
+F 3 "" H 18700 10200 50  0000 C CNN
+	1    18700 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E452309
+P 16700 11400
+F 0 "P?" H 16700 11500 50  0001 C CNN
+F 1 "03" V 16700 11400 40  0000 C CNN
+F 2 "" H 16700 10200 50  0000 C CNN
+F 3 "" H 16700 10200 50  0000 C CNN
+	1    16700 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E45230F
+P 18800 11400
+F 0 "P?" H 18800 11500 50  0001 C CNN
+F 1 "24" V 18800 11400 40  0000 C CNN
+F 2 "" H 18800 10200 50  0000 C CNN
+F 3 "" H 18800 10200 50  0000 C CNN
+	1    18800 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E452315
+P 18000 11400
+F 0 "P?" H 18000 11500 50  0001 C CNN
+F 1 "16" V 18000 11400 40  0000 C CNN
+F 2 "" H 18000 10200 50  0000 C CNN
+F 3 "" H 18000 10200 50  0000 C CNN
+	1    18000 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E45231B
+P 17600 11400
+F 0 "P?" H 17600 11500 50  0001 C CNN
+F 1 "12" V 17600 11400 40  0000 C CNN
+F 2 "" H 17600 10200 50  0000 C CNN
+F 3 "" H 17600 10200 50  0000 C CNN
+	1    17600 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E452321
+P 16600 11400
+F 0 "P?" H 16600 11500 50  0001 C CNN
+F 1 "02" V 16600 11400 40  0000 C CNN
+F 2 "" H 16600 10200 50  0000 C CNN
+F 3 "" H 16600 10200 50  0000 C CNN
+	1    16600 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E452327
+P 17700 11400
+F 0 "P?" H 17700 11500 50  0001 C CNN
+F 1 "13" V 17700 11400 40  0000 C CNN
+F 2 "" H 17700 10200 50  0000 C CNN
+F 3 "" H 17700 10200 50  0000 C CNN
+	1    17700 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E480F5E
+P 19000 11400
+F 0 "P?" H 19000 11500 50  0001 C CNN
+F 1 "26" V 19000 11400 40  0000 C CNN
+F 2 "" H 19000 10200 50  0000 C CNN
+F 3 "" H 19000 10200 50  0000 C CNN
+	1    19000 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E4522BB
+P 17200 11400
+F 0 "P?" H 17200 11500 50  0001 C CNN
+F 1 "08" V 17200 11400 40  0000 C CNN
+F 2 "" H 17200 10200 50  0000 C CNN
+F 3 "" H 17200 10200 50  0000 C CNN
+	1    17200 11400
+	0    1    1    0   
+$EndComp
+$Comp
+L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+U 1 1 5E45229D
+P 17300 11400
+F 0 "P?" H 17300 11500 50  0001 C CNN
+F 1 "09" V 17300 11400 40  0000 C CNN
+F 2 "" H 17300 10200 50  0000 C CNN
+F 3 "" H 17300 10200 50  0000 C CNN
+	1    17300 11400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17000 11150 17000 8100
+Wire Wire Line
+	17000 8100 17350 8100
+Wire Wire Line
+	17350 8100 17350 7400
+Text GLabel 17500 11650 3    40   Output ~ 0
+NMEA_CONTROLLER_5A
+Wire Wire Line
+	18700 7350 18800 7350
+Wire Wire Line
+	18900 6950 18900 5500
+Wire Wire Line
+	20550 5500 18900 5500
+Connection ~ 18900 5500
+Wire Wire Line
+	18900 5500 18900 3500
+Wire Wire Line
+	17500 11150 17500 8200
+Wire Wire Line
+	17500 8200 16150 8200
+Wire Wire Line
+	16150 8200 16150 7400
+Wire Wire Line
+	18800 7350 18800 8100
+Wire Wire Line
+	18800 8100 17600 8100
+Wire Wire Line
+	17600 8100 17600 11150
+Connection ~ 18800 7350
+Wire Wire Line
+	18800 7350 19050 7350
+Wire Wire Line
+	17700 11150 17700 8200
+Wire Wire Line
+	17700 8200 18900 8200
+Wire Wire Line
+	18900 8200 18900 6950
+Connection ~ 18900 6950
+Wire Wire Line
+	17800 11150 17800 8300
+Wire Wire Line
+	17800 8300 20250 8300
+Wire Wire Line
+	20250 8300 20250 7350
+Connection ~ 20250 7350
+Wire Wire Line
+	20250 7350 20500 7350
+Wire Wire Line
+	20150 6950 20350 6950
+Wire Wire Line
+	20350 6950 20350 8400
+Wire Wire Line
+	20350 8400 17900 8400
+Wire Wire Line
+	17900 8400 17900 11150
 $EndSCHEMATC

@@ -318,11 +318,11 @@ X VREF ~ 800 1400 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue
+# helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue
 #
-DEF helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue P 0 1 Y N 1 F N
+DEF helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P 0 1 Y N 1 F N
 F0 "P" 0 100 50 H V C CNN
-F1 "helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue" 0 -100 50 H V C CNN
+F1 "helm-wiring-rescue_CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue" 0 -100 50 H V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
