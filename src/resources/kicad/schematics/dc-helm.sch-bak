@@ -3132,26 +3132,26 @@ Text GLabel 11700 11650 3    40   Input ~ 0
 HP_DWASH_ON
 Text GLabel 11600 11650 3    40   Input ~ 0
 HP_CRTLTS_ON
-Text GLabel 11500 11650 3    40   Input ~ 8
-HP.BLUE-BOARD.-+
-Text GLabel 11400 11650 3    40   Input ~ 8
-HP.BLUE-BOARD.+-
-Text GLabel 11300 11650 3    40   Output ~ 8
-HP.BLUE-BOARD.SUPPLY[+24VDC]
-Text GLabel 10700 11650 3    40   Output ~ 8
-HP.AIS.SUPPLY[+24VDC]
-Text GLabel 11200 11650 3    40   Input ~ 8
-HP.ANCHOR.UP
-Text GLabel 11100 11650 3    40   Input ~ 8
-HP.ANCHOR.DOWN
-Text GLabel 10900 11650 3    40   Input ~ 8
-HP.AIS.SILENCE
-Text GLabel 10800 11650 3    40   Input ~ 8
-HP.AIS.ON
-Text GLabel 10600 11650 3    40   Output ~ 8
-HP.SUPPLY[SWITCHED_+24VDC]
-Text GLabel 10500 11650 3    40   Output ~ 8
-HP.SUPPLY[+24VDC]
+Text GLabel 11500 11650 3    40   Input ~ 0
+HP_BOARD_-/+
+Text GLabel 11400 11650 3    40   Input ~ 0
+HP_BOARD_+/-
+Text GLabel 11300 11650 3    40   Output ~ 0
+HP_BOARD_+24VDC
+Text GLabel 10700 11650 3    40   Output ~ 0
+HP_AIS_+24VDC
+Text GLabel 11200 11650 3    40   Input ~ 0
+HP_ANCHOR_UP
+Text GLabel 11100 11650 3    40   Input ~ 0
+HP_ANCHOR_DOWN
+Text GLabel 10900 11650 3    40   Input ~ 0
+HP_AIS_NOTRANSMIT
+Text GLabel 10800 11650 3    40   Input ~ 0
+HP_AIS_ON
+Text GLabel 10600 11650 3    40   Output ~ 0
+HP_POWER_SWITCHED_+24VDC
+Text GLabel 10500 11650 3    40   Output ~ 0
+HP_POWER_ALWAYS_+24VDC
 Text GLabel 14400 11150 1    40   Output ~ 0
 NMEA_1.10
 Text GLabel 11800 11150 1    40   Output ~ 0
@@ -4947,7 +4947,7 @@ Text GLabel 13300 11150 1    40   Output ~ 0
 NMEA_1.04
 Wire Wire Line
 	18400 9550 14000 9550
-Text GLabel 11000 11650 3    40   Input ~ 8
+Text GLabel 11000 11650 3    40   Input ~ 0
 HP.ANCHOR_LIGHT.ON
 $Comp
 L beatrice:DIN_RAIL_TERMINAL P?
