@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name helm-wiring-rescue)(type Legacy)(uri "/home/preeve/Projects/Beatrice/Helm Panel/schematic: helm lower panel/helm-wiring-rescue.lib")(options "")(descr ""))
-  (lib (name MC-DISTRIBUTION-CABINET-cache)(type Legacy)(uri "/home/preeve/Projects/Beatrice/Helm Panel/schematic: helm lower panel/MC-DISTRIBUTION-CABINET/MC-DISTRIBUTION-CABINET-cache.lib")(options "")(descr ""))
-  (lib (name beatrice)(type Legacy)(uri /home/preeve/Projects/git/beatrice-user-manual/src/resources/kicad/KICAD-LIBRARY/beatrice.lib)(options "")(descr ""))
-)

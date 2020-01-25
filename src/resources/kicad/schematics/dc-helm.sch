@@ -55,7 +55,7 @@ ALWAYS ON (+12VDC 30A)
 Text Notes 13950 5950 0    60   ~ 12
 SWITCHED (+24VDC 60A)
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P12
+L beatrice:DIN_RAIL_TERMINAL P12
 U 1 1 581B7A5A
 P 2500 11400
 F 0 "P12" H 2500 11500 50  0001 C CNN
@@ -66,7 +66,7 @@ F 3 "" H 2500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P11
+L beatrice:DIN_RAIL_TERMINAL P11
 U 1 1 581B391D
 P 2400 11400
 F 0 "P11" H 2400 11500 50  0001 C CNN
@@ -81,7 +81,7 @@ Text Notes 1240 3150 0    60   ~ 0
 Text Notes 2100 4250 0    60   Italic 0
 LITTLEFUSE MEGA
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P14
+L beatrice:DIN_RAIL_TERMINAL P14
 U 1 1 5AE1AC62
 P 2700 11400
 F 0 "P14" H 2700 11500 50  0001 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 2700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P13
+L beatrice:DIN_RAIL_TERMINAL P13
 U 1 1 5AE1AC69
 P 2600 11400
 F 0 "P13" H 2600 11500 50  0001 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 2600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P19
+L beatrice:DIN_RAIL_TERMINAL P19
 U 1 1 5AE1D86D
 P 3200 11400
 F 0 "P19" H 3200 11500 50  0001 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 3200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P20
+L beatrice:DIN_RAIL_TERMINAL P20
 U 1 1 5AE1D923
 P 3300 11400
 F 0 "P20" H 3300 11500 50  0001 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 3300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P21
+L beatrice:DIN_RAIL_TERMINAL P21
 U 1 1 5AE1D9D9
 P 3600 11400
 F 0 "P21" H 3600 11500 50  0001 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 3600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P22
+L beatrice:DIN_RAIL_TERMINAL P22
 U 1 1 5AE1DF54
 P 3700 11400
 F 0 "P22" H 3700 11500 50  0001 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 3700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P23
+L beatrice:DIN_RAIL_TERMINAL P23
 U 1 1 5AE1E00A
 P 3800 11400
 F 0 "P23" H 3800 11500 50  0001 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 3800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P26
+L beatrice:DIN_RAIL_TERMINAL P26
 U 1 1 5AE2A3B5
 P 6400 11400
 F 0 "P26" H 6400 11500 50  0001 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 6400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P38
+L beatrice:DIN_RAIL_TERMINAL P38
 U 1 1 5AE2A3BB
 P 5400 11400
 F 0 "P38" H 5400 11500 50  0001 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 5400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P28
+L beatrice:DIN_RAIL_TERMINAL P28
 U 1 1 5AE2A3C1
 P 9500 11400
 F 0 "P28" H 9500 11500 50  0001 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 9500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P27
+L beatrice:DIN_RAIL_TERMINAL P27
 U 1 1 5AE2A3C7
 P 6500 11400
 F 0 "P27" H 6500 11500 50  0001 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 6500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P30
+L beatrice:DIN_RAIL_TERMINAL P30
 U 1 1 5AE2A3CD
 P 4600 11400
 F 0 "P30" H 4600 11500 50  0001 C CNN
@@ -213,7 +213,7 @@ F 3 "" H 4600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P31
+L beatrice:DIN_RAIL_TERMINAL P31
 U 1 1 5AE2A3D3
 P 4700 11400
 F 0 "P31" H 4700 11500 50  0001 C CNN
@@ -224,7 +224,7 @@ F 3 "" H 4700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P32
+L beatrice:DIN_RAIL_TERMINAL P32
 U 1 1 5AE2A3D9
 P 4800 11400
 F 0 "P32" H 4800 11500 50  0001 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 4800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P33
+L beatrice:DIN_RAIL_TERMINAL P33
 U 1 1 5AE2A3DF
 P 4900 11400
 F 0 "P33" H 4900 11500 50  0001 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 4900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P34
+L beatrice:DIN_RAIL_TERMINAL P34
 U 1 1 5AE2A3E5
 P 5000 11400
 F 0 "P34" H 5000 11500 50  0001 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 5000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P35
+L beatrice:DIN_RAIL_TERMINAL P35
 U 1 1 5AE2A3EB
 P 5100 11400
 F 0 "P35" H 5100 11500 50  0001 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 5100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P36
+L beatrice:DIN_RAIL_TERMINAL P36
 U 1 1 5AE2A3F1
 P 5200 11400
 F 0 "P36" H 5200 11500 50  0001 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 5200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P37
+L beatrice:DIN_RAIL_TERMINAL P37
 U 1 1 5AE2A3F7
 P 5300 11400
 F 0 "P37" H 5300 11500 50  0001 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 5300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P29
+L beatrice:DIN_RAIL_TERMINAL P29
 U 1 1 5AE2A3FD
 P 4500 11400
 F 0 "P29" H 4500 11500 50  0001 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 4500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P43
+L beatrice:DIN_RAIL_TERMINAL P43
 U 1 1 5AE3C48C
 P 6200 11400
 F 0 "P43" H 6200 11500 50  0001 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 6200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P44
+L beatrice:DIN_RAIL_TERMINAL P44
 U 1 1 5AE3C492
 P 6300 11400
 F 0 "P44" H 6300 11500 50  0001 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 6300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P39
+L beatrice:DIN_RAIL_TERMINAL P39
 U 1 1 5AE3C498
 P 5500 11400
 F 0 "P39" H 5500 11500 50  0001 C CNN
@@ -334,7 +334,7 @@ F 3 "" H 5500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P40
+L beatrice:DIN_RAIL_TERMINAL P40
 U 1 1 5AE3C49E
 P 5600 11400
 F 0 "P40" H 5600 11500 50  0001 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 5600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P41
+L beatrice:DIN_RAIL_TERMINAL P41
 U 1 1 5AE3C4A4
 P 5700 11400
 F 0 "P41" H 5700 11500 50  0001 C CNN
@@ -356,7 +356,7 @@ F 3 "" H 5700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P42
+L beatrice:DIN_RAIL_TERMINAL P42
 U 1 1 5AE3C4AA
 P 6100 11400
 F 0 "P42" H 6100 11500 50  0001 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 6100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P56
+L beatrice:DIN_RAIL_TERMINAL P56
 U 1 1 5AE2BF00
 P 7900 11400
 F 0 "P56" H 7900 11500 50  0001 C CNN
@@ -378,7 +378,7 @@ F 3 "" H 7900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P49
+L beatrice:DIN_RAIL_TERMINAL P49
 U 1 1 5AE2BF24
 P 7100 11400
 F 0 "P49" H 7100 11500 50  0001 C CNN
@@ -389,7 +389,7 @@ F 3 "" H 7100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P51
+L beatrice:DIN_RAIL_TERMINAL P51
 U 1 1 5AE2BF2A
 P 7400 11400
 F 0 "P51" H 7400 11500 50  0001 C CNN
@@ -400,7 +400,7 @@ F 3 "" H 7400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P52
+L beatrice:DIN_RAIL_TERMINAL P52
 U 1 1 5AE2BF30
 P 7500 11400
 F 0 "P52" H 7500 11500 50  0001 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 7500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P53
+L beatrice:DIN_RAIL_TERMINAL P53
 U 1 1 5AE2BF36
 P 7600 11400
 F 0 "P53" H 7600 11500 50  0001 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 7600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P55
+L beatrice:DIN_RAIL_TERMINAL P55
 U 1 1 5AE2BF42
 P 7800 11400
 F 0 "P55" H 7800 11500 50  0001 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 7800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P63
+L beatrice:DIN_RAIL_TERMINAL P63
 U 1 1 5AE2BF48
 P 8800 11400
 F 0 "P63" H 8800 11500 50  0001 C CNN
@@ -444,7 +444,7 @@ F 3 "" H 8800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P64
+L beatrice:DIN_RAIL_TERMINAL P64
 U 1 1 5AE2C084
 P 8900 11400
 F 0 "P64" H 8900 11500 50  0001 C CNN
@@ -455,7 +455,7 @@ F 3 "" H 8900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P62
+L beatrice:DIN_RAIL_TERMINAL P62
 U 1 1 5AE2C08A
 P 8700 11400
 F 0 "P62" H 8700 11500 50  0001 C CNN
@@ -466,7 +466,7 @@ F 3 "" H 8700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P57
+L beatrice:DIN_RAIL_TERMINAL P57
 U 1 1 5AE2C090
 P 8000 11400
 F 0 "P57" H 8000 11500 50  0001 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 8000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P58
+L beatrice:DIN_RAIL_TERMINAL P58
 U 1 1 5AE2C096
 P 8100 11400
 F 0 "P58" H 8100 11500 50  0001 C CNN
@@ -488,7 +488,7 @@ F 3 "" H 8100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P59
+L beatrice:DIN_RAIL_TERMINAL P59
 U 1 1 5AE2C09C
 P 8300 11400
 F 0 "P59" H 8300 11500 50  0001 C CNN
@@ -499,7 +499,7 @@ F 3 "" H 8300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P60
+L beatrice:DIN_RAIL_TERMINAL P60
 U 1 1 5AE2C0A2
 P 8400 11400
 F 0 "P60" H 8400 11500 50  0001 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 8400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P61
+L beatrice:DIN_RAIL_TERMINAL P61
 U 1 1 5AE2C0A8
 P 8500 11400
 F 0 "P61" H 8500 11500 50  0001 C CNN
@@ -521,7 +521,7 @@ F 3 "" H 8500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P47
+L beatrice:DIN_RAIL_TERMINAL P47
 U 1 1 5AE22D8E
 P 6600 11400
 F 0 "P47" H 6600 11500 50  0001 C CNN
@@ -534,7 +534,7 @@ $EndComp
 Text Notes 1240 3330 0    60   ~ 0
 10mm 80A
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P65
+L beatrice:DIN_RAIL_TERMINAL P65
 U 1 1 5AE2894E
 P 9000 11400
 F 0 "P65" H 9000 11500 50  0001 C CNN
@@ -545,7 +545,7 @@ F 3 "" H 9000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P66
+L beatrice:DIN_RAIL_TERMINAL P66
 U 1 1 5AE28A0D
 P 9100 11400
 F 0 "P66" H 9100 11500 50  0001 C CNN
@@ -556,7 +556,7 @@ F 3 "" H 9100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P54
+L beatrice:DIN_RAIL_TERMINAL P54
 U 1 1 5AE35F13
 P 7700 11400
 F 0 "P54" H 7700 11500 50  0001 C CNN
@@ -567,7 +567,7 @@ F 3 "" H 7700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P67
+L beatrice:DIN_RAIL_TERMINAL P67
 U 1 1 5AE47E2E
 P 9200 11400
 F 0 "P67" H 9200 11500 50  0001 C CNN
@@ -578,7 +578,7 @@ F 3 "" H 9200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P68
+L beatrice:DIN_RAIL_TERMINAL P68
 U 1 1 5AE47E34
 P 9300 11400
 F 0 "P68" H 9300 11500 50  0001 C CNN
@@ -589,7 +589,7 @@ F 3 "" H 9300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P50
+L beatrice:DIN_RAIL_TERMINAL P50
 U 1 1 5AE48416
 P 7300 11400
 F 0 "P50" H 7300 11500 50  0001 C CNN
@@ -600,7 +600,7 @@ F 3 "" H 7300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE76C9F
 P 2800 11400
 F 0 "P?" H 2800 11500 50  0001 C CNN
@@ -611,7 +611,7 @@ F 3 "" H 2800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE76CA5
 P 2900 11400
 F 0 "P?" H 2900 11500 50  0001 C CNN
@@ -622,7 +622,7 @@ F 3 "" H 2900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE76CAB
 P 3000 11400
 F 0 "P?" H 3000 11500 50  0001 C CNN
@@ -633,7 +633,7 @@ F 3 "" H 3000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE76CB1
 P 4000 11400
 F 0 "P?" H 4000 11500 50  0001 C CNN
@@ -644,7 +644,7 @@ F 3 "" H 4000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE7767A
 P 3900 11400
 F 0 "P?" H 3900 11500 50  0001 C CNN
@@ -767,7 +767,7 @@ A6
 Text GLabel 5450 6150 1    40   Input ~ 0
 A6
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE7DE06
 P 9400 11400
 F 0 "P?" H 9400 11500 50  0001 C CNN
@@ -778,7 +778,7 @@ F 3 "" H 9400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE7DE0C
 P 9600 11400
 F 0 "P?" H 9600 11500 50  0001 C CNN
@@ -789,7 +789,7 @@ F 3 "" H 9600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE7DE12
 P 9700 11400
 F 0 "P?" H 9700 11500 50  0001 C CNN
@@ -800,7 +800,7 @@ F 3 "" H 9700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE7DE18
 P 9800 11400
 F 0 "P?" H 9800 11500 50  0001 C CNN
@@ -811,7 +811,7 @@ F 3 "" H 9800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5AE7DE1E
 P 9900 11400
 F 0 "P?" H 9900 11500 50  0001 C CNN
@@ -998,7 +998,7 @@ F 3 "" H 6350 7550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5B657D47
 P 8600 11400
 F 0 "P?" H 8600 11500 50  0001 C CNN
@@ -1017,7 +1017,7 @@ Wire Notes Line
 Text GLabel 8000 11150 1    40   Output ~ 0
 GENPANEL_REMOTE_START
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5B65AD31
 P 8200 11400
 F 0 "P?" H 8200 11500 50  0001 C CNN
@@ -1445,7 +1445,7 @@ F 3 "" H 2450 6850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E72F06E
 P 3400 11400
 F 0 "P?" H 3400 11500 50  0001 C CNN
@@ -1456,7 +1456,7 @@ F 3 "" H 3400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E72F5AB
 P 3500 11400
 F 0 "P?" H 3500 11500 50  0001 C CNN
@@ -1657,7 +1657,7 @@ Wire Notes Line
 Wire Notes Line
 	7000 6200 7000 6000
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 60715625
 P 7200 11400
 F 0 "P?" H 7200 11500 50  0001 C CNN
@@ -2548,7 +2548,7 @@ DM.PWMOUT+
 Text GLabel 6600 11650 3    40   Output ~ 8
 DM.PWMOUT-
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P18
+L beatrice:DIN_RAIL_TERMINAL P18
 U 1 1 5AE1D7B7
 P 3100 11400
 F 0 "P18" H 3100 11500 50  0001 C CNN
@@ -2592,7 +2592,7 @@ MC_BILGE_PUMP_SWITCH(MAN)
 Text GLabel 3900 11650 3    40   Input ~ 0
 MC_BILGE_PUMP_SWITCH(OFF)
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5F960834
 P 4100 11400
 F 0 "P?" H 4100 11500 50  0001 C CNN
@@ -3169,7 +3169,7 @@ NMEA_1.05
 Text GLabel 11000 11150 1    40   Output ~ 0
 NMEA_1.06
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5B64DA9A
 P 13900 11400
 F 0 "P?" H 13900 11500 50  0001 C CNN
@@ -3180,7 +3180,7 @@ F 3 "" H 13900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5B64DA62
 P 13800 11400
 F 0 "P?" H 13800 11500 50  0001 C CNN
@@ -3191,7 +3191,7 @@ F 3 "" H 13800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5B64DA5C
 P 13700 11400
 F 0 "P?" H 13700 11500 50  0001 C CNN
@@ -3202,7 +3202,7 @@ F 3 "" H 13700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5B64DA32
 P 13600 11400
 F 0 "P?" H 13600 11500 50  0001 C CNN
@@ -3818,7 +3818,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 8000 3650 8000
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C824D
 P 12900 11400
 F 0 "P?" H 12900 11500 50  0001 C CNN
@@ -3829,7 +3829,7 @@ F 3 "" H 12900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C8253
 P 11300 11400
 F 0 "P?" H 11300 11500 50  0001 C CNN
@@ -3840,7 +3840,7 @@ F 3 "" H 11300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C8259
 P 13400 11400
 F 0 "P?" H 13400 11500 50  0001 C CNN
@@ -3851,7 +3851,7 @@ F 3 "" H 13400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C825F
 P 10500 11400
 F 0 "P?" H 10500 11500 50  0001 C CNN
@@ -3862,7 +3862,7 @@ F 3 "" H 10500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C8265
 P 10800 11400
 F 0 "P?" H 10800 11500 50  0001 C CNN
@@ -3873,7 +3873,7 @@ F 3 "" H 10800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C826B
 P 10900 11400
 F 0 "P?" H 10900 11500 50  0001 C CNN
@@ -3884,7 +3884,7 @@ F 3 "" H 10900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C8271
 P 11000 11400
 F 0 "P?" H 11000 11500 50  0001 C CNN
@@ -3895,7 +3895,7 @@ F 3 "" H 11000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C8277
 P 11200 11400
 F 0 "P?" H 11200 11500 50  0001 C CNN
@@ -3906,7 +3906,7 @@ F 3 "" H 11200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C827D
 P 12200 11400
 F 0 "P?" H 12200 11500 50  0001 C CNN
@@ -3917,7 +3917,7 @@ F 3 "" H 12200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C8283
 P 12300 11400
 F 0 "P?" H 12300 11500 50  0001 C CNN
@@ -3928,7 +3928,7 @@ F 3 "" H 12300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C8289
 P 12100 11400
 F 0 "P?" H 12100 11500 50  0001 C CNN
@@ -3939,7 +3939,7 @@ F 3 "" H 12100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C828F
 P 11400 11400
 F 0 "P?" H 11400 11500 50  0001 C CNN
@@ -3950,7 +3950,7 @@ F 3 "" H 11400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C8295
 P 11500 11400
 F 0 "P?" H 11500 11500 50  0001 C CNN
@@ -3961,7 +3961,7 @@ F 3 "" H 11500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82A1
 P 11800 11400
 F 0 "P?" H 11800 11500 50  0001 C CNN
@@ -3972,7 +3972,7 @@ F 3 "" H 11800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82A7
 P 11900 11400
 F 0 "P?" H 11900 11500 50  0001 C CNN
@@ -3983,7 +3983,7 @@ F 3 "" H 11900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82AD
 P 12400 11400
 F 0 "P?" H 12400 11500 50  0001 C CNN
@@ -3994,7 +3994,7 @@ F 3 "" H 12400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82B3
 P 12500 11400
 F 0 "P?" H 12500 11500 50  0001 C CNN
@@ -4005,7 +4005,7 @@ F 3 "" H 12500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82B9
 P 11100 11400
 F 0 "P?" H 11100 11500 50  0001 C CNN
@@ -4016,7 +4016,7 @@ F 3 "" H 11100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82BF
 P 12600 11400
 F 0 "P?" H 12600 11500 50  0001 C CNN
@@ -4027,7 +4027,7 @@ F 3 "" H 12600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82C5
 P 12700 11400
 F 0 "P?" H 12700 11500 50  0001 C CNN
@@ -4038,7 +4038,7 @@ F 3 "" H 12700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82CB
 P 10700 11400
 F 0 "P?" H 10700 11500 50  0001 C CNN
@@ -4049,7 +4049,7 @@ F 3 "" H 10700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82D1
 P 12800 11400
 F 0 "P?" H 12800 11500 50  0001 C CNN
@@ -4060,7 +4060,7 @@ F 3 "" H 12800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82D7
 P 13000 11400
 F 0 "P?" H 13000 11500 50  0001 C CNN
@@ -4071,7 +4071,7 @@ F 3 "" H 13000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82DD
 P 13100 11400
 F 0 "P?" H 13100 11500 50  0001 C CNN
@@ -4082,7 +4082,7 @@ F 3 "" H 13100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82E3
 P 13200 11400
 F 0 "P?" H 13200 11500 50  0001 C CNN
@@ -4093,7 +4093,7 @@ F 3 "" H 13200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82E9
 P 13300 11400
 F 0 "P?" H 13300 11500 50  0001 C CNN
@@ -4104,7 +4104,7 @@ F 3 "" H 13300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82EF
 P 12000 11400
 F 0 "P?" H 12000 11500 50  0001 C CNN
@@ -4115,7 +4115,7 @@ F 3 "" H 12000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82F5
 P 11600 11400
 F 0 "P?" H 11600 11500 50  0001 C CNN
@@ -4126,7 +4126,7 @@ F 3 "" H 11600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C8301
 P 13500 11400
 F 0 "P?" H 13500 11500 50  0001 C CNN
@@ -4137,7 +4137,7 @@ F 3 "" H 13500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5EA613B7
 P 14100 11400
 F 0 "P?" H 14100 11500 50  0001 C CNN
@@ -4148,7 +4148,7 @@ F 3 "" H 14100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5EA613C3
 P 14000 11400
 F 0 "P?" H 14000 11500 50  0001 C CNN
@@ -4159,7 +4159,7 @@ F 3 "" H 14000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5EA613C9
 P 14200 11400
 F 0 "P?" H 14200 11500 50  0001 C CNN
@@ -4170,7 +4170,7 @@ F 3 "" H 14200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5EA613CF
 P 14300 11400
 F 0 "P?" H 14300 11500 50  0001 C CNN
@@ -4211,7 +4211,7 @@ Wire Wire Line
 Wire Wire Line
 	18800 6450 18800 6500
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C82FB
 P 10600 11400
 F 0 "P?" H 10600 11500 50  0001 C CNN
@@ -4222,7 +4222,7 @@ F 3 "" H 10600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E9C829B
 P 11700 11400
 F 0 "P?" H 11700 11500 50  0001 C CNN
@@ -4324,7 +4324,7 @@ Wire Wire Line
 Text GLabel 7300 11650 3    40   Input ~ 0
 DP.AV-SERVICES.ENABLE
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E3B8354
 P 10000 11400
 F 0 "P?" H 10000 11500 50  0001 C CNN
@@ -4512,7 +4512,7 @@ F 3 "" H 21300 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E36C2CC
 P 15500 11400
 F 0 "P?" H 15500 11500 50  0001 C CNN
@@ -4523,7 +4523,7 @@ F 3 "" H 15500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E36C2D2
 P 15800 11400
 F 0 "P?" H 15800 11500 50  0001 C CNN
@@ -4534,7 +4534,7 @@ F 3 "" H 15800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E36C2D8
 P 15900 11400
 F 0 "P?" H 15900 11500 50  0001 C CNN
@@ -4545,7 +4545,7 @@ F 3 "" H 15900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E36C2DE
 P 16000 11400
 F 0 "P?" H 16000 11500 50  0001 C CNN
@@ -4556,7 +4556,7 @@ F 3 "" H 16000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E36C2E4
 P 16200 11400
 F 0 "P?" H 16200 11500 50  0001 C CNN
@@ -4567,7 +4567,7 @@ F 3 "" H 16200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E36C2EA
 P 16100 11400
 F 0 "P?" H 16100 11500 50  0001 C CNN
@@ -4578,7 +4578,7 @@ F 3 "" H 16100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E36C2F0
 P 15700 11400
 F 0 "P?" H 15700 11500 50  0001 C CNN
@@ -4589,7 +4589,7 @@ F 3 "" H 15700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E36C2F6
 P 15600 11400
 F 0 "P?" H 15600 11500 50  0001 C CNN
@@ -4600,7 +4600,7 @@ F 3 "" H 15600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E452297
 P 18900 11400
 F 0 "P?" H 18900 11500 50  0001 C CNN
@@ -4611,7 +4611,7 @@ F 3 "" H 18900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522A3
 P 16500 11400
 F 0 "P?" H 16500 11500 50  0001 C CNN
@@ -4622,7 +4622,7 @@ F 3 "" H 16500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522A9
 P 16800 11400
 F 0 "P?" H 16800 11500 50  0001 C CNN
@@ -4633,7 +4633,7 @@ F 3 "" H 16800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522AF
 P 16900 11400
 F 0 "P?" H 16900 11500 50  0001 C CNN
@@ -4644,7 +4644,7 @@ F 3 "" H 16900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522B5
 P 17000 11400
 F 0 "P?" H 17000 11500 50  0001 C CNN
@@ -4655,7 +4655,7 @@ F 3 "" H 17000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522C1
 P 18200 11400
 F 0 "P?" H 18200 11500 50  0001 C CNN
@@ -4666,7 +4666,7 @@ F 3 "" H 18200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522C7
 P 18300 11400
 F 0 "P?" H 18300 11500 50  0001 C CNN
@@ -4677,7 +4677,7 @@ F 3 "" H 18300 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522CD
 P 18100 11400
 F 0 "P?" H 18100 11500 50  0001 C CNN
@@ -4688,7 +4688,7 @@ F 3 "" H 18100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522D3
 P 17400 11400
 F 0 "P?" H 17400 11500 50  0001 C CNN
@@ -4699,7 +4699,7 @@ F 3 "" H 17400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522D9
 P 17500 11400
 F 0 "P?" H 17500 11500 50  0001 C CNN
@@ -4710,7 +4710,7 @@ F 3 "" H 17500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522DF
 P 17800 11400
 F 0 "P?" H 17800 11500 50  0001 C CNN
@@ -4721,7 +4721,7 @@ F 3 "" H 17800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522E5
 P 17900 11400
 F 0 "P?" H 17900 11500 50  0001 C CNN
@@ -4732,7 +4732,7 @@ F 3 "" H 17900 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522EB
 P 18400 11400
 F 0 "P?" H 18400 11500 50  0001 C CNN
@@ -4743,7 +4743,7 @@ F 3 "" H 18400 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522F1
 P 18500 11400
 F 0 "P?" H 18500 11500 50  0001 C CNN
@@ -4754,7 +4754,7 @@ F 3 "" H 18500 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522F7
 P 17100 11400
 F 0 "P?" H 17100 11500 50  0001 C CNN
@@ -4765,7 +4765,7 @@ F 3 "" H 17100 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522FD
 P 18600 11400
 F 0 "P?" H 18600 11500 50  0001 C CNN
@@ -4776,7 +4776,7 @@ F 3 "" H 18600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E452303
 P 18700 11400
 F 0 "P?" H 18700 11500 50  0001 C CNN
@@ -4787,7 +4787,7 @@ F 3 "" H 18700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E452309
 P 16700 11400
 F 0 "P?" H 16700 11500 50  0001 C CNN
@@ -4798,7 +4798,7 @@ F 3 "" H 16700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E45230F
 P 18800 11400
 F 0 "P?" H 18800 11500 50  0001 C CNN
@@ -4809,7 +4809,7 @@ F 3 "" H 18800 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E452315
 P 18000 11400
 F 0 "P?" H 18000 11500 50  0001 C CNN
@@ -4820,7 +4820,7 @@ F 3 "" H 18000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E45231B
 P 17600 11400
 F 0 "P?" H 17600 11500 50  0001 C CNN
@@ -4831,7 +4831,7 @@ F 3 "" H 17600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E452321
 P 16600 11400
 F 0 "P?" H 16600 11500 50  0001 C CNN
@@ -4842,7 +4842,7 @@ F 3 "" H 16600 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E452327
 P 17700 11400
 F 0 "P?" H 17700 11500 50  0001 C CNN
@@ -4853,7 +4853,7 @@ F 3 "" H 17700 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E480F5E
 P 19000 11400
 F 0 "P?" H 19000 11500 50  0001 C CNN
@@ -4864,7 +4864,7 @@ F 3 "" H 19000 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E4522BB
 P 17200 11400
 F 0 "P?" H 17200 11500 50  0001 C CNN
@@ -4875,7 +4875,7 @@ F 3 "" H 17200 10200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L helm-wiring-rescue:CONN_02X01-beatrice-helm-wiring-rescue-helm-wiring-rescue-helm-wiring-rescue P?
+L beatrice:DIN_RAIL_TERMINAL P?
 U 1 1 5E45229D
 P 17300 11400
 F 0 "P?" H 17300 11500 50  0001 C CNN

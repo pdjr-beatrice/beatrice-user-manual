@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name trollvalve)(type Legacy)(uri /home/preeve/Projects/git/beatrice-user-manual/src/chapters/04_installations/09_electrical_system/RESOURCES/trollvalve/trollvalve.lib)(options "")(descr ""))
-  (lib (name dc-main-engine-connection-box-rescue)(type Legacy)(uri ${KIPRJMOD}/dc-main-engine-connection-box-rescue.lib)(options "")(descr ""))
-)

@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name beatrice)(type Legacy)(uri /home/preeve/Projects/git/beatrice-user-manual/src/resources/kicad/KICAD-LIBRARY/beatrice.lib)(options "")(descr ""))
-  (lib (name trollvalve-rescue)(type Legacy)(uri ${KIPRJMOD}/trollvalve-rescue.lib)(options "")(descr ""))
-)

@@ -22,7 +22,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 1200 4000 1200
 $Comp
-L trollvalve-rescue:Stepper_Motor_bipolar-trollvalve-rescue M?
+L Motor:Stepper_Motor_bipolar M?
 U 1 1 5E10BFF6
 P 10500 2050
 F 0 "M?" H 10650 2150 50  0001 L CNN
@@ -33,7 +33,7 @@ F 3 "" H 10510 2040 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:SW_Push_SPDT-trollvalve-rescue SW?
+L Switch:SW_SPDT SW?
 U 1 1 5E10C173
 P 10400 2550
 F 0 "SW?" H 10400 2720 50  0001 C CNN
@@ -46,269 +46,269 @@ $EndComp
 Wire Wire Line
 	10600 1750 10600 1550
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E10CBB3
-P 9350 1550
-F 0 "J?" H 9350 1650 50  0001 C CNN
-F 1 "CONN" H 9350 1450 50  0001 C CNN
-F 2 "" H 9350 1550 50  0001 C CNN
-F 3 "" H 9350 1550 50  0001 C CNN
-	1    9350 1550
+P 9450 1550
+F 0 "J?" H 9450 1650 50  0001 C CNN
+F 1 "CONN" H 9450 1450 50  0001 C CNN
+F 2 "" H 9450 1550 50  0001 C CNN
+F 3 "" H 9450 1550 50  0001 C CNN
+	1    9450 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T2
+L Connector:Conn_01x01_Male T2
 U 1 1 5E10CC43
-P 9600 3350
-F 0 "T2" H 9600 3350 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 9600 3250 50  0001 C CNN
-F 2 "" H 9600 3350 50  0001 C CNN
-F 3 "" H 9600 3350 50  0001 C CNN
-	1    9600 3350
+P 9450 3350
+F 0 "T2" H 9450 3350 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 9450 3250 50  0001 C CNN
+F 2 "" H 9450 3350 50  0001 C CNN
+F 3 "" H 9450 3350 50  0001 C CNN
+	1    9450 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9900 3350 10200 3350
+	9650 3350 10200 3350
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue C6
+L Connector:Conn_01x01_Male C6
 U 1 1 5E10CDA1
-P 9600 3250
-F 0 "C6" H 9600 3350 50  0000 C CNN
-F 1 "CONN_01X01_MALE" H 9600 3150 50  0001 C CNN
-F 2 "" H 9600 3250 50  0001 C CNN
-F 3 "" H 9600 3250 50  0001 C CNN
-	1    9600 3250
+P 9450 3250
+F 0 "C6" H 9450 3350 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9450 3150 50  0001 C CNN
+F 2 "" H 9450 3250 50  0001 C CNN
+F 3 "" H 9450 3250 50  0001 C CNN
+	1    9450 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T2
+L Connector:Conn_01x01_Male T2
 U 1 1 5E10CDFF
-P 9600 2850
-F 0 "T2" H 9600 2850 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 9600 2750 50  0001 C CNN
-F 2 "" H 9600 2850 50  0001 C CNN
-F 3 "" H 9600 2850 50  0001 C CNN
-	1    9600 2850
+P 9450 2850
+F 0 "T2" H 9450 2850 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 9450 2750 50  0001 C CNN
+F 2 "" H 9450 2850 50  0001 C CNN
+F 3 "" H 9450 2850 50  0001 C CNN
+	1    9450 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue C4
+L Connector:Conn_01x01_Male C4
 U 1 1 5E10CE57
-P 9600 2750
-F 0 "C4" H 9600 2850 50  0000 C CNN
-F 1 "CONN_01X01_MALE" H 9600 2650 50  0001 C CNN
-F 2 "" H 9600 2750 50  0001 C CNN
-F 3 "" H 9600 2750 50  0001 C CNN
-	1    9600 2750
+P 9450 2750
+F 0 "C4" H 9450 2850 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9450 2650 50  0001 C CNN
+F 2 "" H 9450 2750 50  0001 C CNN
+F 3 "" H 9450 2750 50  0001 C CNN
+	1    9450 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T4
+L Connector:Conn_01x01_Male T4
 U 1 1 5E10CE89
-P 9600 1850
-F 0 "T4" H 9600 1850 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 9600 1750 50  0001 C CNN
-F 2 "" H 9600 1850 50  0001 C CNN
-F 3 "" H 9600 1850 50  0001 C CNN
-	1    9600 1850
+P 9450 1850
+F 0 "T4" H 9450 1850 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 9450 1750 50  0001 C CNN
+F 2 "" H 9450 1850 50  0001 C CNN
+F 3 "" H 9450 1850 50  0001 C CNN
+	1    9450 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T3
+L Connector:Conn_01x01_Male T3
 U 1 1 5E10CEBE
-P 9600 1750
-F 0 "T3" H 9600 1750 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 9600 1650 50  0001 C CNN
-F 2 "" H 9600 1750 50  0001 C CNN
-F 3 "" H 9600 1750 50  0001 C CNN
-	1    9600 1750
+P 9450 1750
+F 0 "T3" H 9450 1750 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 9450 1650 50  0001 C CNN
+F 2 "" H 9450 1750 50  0001 C CNN
+F 3 "" H 9450 1750 50  0001 C CNN
+	1    9450 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T2
+L Connector:Conn_01x01_Male T2
 U 1 1 5E10CEF6
-P 9600 1650
-F 0 "T2" H 9600 1650 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 9600 1550 50  0001 C CNN
-F 2 "" H 9600 1650 50  0001 C CNN
-F 3 "" H 9600 1650 50  0001 C CNN
-	1    9600 1650
+P 9450 1650
+F 0 "T2" H 9450 1650 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 9450 1550 50  0001 C CNN
+F 2 "" H 9450 1650 50  0001 C CNN
+F 3 "" H 9450 1650 50  0001 C CNN
+	1    9450 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue C8
+L Connector:Conn_01x01_Male C8
 U 1 1 5E10CF31
-P 9600 1550
-F 0 "C8" H 9600 1650 50  0000 C CNN
-F 1 "CONN_01X01_MALE" H 9600 1450 50  0001 C CNN
-F 2 "" H 9600 1550 50  0001 C CNN
-F 3 "" H 9600 1550 50  0001 C CNN
-	1    9600 1550
+P 9450 1550
+F 0 "C8" H 9450 1650 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 9450 1450 50  0001 C CNN
+F 2 "" H 9450 1550 50  0001 C CNN
+F 3 "" H 9450 1550 50  0001 C CNN
+	1    9450 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E10D073
-P 9350 1650
-F 0 "J?" H 9350 1750 50  0001 C CNN
-F 1 "CONN_01X01_FEMALE" H 9350 1550 50  0001 C CNN
-F 2 "" H 9350 1650 50  0001 C CNN
-F 3 "" H 9350 1650 50  0001 C CNN
-	1    9350 1650
+P 9450 1650
+F 0 "J?" H 9450 1750 50  0001 C CNN
+F 1 "Conn_01x01_Female" H 9450 1550 50  0001 C CNN
+F 2 "" H 9450 1650 50  0001 C CNN
+F 3 "" H 9450 1650 50  0001 C CNN
+	1    9450 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E10D0B4
-P 9350 1750
-F 0 "J?" H 9350 1850 50  0001 C CNN
-F 1 "CONN_01X01_FEMALE" H 9350 1650 50  0001 C CNN
-F 2 "" H 9350 1750 50  0001 C CNN
-F 3 "" H 9350 1750 50  0001 C CNN
-	1    9350 1750
+P 9450 1750
+F 0 "J?" H 9450 1850 50  0001 C CNN
+F 1 "Conn_01x01_Female" H 9450 1650 50  0001 C CNN
+F 2 "" H 9450 1750 50  0001 C CNN
+F 3 "" H 9450 1750 50  0001 C CNN
+	1    9450 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E10D0F8
-P 9350 1850
-F 0 "J?" H 9350 1950 50  0001 C CNN
-F 1 "CONN_01X01_FEMALE" H 9350 1750 50  0001 C CNN
-F 2 "" H 9350 1850 50  0001 C CNN
-F 3 "" H 9350 1850 50  0001 C CNN
-	1    9350 1850
+P 9450 1850
+F 0 "J?" H 9450 1950 50  0001 C CNN
+F 1 "Conn_01x01_Female" H 9450 1750 50  0001 C CNN
+F 2 "" H 9450 1850 50  0001 C CNN
+F 3 "" H 9450 1850 50  0001 C CNN
+	1    9450 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E10D13F
-P 9350 2750
-F 0 "J?" H 9350 2850 50  0001 C CNN
-F 1 "CONN_01X01_FEMALE" H 9350 2650 50  0001 C CNN
-F 2 "" H 9350 2750 50  0001 C CNN
-F 3 "" H 9350 2750 50  0001 C CNN
-	1    9350 2750
+P 9450 2750
+F 0 "J?" H 9450 2850 50  0001 C CNN
+F 1 "Conn_01x01_Female" H 9450 2650 50  0001 C CNN
+F 2 "" H 9450 2750 50  0001 C CNN
+F 3 "" H 9450 2750 50  0001 C CNN
+	1    9450 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E10D189
-P 9350 2850
-F 0 "J?" H 9350 2950 50  0000 C CNN
-F 1 "CONN_01X01_FEMALE" H 9350 2750 50  0001 C CNN
-F 2 "" H 9350 2850 50  0001 C CNN
-F 3 "" H 9350 2850 50  0001 C CNN
-	1    9350 2850
+P 9450 2850
+F 0 "J?" H 9450 2950 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 9450 2750 50  0001 C CNN
+F 2 "" H 9450 2850 50  0001 C CNN
+F 3 "" H 9450 2850 50  0001 C CNN
+	1    9450 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E10D1D8
-P 9350 3250
-F 0 "J?" H 9350 3350 50  0001 C CNN
-F 1 "CONN_01X01_FEMALE" H 9350 3150 50  0001 C CNN
-F 2 "" H 9350 3250 50  0001 C CNN
-F 3 "" H 9350 3250 50  0001 C CNN
-	1    9350 3250
+P 9450 3250
+F 0 "J?" H 9450 3350 50  0001 C CNN
+F 1 "Conn_01x01_Female" H 9450 3150 50  0001 C CNN
+F 2 "" H 9450 3250 50  0001 C CNN
+F 3 "" H 9450 3250 50  0001 C CNN
+	1    9450 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E10D22C
-P 9350 3350
-F 0 "J?" H 9350 3450 50  0001 C CNN
-F 1 "CONN_01X01_FEMALE" H 9350 3250 50  0001 C CNN
-F 2 "" H 9350 3350 50  0001 C CNN
-F 3 "" H 9350 3350 50  0001 C CNN
-	1    9350 3350
+P 9450 3350
+F 0 "J?" H 9450 3450 50  0001 C CNN
+F 1 "Conn_01x01_Female" H 9450 3250 50  0001 C CNN
+F 2 "" H 9450 3350 50  0001 C CNN
+F 3 "" H 9450 3350 50  0001 C CNN
+	1    9450 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E11003D
-P 8350 1550
-F 0 "J?" H 8350 1650 50  0001 C CNN
-F 1 "CONN" H 8350 1450 50  0001 C CNN
-F 2 "" H 8350 1550 50  0001 C CNN
-F 3 "" H 8350 1550 50  0001 C CNN
-	1    8350 1550
+P 8700 1550
+F 0 "J?" H 8700 1650 50  0001 C CNN
+F 1 "CONN" H 8700 1450 50  0001 C CNN
+F 2 "" H 8700 1550 50  0001 C CNN
+F 3 "" H 8700 1550 50  0001 C CNN
+	1    8700 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T?
+L Connector:Conn_01x01_Male T?
 U 1 1 5E110075
-P 8600 1650
-F 0 "T?" H 8600 1650 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 8600 1550 50  0001 C CNN
-F 2 "" H 8600 1650 50  0001 C CNN
-F 3 "" H 8600 1650 50  0001 C CNN
-	1    8600 1650
+P 8700 1650
+F 0 "T?" H 8700 1650 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 8700 1550 50  0001 C CNN
+F 2 "" H 8700 1650 50  0001 C CNN
+F 3 "" H 8700 1650 50  0001 C CNN
+	1    8700 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue C7
+L Connector:Conn_01x01_Male C7
 U 1 1 5E11047C
-P 8600 1550
-F 0 "C7" H 8600 1650 50  0000 C CNN
-F 1 "CONN_01X01_MALE" H 8600 1450 50  0001 C CNN
-F 2 "" H 8600 1550 50  0001 C CNN
-F 3 "" H 8600 1550 50  0001 C CNN
-	1    8600 1550
+P 8700 1550
+F 0 "C7" H 8700 1650 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 8700 1450 50  0001 C CNN
+F 2 "" H 8700 1550 50  0001 C CNN
+F 3 "" H 8700 1550 50  0001 C CNN
+	1    8700 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T?
+L Connector:Conn_01x01_Male T?
 U 1 1 5E1104BF
-P 8600 1750
-F 0 "T?" H 8600 1750 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 8600 1650 50  0001 C CNN
-F 2 "" H 8600 1750 50  0001 C CNN
-F 3 "" H 8600 1750 50  0001 C CNN
-	1    8600 1750
+P 8700 1750
+F 0 "T?" H 8700 1750 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 8700 1650 50  0001 C CNN
+F 2 "" H 8700 1750 50  0001 C CNN
+F 3 "" H 8700 1750 50  0001 C CNN
+	1    8700 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T?
+L Connector:Conn_01x01_Male T?
 U 1 1 5E110505
-P 8600 1850
-F 0 "T?" H 8600 1850 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 8600 1750 50  0001 C CNN
-F 2 "" H 8600 1850 50  0001 C CNN
-F 3 "" H 8600 1850 50  0001 C CNN
-	1    8600 1850
+P 8700 1850
+F 0 "T?" H 8700 1850 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 8700 1750 50  0001 C CNN
+F 2 "" H 8700 1850 50  0001 C CNN
+F 3 "" H 8700 1850 50  0001 C CNN
+	1    8700 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E11054E
-P 8350 1650
-F 0 "J?" H 8350 1750 50  0001 C CNN
-F 1 "CONN" H 8350 1550 50  0001 C CNN
-F 2 "" H 8350 1650 50  0001 C CNN
-F 3 "" H 8350 1650 50  0001 C CNN
-	1    8350 1650
+P 8700 1650
+F 0 "J?" H 8700 1750 50  0001 C CNN
+F 1 "CONN" H 8700 1550 50  0001 C CNN
+F 2 "" H 8700 1650 50  0001 C CNN
+F 3 "" H 8700 1650 50  0001 C CNN
+	1    8700 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E110592
-P 8350 1750
-F 0 "J?" H 8350 1850 50  0001 C CNN
-F 1 "CONN" H 8350 1650 50  0001 C CNN
-F 2 "" H 8350 1750 50  0001 C CNN
-F 3 "" H 8350 1750 50  0001 C CNN
-	1    8350 1750
+P 8700 1750
+F 0 "J?" H 8700 1850 50  0001 C CNN
+F 1 "CONN" H 8700 1650 50  0001 C CNN
+F 2 "" H 8700 1750 50  0001 C CNN
+F 3 "" H 8700 1750 50  0001 C CNN
+	1    8700 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E1105D6
-P 8350 1850
-F 0 "J?" H 8350 1950 50  0001 C CNN
-F 1 "CONN" H 8350 1750 50  0001 C CNN
-F 2 "" H 8350 1850 50  0001 C CNN
-F 3 "" H 8350 1850 50  0001 C CNN
-	1    8350 1850
+P 8700 1850
+F 0 "J?" H 8700 1950 50  0001 C CNN
+F 1 "CONN" H 8700 1750 50  0001 C CNN
+F 2 "" H 8700 1850 50  0001 C CNN
+F 3 "" H 8700 1850 50  0001 C CNN
+	1    8700 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -318,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2850 8250 2850
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E11097D
 P 8350 2850
 F 0 "J?" H 8350 2950 50  0001 C CNN
@@ -329,7 +329,7 @@ F 3 "" H 8350 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E1109C1
 P 8350 2750
 F 0 "J?" H 8350 2850 50  0001 C CNN
@@ -346,22 +346,22 @@ Wire Wire Line
 Wire Wire Line
 	6600 1750 6750 1750
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T?
+L Connector:Conn_01x01_Male T?
 U 1 1 5E110FC1
 P 8600 2850
 F 0 "T?" H 8600 2850 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 8600 2750 50  0001 C CNN
+F 1 "Conn_01x01_Male" H 8600 2750 50  0001 C CNN
 F 2 "" H 8600 2850 50  0001 C CNN
 F 3 "" H 8600 2850 50  0001 C CNN
 	1    8600 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue C3
+L Connector:Conn_01x01_Male C3
 U 1 1 5E1113D7
 P 8600 2750
 F 0 "C3" H 8600 2850 50  0000 C CNN
-F 1 "CONN_01X01_MALE" H 8600 2650 50  0001 C CNN
+F 1 "Conn_01x01_Male" H 8600 2650 50  0001 C CNN
 F 2 "" H 8600 2750 50  0001 C CNN
 F 3 "" H 8600 2750 50  0001 C CNN
 	1    8600 2750
@@ -370,7 +370,7 @@ $EndComp
 Wire Wire Line
 	6750 1550 6400 1550
 $Comp
-L trollvalve-rescue:Fuse-trollvalve-rescue 1.5A
+L Device:Fuse 1.5A
 U 1 1 5E1119BC
 P 6150 2950
 F 0 "1.5A" V 6230 2950 50  0000 C CNN
@@ -381,7 +381,7 @@ F 3 "" H 6150 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L trollvalve-rescue:Fuse-trollvalve-rescue 2A
+L Device:Fuse 2A
 U 1 1 5E111AB6
 P 6150 3250
 F 0 "2A" V 6230 3250 50  0000 C CNN
@@ -402,29 +402,29 @@ Wire Wire Line
 Wire Wire Line
 	8100 3350 8100 2350
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue C5
+L Connector:Conn_01x01_Male C5
 U 1 1 5E112658
 P 8600 3250
 F 0 "C5" H 8600 3350 50  0000 C CNN
-F 1 "CONN_01X01_MALE" H 8600 3150 50  0001 C CNN
+F 1 "Conn_01x01_Male" H 8600 3150 50  0001 C CNN
 F 2 "" H 8600 3250 50  0001 C CNN
 F 3 "" H 8600 3250 50  0001 C CNN
 	1    8600 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T?
+L Connector:Conn_01x01_Male T?
 U 1 1 5E1126B5
 P 8600 3350
 F 0 "T?" H 8600 3350 39  0001 C CNN
-F 1 "CONN_01X01_MALE" H 8600 3250 50  0001 C CNN
+F 1 "Conn_01x01_Male" H 8600 3250 50  0001 C CNN
 F 2 "" H 8600 3350 50  0001 C CNN
 F 3 "" H 8600 3350 50  0001 C CNN
 	1    8600 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E1129B1
 P 8350 3250
 F 0 "J?" H 8350 3350 50  0001 C CNN
@@ -435,7 +435,7 @@ F 3 "" H 8350 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E112A04
 P 8350 3350
 F 0 "J?" H 8350 3450 50  0001 C CNN
@@ -446,34 +446,34 @@ F 3 "" H 8350 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 1550 8250 1550
+	7850 1550 8500 1550
 Wire Wire Line
-	7850 1650 8250 1650
+	7850 1650 8500 1650
 Wire Wire Line
-	7850 1750 8250 1750
+	7850 1750 8500 1750
 Wire Wire Line
-	7850 1850 8250 1850
+	7850 1850 8500 1850
 Connection ~ 8100 3350
 Wire Wire Line
 	10400 1650 10400 1750
 Wire Wire Line
 	10200 1950 10200 1750
 Wire Wire Line
-	10200 1750 9900 1750
+	10200 1750 9650 1750
 Wire Wire Line
 	10200 2150 10050 2150
 Wire Wire Line
 	10050 2150 10050 1850
 Wire Wire Line
-	10050 1850 9900 1850
+	10050 1850 9650 1850
 Wire Wire Line
-	9900 3250 10050 3250
+	9650 3250 10050 3250
 Wire Wire Line
 	10050 3250 10050 3150
 Wire Wire Line
 	10050 3150 10200 3150
 Wire Wire Line
-	9900 2850 10050 2850
+	9650 2850 10050 2850
 Wire Wire Line
 	10050 2850 10050 2550
 Wire Wire Line
@@ -485,27 +485,27 @@ Wire Wire Line
 Wire Wire Line
 	9950 2350 9950 2750
 Wire Wire Line
-	9950 2750 9900 2750
+	9950 2750 9650 2750
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E11454C
-P 5050 3500
-F 0 "J?" H 5050 3600 50  0001 C CNN
-F 1 "CONN" H 5050 3400 50  0001 C CNN
-F 2 "" H 5050 3500 50  0001 C CNN
-F 3 "" H 5050 3500 50  0001 C CNN
-	1    5050 3500
+P 5050 3750
+F 0 "J?" H 5050 3850 50  0001 C CNN
+F 1 "CONN" H 5050 3650 50  0001 C CNN
+F 2 "" H 5050 3750 50  0001 C CNN
+F 3 "" H 5050 3750 50  0001 C CNN
+	1    5050 3750
 	0    1    1    0   
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E11459F
-P 4950 3500
-F 0 "J?" H 4950 3600 50  0001 C CNN
-F 1 "CONN" H 4950 3400 50  0001 C CNN
-F 2 "" H 4950 3500 50  0001 C CNN
-F 3 "" H 4950 3500 50  0001 C CNN
-	1    4950 3500
+P 4950 3750
+F 0 "J?" H 4950 3850 50  0001 C CNN
+F 1 "CONN" H 4950 3650 50  0001 C CNN
+F 2 "" H 4950 3750 50  0001 C CNN
+F 3 "" H 4950 3750 50  0001 C CNN
+	1    4950 3750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -513,29 +513,29 @@ Wire Wire Line
 Wire Wire Line
 	3850 1550 3850 1350
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T?
+L Connector:Conn_01x01_Male T?
 U 1 1 5E1148ED
 P 5050 3750
 F 0 "T?" H 5050 3750 39  0000 C CNN
-F 1 "CONN_01X01_MALE" H 5050 3650 50  0001 C CNN
+F 1 "Conn_01x01_Male" H 5050 3650 50  0001 C CNN
 F 2 "" H 5050 3750 50  0001 C CNN
 F 3 "" H 5050 3750 50  0001 C CNN
 	1    5050 3750
 	0    1    1    0   
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue C2
+L Connector:Conn_01x01_Male C2
 U 1 1 5E115027
 P 4950 3750
 F 0 "C2" V 4900 3650 50  0000 C CNN
-F 1 "CONN_01X01_MALE" H 4950 3650 50  0001 C CNN
+F 1 "Conn_01x01_Male" H 4950 3650 50  0001 C CNN
 F 2 "" H 4950 3750 50  0001 C CNN
 F 3 "" H 4950 3750 50  0001 C CNN
 	1    4950 3750
 	0    1    1    0   
 $EndComp
 $Comp
-L trollvalve-rescue:Fuse-trollvalve-rescue 5A
+L Device:Fuse 5A
 U 1 1 5E11D80F
 P 1500 1900
 F 0 "5A" V 1400 1900 50  0000 C CNN
@@ -546,7 +546,7 @@ F 3 "" H 1500 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L trollvalve-rescue:Fuse-trollvalve-rescue 500mA
+L Device:Fuse 500mA
 U 1 1 5E11F669
 P 1500 2300
 F 0 "500mA" V 1400 2300 50  0000 C CNN
@@ -573,55 +573,55 @@ Wire Notes Line
 Text GLabel 1250 1900 0    60   Input ~ 0
 IGN(30)
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E1369E1
-P 4550 4000
-F 0 "J?" H 4550 4100 50  0001 C CNN
-F 1 "CONN" H 4550 3900 50  0001 C CNN
-F 2 "" H 4550 4000 50  0001 C CNN
-F 3 "" H 4550 4000 50  0001 C CNN
-	1    4550 4000
+P 4550 3750
+F 0 "J?" H 4550 3850 50  0001 C CNN
+F 1 "CONN" H 4550 3650 50  0001 C CNN
+F 2 "" H 4550 3750 50  0001 C CNN
+F 3 "" H 4550 3750 50  0001 C CNN
+	1    4550 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E136A4C
-P 4650 4000
-F 0 "J?" H 4650 4100 50  0001 C CNN
-F 1 "CONN" H 4650 3900 50  0001 C CNN
-F 2 "" H 4650 4000 50  0001 C CNN
-F 3 "" H 4650 4000 50  0001 C CNN
-	1    4650 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T?
-U 1 1 5E136D96
-P 4750 3750
-F 0 "T?" H 4750 3750 39  0000 C CNN
-F 1 "CONN_01X01_MALE" H 4750 3650 50  0001 C CNN
-F 2 "" H 4750 3750 50  0001 C CNN
-F 3 "" H 4750 3750 50  0001 C CNN
-	1    4750 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue T?
-U 1 1 5E136E29
 P 4650 3750
-F 0 "T?" H 4650 3750 39  0000 C CNN
-F 1 "CONN_01X01_MALE" H 4650 3650 50  0001 C CNN
+F 0 "J?" H 4650 3850 50  0001 C CNN
+F 1 "CONN" H 4650 3650 50  0001 C CNN
 F 2 "" H 4650 3750 50  0001 C CNN
 F 3 "" H 4650 3750 50  0001 C CNN
 	1    4650 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_MALE-trollvalve-rescue C1
+L Connector:Conn_01x01_Male T?
+U 1 1 5E136D96
+P 4750 3750
+F 0 "T?" H 4750 3750 39  0000 C CNN
+F 1 "Conn_01x01_Male" H 4750 3650 50  0001 C CNN
+F 2 "" H 4750 3750 50  0001 C CNN
+F 3 "" H 4750 3750 50  0001 C CNN
+	1    4750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male T?
+U 1 1 5E136E29
+P 4650 3750
+F 0 "T?" H 4650 3750 39  0000 C CNN
+F 1 "Conn_01x01_Male" H 4650 3650 50  0001 C CNN
+F 2 "" H 4650 3750 50  0001 C CNN
+F 3 "" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male C1
 U 1 1 5E136EAB
 P 4550 3750
 F 0 "C1" V 4600 3850 50  0000 C CNN
-F 1 "CONN_01X01_MALE" H 4550 3650 50  0001 C CNN
+F 1 "Conn_01x01_Male" H 4550 3650 50  0001 C CNN
 F 2 "" H 4550 3750 50  0001 C CNN
 F 3 "" H 4550 3750 50  0001 C CNN
 	1    4550 3750
@@ -633,7 +633,7 @@ Wire Wire Line
 Text Label 2950 950  0    60   ~ 0
 TROLL_PANEL
 Wire Wire Line
-	5050 3400 5050 1550
+	5050 3550 5050 1550
 Wire Wire Line
 	5900 2950 5900 3250
 Wire Wire Line
@@ -764,7 +764,7 @@ Text Notes 5350 4750 0    50   ~ 0
 Text Notes 5350 4850 0    50   ~ 0
 GND
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E19B0FE
 P 5600 4850
 F 0 "J?" H 5600 4950 50  0001 C CNN
@@ -775,7 +775,7 @@ F 3 "" H 5600 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E19AED1
 P 5600 4750
 F 0 "J?" H 5600 4850 50  0001 C CNN
@@ -786,7 +786,7 @@ F 3 "" H 5600 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E19A91C
 P 5600 4650
 F 0 "J?" H 5600 4750 50  0001 C CNN
@@ -797,9 +797,9 @@ F 3 "" H 5600 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 4750 5350 4750
+	5450 4750 5400 4750
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E14AD19
 P 5250 4850
 F 0 "J?" H 5250 4950 50  0001 C CNN
@@ -810,7 +810,7 @@ F 3 "" H 5250 4850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E14ACA5
 P 5250 4750
 F 0 "J?" H 5250 4850 50  0001 C CNN
@@ -821,7 +821,7 @@ F 3 "" H 5250 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E14AC31
 P 5250 4650
 F 0 "J?" H 5250 4750 50  0001 C CNN
@@ -832,21 +832,17 @@ F 3 "" H 5250 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5750 4650 5800 4650
-Wire Wire Line
 	5800 4650 5800 2150
 Wire Wire Line
 	6400 1550 6400 3350
-Wire Wire Line
-	5750 4750 5900 4750
 Wire Wire Line
 	6400 4850 6400 3350
 Wire Notes Line
 	9150 850  9150 3550
 Wire Wire Line
-	9900 1550 10600 1550
+	9650 1550 10600 1550
 Wire Wire Line
-	9900 1650 10400 1650
+	9650 1650 10400 1650
 Wire Wire Line
 	8900 1550 9250 1550
 Wire Wire Line
@@ -861,8 +857,6 @@ Wire Wire Line
 	6300 2950 8000 2950
 Wire Wire Line
 	6300 3250 8250 3250
-Wire Wire Line
-	5750 4850 6400 4850
 Wire Wire Line
 	8900 2750 9250 2750
 Wire Wire Line
@@ -946,7 +940,7 @@ STEPPER MOTOR
 Text Notes 2550 5850 0    60   ~ 0
 GENERIC NEMA 17HS10-0704S
 $Comp
-L trollvalve-rescue:Solenoid-trollvalve SL?
+L beatrice:Solenoid SL?
 U 1 1 5E137833
 P 10300 3250
 F 0 "SL?" H 10628 3291 50  0000 L CNN
@@ -957,7 +951,7 @@ F 3 "" V 10275 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L trollvalve-rescue:POLOLU_TIC_T500-trollvalve U?
+L beatrice:POLOLU_TIC_T500 U?
 U 1 1 5E141539
 P 7350 1950
 F 0 "U?" H 7400 1283 50  0000 C CNN
@@ -970,51 +964,45 @@ $EndComp
 Connection ~ 6400 3350
 Connection ~ 5900 3250
 Wire Wire Line
-	5350 4650 5500 4650
+	4950 3950 4950 4750
 Wire Wire Line
-	5350 4850 5500 4850
-Wire Wire Line
-	4950 4050 4950 4750
-Wire Wire Line
-	5100 4650 5050 4650
-Wire Wire Line
-	4950 4750 5100 4750
+	4950 4750 5050 4750
 Wire Wire Line
 	4100 1850 4650 1850
 $Comp
-L trollvalve-rescue:CONN_01X01_FEMALE-trollvalve-rescue J?
+L Connector:Conn_01x01_Female J?
 U 1 1 5E136976
-P 4750 4000
-F 0 "J?" H 4750 4100 50  0001 C CNN
-F 1 "CONN" H 4750 3900 50  0001 C CNN
-F 2 "" H 4750 4000 50  0001 C CNN
-F 3 "" H 4750 4000 50  0001 C CNN
-	1    4750 4000
+P 4750 3750
+F 0 "J?" H 4750 3850 50  0001 C CNN
+F 1 "CONN" H 4750 3650 50  0001 C CNN
+F 2 "" H 4750 3750 50  0001 C CNN
+F 3 "" H 4750 3750 50  0001 C CNN
+	1    4750 3750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2650 4650 4650 4650
 Wire Wire Line
-	4550 4750 4550 4100
+	4550 4750 4550 3950
 Wire Wire Line
-	4650 4650 4650 4100
+	4650 4650 4650 3950
 Wire Wire Line
-	5050 4650 5050 4050
+	5050 4650 5050 3950
 Wire Wire Line
-	4650 3450 4650 2200
+	4650 3550 4650 2200
 Wire Wire Line
 	4650 1900 4650 1850
 Wire Wire Line
-	4550 3450 4550 2750
+	4550 3550 4550 2750
 Wire Wire Line
 	4550 2750 4000 2750
 Wire Wire Line
-	4750 3450 4750 1850
+	4750 3550 4750 1850
 Wire Wire Line
 	4750 1850 4650 1850
 Connection ~ 4650 1850
 Wire Wire Line
-	4750 4100 4750 4850
+	4750 3950 4750 4850
 Text GLabel 1450 4850 0    60   Input ~ 0
 IGN_GND
 Wire Wire Line
@@ -1047,7 +1035,7 @@ $EndComp
 Wire Wire Line
 	4000 2950 4950 2950
 Wire Wire Line
-	4950 2950 4950 3400
+	4950 2950 4950 3550
 Text GLabel 3000 3000 3    60   Output ~ 0
 SPUD_ISOL_COIL(+24VDC)
 Wire Wire Line
@@ -1062,4 +1050,81 @@ Wire Wire Line
 Wire Wire Line
 	3000 2850 3000 3000
 Connection ~ 3000 2850
+$Comp
+L Connector:Conn_01x01_Male T?
+U 1 1 5E2CAB0C
+P 5600 4650
+F 0 "T?" H 5600 4650 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 5600 4550 50  0001 C CNN
+F 2 "" H 5600 4650 50  0001 C CNN
+F 3 "" H 5600 4650 50  0001 C CNN
+	1    5600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male T?
+U 1 1 5E2CB260
+P 5600 4750
+F 0 "T?" H 5600 4750 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 5600 4650 50  0001 C CNN
+F 2 "" H 5600 4750 50  0001 C CNN
+F 3 "" H 5600 4750 50  0001 C CNN
+	1    5600 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4750 5900 4750
+$Comp
+L Connector:Conn_01x01_Male T?
+U 1 1 5E2CB495
+P 5600 4850
+F 0 "T?" H 5600 4850 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 5600 4750 50  0001 C CNN
+F 2 "" H 5600 4850 50  0001 C CNN
+F 3 "" H 5600 4850 50  0001 C CNN
+	1    5600 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4850 6400 4850
+$Comp
+L Connector:Conn_01x01_Male T?
+U 1 1 5E2D9CA2
+P 5250 4650
+F 0 "T?" H 5250 4650 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 5250 4550 50  0001 C CNN
+F 2 "" H 5250 4650 50  0001 C CNN
+F 3 "" H 5250 4650 50  0001 C CNN
+	1    5250 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male T?
+U 1 1 5E2DA4B3
+P 5250 4750
+F 0 "T?" H 5250 4750 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 5250 4650 50  0001 C CNN
+F 2 "" H 5250 4750 50  0001 C CNN
+F 3 "" H 5250 4750 50  0001 C CNN
+	1    5250 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male T?
+U 1 1 5E2DA78E
+P 5250 4850
+F 0 "T?" H 5250 4850 39  0001 C CNN
+F 1 "Conn_01x01_Male" H 5250 4750 50  0001 C CNN
+F 2 "" H 5250 4850 50  0001 C CNN
+F 3 "" H 5250 4850 50  0001 C CNN
+	1    5250 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 4850 5050 4850
+Connection ~ 4750 4850
+Wire Wire Line
+	5400 4850 5450 4850
+Wire Wire Line
+	5400 4650 5450 4650
 $EndSCHEMATC
