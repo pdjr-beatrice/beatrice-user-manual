@@ -346,7 +346,7 @@ Wire Wire Line
 Connection ~ 2450 5500
 Connection ~ 2450 6200
 $Comp
-L dc-main-engine-connection-box-rescue:POLOLU_TIC_T500-trollvalve U1
+L beatrice:POLOLU_TIC_T500 U1
 U 1 1 5E31D2A1
 P 8500 4200
 F 0 "U1" H 8550 4967 50  0000 C CNN
