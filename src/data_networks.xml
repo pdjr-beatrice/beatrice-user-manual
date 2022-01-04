@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Data networks</title>
+
+  <para>NMEA 2000 and Ethernet data networks are installed on the ship
+  together with some small-scale proprietary networks concerned with operation
+  of the Victron power system.</para>
+
+  <section>
+    <title>NMEA 2000</title>
+
+    <para>The vessel is equipped with two NMEA 2000 buses, bridged at the helm
+    but powered separately via switches on the domestic panel.</para>
+
+    <variablelist>
+      <varlistentry>
+        <term>NMEA BUS 0 ('domestic bus')</term>
+
+        <listitem>
+          <para>NMEA bus 0 supports all on-board control functions and
+          instrumentation of the ship's domestic or 'house' systems.</para>
+
+          <para>If this bus is not permanently enabled then very few of the
+          ship's systems can be monitored or operated.</para>
+        </listitem>
+      </varlistentry>
+
+      <varlistentry>
+        <term>NMEA BUS 1 ('navigation bus')</term>
+
+        <listitem>
+          <para>NMEA bus 1 supports instrumentation and controls related to
+          navigation of the vessel.</para>
+
+          <para>This bus must be enabled when navigating the vessel, but
+          should be powered down when the ship is moored.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <para>The following schematic indicates the general arrangement of the
+    NMEA 2000 network.</para>
+
+    <para/>
+
+    <section>
+      <title>Equipment</title>
+
+      <para>The following table lists NMEA 2000 infrastructure
+      components.</para>
+
+      <informaltable>
+        <tgroup cols="5">
+          <thead>
+            <row>
+              <entry align="center">Device</entry>
+
+              <entry>Serial #</entry>
+
+              <entry>Instance</entry>
+
+              <entry>Bus</entry>
+
+              <entry align="center">Location</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>Actisense NGT-1-ISO NMEA 2000 gateway</entry>
+
+              <entry/>
+
+              <entry>n/a</entry>
+
+              <entry>0</entry>
+
+              <entry>Helm</entry>
+            </row>
+
+            <row>
+              <entry>Actisense QNB1 network block</entry>
+
+              <entry/>
+
+              <entry>n/a</entry>
+
+              <entry>1</entry>
+
+              <entry>Helm panel</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry/>
+
+              <entry>0x0A</entry>
+
+              <entry>0</entry>
+
+              <entry>Engine room</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry/>
+
+              <entry>0x1A</entry>
+
+              <entry>1</entry>
+
+              <entry>Engine room</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry/>
+
+              <entry>0x0F</entry>
+
+              <entry>0</entry>
+
+              <entry>Master cabin</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 3478 relay output module</entry>
+
+              <entry/>
+
+              <entry>0x1F</entry>
+
+              <entry>1</entry>
+
+              <entry>Master cabin</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 4410 switch input module</entry>
+
+              <entry/>
+
+              <entry>0x01</entry>
+
+              <entry>0</entry>
+
+              <entry>Helm</entry>
+            </row>
+
+            <row>
+              <entry>Oceanic Systems 4410 switch input module</entry>
+
+              <entry/>
+
+              <entry>0x11</entry>
+
+              <entry>0</entry>
+
+              <entry>Helm</entry>
+            </row>
+
+            <row>
+              <entry>Maretron NBE100 network bus extender</entry>
+
+              <entry/>
+
+              <entry>n/a</entry>
+
+              <entry>0 &amp; 1</entry>
+
+              <entry>Helm</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+  </section>
+
+  <xi:include href="ethernet_lan.section.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+  <section>
+    <title>Ethernet LAN</title>
+
+    <para><figure>
+        <title>Ethernet LAN infrastructure components</title>
+
+        <mediaobject>
+          <imageobject>
+            <imagedata align="center" contentwidth="17cm"
+                       fileref="RESOURCES/ethernet.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>Ethernet is used to support general access to ship services
+    including information displays, virtual control panels, VoIP deck
+    communication, map and NIS services and audio and video
+    entrtainment.</para>
+
+    <section>
+      <title>Equipment</title>
+
+      <para>The following table lists Ethernet infrastructure
+      components.</para>
+
+      <informaltable>
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry align="center">Item</entry>
+
+              <entry>Location</entry>
+
+              <entry>IP addresses (hostname)</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>NetGear N600 wireless router</entry>
+
+              <entry>Helm</entry>
+
+              <entry>192.168.1.254 (gateway), 192.168.2.254 (WAN),
+              192.168.3.254 (USB 4G)</entry>
+            </row>
+
+            <row>
+              <entry>Ubiquiti Networks Bullet gateway</entry>
+
+              <entry>On deck below blue-board</entry>
+
+              <entry>192.168.2.253 (bullet)</entry>
+            </row>
+
+            <row>
+              <entry>Cisco managed switch</entry>
+
+              <entry>Lower companionway server rack</entry>
+
+              <entry>192.168.1.253 (switch)</entry>
+            </row>
+
+            <row>
+              <entry>Rasperrby Pi VPN router</entry>
+
+              <entry>Helm</entry>
+
+              <entry>192.168.1.252</entry>
+            </row>
+
+            <row>
+              <entry>Signal K / NMEA controller</entry>
+
+              <entry>Helm</entry>
+
+              <entry>192.168.1.1 (controller)</entry>
+            </row>
+
+            <row>
+              <entry>Navigation PC</entry>
+
+              <entry>Helm</entry>
+
+              <entry>192.168.1.101 (helm)</entry>
+            </row>
+
+            <row>
+              <entry>NAS/DLNA server</entry>
+
+              <entry>Lower companionway server rack</entry>
+
+              <entry>192.168.1.2 (nas)</entry>
+            </row>
+
+            <row>
+              <entry>OpenSeaMap server</entry>
+
+              <entry>Lower companionway server rack</entry>
+
+              <entry>192.168.1.3 (maps)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+
+    <section>
+      <title>Wired networks</title>
+
+      <para>CAT6 UTP cabling from around the ship terminates at a network
+      switch located in the ship's data cabinet which is accessible behind a
+      panel on the port side of the lower companionway. The switch WAN port is
+      connected by a single cable to the main router located at the helm. Helm
+      equipment which benefits from an Ethernet connection is cabled directly
+      to the main router's built in LAN switch.</para>
+
+      <para>A second wired network consisting of a single cable connects the
+      main router's WAN port to the ship's external gateway.</para>
+    </section>
+
+    <section>
+      <title>Wireless networks</title>
+
+      <para>The ship implements two WiFi networks: an internal network
+      (SSID="BEATRICE") simply extends the vessels 192.168.1.0 network whilst
+      an external network (SSID="BEATRICE-EXT") supports VoIP intercom use for
+      deck crew and allows restricted access to on-board services for
+      guests.</para>
+    </section>
+  </section>
+
+  <section>
+    <title>WAN</title>
+
+    <para>Connection to external networks is provided in three ways:</para>
+
+    <orderedlist>
+      <listitem>
+        <para>By WiFi. The ship's wireless gateway operates in station mode to
+        allow connection to an available WiFi hotspot. The administration
+        interface allows identification of and connection to available
+        networks and is accessible at https://192.168.2.254/ with default
+        credentials "ubnt:ubnt". For this service to be available, the
+        <keycap>WiFi</keycap> switch at the helm must be on.</para>
+      </listitem>
+
+      <listitem>
+        <para>By 4G. The ship's router is equipped with a 4G USB dongle
+        connected to a remote external antenna. The arrangement give a
+        broadband quality data link to the Internet at a maximum speed of
+        150Mbs. The administration interface at https://192.168.1.254/ allows
+        management of the connection.</para>
+      </listitem>
+
+      <listitem>
+        <para>By SMS. The USB dongle used for 4G connection also supports
+        sending and receiving SMS messages which are used by some Signal K
+        applications for notification of alerts and for remote control.</para>
+      </listitem>
+    </orderedlist>
+  </section>
+</section>

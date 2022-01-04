@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Electrical system</title>
+
+  <para>The vessel has three discrete electrical systems as summarised
+  below.</para>
+
+  <informaltable>
+    <tgroup cols="5">
+      <thead>
+        <row>
+          <entry>System</entry>
+
+          <entry>Rating</entry>
+
+          <entry>Battery</entry>
+
+          <entry>Charged by</entry>
+
+          <entry>Master switch</entry>
+        </row>
+      </thead>
+
+      <tbody>
+        <row>
+          <entry>Generator engine</entry>
+
+          <entry>12VDC</entry>
+
+          <entry>1 x 12VDC 120Ah</entry>
+
+          <entry>Generator alternator</entry>
+
+          <entry>Engine room (aft switch)</entry>
+        </row>
+
+        <row>
+          <entry/>
+
+          <entry/>
+
+          <entry/>
+
+          <entry>12VDC battery charger</entry>
+
+          <entry/>
+        </row>
+
+        <row>
+          <entry>Main engine</entry>
+
+          <entry>24VDC</entry>
+
+          <entry>2 x 12VDC 120Ah</entry>
+
+          <entry>Main engine alternator</entry>
+
+          <entry>Engine room (forward switch)</entry>
+        </row>
+
+        <row>
+          <entry/>
+
+          <entry/>
+
+          <entry/>
+
+          <entry>24VDC battery charger</entry>
+
+          <entry/>
+        </row>
+
+        <row>
+          <entry>Domestic</entry>
+
+          <entry>24VDC</entry>
+
+          <entry>12 x 2VDC 1100Ah</entry>
+
+          <entry>Main engine alternator</entry>
+
+          <entry>Battery compartment</entry>
+        </row>
+
+        <row>
+          <entry/>
+
+          <entry/>
+
+          <entry/>
+
+          <entry>24VDC battery charger</entry>
+
+          <entry/>
+        </row>
+
+        <row>
+          <entry/>
+
+          <entry/>
+
+          <entry/>
+
+          <entry>Solar charge controller</entry>
+
+          <entry/>
+        </row>
+
+        <row>
+          <entry/>
+
+          <entry>230VAC</entry>
+
+          <entry>n/a</entry>
+
+          <entry>n/a</entry>
+
+          <entry>n/a</entry>
+        </row>
+      </tbody>
+    </tgroup>
+  </informaltable>
+
+  <section>
+    <title>Generator engine system</title>
+
+    <para>The generator engine system is entirely self-contained with no
+    consumers other than the generator and its control panel.</para>
+
+    <para>A single 12VDC 120Ah battery and associated master switch are
+    located below the generator housing on the port side of the engine
+    room.</para>
+
+    <para>The generator battery is charged from the generator alternator and
+    from a separate 230VAC battery charger located next to the battery. The
+    battery charger is only energised when the ship is on shore or generator
+    power.</para>
+  </section>
+
+  <section>
+    <title>Main engine system</title>
+
+    <para>The main engine system operates at 24VDC and supports the main
+    engine and its control panel, propeller shaft lubrication pump, trolling
+    system, raw-water deck-wash pump and the stern navigation light.</para>
+
+    <para>Two 12VDC 120Ah series-connected batteries and associated master
+    switch are located below the generator housing on the port side of the
+    engine room.</para>
+
+    <para>The main engine batteries are charged via a split-charge controller
+    from the main engine alternator (the residual charging current is used to
+    charge the ship's domestic battery bank) and from a separate 230VAC
+    battery charger located next to the batteries. The battery charger is only
+    energised when the ship is on shore or generator power.</para>
+  </section>
+
+  <section>
+    <title>Domestic system</title>
+
+    <para>The domestic system consists of a 24VDC house battery bank connected
+    to a 230VAC inverter-charger. This integrated system supports all domestic
+    and navigation electrical systems: there is no bias towards the use of DC
+    or AC for particular purposes and individual equipment is specified for AC
+    or DC connection based on technical, performance and economic
+    considerations.</para>
+
+    <section>
+      <title>Domestic DC system</title>
+
+      <para>The domestic DC system operates at 24VDC and supports all ship's
+      systems which require a direct current supply (other than those
+      supported by the generator and main engine systems discussed above) and,
+      via an inverter, the ship's 230VAC supply.</para>
+
+      <para>Twelve 2VDC 1100Ah series connected batteries and associated
+      master switch are located in the battery compartment below the galley
+      floor.</para>
+
+      <para>The house batteries are charged by then main-engine alternator, an
+      integrated 8kW inverter-charger and 5kW solar charge controller.</para>
+
+      <para>The inverter-charger automatically blends inverting and charging
+      depending upon consumer demand and the availability of an external
+      230VAC power source, but can be switched to charger-only mode using the
+      control mounted in the domestic panel. Two 230VAC energy inputs are
+      available: a shore-power connection on the aft deck allows connection to
+      a utility outlet and supplies energy to the inverter-charger through a
+      7kW isolating transformer; the ship's generator can provide up to 12kW
+      of energy when off-grid.</para>
+
+      <para>The solar charge controller connects to a 1kW solar panel array
+      mounted over the aft deck.</para>
+
+      <para>The main DC connection box integrates all suppliers and
+      consumers</para>
+
+      <para>are of can be switched between charge only and inverter-charge
+      only energised when the the ship is connected to a 230VAC shore power
+      supply or when the ship's generator is running.</para>
+
+      <para>A direct connection from the battery isolator switch powers Busbar
+      1 which supports connection of services which should be permanently
+      available even when the boat is out of service. This includes
+      connections to charging sources (charger/inverter, main engine
+      alternator and solar charge controller) and some safety critical
+      consumers (helm-panel essential services like bilge pumps and alarms and
+      spudpole). Individual isolators can be operated to disconnect these
+      consumers if required.</para>
+
+      <para>A second connection from the battery isolator switch goes via an
+      isolator to Busbar 2 which supports connection of all non-essential
+      consumers. This isolator can be operated remotely from the domestic
+      panel <literal>MAIN ISOLATOR</literal> control.</para>
+
+      <para><mediaobject>
+          <imageobject>
+            <imagedata fileref="RESOURCES/DC1.pdf"/>
+          </imageobject>
+        </mediaobject></para>
+    </section>
+
+    <section>
+      <title>Batteries and master switch</title>
+
+      <para>Twelve 2VDC 1100Ah series-connected batteries and associated
+      master switch are located in the battery compartment below the galley
+      floor.</para>
+    </section>
+
+    <section>
+      <title>Main distribution board</title>
+
+      <para>The main distribution board is supplied from the main isolator
+      switch and is configured in three circuit groups each with differing
+      isolation possibilities. See</para>
+
+      <informaltable>
+        <tgroup cols="4">
+          <thead>
+            <row>
+              <entry>Fuse (circuit)</entry>
+
+              <entry>Fuse rating/A</entry>
+
+              <entry>Group</entry>
+
+              <entry>Remark</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>F1 Inverter/charger</entry>
+
+              <entry>250</entry>
+
+              <entry/>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>F2 Inverter/charger</entry>
+
+              <entry>250</entry>
+
+              <entry/>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>F3 Spud pole</entry>
+
+              <entry>150</entry>
+
+              <entry/>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>F4 Alternator</entry>
+
+              <entry>150</entry>
+
+              <entry/>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>F5 Helm B</entry>
+
+              <entry>150</entry>
+
+              <entry>Helm non-essential services (all helm panel functions
+              with the exception of bilge and alarm systems).</entry>
+
+              <entry>Group can be isolated locally at distribution board and
+              remotely by the <keycap>DC ISOL</keycap> control on the domestic
+              panel.</entry>
+            </row>
+
+            <row>
+              <entry>F6 Cabinet C3</entry>
+
+              <entry>100</entry>
+
+              <entry>""</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>F7 (spare)</entry>
+
+              <entry/>
+
+              <entry>""</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>F8 (spare)</entry>
+
+              <entry/>
+
+              <entry>""</entry>
+
+              <entry/>
+            </row>
+
+            <row>
+              <entry>F9 Helm A</entry>
+
+              <entry>100</entry>
+
+              <entry>Helm essential services (bilge and alarm systems
+              only).</entry>
+
+              <entry>Group can be isolated locally at distribution
+              board.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+
+      <para/>
+
+      <para/>
+
+      <para/>
+    </section>
+
+    <section>
+      <title/>
+
+      <para/>
+    </section>
+  </section>
+
+  <section>
+    <title>Domestic 230VAC system</title>
+
+    <para>The ship's 230VAC system supports most domestic consumer functions
+    including hydrophore, heating, cooling, ventilation, galley refrigeration,
+    interior lighting, WC and waste sumps. The supply-side of the system is
+    controlled by an integrated charger-inverter monitored and operated from
+    the domestic panel.</para>
+
+    <para>All outgoing circuits are routed through the main distribution
+    cabinet C1 to a collection (C2, C4, C5a and C5b) of sub-cabinets which
+    feed individual consumer circuits. All circuits are fused by circuit
+    breaker and single-pole residual current protection.</para>
+
+    <para>Residual current safety features are only functional if the
+    shore-power connection is properly polarised.</para>
+
+    <section>
+      <title>Energy sources</title>
+
+      <para>The following table lists available energy sources. The ship's
+      systems are configured to automatically select the energy source with
+      the lowest priority number when it is available. The charger/inverter is
+      able to concurrently top-up any shortfall in generator or shore supply
+      by inversion.</para>
+
+      <informaltable>
+        <tgroup cols="6">
+          <thead>
+            <row>
+              <entry>Source</entry>
+
+              <entry>Rating/kVA</entry>
+
+              <entry>Device</entry>
+
+              <entry>Priority</entry>
+
+              <entry>Control principle</entry>
+
+              <entry>Isolation</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>Generator</entry>
+
+              <entry>12</entry>
+
+              <entry>Diesel generator set</entry>
+
+              <entry>1</entry>
+
+              <entry>The generator is started manually by operation of the
+              helm control panel or the <keycap>GENERATOR</keycap> control on
+              the domestic panel. Automatic generator start is possible (see ?
+              and the</entry>
+
+              <entry>Disconnect isolator switch in engine room.</entry>
+            </row>
+
+            <row>
+              <entry>Shore power</entry>
+
+              <entry>7</entry>
+
+              <entry>Isolating transformer</entry>
+
+              <entry>2</entry>
+
+              <entry>Shore power is automatically enabled when the shore power
+              connection is plugged in.</entry>
+
+              <entry>Disconnect isolator switch in engine room.</entry>
+            </row>
+
+            <row>
+              <entry>Domestic battery set</entry>
+
+              <entry>8</entry>
+
+              <entry>Charger-inverter</entry>
+
+              <entry>3</entry>
+
+              <entry>The charge function is permanently enabled and can only
+              be defeated by isolating the domestic battery bank. The inverter
+              function can be disabled by the charger-inverter control panel
+              on the domestic panel.</entry>
+
+              <entry>Main battery isolator.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </section>
+
+    <section>
+      <title>230VAC distribution</title>
+
+      <para/>
+
+      <section>
+        <title>Distribution cabinet C1</title>
+
+        <para>Distribution cabinet C1 is the upper of the two cabinets
+        installed in the forward bulkhead of the lower deck lobby and is the
+        ship's main AC distribution cabinet.</para>
+
+        <para>The cabinet receives two 230VAC supplies directly from the
+        ship's inverter/charger. A no-break supply (via isolator (1)) feeds
+        all of the cabinet devices, deriving power from the currently selected
+        source. A second supply (via isolator (6)) derives power from shore
+        and generator only and routes this directly to cabinet C5a since the
+        only consumers of this supply are located in the ship's engine
+        room.</para>
+
+        <para>All circuits in the cabinet are overload and leakage protected.
+        Four RCBO devices at the top-right of the cabinet supply individual
+        circuits making these consumers insensitive to failures in other
+        circuits and to nuisance tripping. Four outgoing circuits (protected
+        by (2)) supply downstream distribution cabinets with circuits
+        protected by (3), (4) and (5) supplying consumers in the galley and
+        lower-deck.</para>
+
+        <figure xml:id="distribution_cabinet_c1">
+          <title>Distribution cabinet C1</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata align="left" contentwidth="10cm"
+                         fileref="RESOURCES/distribution_cabinet_c1.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </section>
+
+      <section>
+        <title>Distribution cabinet C2</title>
+
+        <para>Distribution cabinet C2 is the lower of the two cabinets
+        installed in the forward bulkhead of the lower deck lobby.</para>
+
+        <para>The cabinet receives a 230VAC supply from cabinet C1 via
+        isolator (1).</para>
+
+        <para>All circuits in the cabinet are overload and leakage protected
+        and are concerened with lighting control for the aft of the ship,
+        operation of the ship's PIR sensors, and heating control. The
+        distribution cabinet houses a 12VDC power supply for the ship's PIR
+        sensors and a 24VDC power supply for light switch circuits on the
+        lower deck. The ship's intruder alarm system is installed in the lower
+        half of the cabinet.</para>
+
+        <figure>
+          <title>Distribution cabinet C2</title>
+
+          <mediaobject>
+            <imageobject>
+              <imagedata align="left" contentwidth="10cm"
+                         fileref="RESOURCES/distribution_cabinet_c2.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </section>
+    </section>
+  </section>
+</section>

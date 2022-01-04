@@ -2,17 +2,15 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <book version="5.0" xmlns="http://docbook.org/ns/docbook">
-    <title>Beatrice of Hull</title>
-
-    <subtitle>SRF Luxemoter 19.95</subtitle>
-    <subtitle>Owner Manual</subtitle>
+  <title>Beatrice of Hull</title>
+  <subtitle>SRF Luxemoter 19.95</subtitle>
+  <subtitle>Owner Manual</subtitle>
   <info>
-
     <pubdate>May 2019</pubdate>
-<copyright>
-        <year>2016-2019</year>
-        <holder>Paul Reeve</holder>
-  </copyright>
+    <copyright>
+      <year>2016-2019</year>
+      <holder>Paul Reeve</holder>
+    </copyright>
 
     <legalnotice>
       <para>No rights can be obtained from this manual.</para>
@@ -35,51 +33,33 @@
     <author>
       <personname>
         <firstname>Paul</firstname>
-
         <surname>Reeve</surname>
       </personname>
     </author>
     <releaseinfo>
-	<para>Version 1.0</para>
+      <para>Version 1.0</para>
     </releaseinfo>
   </info>
 
-  <xi:include href="chapters/01_introduction/introduction.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="introduction.chapter.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="chapters/02_vessel_type_and_identification/vessel_type_and_identification.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="vessel_type_and_identification.chapter.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="chapters/03_general_particulars/general_particulars.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="general_particulars.chapter.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="chapters/04_installations/installations.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="installations.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="chapters/05_sailing/sailing.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="sailing.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="chapters/06_maintenance/maintenance.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="maintenance.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="appendix/01_declaration_of_conformity/declaration_of_conformity.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="declaration_of_conformity.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="appendix/02_copy_certificates/copy_certificates.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="copy_certificates.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="appendix/03_electrical_diagrams/electrical_diagrams.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="electrical_diagrams.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="appendix/04_heating_diagrams/heating_diagrams.xml"
-              xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="heating_diagrams.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
-  <xi:include href="bibliography/bibliography.xml" xpointer="element(/1)"
-              xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="bibliography.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </book>
