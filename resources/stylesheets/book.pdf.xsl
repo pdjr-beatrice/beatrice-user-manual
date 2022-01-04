@@ -4,7 +4,7 @@
                 xmlns:fo="http://www.w3.org/1999/XSL/Format"
                 version="1.0">
 
-  <xsl:import href="/opt/homebrew/Cellar/docbook-xsl/1.79.2_1/docbook-xsl/fo/docbook.xsl"/>
+  <xsl:import href="/usr/share/xml/docbook/stylesheet/docbook-xsl/fo/docbook.xsl"/>
   <!-- <xsl:import href="mytitlepages.xsl"/> -->
 
   <!-- REDEFINE PARAMETERS AND ATTRIBUTE-SETS HERE -->

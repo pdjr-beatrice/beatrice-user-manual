@@ -6,13 +6,13 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Installations: description and operation</title>
+  <title>Installations</title>
 
   <?hard-pagebreak?>
-  <xi:include href="equipment_locations.xml" xpointer="element(/1)"/>
+  <xi:include href="equipment_locations.section.xml" xpointer="element(/1)"/>
   
   <?hard-pagebreak?>
-  <xi:include href="control_panels.xml" xpointer="element(/1)"/>
+  <xi:include href="control_panels.section.xml" xpointer="element(/1)"/>
 
   <?hard-pagebreak?>
   <xi:include href="propulsion_and_steering.xml" xpointer="element(/1)"/>
@@ -30,7 +30,7 @@
   <xi:include href="bilge_pumping_system.xml" xpointer="element(/1)"/>
 
   <?hard-pagebreak?>
-  <xi:include href="data_networks.xml" xpointer="element(/1)"/>
+  <xi:include href="data_networks.section.xml" xpointer="element(/1)"/>
 
   <?hard-pagebreak?>
   <xi:include href="electrical_system.xml" xpointer="element(/1)"/>

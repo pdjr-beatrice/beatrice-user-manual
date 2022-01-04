@@ -22,7 +22,7 @@ validate : book.xml
 
 book.pdf : book.fo
 	fop -c cfg.xml book.fo book.pdf
-	open book.pdf
+	acroread book.pdf
 
 book.html : book.xml
 	pandoc -f docbook -o book.html book.xml

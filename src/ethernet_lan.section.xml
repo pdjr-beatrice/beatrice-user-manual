@@ -6,25 +6,63 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-
   <title>Ethernet LAN</title>
 
-    <figure>
-      <title>Schematic illustration of Beatrice's Ethernet LAN</title>
+  <para>Ethernet LANs support a range of ship services, providing client
+  access for information displays, virtual control panels, VoIP deck
+  communication, map and NIS services and audio and video entertainment. The
+  general arrangement of LAN components is illustrated in the following
+  schematic.</para>
+
+  <para><figure>
+      <title>Schematic of Beatrice's Ethernet LAN</title>
+
       <mediaobject>
         <imageobject>
-          <imagedata align="center" contentwidth="10cm" fileref="resources/images/ethernet_lan.svg"/>
+          <imagedata align="center" contentwidth="15cm"
+                     fileref="resources/images/ethernet_lan.svg"/>
         </imageobject>
       </mediaobject>
-    </figure>
+    </figure></para>
 
-  <para>A power over Ethernet POE Switch establishes a wired Ethernet LAN that connects important servers, desktops and installed equipment like IP cameras. Devices in this network are assigned static IP addresses in the 192.168.1.0/24 sub-net.</para>
+  <para>A power over Ethernet <emphasis role="bold">Switch</emphasis>
+  establishes a wired Ethernet LAN that connects important servers, desktops
+  and installed equipment like IP cameras. Devices in this network are
+  assigned static IP addresses in the 192.168.1.0/24 sub-net.</para>
 
-  <para>This basic LAN is sufficient to provide a platform for operating the ship, but normally it will be extended by one or more wireless mesh networks created by Helm Router and Saloon Access Point. A wireless network with SSID “beatrice” uses the same 192.168.1.0/24 sub-net as the wired LAN and clients have unrestricted access to all on-board services. A second wireless network “beatrice-guest” uses a different sub-net with restricted bandwidth and limited access to devices on the primary LAN. Client devices on the mesh networks are assigned IP addresses by Helm Router‘s DHCP service with some clients (for example the ship’s audio visual devices) receiving fixed addresses.</para>
+  <para>This basic LAN is sufficient to provide a platform for operating the
+  ship, but normally it will be extended by one or more wireless mesh networks
+  created by <emphasis role="bold">Helm Router</emphasis> and <emphasis
+  role="bold">Saloon Access Point</emphasis>. A wireless network with SSID
+  “beatrice” uses the same 192.168.1.0/24 sub-net as the wired LAN and clients
+  have unrestricted access to all on-board services. A second wireless network
+  “beatrice-guest” uses a different sub-net with restricted bandwidth and
+  limited access to devices on the primary LAN. Client devices on the mesh
+  networks are assigned IP addresses by <emphasis role="bold">Helm
+  Router</emphasis>‘s DHCP service with some clients (for example the ship’s
+  audio visual devices) receiving fixed addresses.</para>
 
-  <para>Helm Router‘s WAN interface can be connected through A/B Switch to either WiFi Router or 4G Router facilitating access to the Internet for the whole network. Internet access via WiFi Router is only feasible when the vessel has access to a suitable shore-based WiFi access point; when the vessel is cruising the only viable means of Internet access will be via 4G Router which, in an case, seeks to maintain a permanent cellular data connection.</para>
+  <para><emphasis role="bold">Helm Router</emphasis>‘s WAN interface can be
+  connected through <emphasis role="bold">A/B Switch</emphasis> to either
+  <emphasis role="bold">WiFi Router</emphasis> or <emphasis role="bold">4G
+  Router</emphasis> facilitating access to the Internet for the whole network.
+  Internet access via <emphasis role="bold">WiFi Router</emphasis> is only
+  feasible when the vessel has access to a suitable shore-based WiFi access
+  point; when the vessel is cruising the only viable means of Internet access
+  will be via <emphasis role="bold">4G Router</emphasis> which, in an case,
+  seeks to maintain a permanent cellular data connection.</para>
 
+  <para>Typically, all the various network routers, switches and access points
+  should be powered whenever the vessel is in commission.</para>
 
+  <para>User operation of the LAN reduces to selecting the WAN connection type
+  (<emphasis role="bold">A/B Switch</emphasis> can be remotely operated by the
+  helm panel [WiFi] switch) and visiting <emphasis role="bold">WiFi
+  Router</emphasis>‘s configuration interface in order to establish a
+  connection to a harbour access point. The mesh network is implemented on
+  Google WiFi hardware and can be monitored and configured using the “Google
+  Home” App.</para>
 
+  <para>See this table for an inventory of (and more detailed information on)
+  LAN devices which have static and fixed IP addresses.</para>
 </section>
-
