@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+
+  <title>Domestic panel</title>
+  <para>
+    The DOMESTIC PANEL is located in the lower companionway and is the ship's
+    primary control panel, bringing together all of the ship's house
+    management functions and providing controls for enabling and disabling
+    most of the vessel's systems including the HELM PANEL.
+  </para>
+    
+    <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="0.5cm" fileref="resources/images/DIN_4844-2/mandatory/M000_general.svg"/>
+        </imageobject>
+      </inlinemediaobject>
+      Most controls on the DOMESTIC PANEL will only function if NMEA BUS 0 is enabled.
+    </para>
+
+    <para>
+      <figure xml:id="domestic-panel-layout">
+        <title>Domestic panel layout</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata align="center" contentwidth="15cm" fileref="resources/images/panels/domestic/domestic_panel.svg"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+    </para>
+
+    <section>
+      <title>Sub-panels</title>
+
+      <para>The domestic panel incorporates three sub-panels concerned
+      primarily with monitoring and control of the ship's electrical power
+      systems.</para>
+
+      <para><inlinemediaobject>
+          <imageobject>
+            <imagedata contentwidth="0.5cm"
+                       fileref="resources/images/DIN_4844-2/mandatory/M018_read_manual.svg"/>
+          </imageobject>
+        </inlinemediaobject> Refer to the manufacturer's user manuals for
+      information on the operation of these devices.</para>
+    </section>
+
+    <section>
+      <title>Indicator and switch controls</title>
+
+      <section>
+        <title>Indicators</title>
+
+        <para>All indicators on the domestic panel reflect the state of helm
+        alarm system channels.</para>
+
+        <variablelist>
+          <varlistentry>
+            <term>FIRE</term>
+
+            <listitem>
+              <para>Illuminates to indicate that a fire alarm signal is
+              active. Consult the fire alarm panel to determine the source of
+              the alarm.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>BILGE</term>
+
+            <listitem>
+              <para>The left-hand indicator Illuminates when the engine room
+              bilge pump is running. The right-hand indicator illuminates when
+              the main compartment bilge pump is running.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>BATTERY</term>
+
+            <listitem>
+              <para>Illuminates when the battery management system reports low
+              voltage on the domestic battery bank.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>INTRUDER</term>
+
+            <listitem>
+              <para>Illuminates when the intruder alarm is triggered. Consult
+              the intruder alarm panel to determine the source of the
+              alarm.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+
+      <section>
+        <title>Switch controls</title>
+
+        <variablelist>
+          <varlistentry>
+            <term>PANEL LIGHT (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the domestic panel back-lighting. The
+              back-lighting can be dimmed at the helm.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>COURTESY LIGHTS (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the side-deck courtesy lights.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>DECK LIGHTS (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the fore-deck work lights.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>ANCHOR LIGHT (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the anchor light.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>NAVIGATION LIGHTS (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the port-side, starboard-side, stern and steaming
+              lights.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>HYDROPHORE (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the pressurised water system.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>HOT WATER LOOP (OFF-ON)</term>
+
+            <listitem>
+              <para>Enables the hot-water loop. The hot-water loop is operated
+              by an intelligent pump and once enabled will take some time to
+              learn the domestic hot-water usage pattern.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>GREY WATER SYSTEM (OFF-ON)</term>
+
+            <listitem>
+              <para>(unused)</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>BLACK WATER SYSTEM (OFF-ON)</term>
+
+            <listitem>
+              <para>(unused)</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>REFRIGERATION (OFF-ON)</term>
+
+            <listitem>
+              <para>(unused)</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>AV SERVICES (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the satellite receiver and DLNA file
+              server.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>NETWORK SERVICES (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the network switch, file server and mapping
+              system.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>GENERATOR (2 SWITCHES (OFF-ON))</term>
+
+            <listitem>
+              <para>These controls are only active if the generator control
+              panel is in AUTO mode. In which case:</para>
+
+              <para>The left-hand switch starts the generator. The right-hand
+              switch transfers generator control to the Victron Color Control
+              GX battery management system so that a low-voltage alarm will
+              automatically start the generator.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>NMEA 2000 BUS 0 (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the NMEA 2000 BUS 0 power supply. BUS 0 is the
+              ship's 'domestic bus' and must be on for the operation of most
+              domestic controls, instrumentation and services.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>NMEA 2000 BUS 1 (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the NMEA 2000 BUS 1 power supply. BUS 1 is the
+              ship's 'navigation bus' and must be on for the operation of most
+              navigation controls, instrumentation and services.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>VHF (OFF-ON)</term>
+
+            <listitem>
+              <para>Enables the ship's VHF services which include the main VHF
+              and AIS transceivers.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>HELM (OFF-ON)</term>
+
+            <listitem>
+              <para>Enables the ship's helm panel. Most helm controls will
+              only operate if this switch is ON.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>THERMAL STORE (OFF-ON)</term>
+
+            <listitem>
+              <para>Enables the ship's domestic hot water system.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>BOILER (OFF-ON)</term>
+
+            <listitem>
+              <para>Enables the ship's diesel boiler. Note that the boiler
+              will only operate if channel 1 (space heating) or channel 2 (hot
+              water) of the galley timer control are ON.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>CHILLER (OFF-ON)</term>
+
+            <listitem>
+              <para>Enables the ship's chiller system. Note that the chiller
+              will only operate if the galley chiller control panel is set
+              appropriately.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>IMMERSION 1KW (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the thermal stores upper immersion heater.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>IMMERSION 2KW (OFF-ON)</term>
+
+            <listitem>
+              <para>Operates the thermal stores lower immersion heater.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>SILENCE ALARM (OFF-(CANCEL))</term>
+
+            <listitem>
+              <para>Cancels the audible component of the helm alarm system
+              annunciator. The visual component of the alarm annunciator will
+              continue to operate until the alarm condition is cleared.</para>
+            </listitem>
+          </varlistentry>
+
+          <varlistentry>
+            <term>24VDC ISOL (OFF-(OPERATE))</term>
+
+            <listitem>
+              <para>Operates the change-over solenoid on the DC system
+              non-essential services master switch.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+    </section>
+  </section>
