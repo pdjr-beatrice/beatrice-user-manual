@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section version="5.0" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+  <title>Intruder and presence detection</title>
+
+  <section>
+    <title>System sensors</title>
+
+    <para>The living space of the ship is monitored exclusively by a
+    collection of passive infrared (PIR) presence detectors.</para>
+
+    <informaltable>
+      <tgroup cols="3">
+        <tbody>
+          <row>
+            <entry>1</entry>
+
+            <entry>Master cabin</entry>
+
+            <entry><link
+            xlink:href="https://github.com/pdjr-wemos/pir-sensor">PDJR
+            pir-sensor</link></entry>
+          </row>
+
+          <row>
+            <entry>2</entry>
+
+            <entry>En-suite</entry>
+
+            <entry>Ceiling</entry>
+          </row>
+
+          <row>
+            <entry>3</entry>
+
+            <entry>Saloon</entry>
+
+            <entry>Ceiling</entry>
+          </row>
+
+          <row>
+            <entry>4</entry>
+
+            <entry>Galley</entry>
+
+            <entry>Ceiling</entry>
+          </row>
+
+          <row>
+            <entry>5</entry>
+
+            <entry>Day heads</entry>
+
+            <entry>Ceiling</entry>
+          </row>
+
+          <row>
+            <entry>6</entry>
+
+            <entry>Guest cabin</entry>
+
+            <entry>Ceiling</entry>
+          </row>
+
+          <row>
+            <entry>7</entry>
+
+            <entry>Office</entry>
+
+            <entry>Ceiling</entry>
+          </row>
+
+          <row>
+            <entry>8</entry>
+
+            <entry>Wheelhouse</entry>
+
+            <entry>Wall</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+
+    <para>Ceiling mounted detectors provide NO and NC circuits: NC circuits
+    are used as alarm system triggers whilst NO circuits are used for general
+    presence detection.</para>
+  </section>
+
+  <section>
+    <title>Alarm system</title>
+
+    <para>The ship's intruder alarm system is a Honeywell Accenta G4 Mini
+    panel operated by an LED control module mounted in the Wheelhouse. The
+    panel drives a dedicated alarm sounder but uses the vessel's amber work
+    light as its strobe.</para>
+
+    <para>The panel provides SET and ALARM outputs which interface with the
+    ship's home automation system.</para>
+  </section>
+
+  <section>
+    <title>Presence detection</title>
+
+    <para/>
+  </section>
+</section>

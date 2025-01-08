@@ -45,7 +45,7 @@
   <xi:include href="fire_prevention_and_fire_fighting_systems.xml" xpointer="element(/1)"/>
 
   <?hard-pagebreak?>
-  <xi:include href="security.xml" xpointer="element(/1)"/>
+  <xi:include href="intruder_and_presence_detection.xml" xpointer="element(/1)"/>
 
   <?hard-pagebreak?>
   <xi:include href="lpg_system.xml" xpointer="element(/1)"/>
