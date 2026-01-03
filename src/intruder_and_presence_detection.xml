@@ -6,14 +6,14 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Presence detection and the intruder alarm system</title>
+  <title>Intruder and presence detection</title>
 
   <section>
     <title>Presence detection</title>
 
     <para>The living space of the ship is monitored by a collection of passive
     infrared (PIR) presence detectors whose outputs are used by the intruder
-    alarm and domotic systems</para>
+    alarms and domotic systems.</para>
 
     <informaltable>
       <tgroup cols="4">
@@ -120,11 +120,6 @@
     <section>
       <title>Alarm system components</title>
 
-      <para>The ship's intruder alarm system is a Honeywell Accenta G4 Mini
-      panel operated by an LED control module mounted in the Wheelhouse. The
-      panel drives a dedicated alarm sounder but uses the vessel's amber work
-      light as its strobe.</para>
-
       <itemizedlist>
         <listitem>
           <para>Honeywell 8SP399A Accenta G4 Mini alarm system (lower
@@ -144,9 +139,24 @@
           <para>ABUS SG1681 sounder/strobe</para>
         </listitem>
       </itemizedlist>
-
-      <para>The system provides SET and ALARM outputs which interface with the
-      ship's domotic system.</para>
     </section>
+
+    <section>
+      <title>Alarm system operating principles</title>
+
+      <para>The alarm system is controlled (i.e. set and unset) exclusively
+      from the LED Remote Keypad and operates independently from other ship
+      systems.</para>
+
+      <para>A passive monitoring system (see
+      [vsensor](https://github.com/pdjr-wemos/vsensor)) reports PIR sensor
+      states and SET and ALARM outputs to the domotic system.</para>
+    </section>
+  </section>
+
+  <section>
+    <title>Domotic system</title>
+
+    <para>The</para>
   </section>
 </section>

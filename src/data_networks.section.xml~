@@ -185,7 +185,7 @@
     </section>
   </section>
 
-  <xi:include href="ethernet_lan.section.xml" xpointer="element(/1)"/>
+  <xi:include href="ethernet_lan.section.xml" xpointer="element(/1)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
   <section>
     <title>Ethernet LAN</title>
@@ -224,7 +224,7 @@
 
           <tbody>
             <row>
-              <entry>Google WiFi wireless router</entry>
+              <entry>NetGear N600 wireless router</entry>
 
               <entry>Helm</entry>
 

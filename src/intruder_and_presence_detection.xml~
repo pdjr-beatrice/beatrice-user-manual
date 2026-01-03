@@ -9,103 +9,151 @@
   <title>Intruder and presence detection</title>
 
   <section>
-    <title>System sensors</title>
+    <title>Presence detection</title>
 
-    <para>The living space of the ship is monitored exclusively by a
-    collection of passive infrared (PIR) presence detectors.</para>
+    <para>The living space of the ship is monitored by a collection of passive
+    infrared (PIR) presence detectors whose outputs are used by the intruder
+    alarms and domotic systems.</para>
 
     <informaltable>
-      <tgroup cols="3">
+      <tgroup cols="4">
         <tbody>
           <row>
-            <entry>1</entry>
+            <entry><emphasis role="bold">Location</emphasis></entry>
 
+            <entry><emphasis role="bold">Sensor type</emphasis></entry>
+
+            <entry><emphasis role="bold">Alarm circuit</emphasis></entry>
+
+            <entry><emphasis role="bold">Domotic id</emphasis></entry>
+          </row>
+
+          <row>
             <entry>Master cabin</entry>
 
             <entry><link
             xlink:href="https://github.com/pdjr-wemos/pir-sensor">PDJR
             pir-sensor</link></entry>
+
+            <entry>1</entry>
+
+            <entry>pir-master-cabin</entry>
           </row>
 
           <row>
-            <entry>2</entry>
-
             <entry>En-suite</entry>
 
-            <entry>Ceiling</entry>
+            <entry>PDJR pir-sensor</entry>
+
+            <entry>2</entry>
+
+            <entry>pir-en-suite</entry>
           </row>
 
           <row>
-            <entry>3</entry>
-
             <entry>Saloon</entry>
 
-            <entry>Ceiling</entry>
+            <entry>PDJR pir-sensor</entry>
+
+            <entry>3</entry>
+
+            <entry>pir-saloon</entry>
           </row>
 
           <row>
-            <entry>4</entry>
-
             <entry>Galley</entry>
 
-            <entry>Ceiling</entry>
+            <entry>PDJR pir-sensor</entry>
+
+            <entry>4</entry>
+
+            <entry>pir-galley</entry>
           </row>
 
           <row>
-            <entry>5</entry>
-
             <entry>Day heads</entry>
 
-            <entry>Ceiling</entry>
+            <entry>PDJR pir-sensor</entry>
+
+            <entry>5</entry>
+
+            <entry>pir-day-heads</entry>
           </row>
 
           <row>
-            <entry>6</entry>
-
             <entry>Guest cabin</entry>
 
-            <entry>Ceiling</entry>
+            <entry>PDJR pir-sensor</entry>
+
+            <entry>6</entry>
+
+            <entry>pir-guest-cabin</entry>
           </row>
 
           <row>
-            <entry>7</entry>
-
             <entry>Office</entry>
 
-            <entry>Ceiling</entry>
+            <entry>PDJR pir-sensor</entry>
+
+            <entry>7</entry>
+
+            <entry>pir-office</entry>
           </row>
 
           <row>
-            <entry>8</entry>
-
             <entry>Wheelhouse</entry>
 
-            <entry>Wall</entry>
+            <entry>Honeywell IS321B</entry>
+
+            <entry>8</entry>
+
+            <entry>pir-wheelhouse</entry>
           </row>
         </tbody>
       </tgroup>
     </informaltable>
-
-    <para>Ceiling mounted detectors provide NO and NC circuits: NC circuits
-    are used as alarm system triggers whilst NO circuits are used for general
-    presence detection.</para>
   </section>
 
   <section>
-    <title>Alarm system</title>
+    <title>Intruder alarm system</title>
 
-    <para>The ship's intruder alarm system is a Honeywell Accenta G4 Mini
-    panel operated by an LED control module mounted in the Wheelhouse. The
-    panel drives a dedicated alarm sounder but uses the vessel's amber work
-    light as its strobe.</para>
+    <section>
+      <title>Alarm system components</title>
 
-    <para>The panel provides SET and ALARM outputs which interface with the
-    ship's home automation system.</para>
+      <itemizedlist>
+        <listitem>
+          <para>Honeywell 8SP399A Accenta G4 Mini alarm system (lower
+          electrical distribution cabinet)</para>
+        </listitem>
+
+        <listitem>
+          <para>MK Electric Accenta LED Remote Keypad (adjacent to Wheelhouse
+          SB door)</para>
+        </listitem>
+
+        <listitem>
+          <para>8 x PIR presence detectors (see above)</para>
+        </listitem>
+
+        <listitem>
+          <para>ABUS SG1681 sounder/strobe</para>
+        </listitem>
+      </itemizedlist>
+    </section>
+
+    <section>
+      <title>Alarm system operating principles</title>
+
+      <para>The alarm system is controlled (i.e. set and unset) exclusively
+      from the LED Remote Keypad and operates independently from other ship
+      systems.</para>
+
+      <para>A passive monitoring system reports PIR sensor states and SET and
+      ALARM outputs to the domotic system.</para>
+    </section>
   </section>
 
   <section>
-    <title>Presence detection</title>
-
-    <para/>
+    <title>Domotic system</title>
   </section>
 </section>

@@ -6,30 +6,30 @@
          xmlns:m="http://www.w3.org/1998/Math/MathML"
          xmlns:html="http://www.w3.org/1999/xhtml"
          xmlns:db="http://docbook.org/ns/docbook">
-  <title>Space heating and cooling</title>
+  <title>Space heating, cooling and hot water</title>
 
   <para>The vessel is equipped with an integrated hydronic heating,
   ventilation and cooling (HVAC) system (see <xref
   linkend="heating-system-overview"/>).</para>
 
-  <para>The HVAC system consists of a heat source and a heat sink (both
-  located in the engine room) and a mix of fan-coil and radiator heat
-  exchangers, all connected to a two-pipe circulation circuit.</para>
+  <para>The hydronic system consists of a heat source and a heat sink (both
+  located in the engine room), a two-pipe circuit and a mix of fan-coil and
+  radiator heat exchangers.</para>
 
   <para>The heat source is a large thermal buffer, consisting of a
   well-insulated mass of hydronic fluid which can be heated by a diesel
   boiler, 1kW and 2kW electric immersion heaters and engine and generator
-  coils. The thermal buffer is connected to the hydronic circuit by two
-  normally open diverter valves which allow circulation of the hydronic fluid
-  by a central heating pump when there is a demand for space heating. The
-  thermal buffer is also used as a heat source for domestic hot water
-  generation (see %blah%}.</para>
+  coils. The contents of the thermal buffer is connected to the hydronic
+  circuit by two normally open diverter valves which allow circulation by a
+  central heating pump when there is a demand for space heating. An
+  independent pump driven circuit is used to circulate hydronic fluid through
+  the primary side of a plate heat exchanger when there is a demand for
+  domestic hot water.</para>
 
   <para>The heat sink is a Webasto refrigeration unit capable of chilling and
   circulating fluid in the hydronic circuit. When the refrigeration unit is
-  operating the system diverter valves are closed to isolate and protect the
-  thermal buffer from the chilled fluid circulating through the hydronic
-  circuit.</para>
+  operating the system diverter valves are closed to isolate the thermal
+  buffer from the hydronic circuit.</para>
 
   <para>The HVAC system is bi-modal: at any one time the system can be in
   either heating mode or cooling mode. It is not possible to heat one space on
@@ -39,7 +39,7 @@
   the domestic panel. A normal domestic central heating programmer which
   operates the diesel boiler and circulation pump is located in the galley
   together with the control panel for the ship's chiller. Most aspects of the
-  space heating system can also be controlled and monitored using the ship's
+  HVAC system can also be controlled and monitored using the ship's
   HomeAssistant service available at http://homeassistant.lan/.</para>
 
   <para>The operating mode of the HVAC system is selected by the <keycap>HVAC
@@ -58,13 +58,13 @@
 
   <para>When the <emphasis role="bold">HVAC MODE</emphasis> switch is in the
   <emphasis role="bold">COOLING</emphasis> position the hydronic diverter
-  valves are energised to address the ship's chiller unit and the chiller unit
-  and its dedicated circulation pump are energised. The chiller unit control
-  panel in the galley can be set to generate chilled water which is then
-  circulated around the hydronic system by the chiller system pump. If the
-  system is generating chilled water then automatic isolation valves are
-  operated to isolate panel radiators from the hydronic circuit and so avoid
-  cold-plate condensation issues.</para>
+  valves are energised to address the ship's chiller unit and the engine room
+  chiller unit is energised. The chiller unit control panel in the galley can
+  be set to generate chilled water which is then circulated around the
+  hydronic system by the chiller system pump. If the system is generating
+  chilled water then automatic isolation valves are operated to isolate panel
+  radiators from the hydronic circuit and so avoid cold-plate condensation
+  issues.</para>
 
   <para><footnote>
       <para>In fact, the ship's chiller unit can operate in reverse cycle, so
@@ -77,9 +77,8 @@
   <section xml:id="heating">
     <title>Thermal buffer</title>
 
-    <para>The thermal buffer holds 250 litres of hydronic fluid (a 40%
-    antifreeze solution) which acts as the heat source for space heating and
-    domestic hot water.<footnote>
+    <para>The thermal buffer holds 250 litres of hydronic fluid which acts as
+    the heat source for space heating and domestic hot water.<footnote>
         <para>One benefit of using a buffer is that its high heat capacity
         ensures that the diesel boiler runs more efficiently with less cycling
         than would occur if the boiler were directly driving the heating or
