@@ -2438,6 +2438,12 @@
 		(uuid "b4c5ac6e-8ad9-4296-a8fc-92cf02e274ae")
 	)
 	(junction
+		(at 162.56 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7543ccf-ef51-4855-b3aa-fa98ef215974")
+	)
+	(junction
 		(at 162.56 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2504,6 +2510,16 @@
 			(type default)
 		)
 		(uuid "0be30067-8f15-4f6d-a9a8-196e1caa3577")
+	)
+	(wire
+		(pts
+			(xy 149.86 54.61) (xy 171.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efde2ff-bc71-41a9-81a9-140bfbd7087b")
 	)
 	(wire
 		(pts
@@ -2647,16 +2663,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 44.45) (xy 149.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb3f46b-7ccb-4e78-9177-03ae395d5bdf")
-	)
-	(wire
-		(pts
 			(xy 247.65 46.99) (xy 245.11 46.99)
 		)
 		(stroke
@@ -2727,6 +2733,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 72.39) (xy 162.56 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c3298d-af12-41a0-b662-41f61bbd7b30")
+	)
+	(wire
+		(pts
 			(xy 119.38 78.74) (xy 119.38 77.47)
 		)
 		(stroke
@@ -2757,23 +2773,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 104.14 60.96)
+			(xy 104.14 52.07) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "67f65caf-7ff3-4191-ad03-33fdd45c3971")
-	)
-	(wire
-		(pts
-			(xy 149.86 44.45) (xy 171.45 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68fdc1a2-bd65-404f-bf03-827d2672c75e")
 	)
 	(wire
 		(pts
@@ -2784,16 +2790,6 @@
 			(type default)
 		)
 		(uuid "6a3ef2f8-2a2b-4d69-9def-4fd81d560745")
-	)
-	(wire
-		(pts
-			(xy 165.1 72.39) (xy 215.9 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c14873a-7302-4b48-b7e5-0cedb9273aa5")
 	)
 	(wire
 		(pts
@@ -2887,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 68.58) (xy 104.14 71.12)
+			(xy 104.14 66.04) (xy 104.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2904,16 +2900,6 @@
 			(type default)
 		)
 		(uuid "7e811734-ae39-45ec-9f13-0bf6fe852dbd")
-	)
-	(wire
-		(pts
-			(xy 171.45 41.91) (xy 165.1 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed52218-a937-4769-acc6-94fb494eb401")
 	)
 	(wire
 		(pts
@@ -2967,23 +2953,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 69.85) (xy 167.64 46.99)
+			(xy 167.64 69.85) (xy 167.64 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c54e2dd-93ed-4946-8757-0e93e1dee3c4")
-	)
-	(wire
-		(pts
-			(xy 167.64 46.99) (xy 171.45 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee51272-7504-416a-a011-4abf130cb69a")
 	)
 	(wire
 		(pts
@@ -3187,6 +3163,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 54.61) (xy 149.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0b7c70-b610-4d91-82f9-49d12f86de1a")
+	)
+	(wire
+		(pts
 			(xy 149.86 74.93) (xy 152.4 74.93)
 		)
 		(stroke
@@ -3197,7 +3183,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 39.37) (xy 162.56 77.47)
+			(xy 162.56 39.37) (xy 162.56 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3214,6 +3200,16 @@
 			(type default)
 		)
 		(uuid "def97691-3b46-4551-b94b-5cc65b5dad58")
+	)
+	(wire
+		(pts
+			(xy 162.56 72.39) (xy 215.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f0e504-fdc1-43bb-8170-ae73887e9342")
 	)
 	(wire
 		(pts
@@ -3247,13 +3243,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 41.91) (xy 165.1 72.39)
+			(xy 167.64 57.15) (xy 171.45 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9fd6c85-2d6e-4b46-837f-d81f184d0218")
+		(uuid "f1f77b9e-513b-406a-ba01-4fb6a601be79")
 	)
 	(text_box "System Supply"
 		(exclude_from_sim no)
@@ -3357,7 +3353,7 @@
 		)
 		(uuid "5b2c67f8-9f82-43fe-ba80-7ea5244f0dfe")
 	)
-	(text_box "The system is powered directly from the main engine\nignition switch via the Troll System Relay (TSR) mounted\nin the helm cabinet. TSR provides two power rails:\n\nHP.ENG.IGN.SBY is live when the engine ignition switch\nis ON and engine RPMs are below the tachometer alarm\nthreshold. This supply is used to power the troll\nsystem.\n\nHP.ENG.IGN.ALM is live when the engine ignition switch\nis ON and engine RPMs are above the tachometer alarm\nthreshold. This supply is used to power the troll\nsystem overspeed alarm LED.\n"
+	(text_box "The troll valve system is powered from the main engine\nignition switch auxilliary supply ENG.IGN via the Troll\nSystem Relay (TSR) mounted in the helm cabinet. TSR\nprovides two power rails:\n\nHP.ENG.IGN.SBY is live when the engine ignition switch\nis ON and engine RPMs are below the tachometer alarm\nthreshold. This supply is used to power the troll\nsystem.\n\nHP.ENG.IGN.ALM is live when the engine ignition switch\nis ON and engine RPMs are above the tachometer alarm\nthreshold. This supply is used to power the troll\nsystem overspeed alarm LED.\n"
 		(exclude_from_sim no)
 		(at 14.605 90.17 0)
 		(size 59.69 31.75)
@@ -3512,7 +3508,7 @@
 		)
 		(uuid "1c4f7d46-3268-477b-aac8-d7ed574a434a")
 	)
-	(text "14"
+	(text "17"
 		(exclude_from_sim no)
 		(at 128.27 72.39 0)
 		(effects
@@ -3955,7 +3951,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 104.14 64.77 270)
+		(at 104.14 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3963,7 +3959,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e1433b3")
 		(property "Reference" "D1"
-			(at 101.1682 64.5922 90)
+			(at 101.1682 62.0522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3968,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 101.1682 63.4492 90)
+			(at 101.1682 60.9092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 64.77 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 64.77 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +3996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 64.77 0)
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
