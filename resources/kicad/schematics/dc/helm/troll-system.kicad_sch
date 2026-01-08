@@ -8,6 +8,7 @@
 		(title "Troll valve electrical schematic")
 		(date "2020-01-06")
 		(rev "1")
+		(comment 1 "See helm schematic for details of power supply switching.")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -1325,6 +1326,128 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2773,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 104.14 58.42)
+			(xy 104.14 52.07) (xy 104.14 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2880,16 +3003,6 @@
 			(type default)
 		)
 		(uuid "7980d788-0e72-48d1-8df7-7800b062df6b")
-	)
-	(wire
-		(pts
-			(xy 104.14 66.04) (xy 104.14 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2f3106-ffff-4a75-ba09-22bf560b3bf3")
 	)
 	(wire
 		(pts
@@ -3153,6 +3266,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 67.31) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca18be57-2b3c-44c8-892a-7d29c090cc6c")
+	)
+	(wire
+		(pts
 			(xy 90.17 59.69) (xy 90.17 74.93)
 		)
 		(stroke
@@ -3251,7 +3374,7 @@
 		)
 		(uuid "f1f77b9e-513b-406a-ba01-4fb6a601be79")
 	)
-	(text_box "System Supply"
+	(text_box "Helm"
 		(exclude_from_sim no)
 		(at 14.605 21.59 0)
 		(size 59.69 100.33)
@@ -3272,7 +3395,7 @@
 		)
 		(uuid "271cab95-c6cc-4ee1-9f7a-5ef1fc0048c2")
 	)
-	(text_box "HELM PANEL"
+	(text_box "WHEELHOUSE"
 		(exclude_from_sim no)
 		(at 14.605 15.24 0)
 		(size 116.205 106.68)
@@ -3293,7 +3416,7 @@
 		)
 		(uuid "29db055e-88c4-4ebd-82ae-c003bd750a5d")
 	)
-	(text_box "A POLOLU stepper controller drives a stepper motor in step with the joystick position. The\nstepper motor spindle is coupled to the hydraulic valve spindle. A microswitch detects\nspindle position and allows the controller to properly initialise the stepper motor.\n\n "
+	(text_box "A POLOLU stepper controller drives a stepper motor in step with the joystick\nposition. \n "
 		(exclude_from_sim no)
 		(at 143.51 90.17 0)
 		(size 85.09 31.75)
@@ -3334,26 +3457,7 @@
 		)
 		(uuid "46946952-ded0-4e2f-95aa-8936453f6be8")
 	)
-	(text_box "The trolling system implements an electronic control interface to a hydraulic trolling valve.\n\nThe engine control panel ignition-on terminal provides all system power.  "
-		(exclude_from_sim no)
-		(at 14.605 127 0)
-		(size 158.75 64.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "5b2c67f8-9f82-43fe-ba80-7ea5244f0dfe")
-	)
-	(text_box "The troll valve system is powered from the main engine\nignition switch auxilliary supply ENG.IGN via the Troll\nSystem Relay (TSR) mounted in the helm cabinet. TSR\nprovides two power rails:\n\nHP.ENG.IGN.SBY is live when the engine ignition switch\nis ON and engine RPMs are below the tachometer alarm\nthreshold. This supply is used to power the troll\nsystem.\n\nHP.ENG.IGN.ALM is live when the engine ignition switch\nis ON and engine RPMs are above the tachometer alarm\nthreshold. This supply is used to power the troll\nsystem overspeed alarm LED.\n"
+	(text_box "The troll valve system receives power from two 24VDC\nsupply rails which are enabled only when the engine\nignition switch is in the ACC position and the helm\nTROLL switch is ON.\n\nHP.ENG.IGN.SBY is the normal system supply and is live\nwhen engine RPMs are BELOW the tachometer alarm\nthreshold.\n\nHP.ENG.IGN.ALM is an alarm signal which is asserted\nonly when engine RPM is ABOVE the tachometer alarm\nthreshold. This supply is used to power an LED indicator\nwhich alerts the user when the troll system is\nunavailable because of RPM overspeed.\n\n"
 		(exclude_from_sim no)
 		(at 14.605 90.17 0)
 		(size 59.69 31.75)
@@ -3414,6 +3518,25 @@
 		)
 		(uuid "92620f26-bf61-4e4e-b367-617b6f8cfc7a")
 	)
+	(text_box "The stepper motor spindle is coupled directly to\nthe trolling valve operating spindle. A cam operated\nmicroswitch detects spindle position and provides\nlimit feedback to the Pololu controller.\n\nThe trolling valve isolation valve is opened\nimmedaitely power is applied to the troll system.\n"
+		(exclude_from_sim no)
+		(at 231.14 90.17 0)
+		(size 51.435 31.75)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a859dd7b-2f4a-4085-aee4-85c2acf2a3f6")
+	)
 	(text_box "Troll Valve Actuator"
 		(exclude_from_sim no)
 		(at 231.14 21.59 0)
@@ -3456,7 +3579,7 @@
 		)
 		(uuid "d92fa16b-e7bf-4c35-8b4d-432be57b3914")
 	)
-	(text_box "When the system is powered, a voltage regulator\nproduces a 5V output which feeds the positive\nrail of a joystick operated potentiometer. Wiper\noutput from the potentiometer is fed via the\nengine loom to the engine connection cabinet."
+	(text_box "The helm troll panel includes a 78L05 voltage\nregulator which produces a 5V output feeding the\npositive rail of a joystick operated potentiometer.\n\nWiper output from the potentiometer is fed via the\nengine loom to the engine connection cabinet."
 		(exclude_from_sim no)
 		(at 74.295 90.17 0)
 		(size 56.515 31.115)
@@ -3951,7 +4074,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 104.14 62.23 270)
+		(at 104.14 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3959,26 +4082,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e1433b3")
 		(property "Reference" "D1"
-			(at 101.1682 62.0522 90)
+			(at 100.838 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 101.1682 60.9092 90)
+		(property "Value" "ALARM"
+			(at 109.22 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +4107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +4116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 62.23 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,6 +4915,75 @@
 			(project ""
 				(path "/80df189f-0b25-47f8-986e-6f92283f20c3"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 104.14 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9444a7a0-b0ea-4022-8dd0-69bb3391013f")
+		(property "Reference" "R1"
+			(at 100.838 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 106.68 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5f36c58-6bc3-43a0-b5e5-a30e9ffed404")
+		)
+		(pin "2"
+			(uuid "b4f047c5-45d3-4491-9ef3-d3214ce84730")
+		)
+		(instances
+			(project ""
+				(path "/80df189f-0b25-47f8-986e-6f92283f20c3"
+					(reference "R1")
 					(unit 1)
 				)
 			)
