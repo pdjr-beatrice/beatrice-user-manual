@@ -45505,7 +45505,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 236.22 350.52 90)
 		(unit 1)
@@ -45949,7 +45948,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_4MM2_GREY")
 		(lib_id "Beatrice:Conn_02x01_4MM2_GREY")
 		(at 373.38 350.52 90)
 		(unit 1)
@@ -46817,7 +46815,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_4MM2_GREY")
 		(lib_id "Beatrice:Conn_02x01_4MM2_GREY")
 		(at 365.76 350.52 90)
 		(unit 1)
@@ -47676,7 +47673,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 292.1 350.52 90)
 		(unit 1)
@@ -47972,7 +47968,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 269.24 350.52 90)
 		(unit 1)
@@ -48108,7 +48103,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 226.06 350.52 90)
 		(unit 1)
@@ -50496,7 +50490,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 287.02 350.52 90)
 		(unit 1)
@@ -52176,7 +52169,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 243.84 350.52 90)
 		(unit 1)
@@ -53221,7 +53213,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 271.78 350.52 90)
 		(unit 1)
@@ -53291,7 +53282,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 284.48 350.52 90)
 		(unit 1)
@@ -55135,7 +55125,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 289.56 350.52 90)
 		(unit 1)
@@ -56064,7 +56053,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 228.6 350.52 90)
 		(unit 1)
@@ -56278,7 +56266,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 266.7 350.52 90)
 		(unit 1)
@@ -56946,7 +56933,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 368.3 350.52 90)
 		(unit 1)
@@ -57175,7 +57161,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 274.32 350.52 90)
 		(unit 1)
@@ -58001,7 +57986,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 281.94 350.52 90)
 		(unit 1)
@@ -58783,7 +58767,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 370.84 350.52 90)
 		(unit 1)
@@ -59064,7 +59047,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_24VDC")
 		(lib_id "Beatrice:Conn_02x01_24VDC")
 		(at 213.36 350.52 90)
 		(unit 1)
@@ -59208,7 +59190,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Beatrice:Conn_02x01_4MM2_GREY")
 		(lib_id "Beatrice:Conn_02x01_4MM2_GREY")
 		(at 378.46 350.52 90)
 		(unit 1)
