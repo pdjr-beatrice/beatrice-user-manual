@@ -15660,7 +15660,7 @@
 		)
 		(uuid "064269b8-fee2-4963-a2b1-f14a56afc386")
 	)
-	(text_box "2"
+	(text_box "20000"
 		(exclude_from_sim no)
 		(at 399.542 311.15 0)
 		(size 8.382 2.54)
@@ -15732,7 +15732,7 @@
 		)
 		(uuid "0a3d42c7-50e2-4ea6-8303-57794c8c54b3")
 	)
-	(text_box "2"
+	(text_box "2000"
 		(exclude_from_sim no)
 		(at 399.542 236.22 0)
 		(size 8.382 2.54)
@@ -15966,7 +15966,7 @@
 		)
 		(uuid "1bc414b7-0769-435d-b94d-4374c35ac054")
 	)
-	(text_box "2"
+	(text_box "2000"
 		(exclude_from_sim no)
 		(at 399.542 240.03 0)
 		(size 8.382 2.54)
@@ -16074,7 +16074,7 @@
 		)
 		(uuid "27095555-f9f1-4cca-9a4a-ed66c19b2b16")
 	)
-	(text_box "1.5"
+	(text_box "1.0"
 		(exclude_from_sim no)
 		(at 393.7 353.06 0)
 		(size 5.842 2.54)
@@ -16164,7 +16164,7 @@
 		)
 		(uuid "2cb8f95f-7922-439d-a1b1-4d7304073b96")
 	)
-	(text_box "2"
+	(text_box "5000"
 		(exclude_from_sim no)
 		(at 399.542 247.65 0)
 		(size 8.382 2.54)
@@ -16398,7 +16398,7 @@
 		)
 		(uuid "41b9fc95-000d-41d5-a042-1aa621604785")
 	)
-	(text_box "2"
+	(text_box "5000"
 		(exclude_from_sim no)
 		(at 399.542 375.92 0)
 		(size 8.382 2.54)
@@ -16524,7 +16524,7 @@
 		)
 		(uuid "48de01b0-e7c7-4be6-9714-12cc3bec411a")
 	)
-	(text_box "2"
+	(text_box "2000"
 		(exclude_from_sim no)
 		(at 399.542 232.41 0)
 		(size 8.382 2.54)
@@ -16578,7 +16578,7 @@
 		)
 		(uuid "4a0fcf7a-eb8b-4d97-ac8e-ebc8bb464525")
 	)
-	(text_box "2"
+	(text_box "50"
 		(exclude_from_sim no)
 		(at 399.542 478.79 0)
 		(size 8.382 2.54)
@@ -16650,7 +16650,7 @@
 		)
 		(uuid "4fcca3f5-407b-45ea-9f18-31002f6eac9e")
 	)
-	(text_box "2"
+	(text_box "25"
 		(exclude_from_sim no)
 		(at 399.542 280.67 0)
 		(size 8.382 2.54)
@@ -16704,7 +16704,7 @@
 		)
 		(uuid "51db8dfc-0156-4a71-b25c-7d8bb11a6ed8")
 	)
-	(text_box "1.0"
+	(text_box "2.5"
 		(exclude_from_sim no)
 		(at 393.7 307.34 0)
 		(size 5.842 2.54)
@@ -16938,7 +16938,7 @@
 		)
 		(uuid "61b95350-118b-48e4-953d-493478829ceb")
 	)
-	(text_box "2"
+	(text_box "20000"
 		(exclude_from_sim no)
 		(at 399.542 314.96 0)
 		(size 8.382 2.54)
@@ -17082,7 +17082,7 @@
 		)
 		(uuid "6b8429ec-744b-4d65-afe7-233af130375e")
 	)
-	(text_box "2"
+	(text_box "50"
 		(exclude_from_sim no)
 		(at 399.542 482.6 0)
 		(size 8.382 2.54)
@@ -17208,7 +17208,7 @@
 		)
 		(uuid "79b293ed-0067-4131-a329-10a4391d8b94")
 	)
-	(text_box "1.5"
+	(text_box "1.0"
 		(exclude_from_sim no)
 		(at 393.7 356.87 0)
 		(size 5.842 2.54)
@@ -17280,7 +17280,7 @@
 		)
 		(uuid "8051817c-a27d-4643-ab62-efd6de803b64")
 	)
-	(text_box "1.5"
+	(text_box "1.0"
 		(exclude_from_sim no)
 		(at 393.7 292.1 0)
 		(size 5.842 2.54)
@@ -17658,7 +17658,7 @@
 		)
 		(uuid "a1addc05-7790-423a-84d4-86af35b07230")
 	)
-	(text_box "2"
+	(text_box "20000"
 		(exclude_from_sim no)
 		(at 399.542 307.34 0)
 		(size 8.382 2.54)
@@ -17748,7 +17748,7 @@
 		)
 		(uuid "a4a84c51-574f-4851-92d6-b929fc5f5d56")
 	)
-	(text_box "1.5"
+	(text_box "1.0"
 		(exclude_from_sim no)
 		(at 393.7 295.91 0)
 		(size 5.842 2.54)
@@ -17910,7 +17910,7 @@
 		)
 		(uuid "ad3f4f7c-ddae-4791-8fd2-17c7a9438d72")
 	)
-	(text_box "2"
+	(text_box "25"
 		(exclude_from_sim no)
 		(at 399.542 284.48 0)
 		(size 8.382 2.54)
@@ -17964,7 +17964,7 @@
 		)
 		(uuid "b0a414d6-37c3-46cd-9755-be377e2fa917")
 	)
-	(text_box "1.0"
+	(text_box "2.5"
 		(exclude_from_sim no)
 		(at 393.7 303.53 0)
 		(size 5.842 2.54)
@@ -17982,7 +17982,7 @@
 		)
 		(uuid "b0d571e8-1ab0-4cc7-8f59-09ad81631ce5")
 	)
-	(text_box "1.5"
+	(text_box "2.5"
 		(exclude_from_sim no)
 		(at 393.7 314.96 0)
 		(size 5.842 2.54)
@@ -18324,7 +18324,7 @@
 		)
 		(uuid "c803536d-7fc8-4a8e-887a-2a46728b638b")
 	)
-	(text_box "2"
+	(text_box "50"
 		(exclude_from_sim no)
 		(at 399.542 243.84 0)
 		(size 8.382 2.54)
@@ -18378,7 +18378,7 @@
 		)
 		(uuid "c961d713-a4fa-42b9-8654-c247c90301ec")
 	)
-	(text_box "1.5"
+	(text_box "2.5"
 		(exclude_from_sim no)
 		(at 393.7 311.15 0)
 		(size 5.842 2.54)
@@ -18630,7 +18630,7 @@
 		)
 		(uuid "df5320ad-c01b-4e1b-b09f-485134e7f8f5")
 	)
-	(text_box "2"
+	(text_box "5000"
 		(exclude_from_sim no)
 		(at 399.542 490.22 0)
 		(size 8.382 2.54)
@@ -18954,7 +18954,7 @@
 		)
 		(uuid "f286199b-8bb1-4331-bb48-225a0262c97d")
 	)
-	(text_box "1.5"
+	(text_box "1.0"
 		(exclude_from_sim no)
 		(at 393.7 486.41 0)
 		(size 5.842 2.54)
@@ -19008,7 +19008,7 @@
 		)
 		(uuid "f3a81af1-d89f-4264-a5e4-343003ae0e13")
 	)
-	(text_box "2"
+	(text_box "20000"
 		(exclude_from_sim no)
 		(at 399.542 303.53 0)
 		(size 8.382 2.54)
@@ -19152,7 +19152,7 @@
 		)
 		(uuid "ff6b072a-6a05-4fde-ab61-0c02f4ce7b85")
 	)
-	(text_box "2"
+	(text_box "5000"
 		(exclude_from_sim no)
 		(at 399.542 372.11 0)
 		(size 8.382 2.54)
